@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: SS;
+  src: url(./assets/fonts/5SlateForOnePlus-Medium-500.ttf) format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: SS;
+  src: url(./assets/fonts/6SlateForOnePlus-Bold-600.ttf) format('truetype');
+  font-weight: 600;
+}
+
+body, div {
+  font-family: SS;
+  font-size: 18px;
+  color: #555;
+}
