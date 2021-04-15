@@ -5,7 +5,7 @@
   background: rgba(0, 0, 0, 0.5) !important;
   /* background: #00000099 !important; */
   box-shadow: 0px 10px 44px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(30px);
   border-radius: 10px;
   font-family: SS;
   font-weight: 500;
@@ -14,6 +14,7 @@
   color: #aaaaaa;
   z-index: 1000;
   max-width: 1200px;
+  padding-right: 20px;
 }
 
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-sm, .navbar>.container-md, .navbar>.container-lg, .navbar>.container-xl, .navbar>.container-xxl {
@@ -30,5 +31,32 @@
 
 .nav-link {
   color: #aaaaaa;
-  margin-left: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px 20px !important;
+  background: none;
+}
+
+.nav-link:hover{
+  color: #F6F6F6;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.nav-link:active{
+  color: #F6F6F6;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.bi-twitter, .bi-chat-square-quote-fill{
+  font-size: 20px;
+}
+
+.bi-twitter{
+  margin-right: 8px;
+}
+
+.bi-chat-square-quote-fill{
+  margin-right: 8px;
+  top: 1px;
+  position: relative;
 }

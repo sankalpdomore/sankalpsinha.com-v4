@@ -1,11 +1,12 @@
 .landing-intro-container {
-  padding: 40px;
-  position: absolute;
+  padding: 50px 40px;
+  padding-bottom: 60px;
   height: auto;
   left: 0px;
   right: 0px;
   top: 0px;
   background: linear-gradient(114.32deg, #FF6B00 0%, #F7A300 100%);
+  margin-bottom: 4000px;
 }
 
 .landing-intro-container-content {
