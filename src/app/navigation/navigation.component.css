@@ -1,5 +1,5 @@
 .navbar {
-  padding: 10px 30px;
+  padding: 10px 15px 10px 15px;
   margin-top: 15px;
   width: 80%;
   background: rgba(0, 0, 0, 0.5) !important;
@@ -14,19 +14,27 @@
   color: #aaaaaa;
   z-index: 1000;
   max-width: 1200px;
-  padding-right: 20px;
 }
 
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-sm, .navbar>.container-md, .navbar>.container-lg, .navbar>.container-xl, .navbar>.container-xxl {
   padding: 0px;
 }
 
-.navbar-brand {
-  padding-top: 0px;
+.navbar-brand-logo {
+  font-size: 24px;
+  padding: 10px 15px 10px 15px;
+  color: #aaa;
+  border-radius: 10px;
 }
 
-.navbar-brand-logo {
-  width: 24px;
+.navbar-brand-logo:hover {
+  color: #F6F6F6;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand-logo:active {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .nav-link {
@@ -43,7 +51,7 @@
 }
 
 .nav-link:active{
-  color: #F6F6F6;
+  color: #ffffff;
   background: rgba(0, 0, 0, 0.8);
 }
 
