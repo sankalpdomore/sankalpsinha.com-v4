@@ -13,26 +13,5 @@ import { Component } from '@angular/core';
 })
 //exporting the component as a class identifier which Angular can use to fetch data from//
 export class ExportClassLandingIntroComponent {
-  // title = 'owlcarouselinAngular';
-  // Images = ['../assets/publications/logo-elite-daily.png', '../assets/publications/logo-yahoo.png', '../assets/publications/logo-discovery-channel.png', '../assets/publications/logo-huffpost.png', '../assets/publications/logo-bbc-radio.png', '../assets/publications/logo-mashable.png', '../assets/publications/logo-yankodesign.png'];
-  //
-  // SlideOptions = { items: 7, dots: false, nav: false };
-  // CarouselOptions = { items: 7, dots: false, nav: false };
-  // customOptions: OwlOptions = { loop: true, mouseDrag: false, touchDrag: false, pullDrag: false, dots: false, navSpeed: 700, margin: 50, responsive: {
-  //     0: {
-  //       items: 1
-  //     },
-  //     400: {
-  //       items: 2
-  //     },
-  //     740: {
-  //       items: 3
-  //     },
-  //     940: {
-  //       items: 4
-  //     },
-  //     1280: {
-  //       items: 7
-  //     }
-  //   }}
+
 }

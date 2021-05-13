@@ -15,7 +15,6 @@ import { ExportClassLandingIntroComponent } from './landing/intro/landing-intro.
   ],
   imports: [
     BrowserModule,
-    // OwlModule
   ],
   providers: [],
   //tells angular to search for index.html file to look for this AppComponent//
