@@ -5,9 +5,9 @@
   left: 0px;
   right: 0px;
   top: 0px;
-  /* background: #F4E9D8; */
   background: linear-gradient(114.32deg, #FF6B00 0%, #F7A300 100%);
   margin-bottom: 4000px;
+  /* background: #F4E9D8; */
 }
 
 .landing-intro-container-content {
@@ -83,14 +83,6 @@
   color: #666666;
   margin-bottom: 10px;
 }
-
-/* .new-role-dot {
-  font-size: 22px;
-  line-height: 0px;
-  top: 2px;
-  position: relative;
-  margin-right: 5px;
-} */
 
 .blobs-container {
 	display: inline-flex;
