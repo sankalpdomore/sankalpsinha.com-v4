@@ -37,6 +37,6 @@ jobs:
         PORT: 22
         PASSWORD: ${{ secrets.DROPLET_SERVER_PASSWORD }}
       with:
-        source: "./dist/sankalpsinhaportfolio/*"
-        target: "/home/sankalpdigitalocean/personalwebsitev4"
+        source: "./dist/*"
+        target: "/home/sankalpdigitalocean/personalwebsitev4/"
         strip_components: 3 # this is important
