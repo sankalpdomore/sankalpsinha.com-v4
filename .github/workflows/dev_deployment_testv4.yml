@@ -32,11 +32,11 @@ jobs:
     - name: Copy build file via SSH
       uses: appleboy/scp-action@master
       env:
-        HOST: 143.198.226.142
+        HOST: "143.198.226.142"
         USERNAME: root
         PORT: 22
         PASSWORD: ${{ secrets.DROPLET_SERVER_PASSWORD }}
       with:
-        source: "./dist/*"
+        source: "./dist/sankalpsinhaportfolio.zip"
         target: "/home/sankalpdigitalocean/personalwebsitev4/"
         strip_components: 3 # this is important
