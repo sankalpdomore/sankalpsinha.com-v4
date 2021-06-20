@@ -90,11 +90,19 @@ body, div {
   margin-bottom: 20px;
 }
 
+.common-body-text-list-all-bold{
+  margin-top: 20px;
+}
+
+.common-body-text-list-all-bold>li{
+  margin-bottom: 5px;
+}
+
 li>.common-body-text-16-bold {
   padding-right: 5px
 }
 
 /* Spacers */
 .section-break {
-  margin-top: 40px;
+  margin-top: 60px;
 }
