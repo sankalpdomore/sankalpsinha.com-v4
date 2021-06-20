@@ -11,6 +11,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 //exporting the component as a class identifier which Angular can use to fetch data from//
-export class ExportClassNavComponent {
+export class NavComponent {
 
 }

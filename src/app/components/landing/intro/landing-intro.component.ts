@@ -12,6 +12,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./landing-intro.component.css']
 })
 //exporting the component as a class identifier which Angular can use to fetch data from//
-export class ExportClassLandingIntroComponent {
+export class LandingIntroComponent {
 
 }

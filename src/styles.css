@@ -23,4 +23,78 @@ body, div {
   color: #555;
 }
 
-/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"); */
+.common-container {
+  padding: 150px 0px;
+  background: #F7F6F3;
+}
+
+.content-container {
+  max-width: 800px;
+  padding: 0px !important;
+}
+
+.common-page-header-h1 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 50px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.common-section-header-h3 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.common-body-text-18-bold {
+  font-family: SS;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.common-body-text-16-bold {
+  font-family: SS;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-align: left;
+}
+
+.common-body-text-16-regular {
+  font-family: SS;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-align: left;
+}
+
+.common-body-text-list {
+  margin-top: 20px;
+}
+
+.common-body-text-list>li {
+  margin-bottom: 20px;
+}
+
+li>.common-body-text-16-bold {
+  padding-right: 5px
+}
+
+/* Spacers */
+.section-break {
+  margin-top: 40px;
+}
