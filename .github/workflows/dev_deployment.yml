@@ -6,7 +6,7 @@ name: Deployment to DEV
 on:
   # Triggers the workflow on push or pull request events but only for the develop branch
   push:
-    branches: [ master ]
+    branches: [ develop ]
 jobs:
   build:
     # using Ubuntu
@@ -38,5 +38,5 @@ jobs:
         PASSWORD: ${{ secrets.DROPLET_SERVER_PASSWORD }}
       with:
         source: "./dist/sankalpsinhaportfolio/"
-        target: "/home/sankalpdigitalocean/personalwebsitev4"
+        target: "/home/sankalpdigitalocean/personalwebsitev4/develop"
         strip_components: 3 # this is important
