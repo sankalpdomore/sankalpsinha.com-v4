@@ -1,6 +1,6 @@
 # Workflow to deploy DEV UI
 
-name: Deployment to DEV
+name: Deployment to Master
 
 # Controls when the action will run.
 on:
