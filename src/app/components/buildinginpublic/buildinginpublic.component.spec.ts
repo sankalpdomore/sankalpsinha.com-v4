@@ -1,9 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Buildinginpublic2Component } from './buildinginpublic.component';
+import { BuildinginpublicComponent } from './buildinginpublic.component';
 
 describe('BuildinginpublicComponent', () => {
   let component: BuildinginpublicComponent;
-  let fixture: ComponentFixture<Buildinginpublic2Component>;
+  let fixture: ComponentFixture<BuildinginpublicComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
