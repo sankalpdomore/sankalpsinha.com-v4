@@ -11,7 +11,13 @@
   /* box-shadow: 0px 10px 44px rgba(0, 0, 0, 0.1); */
 }
 
-.navbar>.container, .navbar>.container-fluid, .navbar>.container-sm, .navbar>.container-md, .navbar>.container-lg, .navbar>.container-xl, .navbar>.container-xxl {
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-sm,
+.navbar > .container-md,
+.navbar > .container-lg,
+.navbar > .container-xl,
+.navbar > .container-xxl {
   padding: 0px;
 }
 
@@ -80,7 +86,8 @@
   background: rgba(0, 0, 0, 0.8);
 }
 
-.bi-twitter, .bi-chat-square-quote-fill {
+.bi-twitter,
+.bi-chat-square-quote-fill {
   font-size: 20px;
 }
 
@@ -92,4 +99,24 @@
   margin-right: 8px;
   top: 1px;
   position: relative;
+}
+
+/* Mobile navbar CSS */
+
+.bi-list-nested:before {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin-right: 10px;
+  top: 1px;
+  position: relative;
+}
+
+.navbar-toggler-mobile {
+  top: -2px;
+  position: relative;
+  font-family: SS;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
 }

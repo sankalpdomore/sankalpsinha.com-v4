@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-buildinginpublic',
+  selector: 'component-buildinginpublic',
   templateUrl: './buildinginpublic.component.html',
   styleUrls: ['./buildinginpublic.component.css']
 })
