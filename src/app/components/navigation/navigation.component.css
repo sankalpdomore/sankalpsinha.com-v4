@@ -133,7 +133,7 @@
 @media (min-width: 991px) and (max-width: 1200px) {
 }
 
-/* Large devices (desktops, less than 1200px) */
+/* Medium-to-Xsmall devices (0px-992px) */
 @media (min-width: 0px) and (max-width: 991px) {
   .navbar-container-parent {
     padding: 0px 15px;
@@ -146,7 +146,6 @@
 
   .navbar-collapse {
     padding: 10px 10px 5px 10px;
-    /* border-top: 1px solid rgba(0, 0, 0, 0.1); */
   }
 
   .navbar-nav {

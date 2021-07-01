@@ -35,7 +35,7 @@ div {
   color: #000;
 }
 
-.common-container {
+.general-page-container {
   padding: 150px 0px;
   background: #f7f6f3;
 }
@@ -130,4 +130,38 @@ li > .common-body-text-16-bold {
 
 .section-break {
   margin-top: 60px;
+}
+
+/*////////////////////////*/
+/*//// Media queries /////*/
+/*////////////////////////*/
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1199px) and (max-width: 1400px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 991px) and (max-width: 1200px) {
+}
+
+/* Medium-to-Xsmall devices (0px-992px) */
+@media (min-width: 0px) and (max-width: 991px) {
+  .common-page-header-h1 {
+    font-size: 38px;
+    line-height: 50px;
+    margin-bottom: 50px;
+  }
+  .general-page-container {
+    padding: 120px 20px !important;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 767px) and (max-width: 992px) {
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 575px) and (max-width: 768px) {
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 576px) {
 }
