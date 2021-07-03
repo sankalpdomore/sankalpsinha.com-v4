@@ -36,7 +36,7 @@ div {
 }
 
 .common-page-container {
-  padding: 150px 0px;
+  padding: 70px 0px;
   background: #f7f6f3;
 }
 
@@ -52,7 +52,7 @@ div {
   line-height: 50px;
   color: #000000;
   text-align: center;
-  margin-bottom: 80px;
+  margin: 80px auto;
 }
 
 .common-section-header-h3 {
@@ -62,7 +62,7 @@ div {
   line-height: 36px;
   color: #000000;
   text-align: left;
-  margin-bottom: 10px;
+  margin: 10px auto;
 }
 
 .common-body-text-18-bold {
@@ -72,8 +72,7 @@ div {
   line-height: 26px;
   color: #000000;
   text-align: left;
-  margin-top: 30px;
-  margin-bottom: 8px;
+  margin: 30px auto 8px;
 }
 
 .common-body-text-16-bold {
@@ -92,6 +91,31 @@ div {
   line-height: 24px;
   color: #000000;
   text-align: left;
+}
+
+.common-img-container-parent {
+  text-align: center;
+  margin: 40px auto 40px;
+}
+
+.common-img-container-child {
+  height: 400px;
+}
+
+.common-img-container-img {
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.common-img-container-img-label {
+  font-family: SS;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  font-style: italic;
+  color: #777;
+  margin: 10px auto;
 }
 
 .common-body-text-list {
@@ -129,7 +153,7 @@ li > .common-body-text-16-bold {
 /* Spacers */
 
 .section-break {
-  margin-top: 60px;
+  margin: 60px auto;
 }
 
 /*////////////////////////*/
