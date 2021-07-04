@@ -170,16 +170,27 @@ li > .common-body-text-16-bold {
 /* Medium-to-Xsmall devices (0px-992px) */
 @media (min-width: 0px) and (max-width: 991px) {
   .common-page-container {
-    padding: 120px 20px !important;
+    padding: 90px 20px !important;
   }
   .common-page-header-h1 {
     font-size: 34px;
     line-height: 42px;
-    margin-bottom: 50px;
+    margin: 50px auto;
   }
   .common-section-header-h3 {
     font-size: 22px;
     line-height: 30px;
+  }
+  .common-img-container-parent {
+    margin: 40px auto;
+  }
+  .common-img-container-child {
+    height: auto;
+    padding: 0px 0px !important;
+  }
+  .common-img-container-img {
+    width: 100%;
+    height: auto;
   }
 }
 
