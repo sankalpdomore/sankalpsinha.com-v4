@@ -253,10 +253,12 @@
 /* X-Small devices (portrait phones, less than 454px) */
 @media (min-width: 0px) and (max-width: 454px) {
   .landing-intro-container-content {
-    padding: 70px 20px 20px 40px;
+    padding: 70px 20px 20px 35px;
   }
   .landing-intro-left-sankalp-face {
     width: 95%;
+    left: -10px;
+    position: relative;
   }
   .landing-intro-right-sankalp-name {
     width: 95%;

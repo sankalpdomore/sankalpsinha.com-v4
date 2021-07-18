@@ -136,7 +136,7 @@
 /* Medium-to-Xsmall devices (0px-992px) */
 @media (min-width: 0px) and (max-width: 991px) {
   .navbar-container-parent {
-    padding: 0px 20px;
+    padding: 0px 15px;
   }
 
   .navbar {
