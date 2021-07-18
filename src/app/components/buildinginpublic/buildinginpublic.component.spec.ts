@@ -7,9 +7,9 @@ describe('BuildinginpublicComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BuildinginpublicComponent ]
+      declarations: [BuildinginpublicComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
