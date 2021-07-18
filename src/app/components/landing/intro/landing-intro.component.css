@@ -11,8 +11,7 @@
 
 .landing-intro-container-content {
   width: 100%;
-  padding: 110px 70px;
-  padding-bottom: 70px;
+  padding: 110px 70px 70px 70px;
   height: auto;
   background: #000000;
   border-radius: 30px;
@@ -185,4 +184,91 @@
 .landing-intro-publications-logo {
   height: 40px;
   margin-bottom: 25px;
+}
+
+/*////////////////////////*/
+/*//// Media queries /////*/
+/*////////////////////////*/
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1199px) and (max-width: 1400px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 991px) and (max-width: 1200px) {
+  .landing-intro-left-sankalp-face {
+    margin: initial;
+    width: 340px;
+  }
+  .landing-intro-right-sankalp-name {
+    width: 340px;
+  }
+}
+
+/* Medium-to-Xsmall devices (0px-992px) */
+@media (min-width: 0px) and (max-width: 991px) {
+  .container {
+    max-width: 100%;
+  }
+  .landing-intro-container {
+    padding: 40px 15px 20px 15px;
+  }
+  .landing-intro-container-content {
+    padding: 70px 40px 40px 40px;
+  }
+  /* .landing-intro-left, .landing-intro-right {
+    padding-left: 0px;
+  } */
+  .landing-intro-left-sankalp-face {
+    margin: initial;
+    width: 320px;
+  }
+  .landing-intro-right-sankalp-name {
+    width: 320px;
+  }
+  .landing-intro-right-currently-container-items {
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .landing-intro-works-featured-label {
+    padding-left: 0px;
+  }
+  .landing-intro-publications-container {
+    margin-top: 40px;
+  }
+  .landing-intro-publications-logo-container {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 767px) and (max-width: 992px) {
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 575px) and (max-width: 768px) {
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 0px) and (max-width: 576px) {
+}
+/* X-Small devices (portrait phones, less than 454px) */
+@media (min-width: 0px) and (max-width: 454px) {
+  .landing-intro-container-content {
+    padding: 70px 20px 20px 40px;
+  }
+  .landing-intro-left-sankalp-face {
+    width: 95%;
+  }
+  .landing-intro-right-sankalp-name {
+    width: 95%;
+  }
+  .landing-intro-right-description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .landing-intro-publications-logo-container {
+    margin-right: 10px;
+  }
+  .landing-intro-publications-logo {
+    height: 30px;
+  }
 }
