@@ -7,16 +7,18 @@ import { AppRoutingModule } from './app-routing.module';
 //Import anything new that you've used somewhere else so the typescript knows where to look//
 // import { OwlModule } from 'ngx-owl-carousel';
 import { NavComponent } from './components/navigation/navigation.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { LandingpageComponent } from './components/landing/landingpage/landingpage.component';
 import { LandingIntroComponent } from './components/landing/intro/landing-intro.component';
 import { MobiletempmessageComponent } from './components/landing/mobiletempmessage/mobiletempmessage.component';
-import { BuildinginpublicComponent } from './components//buildinginpublic/buildinginpublic.component';
+import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 
 @NgModule({
   //Declare all the components that you create in the app here//
   declarations: [
     AppComponent,
     NavComponent,
+    FooterComponent,
     LandingpageComponent,
     LandingIntroComponent,
     MobiletempmessageComponent,
