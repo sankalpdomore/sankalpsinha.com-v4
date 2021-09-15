@@ -1,47 +1,56 @@
 .landing-intro-container {
-  padding: 50px 50px;
-  padding-bottom: 60px;
   height: auto;
   left: 0px;
   right: 0px;
   top: 0px;
-  background: linear-gradient(114.32deg, #ff6b00 0%, #f7a300 100%);
-  /* background: #F4E9D8; */
+  padding: 0px;
+  background: #000000;
+  margin-bottom: 1000px;
 }
 
 .landing-intro-container-content {
-  width: 100%;
-  padding: 110px 70px 70px 70px;
+  padding: 148px 140px 80px 140px;
   height: auto;
-  background: #000000;
-  border-radius: 30px;
   max-width: 1360px;
 }
 
 .landing-intro-left-sankalp-face {
-  width: 400px;
+  width: 340px;
   margin: auto;
   display: block;
 }
 
+.landing-intro-right {
+  padding-left: 80px;
+  padding-top: 8px;
+}
+
 .landing-intro-right-sankalp-name {
-  width: 440px;
-  margin-top: 20px;
+  font-family: SS;
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+  letter-spacing: -1px;
+  margin-bottom: 0px;
 }
 
 .landing-intro-right-line {
+  font-family: SS;
+  font-size: 20px;
+  line-height: 0px;
+  font-weight: 400;
   letter-spacing: -2px;
-  margin-right: 20px;
+  margin-right: 16px;
 }
 
 .landing-intro-right-description {
-  font-family: SS;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 34px;
-  color: #666666;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #999999;
   padding: 0px;
-  padding-top: 35px;
+  padding-top: 16px;
 }
 
 .landing-intro-right-currently-label {
@@ -50,14 +59,14 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 2px;
-  color: #444444;
-  margin-top: 60px;
+  color: #555555;
+  margin-top: 40px;
 }
 
 .landing-intro-right-currently-container {
-  padding-top: 12px;
+  padding-top: 4px;
   margin-left: 2px;
-  padding-bottom: 12px;
+  padding-bottom: 52px;
 }
 
 .landing-intro-right-currently-container-items-icons {
@@ -66,7 +75,7 @@
 }
 
 .landing-intro-SC-link {
-  color: #666666;
+  color: #999999;
   text-decoration: none;
 }
 
@@ -75,23 +84,43 @@
 }
 
 .landing-intro-right-currently-container-items {
-  font-family: SS;
-  font-weight: 600;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #999999;
+  margin-top: 8px;
+}
+
+.landing-intro-right-currently-new-role {
   font-size: 18px;
-  color: #666666;
-  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 26px;
+  width: max-content;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px 28px;
+  background: #509900;
+  color: #ffffff;
+  border-radius: 100px;
+  border: 2px solid rgba(103, 198, 0, 0.7);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .blobs-container {
   display: inline-flex;
   position: relative;
-  top: -1px;
+  top: -3px;
 }
 
 .blob {
   border-radius: 50%;
   margin-left: 4px;
-  margin-right: 12px;
+  margin-right: 16px;
   height: 8px;
   width: 8px;
   transform: scale(1);
@@ -99,42 +128,24 @@
 }
 
 .blob.green {
-  background: rgba(103, 198, 0, 0.7);
-  box-shadow: 0 0 0 0 rgba(103, 198, 0, 0.7);
+  background: #ffffff;
+  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4); */
   animation: pulse-green 2s infinite;
 }
 
 @keyframes pulse-green {
   0% {
     transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(103, 198, 0, 0.5);
+    box-shadow: 0 0 0 0 rgba(132, 255, 0, 0.5);
   }
   70% {
     transform: scale(1);
-    box-shadow: 0 0 0 10px rgba(103, 198, 0, 0);
+    box-shadow: 0 0 0 10px rgba(132, 255, 0, 0);
   }
   100% {
     transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(103, 198, 0, 0);
+    box-shadow: 0 0 0 0 rgba(132, 255, 0, 0);
   }
-}
-
-.landing-intro-right-currently-new-role {
-  font-size: 16px;
-  font-weight: 500;
-  width: max-content;
-  text-align: center;
-  cursor: pointer;
-  padding: 10px 18px;
-  background: transparent;
-  color: rgba(103, 198, 0, 0.7);
-  border-radius: 100px;
-  border: 2px solid rgba(103, 198, 0, 0.7);
-  text-shadow: 0px 1px 1px #000000;
-  -moz-transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
 }
 
 .landing-intro-right-currently-new-role:hover {
@@ -158,27 +169,30 @@
   border: 2px solid rgba(103, 198, 0, 1);
 }
 
-.landing-intro-publications-container {
-  display: table;
-  margin: auto;
-  margin-top: 90px;
-}
-
 .landing-intro-works-featured-label {
   font-family: SS;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 2px;
-  color: #444444;
+  color: #555555;
   margin-bottom: 22px;
   text-align: left;
+  padding-left: 0px;
+}
+
+.landing-intro-publications-container {
+  display: table;
+  margin: 88px 0px 0px 0px;
+  width: 100%;
 }
 
 .landing-intro-publications-logo-container {
   text-align: center;
   display: inline;
-  margin-right: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 60px;
 }
 
 .landing-intro-publications-logo {

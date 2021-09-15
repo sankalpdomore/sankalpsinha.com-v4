@@ -1,38 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap");
+
 @font-face {
+  /* Thin */
   font-family: SS;
   src: url(./assets/fonts/3SlateForOnePlus-Book-300.ttf) format("truetype");
   font-weight: 300;
 }
 
 @font-face {
+  /* Regular */
   font-family: SS;
   src: url(./assets/fonts/4SlateForOnePlus-Regular-400.ttf) format("truetype");
   font-weight: 400;
 }
 
 @font-face {
+  /* Medium */
   font-family: SS;
   src: url(./assets/fonts/5SlateForOnePlus-Medium-500.ttf) format("truetype");
   font-weight: 500;
 }
 
 @font-face {
+  /* Bold */
   font-family: SS;
   src: url(./assets/fonts/6SlateForOnePlus-Bold-600.ttf) format("truetype");
   font-weight: 600;
+}
+
+@font-face {
+  /* Extra-Bold */
+  font-family: SS;
+  src: url(./assets/fonts/7SlateForOnePlus-ExtraBold-700.ttf) format("truetype");
+  font-weight: 700;
 }
 
 body,
 div {
   font-family: SS;
   font-size: 18px;
-  color: #555;
+  color: #000000;
 }
 
 .links-muted {
-  color: #000;
+  color: #000000;
 }
 
 .common-page-container {
