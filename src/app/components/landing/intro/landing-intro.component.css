@@ -9,9 +9,14 @@
 }
 
 .landing-intro-container-content {
-  padding: 148px 140px 80px 140px;
+  width: 100%;
+  padding: 140px 80px 80px 80px;
   height: auto;
   max-width: 1360px;
+}
+
+.landing-intro-container-content-pusher {
+  padding-left: 60px;
 }
 
 .landing-intro-left-sankalp-face {
@@ -23,19 +28,20 @@
 .landing-intro-right {
   padding-left: 80px;
   padding-top: 8px;
+  padding-right: 40px;
 }
 
 .landing-intro-right-sankalp-name {
-  font-family: SS;
-  font-weight: 700;
+  font-family: "SS";
   font-size: 56px;
+  font-weight: 700;
   color: #ffffff;
   letter-spacing: -1px;
   margin-bottom: 0px;
 }
 
 .landing-intro-right-line {
-  font-family: SS;
+  font-family: "SS";
   font-size: 20px;
   line-height: 0px;
   font-weight: 400;
@@ -51,10 +57,11 @@
   color: #999999;
   padding: 0px;
   padding-top: 16px;
+  margin-left: 0px;
 }
 
 .landing-intro-right-currently-label {
-  font-family: SS;
+  font-family: "SS";
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
@@ -64,14 +71,39 @@
 }
 
 .landing-intro-right-currently-container {
-  padding-top: 4px;
+  padding-top: 12px;
   margin-left: 2px;
-  padding-bottom: 52px;
+  padding-bottom: 44px;
 }
 
-.landing-intro-right-currently-container-items-icons {
+.landing-intro-right-currently-container-items {
+  margin-bottom: 8px;
+}
+
+.landing-intro-right-currently-container-items-icon-job {
   width: 18px;
-  margin-right: 10px;
+  margin-right: 12px;
+  margin-top: -3px;
+}
+
+.landing-intro-right-currently-container-items-icons-location {
+  width: 18px;
+  margin-right: 12px;
+  margin-top: -6px;
+}
+
+.landing-intro-right-currently-container-items-text {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #999999;
+}
+
+.bd-highlight,
+.p-2 {
+  background-color: transparent;
+  padding: 0px !important;
 }
 
 .landing-intro-SC-link {
@@ -83,27 +115,18 @@
   text-decoration: underline;
 }
 
-.landing-intro-right-currently-container-items {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 26px;
-  color: #999999;
-  margin-top: 8px;
-}
-
 .landing-intro-right-currently-new-role {
   font-size: 18px;
   font-weight: 600;
   line-height: 26px;
-  width: max-content;
+  width: 328px;
   text-align: center;
   cursor: pointer;
   padding: 12px 28px;
   background: #509900;
   color: #ffffff;
   border-radius: 100px;
-  border: 2px solid rgba(103, 198, 0, 0.7);
+  border: 2px solid #509900;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
   -moz-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
@@ -176,15 +199,15 @@
   line-height: 16px;
   letter-spacing: 2px;
   color: #555555;
-  margin-bottom: 22px;
   text-align: left;
   padding-left: 0px;
+  margin-bottom: 24px;
+  margin-top: 104px;
 }
 
 .landing-intro-publications-container {
   display: table;
-  margin: 88px 0px 0px 0px;
-  width: 100%;
+  margin: auto;
 }
 
 .landing-intro-publications-logo-container {
@@ -197,94 +220,115 @@
 
 .landing-intro-publications-logo {
   height: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
 /*////////////////////////*/
 /*//// Media queries /////*/
 /*////////////////////////*/
-/* X-Large devices (large desktops, less than 1400px) */
+
+/* Between Extra-Large and large devices (large desktops, large tablets) */
 @media (min-width: 1199px) and (max-width: 1400px) {
 }
 
-/* Large devices (desktops, less than 1200px) */
+/* Between Large and Medium devices (desktops, tablets) */
 @media (min-width: 991px) and (max-width: 1200px) {
-  .landing-intro-left-sankalp-face {
-    margin: initial;
-    width: 340px;
-  }
-  .landing-intro-right-sankalp-name {
-    width: 340px;
-  }
-}
-
-/* Medium-to-Xsmall devices (0px-992px) */
-@media (min-width: 0px) and (max-width: 991px) {
-  .container {
-    max-width: 100%;
-  }
-  .landing-intro-container {
-    padding: 40px 15px 20px 15px;
-  }
   .landing-intro-container-content {
-    padding: 70px 40px 40px 40px;
+    padding: 148px 60px 80px 60px;
   }
-  /* .landing-intro-left, .landing-intro-right {
-    padding-left: 0px;
-  } */
-  .landing-intro-left-sankalp-face {
-    margin: initial;
-    width: 320px;
-  }
-  .landing-intro-right-sankalp-name {
-    width: 320px;
-  }
-  .landing-intro-right-currently-container-items {
-    line-height: 24px;
-    margin-bottom: 12px;
-  }
-  .landing-intro-works-featured-label {
+
+  .landing-intro-container-content-pusher {
     padding-left: 0px;
   }
-  .landing-intro-publications-container {
-    margin-top: 40px;
-  }
-  .landing-intro-publications-logo-container {
-    padding-left: 0px;
+
+  .landing-intro-right {
     padding-right: 20px;
   }
+
+  .landing-intro-publications-logo-container {
+    margin-right: 44px;
+  }
+
+  .landing-intro-publications-logo {
+    height: 36px;
+  }
 }
 
-/* Medium devices (tablets, less than 992px) */
+/* All devices less than Medium devices */
+@media (min-width: 0px) and (max-width: 991px) {
+  .landing-intro-container-content {
+    padding: 148px 60px 80px 60px;
+  }
+
+  .landing-intro-container-content-pusher {
+    padding-left: 0px;
+  }
+
+  .landing-intro-left-sankalp-face {
+    width: 280px;
+    display: inline;
+  }
+
+  .landing-intro-right {
+    padding-left: 48px;
+    padding-right: 0px;
+  }
+
+  .landing-intro-right-sankalp-name {
+    font-size: 44px;
+  }
+
+  .landing-intro-right-description {
+    padding-top: 12px;
+  }
+
+  .landing-intro-works-featured-label {
+    margin-top: 84px;
+  }
+
+  .landing-intro-publications-logo-container {
+    margin-right: 44px;
+  }
+
+  .landing-intro-publications-logo {
+    height: 36px;
+  }
+}
+
+/* Only Medium devices (tablets) */
 @media (min-width: 767px) and (max-width: 992px) {
 }
-/* Small devices (landscape phones, less than 768px) */
-@media (min-width: 575px) and (max-width: 768px) {
-}
-/* X-Small devices (portrait phones, less than 576px) */
-@media (min-width: 0px) and (max-width: 576px) {
-}
-/* X-Small devices (portrait phones, less than 454px) */
-@media (min-width: 0px) and (max-width: 454px) {
+/* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
+@media (min-width: 0px) and (max-width: 767px) {
   .landing-intro-container-content {
-    padding: 70px 20px 20px 35px;
+    padding: 120px 28px 40px 28px;
   }
+
   .landing-intro-left-sankalp-face {
-    width: 95%;
-    left: -10px;
-    position: relative;
+    width: 220px;
   }
-  .landing-intro-right-sankalp-name {
-    width: 95%;
+
+  .landing-intro-right {
+    padding-left: 0px;
+    padding-top: 16px;
   }
-  .landing-intro-right-description {
-    font-size: 20px;
-    line-height: 28px;
+
+  .landing-intro-container-content-pusher {
+    padding-left: calc(var(--bs-gutter-x) / 2);
   }
+
   .landing-intro-publications-logo-container {
-    margin-right: 10px;
+    margin-right: 32px;
   }
+
   .landing-intro-publications-logo {
-    height: 30px;
+    height: 32px;
   }
+}
+/* Only Small devices (landscape phones) */
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+/* Only X-Small devices (portrait phones) */
+@media (min-width: 0px) and (max-width: 576px) {
 }
