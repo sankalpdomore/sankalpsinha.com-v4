@@ -301,7 +301,7 @@
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 767px) {
   .landing-intro-container-content {
-    padding: 120px 28px 40px 28px;
+    padding: 100px 20px 40px 20px;
   }
 
   .landing-intro-left-sankalp-face {
