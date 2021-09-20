@@ -42,10 +42,12 @@
 :root {
   --color-white-100: #ffffff;
   --color-light-paper: #f7f6f3;
+  --color-grey-ccc: #cccccc;
   --color-grey-999: #999999;
   --color-grey-777: #777777;
   --color-grey-555: #555555;
-  --color-grey-ccc: #cccccc;
+  --color-grey-333: #333333;
+  --color-grey-222: #222222;
   --color-black-04: rgba(0, 0, 0, 0.04);
   --color-black-30: rgba(0, 0, 0, 0.3);
   --color-nav-dark-button-text-default: #777777;

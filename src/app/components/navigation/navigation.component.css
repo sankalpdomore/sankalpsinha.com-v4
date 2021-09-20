@@ -74,7 +74,7 @@
 }
 
 .nav-link:hover {
-  color: var(--color-nav-dark-button-text-hover);
+  color: var(--color-nav-dark-button-text-hover) !important;
   background: var(--color-nav-dark-button-back-hover);
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -125,6 +125,10 @@
     padding: 8px 8px;
   }
 
+  /* .navbar-brand-logo {
+    color: var(--color-grey-999);
+  } */
+
   .navbar-brand-logo-label {
     line-height: 22px;
   }
@@ -163,7 +167,6 @@
 
   .navbar-toggler:hover .navbar-toggler-label {
     color: var(--color-nav-dark-button-text-hover);
-    background: var(--color-nav-dark-button-back-hover);
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -172,7 +175,6 @@
 
   .navbar-toggler:hover .bi-list-nested:before {
     color: var(--color-nav-dark-button-text-hover);
-    background: var(--color-nav-dark-button-back-hover);
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -180,7 +182,7 @@
   }
 
   .navbar-collapse {
-    padding: 12px 0px 2px 0px;
+    padding: 12px 8px 8px 8px;
   }
 
   .navbar-nav {
@@ -188,6 +190,7 @@
   }
 
   .nav-link {
+    color: var(--color-grey-999) !important;
     margin-left: 0px;
     padding: 12px !important;
   }
