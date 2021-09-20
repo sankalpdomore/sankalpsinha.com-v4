@@ -117,7 +117,7 @@
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
   .navbar-container-parent {
-    padding: 0px 20px;
+    padding: 0px 16px;
   }
 
   .navbar {
