@@ -125,10 +125,6 @@
     padding: 8px 8px;
   }
 
-  /* .navbar-brand-logo {
-    color: var(--color-grey-999);
-  } */
-
   .navbar-brand-logo-label {
     line-height: 22px;
   }
@@ -145,6 +141,11 @@
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+  }
+
+  .bi-list-nested {
+    top: 1px;
+    position: relative;
   }
 
   .bi-list-nested:before {
