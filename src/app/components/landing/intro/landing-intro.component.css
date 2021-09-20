@@ -4,7 +4,7 @@
   right: 0px;
   top: 0px;
   padding: 0px;
-  background: #000000;
+  background-color: var(--color-black-100);
   margin-bottom: 1000px;
 }
 
@@ -35,7 +35,7 @@
   font-family: "SS";
   font-size: 56px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--color-white-100);
   letter-spacing: -1px;
   margin-bottom: 0px;
 }
@@ -124,7 +124,7 @@
   cursor: pointer;
   padding: 12px 28px;
   background: #509900;
-  color: #ffffff;
+  color: var(--color-white-100);
   border-radius: 100px;
   border: 2px solid #509900;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
@@ -151,7 +151,7 @@
 }
 
 .blob.green {
-  background: #ffffff;
+  background: var(--color-white-100);
   /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4); */
   animation: pulse-green 2s infinite;
 }

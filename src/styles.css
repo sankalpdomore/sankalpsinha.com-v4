@@ -39,20 +39,39 @@
   font-weight: 700;
 }
 
+:root {
+  --color-white-100: #ffffff;
+  --color-light-paper: #f7f6f3;
+  --color-grey-999: #999999;
+  --color-grey-777: #777777;
+  --color-grey-555: #555555;
+  --color-grey-ccc: #cccccc;
+  --color-black-04: rgba(0, 0, 0, 0.04);
+  --color-black-30: rgba(0, 0, 0, 0.3);
+  --color-nav-dark-button-text-default: #777777;
+  --color-nav-dark-button-text-hover: #ffffff;
+  --color-nav-dark-button-back-hover: rgba(0, 0, 0, 0.4);
+  --color-nav-dark-button-text-active: #ffffff;
+  --color-nav-dark-button-back-active: rgba(0, 0, 0, 1);
+  --color-nav-dark-background: #222222cc;
+  --color-black-100: #000000;
+  /* box-shadow: 0px 8px 44px rgba(0, 0, 0, 0.1); */
+}
+
 body,
 div {
   font-family: SS;
   font-size: 18px;
-  color: #000000;
+  color: var(--color-black-100);
 }
 
 .links-muted {
-  color: #000000;
+  color: var(--color-black-100);
 }
 
 .common-page-container {
   padding: 70px 0px;
-  background: #f7f6f3;
+  background: var(--color-light-paper);
 }
 
 .content-container {
@@ -65,7 +84,7 @@ div {
   font-weight: 800;
   font-size: 42px;
   line-height: 50px;
-  color: #000000;
+  color: var(--color-black-100);
   text-align: center;
   margin: 80px auto;
 }
@@ -75,7 +94,7 @@ div {
   font-weight: 800;
   font-size: 24px;
   line-height: 36px;
-  color: #000000;
+  color: var(--color-black-100);
   text-align: left;
   margin: 10px auto;
 }
@@ -85,7 +104,7 @@ div {
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
-  color: #000000;
+  color: var(--color-black-100);
   text-align: left;
   margin: 30px auto 8px;
 }
@@ -95,7 +114,7 @@ div {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #000000;
+  color: var(--color-black-100);
   text-align: left;
 }
 
@@ -104,7 +123,7 @@ div {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #000000;
+  color: var(--color-black-100);
   text-align: left;
 }
 
@@ -119,7 +138,7 @@ div {
 
 .common-img-container-img {
   height: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--color-black-30);
   border-radius: 10px;
 }
 
@@ -129,7 +148,7 @@ div {
   font-size: 14px;
   line-height: 22px;
   font-style: italic;
-  color: #777;
+  color: var(--color-grey-777);
   margin: 10px auto;
 }
 
@@ -159,10 +178,10 @@ li > .common-body-text-16-bold {
   font-weight: 300;
   line-height: 30px;
   display: -webkit-box;
-  border-left: 5px solid #ccc;
+  border-left: 5px solid var(--color-grey-ccc);
   padding: 15px 20px 15px 20px;
   margin: 20px 0px 25px 0px;
-  background: rgba(0, 0, 0, 0.04);
+  background: var(--color-black-004);
 }
 
 /* Spacers */
