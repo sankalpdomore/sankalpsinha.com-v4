@@ -56,3 +56,25 @@
   font-weight: 500;
   padding-right: 4px;
 }
+
+.embed-containers {
+  background-color: var(--color-white-100);
+  padding: 32px 20px;
+  border: 1px solid var(--color-grey-ddd);
+  box-shadow: var(--box-shadow-light);
+  border-radius: var(--border-radius-20px);
+  margin-top: 48px;
+}
+
+.embed-containers-header {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.embed-containers-subheader {
+  color: var(--color-grey-777);
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
