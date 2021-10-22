@@ -1,3 +1,7 @@
+.buildinginpublic-container {
+  margin-top: -80px;
+}
+
 .accordion {
   margin-top: 40px;
   margin-bottom: 60px;
@@ -61,7 +65,7 @@
   background-color: var(--color-white-100);
   padding: 32px 20px;
   border: 1px solid var(--color-grey-ddd);
-  box-shadow: var(--box-shadow-light);
+  box-shadow: var(--box-shadow-card-light);
   border-radius: var(--border-radius-20px);
   margin-top: 48px;
 }
@@ -77,4 +81,8 @@
   font-size: 14px;
   line-height: 22px;
   text-align: center;
+}
+
+.github-image {
+  width: 100%;
 }

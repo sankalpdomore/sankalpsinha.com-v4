@@ -6,8 +6,9 @@
   padding: 12px;
   margin-top: 16px;
   width: 90%;
-  background: var(--color-nav-dark-background);
+  background: var(--color-nav-light-background);
   backdrop-filter: blur(16px);
+  box-shadow: var(--box-shadow-nav-light);
   border-radius: 12px;
   line-height: 24px;
   z-index: 1000;
@@ -27,7 +28,7 @@
 .navbar-brand-logo {
   font-size: 24px;
   padding: 8px 16px;
-  color: var(--color-nav-dark-button-text-default);
+  color: var(--color-nav-light-button-text-default);
   border-radius: 8px;
 }
 
@@ -64,7 +65,7 @@
 }
 
 .nav-link {
-  color: var(--color-nav-dark-button-text-default);
+  color: var(--color-nav-light-button-text-default);
   margin-left: 16px;
   border-radius: 8px;
   padding: 8px 16px !important;

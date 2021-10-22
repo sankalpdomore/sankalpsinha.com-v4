@@ -52,13 +52,16 @@
   --color-black-04: rgba(0, 0, 0, 0.04);
   --color-black-30: rgba(0, 0, 0, 0.3);
   --color-nav-dark-button-text-default: #777777;
+  --color-nav-light-button-text-default: #555555;
   --color-nav-dark-button-text-hover: #ffffff;
   --color-nav-dark-button-back-hover: rgba(0, 0, 0, 0.4);
   --color-nav-dark-button-text-active: #ffffff;
   --color-nav-dark-button-back-active: rgba(0, 0, 0, 1);
   --color-nav-dark-background: #222222cc;
+  --color-nav-light-background: #ffffffcc;
   --color-black-100: #000000;
-  --box-shadow-light: 0px 4px 10px rgba(0, 0, 0, 0.04);
+  --box-shadow-card-light: 0px 4px 10px rgba(0, 0, 0, 0.04);
+  --box-shadow-nav-light: 0px 4px 4px rgba(0, 0, 0, 0.05);
   --border-radius-20px: 20px;
 }
 
@@ -78,7 +81,7 @@ p {
 }
 
 .common-page-container {
-  padding: 70px 0px;
+  padding: 80px 0px;
   background: var(--color-light-paper);
 }
 
