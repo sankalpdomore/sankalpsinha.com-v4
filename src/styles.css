@@ -51,6 +51,7 @@
   --color-grey-222: #222222;
   --color-black-04: rgba(0, 0, 0, 0.04);
   --color-black-30: rgba(0, 0, 0, 0.3);
+  --color-link-blue: hsla(214, 84%, 56%, 1);
   --color-nav-dark-button-text-default: #777777;
   --color-nav-light-button-text-default: #555555;
   --color-nav-dark-button-text-hover: #ffffff;
@@ -61,7 +62,10 @@
   --color-nav-light-background: #ffffffcc;
   --color-black-100: #000000;
   --box-shadow-card-light: 0px 4px 10px rgba(0, 0, 0, 0.04);
+  --box-shadow-card-medium: 0px 4px 10px rgba(0, 0, 0, 0.1);
   --box-shadow-nav-light: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  --border-radius-8px: 8px;
+  --border-radius-12px: 12px;
   --border-radius-20px: 20px;
 }
 
