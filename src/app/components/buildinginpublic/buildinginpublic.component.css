@@ -106,7 +106,7 @@
   width: 100%;
   margin-left: auto;
   margin-bottom: 24px;
-  padding: 20px 12px 16px 12px;
+  padding: 0px 12px 16px 12px;
   background-color: var(--color-light-paper);
   border: 1px solid var(--color-grey-ddd);
   border-radius: var(--border-radius-12px);
@@ -128,7 +128,7 @@
 .embed-container-figma-file-labels {
   font-size: 16px;
   font-weight: 400;
-  margin-top: 4px;
+  margin-top: 24px;
   margin-bottom: 12px;
 }
 
@@ -137,6 +137,7 @@
   height: 240px;
   border: 1px solid var(--color-grey-ddd);
   border-radius: var(--border-radius-8px);
+  margin-top: 20px;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
