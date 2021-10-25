@@ -1,0 +1,48 @@
+.mobiletempmessage-container {
+  background: var(--color-grey-333);
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 60vh;
+  border-radius: var(--border-radius-12px);
+}
+
+.mobiletempmessage-container-header {
+  color: var(--color-white-100);
+  text-align: center;
+  margin-top: -50px;
+}
+
+.mobiletempmessage-container-body {
+  color: var(--color-grey-ccc);
+  text-align: center;
+}
+
+/*////////////////////////*/
+/*//// Media queries /////*/
+/*////////////////////////*/
+
+/* Between Extra-Large and large devices (large desktops, large tablets) */
+@media (min-width: 1199px) and (max-width: 1400px) {
+}
+
+/* Between Large and Medium devices (desktops, tablets) */
+@media (min-width: 991px) and (max-width: 1200px) {
+}
+
+/* All devices less than Medium devices */
+@media (min-width: 0px) and (max-width: 991px) {
+}
+
+/* Only Medium devices (tablets) */
+@media (min-width: 767px) and (max-width: 992px) {
+}
+/* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
+@media (min-width: 0px) and (max-width: 767px) {
+}
+/* Only Small devices (landscape phones) */
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+/* Only X-Small devices (portrait phones) */
+@media (min-width: 0px) and (max-width: 576px) {
+}
