@@ -84,8 +84,12 @@ p {
   color: var(--color-black-100);
 }
 
+.link-remove-underline {
+  text-decoration: none;
+}
+
 .common-page-container {
-  padding: 80px 0px;
+  padding: 80px 0px 120px 0px;
   background: var(--color-light-paper);
 }
 
@@ -197,6 +201,27 @@ li > .common-body-text-16-bold {
   padding: 15px 20px 15px 20px;
   margin: 20px 0px 25px 0px;
   background: var(--color-black-004);
+}
+
+.see-more-link {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--color-link-blue);
+  border: 2px solid var(--color-link-blue);
+  border-radius: var(--border-radius-8px);
+  margin-top: 12px;
+  padding: 8px 16px;
+}
+
+.see-more-link:hover {
+  color: var(--color-white-100);
+  background-color: var(--color-link-blue);
+  border: 2px solid var(--color-link-blue);
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /* Spacers */
