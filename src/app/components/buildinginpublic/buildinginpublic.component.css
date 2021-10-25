@@ -152,6 +152,10 @@
   width: 100%;
 }
 
+.embed-container-analytics {
+  height: 560px;
+}
+
 .embed-container-analytics-embed {
   width: 100%;
   height: 400px;
