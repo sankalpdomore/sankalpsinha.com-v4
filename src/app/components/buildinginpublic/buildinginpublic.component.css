@@ -156,7 +156,14 @@
   height: 560px;
 }
 
-.embed-container-analytics-embed {
+.embed-container-analytics-div {
   width: 100%;
-  height: 400px;
+  overflow: hidden;
+}
+
+.embed-container-analytics-div-src {
+  position: relative;
+  top: -170px;
+  height: 570px;
+  width: 100%;
 }
