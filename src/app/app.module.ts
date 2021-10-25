@@ -5,8 +5,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 //Import anything new that you've used somewhere else so the typescript knows where to look//
-// import { OwlModule } from 'ngx-owl-carousel';
 import { NavComponent } from './components/navigation/navigation.component';
+import { NavLightComponent } from './components/navigation-light/navigation-light.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingpageComponent } from './components/landing/landingpage/landingpage.component';
 import { LandingIntroComponent } from './components/landing/intro/landing-intro.component';
@@ -18,6 +18,7 @@ import { BuildinginpublicComponent } from './components/buildinginpublic/buildin
   declarations: [
     AppComponent,
     NavComponent,
+    NavLightComponent,
     FooterComponent,
     LandingpageComponent,
     LandingIntroComponent,

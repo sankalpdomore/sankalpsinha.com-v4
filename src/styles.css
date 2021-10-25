@@ -42,6 +42,7 @@
 :root {
   --color-white-100: #ffffff;
   --color-light-paper: #f7f6f3;
+  --color-grey-ddd: #dddddd;
   --color-grey-ccc: #cccccc;
   --color-grey-999: #999999;
   --color-grey-777: #777777;
@@ -50,29 +51,45 @@
   --color-grey-222: #222222;
   --color-black-04: rgba(0, 0, 0, 0.04);
   --color-black-30: rgba(0, 0, 0, 0.3);
+  --color-link-blue: hsla(214, 84%, 56%, 1);
   --color-nav-dark-button-text-default: #777777;
+  --color-nav-light-button-text-default: #555555;
   --color-nav-dark-button-text-hover: #ffffff;
   --color-nav-dark-button-back-hover: rgba(0, 0, 0, 0.4);
   --color-nav-dark-button-text-active: #ffffff;
   --color-nav-dark-button-back-active: rgba(0, 0, 0, 1);
   --color-nav-dark-background: #222222cc;
+  --color-nav-light-background: #ffffffcc;
   --color-black-100: #000000;
-  /* box-shadow: 0px 8px 44px rgba(0, 0, 0, 0.1); */
+  --box-shadow-card-light: 0px 4px 10px rgba(0, 0, 0, 0.04);
+  --box-shadow-card-medium: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  --box-shadow-nav-light: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  --border-radius-8px: 8px;
+  --border-radius-12px: 12px;
+  --border-radius-20px: 20px;
 }
 
 body,
 div {
   font-family: SS;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 300;
   color: var(--color-black-100);
+}
+p {
+  margin-bottom: 26px !important;
 }
 
 .links-muted {
   color: var(--color-black-100);
 }
 
+.link-remove-underline {
+  text-decoration: none;
+}
+
 .common-page-container {
-  padding: 70px 0px;
+  padding: 80px 0px 120px 0px;
   background: var(--color-light-paper);
 }
 
@@ -122,7 +139,7 @@ div {
 
 .common-body-text-16-regular {
   font-family: SS;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   color: var(--color-black-100);
@@ -184,6 +201,27 @@ li > .common-body-text-16-bold {
   padding: 15px 20px 15px 20px;
   margin: 20px 0px 25px 0px;
   background: var(--color-black-004);
+}
+
+.see-more-link {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--color-link-blue);
+  border: 2px solid var(--color-link-blue);
+  border-radius: var(--border-radius-8px);
+  margin-top: 12px;
+  padding: 8px 16px;
+}
+
+.see-more-link:hover {
+  color: var(--color-white-100);
+  background-color: var(--color-link-blue);
+  border: 2px solid var(--color-link-blue);
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /* Spacers */

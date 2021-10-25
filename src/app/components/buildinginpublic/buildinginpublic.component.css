@@ -1,0 +1,211 @@
+.buildinginpublic-container {
+  margin-top: -80px;
+}
+
+.accordion {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.building-in-public-accordion {
+  background-color: var(--color-white-100);
+}
+
+.building-in-public-accordion:first-of-type {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.building-in-public-accordion:last-of-type {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.accordion-button {
+  font-family: "SS";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 16px 20px 16px 24px;
+  border-color: var(--color-grey-ddd);
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.accordion-body {
+  padding: 28px;
+  background-color: var(--color-light-paper);
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--color-black-100);
+  background-color: var(--color-white-100);
+}
+
+.buildinginpublic-what-next-bullets {
+  font-family: "SS";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  padding-top: 8px;
+  padding-left: 16px;
+}
+
+.buildinginpublic-what-next-bullets-icons {
+  top: -2px;
+  position: relative;
+  padding-right: 8px;
+}
+
+.buildinginpublic-what-next-bullets-label {
+  font-weight: 500;
+  padding-right: 4px;
+}
+
+.embed-containers {
+  background-color: var(--color-white-100);
+  padding: 20px 32px 32px 32px;
+  border: 1px solid var(--color-grey-ddd);
+  box-shadow: var(--box-shadow-card-light);
+  border-radius: var(--border-radius-20px);
+  margin-top: 56px;
+}
+
+.embed-containers-header {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.embed-containers-subheader {
+  color: var(--color-grey-777);
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.embed-containers-subheader-links-muted {
+  color: var(--color-grey-777);
+}
+
+.embed-container-notion-link:hover .building-in-public-notion-image {
+  border: 1px solid var(--color-link-blue);
+}
+
+.building-in-public-notion-image {
+  width: 100%;
+  border: 1px solid var(--color-grey-ddd);
+  border-radius: var(--border-radius-12px);
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.embed-container-figma-file-row {
+  width: 100%;
+  margin-left: auto;
+  margin-bottom: 24px;
+  padding: 0px 12px 16px 12px;
+  background-color: var(--color-light-paper);
+  border: 1px solid var(--color-grey-ddd);
+  border-radius: var(--border-radius-12px);
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* .embed-container-figma-file-row:hover {
+  background-color: var(--color-white-100);
+  border: 1px solid var(--color-white-100);
+} */
+
+.embed-container-figma-file-row:last-of-type {
+  margin-bottom: 0px;
+}
+
+.embed-container-figma-file-labels {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.embed-container-figma-link {
+  width: 100%;
+  height: 240px;
+  border: 1px solid var(--color-grey-ddd);
+  border-radius: var(--border-radius-8px);
+  margin-top: 20px;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.embed-container-figma-link:hover {
+  border: 1px solid var(--color-link-blue);
+}
+
+.building-in-public-github-image {
+  width: 100%;
+}
+
+.embed-container-analytics {
+  height: 920px;
+}
+
+.embed-container-analytics-div {
+  width: 100%;
+  overflow: hidden;
+}
+
+.embed-container-analytics-div-src {
+  width: 100%;
+  height: 900px;
+  position: relative;
+  top: -168px;
+}
+
+/*////////////////////////*/
+/*//// Media queries /////*/
+/*////////////////////////*/
+
+/* Between Extra-Large and large devices (large desktops, large tablets) */
+@media (min-width: 1199px) and (max-width: 1400px) {
+}
+
+/* Between Large and Medium devices (desktops, tablets) */
+@media (min-width: 991px) and (max-width: 1200px) {
+}
+
+/* All devices less than Medium devices */
+@media (min-width: 0px) and (max-width: 991px) {
+  .embed-container-analytics {
+    height: initial;
+  }
+}
+
+/* Only Medium devices (tablets) */
+@media (min-width: 767px) and (max-width: 992px) {
+}
+/* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
+@media (min-width: 0px) and (max-width: 767px) {
+}
+/* Only Small devices (landscape phones) */
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+/* Only X-Small devices (portrait phones) */
+@media (min-width: 0px) and (max-width: 576px) {
+}
