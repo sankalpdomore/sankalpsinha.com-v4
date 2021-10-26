@@ -80,6 +80,10 @@ p {
   margin-bottom: 26px !important;
 }
 
+* {
+  scroll-behavior: smooth !important;
+}
+
 .links-muted {
   color: var(--color-black-100);
 }
