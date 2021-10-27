@@ -4,6 +4,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap");
 
+@import url("~font-awesome/css/font-awesome.css");
+
 @font-face {
   /* Thin */
   font-family: SS;
@@ -42,6 +44,7 @@
 :root {
   --color-white-100: #ffffff;
   --color-light-paper: #f7f6f3;
+  --color-figma-back: #e5e5e5;
   --color-grey-ddd: #dddddd;
   --color-grey-ccc: #cccccc;
   --color-grey-999: #999999;
@@ -78,6 +81,10 @@ div {
 }
 p {
   margin-bottom: 26px !important;
+}
+
+* {
+  scroll-behavior: smooth !important;
 }
 
 .links-muted {
