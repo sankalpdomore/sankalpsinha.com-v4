@@ -236,35 +236,70 @@
 
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
-}
-
-/* Only Medium devices (tablets) */
-@media (min-width: 767px) and (max-width: 992px) {
-}
-/* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
-@media (min-width: 0px) and (max-width: 767px) {
-  .embed-container-figma {
-    padding: 20px 32px 40px;
-  }
-
   .embed-container-figma-folder-row {
     background-color: var(--color-white-100);
     border: 1px solid var(--color-white-100);
     padding: 0px;
-    margin-bottom: 44px;
+    margin-bottom: 20px;
+    --bs-gutter-x: 0px;
   }
 
-  .embed-container-figma-folder-labels {
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 0px;
-    margin-bottom: 0;
+  .embed-container-figma .embed-containers-subheader {
+    padding-bottom: 12px;
   }
 }
+
+/* Only Medium devices (tablets) */
+@media (min-width: 767px) and (max-width: 992px) {
+  .embed-container-figma-folder-labels {
+    margin-top: 28px;
+    padding-right: 8px;
+  }
+}
+/* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
+@media (min-width: 0px) and (max-width: 767px) {
+}
 /* Only Small devices (landscape phones) */
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
+  .embed-container-figma-folder-labels {
+    margin-top: 28px;
+    padding-right: 8px;
+  }
+
+  .embed-container-figma-folder-file-tile-image {
+    height: 80px;
+  }
 }
 
 /* Only X-Small devices (portrait phones) */
-@media (min-width: 0px) and (max-width: 576px) {
+@media (min-width: 0px) and (max-width: 575px) {
+  .embed-containers {
+    padding: 20px 28px 32px;
+  }
+
+  .embed-container-figma-folder-row {
+    margin-bottom: 48px;
+  }
+
+  .embed-containers-header {
+    margin-bottom: 8px;
+  }
+
+  .embed-containers-subheader {
+    line-height: 20px;
+  }
+
+  .embed-container-figma .embed-containers-subheader {
+    padding-bottom: 24px;
+  }
+
+  .embed-container-figma-folder-labels {
+    margin-top: 0px;
+    margin-bottom: -8px;
+    font-weight: 500;
+  }
+
+  .embed-container-figma-folder-file-tile-image {
+    height: 60px;
+  }
 }
