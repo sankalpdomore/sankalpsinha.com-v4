@@ -114,6 +114,7 @@
 .embed-container-figma-folder-row {
   width: 100%;
   margin-left: auto;
+  margin-right: auto;
   margin-bottom: 24px;
   padding: 0px 12px 24px 12px;
   background-color: var(--color-light-paper);
@@ -237,48 +238,67 @@
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
   .embed-container-figma-folder-row {
-    background-color: var(--color-white-100);
+    /* background-color: var(--color-white-100); */
     border: 1px solid var(--color-white-100);
-    padding: 0px;
-    margin-bottom: 20px;
+    padding: 0 16px 20px 16px;
+    margin-bottom: 24px;
     --bs-gutter-x: 0px;
   }
 
+  .embed-container-figma-folder-file-tile {
+    margin-top: 16px;
+  }
+
   .embed-container-figma .embed-containers-subheader {
-    padding-bottom: 12px;
+    padding-bottom: 16px;
+  }
+
+  .embed-container-analytics {
+    height: initial;
   }
 }
 
 /* Only Medium devices (tablets) */
 @media (min-width: 767px) and (max-width: 992px) {
   .embed-container-figma-folder-labels {
-    margin-top: 28px;
+    margin-top: 20px;
     padding-right: 8px;
   }
 }
+
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 768px) {
 }
+
 /* Only Small devices (landscape phones) */
 @media (min-width: 576px) and (max-width: 768px) {
   .embed-container-figma-folder-labels {
-    margin-top: 28px;
+    margin-top: 20px;
     padding-right: 8px;
+  }
+
+  .embed-container-figma-folder-file-tile-brandlogo {
+    background-size: 44px;
   }
 
   .embed-container-figma-folder-file-tile-image {
     height: 80px;
+    margin-top: 12px;
+  }
+
+  .embed-container-figma-folder-file-tile-footer {
+    padding: 12px 16px;
   }
 }
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
   .embed-containers {
-    padding: 20px 28px 32px;
+    padding: 20px 24px 28px 24px;
   }
 
   .embed-container-figma-folder-row {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
   }
 
   .embed-containers-header {
@@ -289,17 +309,33 @@
     line-height: 20px;
   }
 
-  .embed-container-figma .embed-containers-subheader {
-    padding-bottom: 24px;
+  .embed-container-figma-folder-labels {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-weight: 500;
   }
 
-  .embed-container-figma-folder-labels {
-    margin-top: 0px;
-    margin-bottom: -8px;
-    font-weight: 500;
+  .embed-container-figma-folder-file-tile-brandlogo {
+    background-size: 44px;
   }
 
   .embed-container-figma-folder-file-tile-image {
     height: 60px;
+    margin-top: 12px;
+  }
+
+  .embed-container-figma-folder-file-tile-footer {
+    padding: 12px 16px;
+  }
+}
+
+/* Only X-Small devices (portrait phones) but below 375px */
+@media (min-width: 0px) and (max-width: 375px) {
+  .accordion-button {
+    padding: 16px 16px 16px 16px;
+  }
+
+  .embed-container-figma-folder-file-tile-container {
+    width: 100%;
   }
 }
