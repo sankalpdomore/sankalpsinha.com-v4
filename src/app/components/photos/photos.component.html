@@ -1,12 +1,12 @@
 <component-navigation-light></component-navigation-light>
 <div class="container-fluid common-page-container photos-container">
-    <div class="container-fluid content-container">
+    <div class="container-fluid content-container photos-container-child">
         <h1 class="common-page-header-h1">
             Photos
         </h1>
         <div class="row">
-            <div *ngFor="let item of data" class="col-lg-4">
-                <component-photos-tile name={{item.name}} description={{item.description}} image={{item.image}}></component-photos-tile>
+            <div *ngFor="let item of data" class="col-4">
+                <component-photos-tile image={{item.image}} name={{item.name}} description={{item.description}} location={{item.location}} datetaken={{item.datetaken}} albums={{item.albums}}></component-photos-tile>
             </div>
         </div>
     </div>

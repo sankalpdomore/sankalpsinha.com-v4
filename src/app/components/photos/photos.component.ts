@@ -9,37 +9,32 @@ import { Component, OnInit, AfterViewInit, Input } from '@angular/core';
 export class PhotosComponent implements OnInit {
 
   data: any =
-    [{
-      "name": "Vishal",
-      "description": "xyz",
-      "image": "https://sankalpsinha.com/assets/buildinginpublic/figma-files-landing-page-1.png"
-    },
-    {
-      "name": "Sankalp",
-      "description": "abc",
-      "image": "https://sankalpsinha.com/assets/buildinginpublic/figma-files-landing-page-1.png"
-    }
-      ,
-    {
-      "name": "Rahul",
-      "description": "xyz",
-      "image": "https://sankalpsinha.com/assets/buildinginpublic/figma-files-landing-page-1.png"
-    },
-    {
-      "name": "Aditya",
-      "description": "abc",
-      "image": "https://sankalpsinha.com/assets/buildinginpublic/figma-files-landing-page-1.png"
-    }]
-
-  @Input()
-  name: String
-
-  @Input()
-  image: String
-
-  @Input()
-  description: String
-
+    [
+      {
+        "name": "Image title",
+        "description": "Short description",
+        "image": "../assets/photos/2021-11-10-1.jpeg",
+        "location": "Location",
+        "datetaken": "January 1, 2021",
+        "albums": "Minimal"
+      },
+      {
+        "name": "Image title",
+        "description": "Short description",
+        "image": "../assets/photos/2021-11-10-1.jpeg",
+        "location": "Location",
+        "datetaken": "November 10, 2021",
+        "albums": "Minimal"
+      },
+      {
+        "name": "Image title",
+        "description": "Short description",
+        "image": "../assets/photos/2021-11-10-1.jpeg",
+        "location": "Location",
+        "datetaken": "November 10, 2021",
+        "albums": "Minimal"
+      }
+    ]
 
   constructor() { }
   ngOnInit(): void { }
