@@ -1,5 +1,10 @@
-.photos-container {
-  background-color: var(--color-white-100);
+.photos-container-tile-image {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8px;
 }
 
 /*////////////////////////*/

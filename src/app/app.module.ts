@@ -13,6 +13,7 @@ import { LandingIntroComponent } from './components/landing/intro/landing-intro.
 import { MobiletempmessageComponent } from './components/landing/mobiletempmessage/mobiletempmessage.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 import { PhotosComponent } from './components/photos/photos.component';
+import { PhotosTileComponent } from './components/photos-tile/photos-tile.component';
 
 @NgModule({
   //Declare all the components that you create in the app here//
@@ -26,6 +27,7 @@ import { PhotosComponent } from './components/photos/photos.component';
     MobiletempmessageComponent,
     BuildinginpublicComponent,
     PhotosComponent,
+    PhotosTileComponent,
   ],
   imports: [
     BrowserModule,
