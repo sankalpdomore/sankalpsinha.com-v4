@@ -9,6 +9,7 @@ import { Component, OnInit, AfterViewInit, Input } from '@angular/core';
 export class PhotosComponent implements OnInit {
 
   data: any =
+
     [
       {
         "name": "Image title",
