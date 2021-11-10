@@ -1,0 +1,48 @@
+.photos-container {
+  background-color: var(--color-white-100);
+}
+
+.photos-container-tile-image {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8px;
+}
+
+/*////////////////////////*/
+/*//// Media queries /////*/
+/*////////////////////////*/
+
+/* Between Extra-Large and large devices (large desktops, large tablets) */
+@media (min-width: 1199px) and (max-width: 1400px) {
+}
+
+/* Between Large and Medium devices (desktops, tablets) */
+@media (min-width: 991px) and (max-width: 1200px) {
+}
+
+/* All devices less than Medium devices */
+@media (min-width: 0px) and (max-width: 991px) {
+}
+
+/* Only Medium devices (tablets) */
+@media (min-width: 767px) and (max-width: 992px) {
+}
+
+/* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
+@media (min-width: 0px) and (max-width: 768px) {
+}
+
+/* Only Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* Only X-Small devices (portrait phones) */
+@media (min-width: 0px) and (max-width: 575px) {
+}
+
+/* Only X-Small devices (portrait phones) but below 375px */
+@media (min-width: 0px) and (max-width: 375px) {
+}
