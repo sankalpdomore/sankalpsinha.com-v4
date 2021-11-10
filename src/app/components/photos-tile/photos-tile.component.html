@@ -1,7 +1,20 @@
-<img class="photos-container-tile-image" src="{{image}}" />
-<div>
-    {{name}}
-</div>
-<div>
-    {{description}}
+<div class="photos-container-tile">
+    <img class="photos-container-tile-image" src="{{image}}" />
+    <div class="photos-container-tile-name">
+        {{name}}
+    </div>
+    <div class="photos-container-tile-description">
+        {{description}}
+    </div>
+    <div class="photos-container-tile-location">
+        <i class="bi bi-geo-alt-fill"></i>
+        {{location}}
+    </div>
+    <div class="photos-container-tile-date-taken">
+        <i class="bi bi-camera-fill"></i>
+        {{datetaken}}
+    </div>
+    <!-- <div>
+        {{albums}}
+    </div> -->
 </div>

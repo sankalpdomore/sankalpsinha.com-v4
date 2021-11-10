@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap");
 
@@ -47,6 +47,7 @@
   --color-figma-back: #e5e5e5;
   --color-grey-ddd: #dddddd;
   --color-grey-ccc: #cccccc;
+  --color-grey-aaa: #aaaaaa;
   --color-grey-999: #999999;
   --color-grey-777: #777777;
   --color-grey-666: #666666;
@@ -75,7 +76,7 @@
 
 body,
 div {
-  font-family: SS;
+  font-family: "SS";
   font-size: 16px;
   font-weight: 300;
   color: var(--color-black-100);

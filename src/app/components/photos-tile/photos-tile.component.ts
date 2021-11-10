@@ -9,14 +9,19 @@ import { Component, OnInit, AfterViewInit, Input } from '@angular/core';
 export class PhotosTileComponent implements OnInit {
 
   @Input()
-  name: String
+  image: String
 
   @Input()
-  image: String
+  name: String
 
   @Input()
   description: String
 
+  @Input()
+  location: String
+
+  @Input()
+  datetaken: String
 
   constructor() { }
   ngOnInit(): void { }
