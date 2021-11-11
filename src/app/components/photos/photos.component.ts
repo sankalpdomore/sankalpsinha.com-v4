@@ -12,29 +12,59 @@ export class PhotosComponent implements OnInit {
 
     [
       {
-        "name": "Image title",
-        "description": "Short description",
-        "image": "../assets/photos/2021-11-10-1.jpeg",
-        "location": "Location",
-        "datetaken": "January 1, 2021",
-        "albums": "Minimal"
+        "PhotoName": "Reaching out",
+        "PhotoDescription": "The click was unexpected but I could see a good minimal shot on .5x from my iPhone. Clicked this from my friend's car sunroof",
+        "PhotoImage": "../assets/photos/2021-11-10-1.jpeg",
+        "PhotoLocation": "Jim Corbett",
+        "PhotoDateTaken": "November 10, 2021",
+        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoAlbums": "Minimal"
       },
       {
-        "name": "Image title",
-        "description": "Short description",
-        "image": "../assets/photos/2021-11-10-1.jpeg",
-        "location": "Location",
-        "datetaken": "November 10, 2021",
-        "albums": "Minimal"
+        "PhotoName": "Lighting up the exit",
+        "PhotoDescription": "Sometimes I just love the assymetry in things that look symmetric from afar. Like in this, the light and the switch isn't vertically aligned. And the Exit sign isn't in the middle of the two. Still they look well balanced.",
+        "PhotoImage": "../assets/photos/2021-11-10-2.jpeg",
+        "PhotoLocation": "Jim Corbett",
+        "PhotoDateTaken": "November 10, 2021",
+        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoAlbums": "Minimal"
       },
       {
-        "name": "Image title",
-        "description": "Short description",
-        "image": "../assets/photos/2021-11-10-1.jpeg",
-        "location": "Location",
-        "datetaken": "November 10, 2021",
-        "albums": "Minimal"
-      }
+        "PhotoName": "Bridging the lines",
+        "PhotoDescription": "Cropped shot of an old bridge while going to our resort",
+        "PhotoImage": "../assets/photos/2021-11-10-3.jpeg",
+        "PhotoLocation": "Jim Corbett",
+        "PhotoDateTaken": "November 10, 2021",
+        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoAlbums": "Minimal"
+      },
+      {
+        "PhotoName": "Reaching out",
+        "PhotoDescription": "The click was unexpected but I could see a good minimal shot on .5x from my iPhone. Clicked this from my friend's car sunroof",
+        "PhotoImage": "../assets/photos/2021-11-10-1.jpeg",
+        "PhotoLocation": "Jim Corbett",
+        "PhotoDateTaken": "November 10, 2021",
+        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoAlbums": "Minimal"
+      },
+      {
+        "PhotoName": "Lighting up the exit",
+        "PhotoDescription": "Sometimes I just love the assymetry in things that look symmetric from afar. Like in this, the light and the switch isn't vertically aligned. And the Exit sign isn't in the middle of the two. Still they look well balanced.",
+        "PhotoImage": "../assets/photos/2021-11-10-2.jpeg",
+        "PhotoLocation": "Jim Corbett",
+        "PhotoDateTaken": "November 10, 2021",
+        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoAlbums": "Minimal"
+      },
+      {
+        "PhotoName": "Bridging the lines",
+        "PhotoDescription": "Cropped shot of an old bridge while going to our resort",
+        "PhotoImage": "../assets/photos/2021-11-10-3.jpeg",
+        "PhotoLocation": "Jim Corbett",
+        "PhotoDateTaken": "November 10, 2021",
+        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoAlbums": "Minimal"
+      },
     ]
 
   constructor() { }

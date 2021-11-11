@@ -8,35 +8,35 @@
 
 @font-face {
   /* Thin */
-  font-family: SS;
+  font-family: "SS";
   src: url(./assets/fonts/3SlateForOnePlus-Book-300.ttf) format("truetype");
   font-weight: 300;
 }
 
 @font-face {
   /* Regular */
-  font-family: SS;
+  font-family: "SS";
   src: url(./assets/fonts/4SlateForOnePlus-Regular-400.ttf) format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   /* Medium */
-  font-family: SS;
+  font-family: "SS";
   src: url(./assets/fonts/5SlateForOnePlus-Medium-500.ttf) format("truetype");
   font-weight: 500;
 }
 
 @font-face {
   /* Bold */
-  font-family: SS;
+  font-family: "SS";
   src: url(./assets/fonts/6SlateForOnePlus-Bold-600.ttf) format("truetype");
   font-weight: 600;
 }
 
 @font-face {
   /* Extra-Bold */
-  font-family: SS;
+  font-family: "SS";
   src: url(./assets/fonts/7SlateForOnePlus-ExtraBold-700.ttf) format("truetype");
   font-weight: 700;
 }
@@ -117,6 +117,20 @@ p {
   margin: 80px auto;
 }
 
+.with-subheader {
+  margin-bottom: 16px;
+}
+
+.common-page-sub-header {
+  font-family: "SS";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-black-100);
+  text-align: center;
+  margin-bottom: 48px;
+}
+
 .common-section-header-h3 {
   font-family: "Exo 2", sans-serif;
   font-weight: 800;
@@ -128,7 +142,7 @@ p {
 }
 
 .common-body-text-18-bold {
-  font-family: SS;
+  font-family: "SS";
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
@@ -138,7 +152,7 @@ p {
 }
 
 .common-body-text-16-bold {
-  font-family: SS;
+  font-family: "SS";
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -147,7 +161,7 @@ p {
 }
 
 .common-body-text-16-regular {
-  font-family: SS;
+  font-family: "SS";
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -171,7 +185,7 @@ p {
 }
 
 .common-img-container-img-label {
-  font-family: SS;
+  font-family: "SS";
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -201,7 +215,7 @@ li > .common-body-text-16-bold {
 }
 
 .qouting {
-  font-family: SS;
+  font-family: "SS";
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;

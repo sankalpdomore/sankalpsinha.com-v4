@@ -102,6 +102,11 @@
   position: relative;
 }
 
+.bi-camera-fill {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
 /*////////////////////////*/
 /*//// Media queries /////*/
 /*////////////////////////*/

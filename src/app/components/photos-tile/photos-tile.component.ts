@@ -9,20 +9,30 @@ import { Component, OnInit, AfterViewInit, Input } from '@angular/core';
 export class PhotosTileComponent implements OnInit {
 
   @Input()
-  image: String
+  PhotoImage: String
 
   @Input()
-  name: String
+  PhotoName: String
 
   @Input()
-  description: String
+  PhotoDescription: String
 
   @Input()
-  location: String
+  PhotoLocation: String
 
   @Input()
-  datetaken: String
+  PhotoDateTaken: String
 
   constructor() { }
   ngOnInit(): void { }
+
+  formPhotoUrl(photoName, dateTaken) {
+    console.log(photoName, dateTaken)
+    var photoName = photoName.replace(/\s+/g, '-').toLowerCase()
+    var dateTaken = dateTaken.replace(',', '')
+    dateTaken = dateTaken.replace(/\s+/g, '-').toLowerCase()
+    var url = '/photos/' + photoName + '-' + dateTaken
+    return url
+  }
+
 }

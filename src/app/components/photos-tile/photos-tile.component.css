@@ -1,5 +1,6 @@
 .photos-container-tile {
   padding-right: 24px;
+  margin-bottom: 28px;
 }
 
 .photos-container-tile-image {
@@ -26,18 +27,24 @@
 .photos-container-tile-location,
 .photos-container-tile-date-taken {
   font-family: "SS";
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   color: var(--color-grey-999);
-  line-height: 24px;
+  line-height: 20px;
   margin-top: 4px;
+}
+
+.photos-container-tile-description {
+  margin-bottom: 8px;
 }
 
 .bi-geo-alt-fill,
 .bi-camera-fill {
-  font-size: 15px;
+  font-size: 14px;
   color: var(--color-grey-aaa);
   margin-right: 4px;
+  top: -1px;
+  position: relative;
 }
 
 /*////////////////////////*/

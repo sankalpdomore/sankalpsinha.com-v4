@@ -1,20 +1,17 @@
 <div class="photos-container-tile">
-    <img class="photos-container-tile-image" src="{{image}}" />
+    <img class="photos-container-tile-image" src="{{PhotoImage}}" />
     <div class="photos-container-tile-name">
-        {{name}}
+        {{PhotoName}} <a href="{{formPhotoUrl(PhotoName,PhotoDateTaken )}}"><i class="bi bi-link-45deg"></i></a>
     </div>
     <div class="photos-container-tile-description">
-        {{description}}
+        {{PhotoDescription}}
     </div>
     <div class="photos-container-tile-location">
         <i class="bi bi-geo-alt-fill"></i>
-        {{location}}
+        {{PhotoLocation}}
     </div>
     <div class="photos-container-tile-date-taken">
         <i class="bi bi-camera-fill"></i>
-        {{datetaken}}
+        {{PhotoDateTaken}}
     </div>
-    <!-- <div>
-        {{albums}}
-    </div> -->
 </div>
