@@ -47,6 +47,13 @@
   position: relative;
 }
 
+.bi-link-45deg {
+  color: var(--color-grey-999);
+  top: 2px;
+  position: relative;
+  margin-left: 4px;
+}
+
 /*////////////////////////*/
 /*//// Media queries /////*/
 /*////////////////////////*/
