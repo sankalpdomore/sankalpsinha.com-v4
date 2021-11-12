@@ -97,7 +97,7 @@
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
   .photos-container-tile-image {
-    height: 200px;
+    height: 180px;
   }
   .photos-container-tile {
     margin-bottom: 24px;

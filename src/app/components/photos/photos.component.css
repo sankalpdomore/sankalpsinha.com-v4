@@ -31,10 +31,10 @@
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
-  .photos-container-tile-row {
+  /* .photos-container-tile-row {
     padding-left: 8px;
     padding-right: 8px;
-  }
+  } */
 }
 
 /* Only X-Small devices (portrait phones) but below 375px */
