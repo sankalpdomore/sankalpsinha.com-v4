@@ -54,6 +54,7 @@
   --color-grey-555: #555555;
   --color-grey-333: #333333;
   --color-grey-222: #222222;
+  --color-black-100: #000000;
   --color-black-04: rgba(0, 0, 0, 0.04);
   --color-black-30: rgba(0, 0, 0, 0.3);
   --color-link-blue: hsla(214, 84%, 56%, 1);
@@ -65,7 +66,6 @@
   --color-nav-dark-button-back-active: rgba(0, 0, 0, 1);
   --color-nav-dark-background: #222222cc;
   --color-nav-light-background: #ffffffcc;
-  --color-black-100: #000000;
   --box-shadow-card-light: 0px 4px 10px rgba(0, 0, 0, 0.04);
   --box-shadow-card-medium: 0px 4px 10px rgba(0, 0, 0, 0.1);
   --box-shadow-nav-light: 0px 4px 4px rgba(0, 0, 0, 0.05);
@@ -274,6 +274,16 @@ li > .common-body-text-16-bold {
     font-size: 34px;
     line-height: 42px;
     margin: 50px auto;
+  }
+  .with-subheader {
+    margin-bottom: 12px;
+  }
+  .common-page-sub-header {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-grey-333);
+    line-height: 20px;
+    margin-bottom: 42px;
   }
   .common-section-header-h3 {
     font-size: 22px;

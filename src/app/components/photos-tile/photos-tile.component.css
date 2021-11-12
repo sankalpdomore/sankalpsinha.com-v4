@@ -1,6 +1,6 @@
 .photos-container-tile {
   padding-right: 24px;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 .photos-container-tile-image {
@@ -18,7 +18,7 @@
   font-size: 16px;
   font-weight: 700;
   color: var(--color-black-100);
-  line-height: 24px;
+  line-height: 20px;
   margin-top: 12px;
   margin-bottom: 4px;
 }
@@ -68,10 +68,19 @@
 
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
+  .photos-container-tile {
+    padding-right: 0px;
+  }
+  .photos-container-tile-name {
+    margin-bottom: 8px;
+  }
 }
 
 /* Only Medium devices (tablets) */
 @media (min-width: 767px) and (max-width: 992px) {
+  .photos-container-tile-image {
+    height: 220px;
+  }
 }
 
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
@@ -80,12 +89,24 @@
 
 /* Only Small devices (landscape phones) */
 @media (min-width: 576px) and (max-width: 768px) {
+  .photos-container-tile-image {
+    height: 240px;
+  }
 }
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
+  .photos-container-tile-image {
+    height: 200px;
+  }
+  .photos-container-tile {
+    margin-bottom: 24px;
+  }
 }
 
 /* Only X-Small devices (portrait phones) but below 375px */
 @media (min-width: 0px) and (max-width: 375px) {
+  .photos-container-tile-image {
+    height: 160px;
+  }
 }
