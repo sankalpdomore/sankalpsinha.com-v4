@@ -156,7 +156,7 @@
 
   .bi-list-nested:before {
     font-size: 24px;
-    color: var(--color-grey-999);
+    color: var(--color-nav-light-button-text-default);
     margin-right: 8px;
     position: relative;
     top: 0px;
@@ -167,7 +167,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: var(--color-grey-999);
+    color: var(--color-nav-light-button-text-default);
     position: relative;
     top: -3px;
   }
