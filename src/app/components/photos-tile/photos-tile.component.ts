@@ -34,5 +34,4 @@ export class PhotosTileComponent implements OnInit {
     var url = '/photos/' + photoName + '-' + dateTaken
     return url
   }
-
 }
