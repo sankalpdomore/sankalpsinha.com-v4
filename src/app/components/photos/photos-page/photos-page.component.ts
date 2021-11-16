@@ -2,8 +2,8 @@ import { Component, OnInit, AfterViewInit, Input } from '@angular/core';
 
 @Component({
   selector: 'component-photos',
-  templateUrl: './photospage.component.html',
-  styleUrls: ['./photospage.component.css']
+  templateUrl: './photos-page.component.html',
+  styleUrls: ['./photos-page.component.css']
 })
 
 export class PhotosComponent implements OnInit {

@@ -8,12 +8,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavComponent } from './components/navigation/navigation.component';
 import { NavLightComponent } from './components/navigation-light/navigation-light.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { LandingpageComponent } from './components/landing/landingpage/landingpage.component';
+import { LandingpageComponent } from './components/landing/landing-page/landing-page.component';
 import { LandingIntroComponent } from './components/landing/intro/landing-intro.component';
 import { MobiletempmessageComponent } from './components/landing/mobiletempmessage/mobiletempmessage.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
-import { PhotosComponent } from './components/photos/photospage/photospage.component';
+import { PhotosComponent } from './components/photos/photos-page/photos-page.component';
 import { PhotosTileComponent } from './components/photos/photos-tile/photos-tile.component';
+import { PhotosModalComponent } from './components/photos/photos-modal/photos-modal.component';
 
 @NgModule({
   //Declare all the components that you create in the app here//
@@ -28,6 +29,7 @@ import { PhotosTileComponent } from './components/photos/photos-tile/photos-tile
     BuildinginpublicComponent,
     PhotosComponent,
     PhotosTileComponent,
+    PhotosModalComponent,
   ],
   imports: [
     BrowserModule,
