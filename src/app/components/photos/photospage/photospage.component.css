@@ -5,6 +5,13 @@
 /*//// Media queries /////*/
 /*////////////////////////*/
 
+/* All devices more than 1441px devices */
+@media (min-width: 1441px) {
+  .photos-container-child {
+    max-width: 1180px;
+  }
+}
+
 /* Between Extra-Large and large devices (large desktops, large tablets) */
 @media (min-width: 1199px) and (max-width: 1400px) {
 }

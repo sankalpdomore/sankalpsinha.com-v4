@@ -21,6 +21,11 @@
   line-height: 20px;
   margin-top: 12px;
   margin-bottom: 4px;
+  padding-right: 8px;
+}
+
+.photos-tile-link-parent {
+  padding-left: 0px;
 }
 
 .photos-container-tile-description,
@@ -51,12 +56,18 @@
   color: var(--color-grey-999);
   top: 2px;
   position: relative;
-  margin-left: 4px;
 }
 
 /*////////////////////////*/
 /*//// Media queries /////*/
 /*////////////////////////*/
+
+/* All devices more than 1441px devices */
+@media (min-width: 1441px) {
+  .photos-container-tile {
+    padding-right: 12px;
+  }
+}
 
 /* Between Extra-Large and large devices (large desktops, large tablets) */
 @media (min-width: 1199px) and (max-width: 1400px) {

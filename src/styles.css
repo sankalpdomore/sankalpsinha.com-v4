@@ -257,6 +257,13 @@ li > .common-body-text-16-bold {
 /*//// Media queries /////*/
 /*////////////////////////*/
 
+/* All devices more than 1441px devices */
+@media (min-width: 1441px) {
+  .content-container {
+    max-width: 1000px;
+  }
+}
+
 /* Between Extra-Large and large devices (large desktops, large tablets) */
 @media (min-width: 1199px) and (max-width: 1400px) {
 }

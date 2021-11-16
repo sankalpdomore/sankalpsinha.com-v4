@@ -12,8 +12,8 @@ import { LandingpageComponent } from './components/landing/landingpage/landingpa
 import { LandingIntroComponent } from './components/landing/intro/landing-intro.component';
 import { MobiletempmessageComponent } from './components/landing/mobiletempmessage/mobiletempmessage.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
-import { PhotosComponent } from './components/photos/photos.component';
-import { PhotosTileComponent } from './components/photos-tile/photos-tile.component';
+import { PhotosComponent } from './components/photos/photospage/photospage.component';
+import { PhotosTileComponent } from './components/photos/photos-tile/photos-tile.component';
 
 @NgModule({
   //Declare all the components that you create in the app here//
