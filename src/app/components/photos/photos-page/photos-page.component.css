@@ -1,3 +1,7 @@
+.photos-container {
+  background-color: var(--color-white-100);
+}
+
 .photos-container-child {
   max-width: 1000px;
 }
