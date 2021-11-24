@@ -50,7 +50,7 @@ export class PhotosComponent implements OnInit {
       {
         "PhotoName": "Traingles & curves",
         "PhotoDescription": "Liked the wavey structure on this glass building",
-        "PhotoImage": "../assets/photos/2018-11-22-1.jpeg",
+        "PhotoImage": "../assets/photos/2021-11-15-1.jpeg",
         "PhotoLocation": "Singapore, Singapore",
         "PhotoDateTaken": "November 22, 2018",
         "PhotoDateUploaded": "November 14, 2021",

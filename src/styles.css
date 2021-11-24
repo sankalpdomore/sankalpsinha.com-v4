@@ -58,17 +58,23 @@
   --color-black-04: rgba(0, 0, 0, 0.04);
   --color-black-30: rgba(0, 0, 0, 0.3);
   --color-link-blue: hsla(214, 84%, 56%, 1);
-  --color-nav-dark-button-text-default: #777777;
-  --color-nav-light-button-text-default: #555555;
-  --color-nav-dark-button-text-hover: #ffffff;
-  --color-nav-dark-button-back-hover: rgba(0, 0, 0, 0.4);
-  --color-nav-dark-button-text-active: #ffffff;
-  --color-nav-dark-button-back-active: rgba(0, 0, 0, 1);
-  --color-nav-dark-background: #222222cc;
-  --color-nav-light-background: #ffffffcc;
-  --box-shadow-card-light: 0px 4px 10px rgba(0, 0, 0, 0.04);
-  --box-shadow-card-medium: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  --box-shadow-nav-light: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  --color-dark-background: #000000;
+  --color-dark-nav-background: #222222cc;
+  --color-dark-nav-button-text-default: #777777;
+  --color-dark-nav-button-text-hover: #ffffff;
+  --color-dark-nav-button-back-hover: rgba(0, 0, 0, 0.4);
+  --color-dark-nav-button-text-active: #ffffff;
+  --color-dark-nav-button-back-active: rgba(0, 0, 0, 1);
+  --color-light-background: #f7f6f3;
+  --color-light-nav-background: #ffffffcc;
+  --color-light-nav-button-text-default: #555555;
+  --color-light-nav-button-text-hover: #000000;
+  --color-light-nav-button-back-hover: rgba(0, 0, 0, 0.08);
+  --color-light-nav-button-text-active: #000000;
+  --color-light-nav-button-back-active: rgba(0, 0, 0, 0.12);
+  --box-shadow-light-card-small: 0px 4px 10px rgba(0, 0, 0, 0.04);
+  --box-shadow-light-card-medium: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  --box-shadow-light-nav: 0px 4px 4px rgba(0, 0, 0, 0.05);
   --border-radius-8px: 8px;
   --border-radius-12px: 12px;
   --border-radius-20px: 20px;
@@ -80,6 +86,7 @@ div {
   font-size: 16px;
   font-weight: 300;
   color: var(--color-black-100);
+  color: var(--color-white-100);
 }
 p {
   margin-bottom: 26px !important;

@@ -74,7 +74,7 @@
   background-color: var(--color-white-100);
   padding: 20px 32px 32px 32px;
   border: 1px solid var(--color-grey-ddd);
-  box-shadow: var(--box-shadow-card-light);
+  box-shadow: var(--box-shadow-light-card-small);
   border-radius: var(--border-radius-20px);
   margin-top: 56px;
 }

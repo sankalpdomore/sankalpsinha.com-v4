@@ -17,7 +17,7 @@
   font-family: "Exo 2", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: var(--color-black-100);
+  color: var(--color-grey-ddd);
   line-height: 20px;
   margin-top: 12px;
   margin-bottom: 4px;
@@ -34,7 +34,7 @@
   font-family: "SS";
   font-size: 14px;
   font-weight: 300;
-  color: var(--color-grey-999);
+  color: var(--color-grey-666);
   line-height: 20px;
   margin-top: 4px;
 }
@@ -46,14 +46,14 @@
 .bi-geo-alt-fill,
 .bi-camera-fill {
   font-size: 14px;
-  color: var(--color-grey-aaa);
+  color: var(--color-grey-666);
   margin-right: 4px;
   top: -1px;
   position: relative;
 }
 
 .bi-link-45deg {
-  color: var(--color-grey-999);
+  color: var(--color-grey-666);
   top: 2px;
   position: relative;
 }
@@ -66,6 +66,10 @@
 @media (min-width: 1441px) {
   .photos-container-tile {
     padding-right: 12px;
+  }
+
+  .photos-container-tile-image {
+    height: 340px;
   }
 }
 

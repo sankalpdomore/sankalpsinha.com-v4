@@ -1,9 +1,13 @@
 .photos-container {
-  background-color: var(--color-white-100);
+  background-color: var(--color-dark-background);
 }
 
 .photos-container-child {
   max-width: 1000px;
+}
+
+.photos-container-header {
+  color: var(--color-white-100);
 }
 /*////////////////////////*/
 /*//// Media queries /////*/
