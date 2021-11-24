@@ -21,11 +21,11 @@ export class PhotosComponent implements OnInit {
         "PhotoAlbums": "Minimal"
       },
       {
-        "PhotoName": "Lighting up the exit",
-        "PhotoDescription": "Sometimes I just love the assymetry in things that look symmetric from afar. Like in this, the light and the switch isn't vertically aligned. And the Exit sign isn't in the middle of the two. Still they look well balanced.",
-        "PhotoImage": "../assets/photos/2021-11-10-2.jpeg",
-        "PhotoLocation": "Jim Corbett, India",
-        "PhotoDateTaken": "November 10, 2021",
+        "PhotoName": "Traingles & curves",
+        "PhotoDescription": "I've always found the airplane's fin shot a classic. No matter when and where you take it, it always looks great",
+        "PhotoImage": "../assets/photos/2021-11-15-1.jpeg",
+        "PhotoLocation": "IGI Airport, New Delhi",
+        "PhotoDateTaken": "November 15, 2021",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
@@ -48,11 +48,11 @@ export class PhotosComponent implements OnInit {
         "PhotoAlbums": "Minimal"
       },
       {
-        "PhotoName": "Traingles & curves",
-        "PhotoDescription": "I've always found the airplane's fin shot a classic. No matter when and where you take it, it always looks great",
-        "PhotoImage": "../assets/photos/2021-11-15-1.jpeg",
-        "PhotoLocation": "IGI Airport, New Delhi",
-        "PhotoDateTaken": "November 15, 2021",
+        "PhotoName": "Lighting up the exit",
+        "PhotoDescription": "Sometimes I just love the assymetry in things that look symmetric from afar. Like in this, the light and the switch isn't vertically aligned. And the Exit sign isn't in the middle of the two. Still they look well balanced.",
+        "PhotoImage": "../assets/photos/2021-11-10-2.jpeg",
+        "PhotoLocation": "Jim Corbett, India",
+        "PhotoDateTaken": "November 10, 2021",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
