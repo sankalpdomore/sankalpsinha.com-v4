@@ -17,7 +17,7 @@ export class PhotosComponent implements OnInit {
         "PhotoImage": "../assets/photos/2021-11-10-1.jpeg",
         "PhotoLocation": "Jim Corbett, India",
         "PhotoDateTaken": "November 10, 2021",
-        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
       {
@@ -26,7 +26,7 @@ export class PhotosComponent implements OnInit {
         "PhotoImage": "../assets/photos/2021-11-10-2.jpeg",
         "PhotoLocation": "Jim Corbett, India",
         "PhotoDateTaken": "November 10, 2021",
-        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
       {
@@ -35,7 +35,7 @@ export class PhotosComponent implements OnInit {
         "PhotoImage": "../assets/photos/2021-11-10-3.jpeg",
         "PhotoLocation": "Jim Corbett, India",
         "PhotoDateTaken": "November 10, 2021",
-        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
       {
@@ -44,16 +44,16 @@ export class PhotosComponent implements OnInit {
         "PhotoImage": "../assets/photos/2018-05-27-1-2.jpeg",
         "PhotoLocation": "Madrid, Spain",
         "PhotoDateTaken": "May 27, 2018",
-        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
       {
         "PhotoName": "Traingles & curves",
-        "PhotoDescription": "Liked the wavey structure on this glass building",
+        "PhotoDescription": "I've always found the airplane's fin shot a classic. No matter when and where you take it, it always looks great",
         "PhotoImage": "../assets/photos/2021-11-15-1.jpeg",
-        "PhotoLocation": "Singapore, Singapore",
-        "PhotoDateTaken": "November 22, 2018",
-        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoLocation": "IGI Airport, New Delhi",
+        "PhotoDateTaken": "November 15, 2021",
+        "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
       {
@@ -62,7 +62,7 @@ export class PhotosComponent implements OnInit {
         "PhotoImage": "../assets/photos/2019-05-09-3.jpeg",
         "PhotoLocation": "Lisbon, Portugal",
         "PhotoDateTaken": "May 9, 2019",
-        "PhotoDateUploaded": "November 14, 2021",
+        "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
     ]
