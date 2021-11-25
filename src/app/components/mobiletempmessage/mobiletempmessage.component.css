@@ -1,5 +1,5 @@
 .mobiletempmessage-container {
-  background: var(--color-grey-333);
+  background: var(--color-grey-222);
   padding-left: 30px;
   padding-right: 30px;
   height: 60vh;
@@ -31,6 +31,15 @@
 
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
+  .mobiletempmessage-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .mobiletempmessage-container-body {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 /* Only Medium devices (tablets) */

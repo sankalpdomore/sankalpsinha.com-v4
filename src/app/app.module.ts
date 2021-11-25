@@ -10,7 +10,7 @@ import { NavLightComponent } from './components/navigation-light/navigation-ligh
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingpageComponent } from './components/landing/landing-page/landing-page.component';
 import { LandingIntroComponent } from './components/landing/intro/landing-intro.component';
-import { MobiletempmessageComponent } from './components/landing/mobiletempmessage/mobiletempmessage.component';
+import { MobiletempmessageComponent } from './components/mobiletempmessage/mobiletempmessage.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 import { PhotosComponent } from './components/photos/photos-page/photos-page.component';
 import { PhotosTileComponent } from './components/photos/photos-tile/photos-tile.component';

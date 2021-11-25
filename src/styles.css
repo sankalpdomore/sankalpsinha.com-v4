@@ -55,9 +55,10 @@
   --color-grey-333: #333333;
   --color-grey-222: #222222;
   --color-black-100: #000000;
-  --color-black-04: rgba(0, 0, 0, 0.04);
   --color-black-30: rgba(0, 0, 0, 0.3);
-  --color-link-blue: hsla(214, 84%, 56%, 1);
+  --color-black-04: rgba(0, 0, 0, 0.04);
+  --color-link-blue-default: hsla(214, 84%, 56%, 100%);
+  --color-success-green-default: hsla(89, 100%, 30%, 100%);
   --color-dark-background: #000000;
   --color-dark-nav-background: #222222cc;
   --color-dark-nav-button-text-default: #777777;
@@ -85,8 +86,7 @@ div {
   font-family: "SS";
   font-size: 16px;
   font-weight: 300;
-  color: var(--color-black-100);
-  color: var(--color-white-100);
+  line-height: 24px;
 }
 p {
   margin-bottom: 26px !important;
@@ -239,8 +239,8 @@ li > .common-body-text-16-bold {
   font-size: 16px;
   font-weight: 500;
   text-align: center;
-  color: var(--color-link-blue);
-  border: 2px solid var(--color-link-blue);
+  color: var(--color-link-blue-default);
+  border: 2px solid var(--color-link-blue-default);
   border-radius: var(--border-radius-8px);
   margin-top: 12px;
   padding: 8px 16px;
@@ -248,8 +248,8 @@ li > .common-body-text-16-bold {
 
 .see-more-link:hover {
   color: var(--color-white-100);
-  background-color: var(--color-link-blue);
-  border: 2px solid var(--color-link-blue);
+  background-color: var(--color-link-blue-default);
+  border: 2px solid var(--color-link-blue-default);
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -322,6 +322,10 @@ li > .common-body-text-16-bold {
   .common-img-container-img {
     width: 100%;
     height: auto;
+  }
+
+  .qouting {
+    line-height: 26px;
   }
 }
 
