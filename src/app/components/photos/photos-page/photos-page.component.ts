@@ -12,8 +12,8 @@ export class PhotosComponent implements OnInit {
 
     [
       {
-        "PhotoName": "Reaching out",
-        "PhotoDescription": "The click was unexpected but I could see a good minimal shot on .5x from my iPhone. Clicked this from my friend's car sunroof",
+        "PhotoName": "Portal",
+        "PhotoDescription": "This shot wasn't planned. While driving to our resort, I looked up and immediately identified this minimal frame. Shot quickly on .5x from my iPhone.",
         "PhotoImage": "../assets/photos/2021-11-10-1.jpeg",
         "PhotoLocation": "Jim Corbett, India",
         "PhotoDateTaken": "November 10, 2021",
@@ -22,7 +22,7 @@ export class PhotosComponent implements OnInit {
       },
       {
         "PhotoName": "Traingles & curves",
-        "PhotoDescription": "I've always found the airplane's fin shot a classic. No matter when and where you take it, it always looks great",
+        "PhotoDescription": "I've always found the airplane's fin shot a classic. No matter when and where you take it, it always looks great.",
         "PhotoImage": "../assets/photos/2021-11-15-1.jpeg",
         "PhotoLocation": "IGI Airport, New Delhi",
         "PhotoDateTaken": "November 15, 2021",
@@ -31,49 +31,40 @@ export class PhotosComponent implements OnInit {
       },
       {
         "PhotoName": "Rob the builder",
-        "PhotoDescription": "During my way to breakfast, spotted this huge castle getting repaired",
-        "PhotoImage": "../assets/photos/2019-05-09-3.jpeg",
+        "PhotoDescription": "On my way to breakfast, spotted this castle getting repaired - resembled the scene from Mission Impossible 3.",
+        "PhotoImage": "../assets/photos/2018-10-30-1.jpeg",
         "PhotoLocation": "Lisbon, Portugal",
-        "PhotoDateTaken": "May 9, 2019",
+        "PhotoDateTaken": "October 30, 2018",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
       {
         "PhotoName": "Praise thy lord",
-        "PhotoDescription": "Petrvs statue, near Almudena Cathedral",
-        "PhotoImage": "../assets/photos/2018-05-27-1-2.jpeg",
+        "PhotoDescription": "Petrvs statue, near Almudena Cathedral.",
+        "PhotoImage": "../assets/photos/2018-01-27-1.jpeg",
         "PhotoLocation": "Madrid, Spain",
-        "PhotoDateTaken": "May 27, 2018",
+        "PhotoDateTaken": "January 27, 2018",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
       {
         "PhotoName": "Cornerstone",
-        "PhotoDescription": "Sometimes I just love the assymetry in things that look symmetric from afar. Like in this, the light and the switch isn't vertically aligned. And the Exit sign isn't in the middle of the two. Still they look well balanced.",
-        "PhotoImage": "../assets/photos/2019-04-23-1.jpeg",
-        "PhotoLocation": "Jim Corbett, India",
-        "PhotoDateTaken": "November 10, 2021",
+        "PhotoDescription": "Took on a narrow corridor that led to a kitchen in the palace. One theme about old architecture that I always love is that the narrow & dark paths lead to a brighter place.",
+        "PhotoImage": "../assets/photos/2018-10-25-1.jpeg",
+        "PhotoLocation": "Palace of Pena, Portugal",
+        "PhotoDateTaken": "October 25, 2018",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
       {
         "PhotoName": "Sun is yellow",
-        "PhotoDescription": "During my way to breakfast, spotted this huge castle getting repaired",
+        "PhotoDescription": "Have always found sunlight an amazing source of light that changes pictures dramatically. How your pictures look when it's 7 AM vs. how they look when the sun is right on top of us are completely different and can sometimes make a world of a difference in your photos. Use sunlight to your benefit.",
         "PhotoImage": "../assets/photos/2021-02-13-1.jpeg",
         "PhotoLocation": "Lisbon, Portugal",
         "PhotoDateTaken": "May 9, 2019",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
-      // {
-      //   "PhotoName": "Bridging the lines",
-      //   "PhotoDescription": "Cropped shot of an old bridge while going to our resort",
-      //   "PhotoImage": "../assets/photos/2021-11-10-3.jpeg",
-      //   "PhotoLocation": "Jim Corbett, India",
-      //   "PhotoDateTaken": "November 10, 2021",
-      //   "PhotoDateUploaded": "November 25, 2021",
-      //   "PhotoAlbums": "Minimal"
-      // },
     ]
 
   constructor() { }
