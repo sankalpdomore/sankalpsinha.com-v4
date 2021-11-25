@@ -30,11 +30,11 @@ export class PhotosComponent implements OnInit {
         "PhotoAlbums": "Minimal"
       },
       {
-        "PhotoName": "Bridging the lines",
-        "PhotoDescription": "Cropped shot of an old bridge while going to our resort",
-        "PhotoImage": "../assets/photos/2021-11-10-3.jpeg",
-        "PhotoLocation": "Jim Corbett, India",
-        "PhotoDateTaken": "November 10, 2021",
+        "PhotoName": "Rob the builder",
+        "PhotoDescription": "During my way to breakfast, spotted this huge castle getting repaired",
+        "PhotoImage": "../assets/photos/2019-05-09-3.jpeg",
+        "PhotoLocation": "Lisbon, Portugal",
+        "PhotoDateTaken": "May 9, 2019",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
@@ -48,23 +48,32 @@ export class PhotosComponent implements OnInit {
         "PhotoAlbums": "Minimal"
       },
       {
-        "PhotoName": "Lighting up the exit",
+        "PhotoName": "Cornerstone",
         "PhotoDescription": "Sometimes I just love the assymetry in things that look symmetric from afar. Like in this, the light and the switch isn't vertically aligned. And the Exit sign isn't in the middle of the two. Still they look well balanced.",
-        "PhotoImage": "../assets/photos/2021-11-10-2.jpeg",
+        "PhotoImage": "../assets/photos/2019-04-23-1.jpeg",
         "PhotoLocation": "Jim Corbett, India",
         "PhotoDateTaken": "November 10, 2021",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
       {
-        "PhotoName": "Rob the builder",
+        "PhotoName": "Sun is yellow",
         "PhotoDescription": "During my way to breakfast, spotted this huge castle getting repaired",
-        "PhotoImage": "../assets/photos/2019-05-09-3.jpeg",
+        "PhotoImage": "../assets/photos/2021-02-13-1.jpeg",
         "PhotoLocation": "Lisbon, Portugal",
         "PhotoDateTaken": "May 9, 2019",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
+      // {
+      //   "PhotoName": "Bridging the lines",
+      //   "PhotoDescription": "Cropped shot of an old bridge while going to our resort",
+      //   "PhotoImage": "../assets/photos/2021-11-10-3.jpeg",
+      //   "PhotoLocation": "Jim Corbett, India",
+      //   "PhotoDateTaken": "November 10, 2021",
+      //   "PhotoDateUploaded": "November 25, 2021",
+      //   "PhotoAlbums": "Minimal"
+      // },
     ]
 
   constructor() { }
