@@ -48,7 +48,7 @@
   font-size: 14px;
   color: var(--color-grey-666);
   margin-right: 4px;
-  top: -1px;
+  /* top: -1px; */
   position: relative;
 }
 
@@ -86,8 +86,14 @@
   .photos-container-tile {
     padding-right: 0px;
   }
+
   .photos-container-tile-name {
-    margin-bottom: 8px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+  }
+
+  .photos-container-tile-description {
+    margin-bottom: 12px;
   }
 }
 
@@ -115,7 +121,7 @@
     height: 180px;
   }
   .photos-container-tile {
-    margin-bottom: 24px;
+    margin-bottom: 36px;
   }
 }
 

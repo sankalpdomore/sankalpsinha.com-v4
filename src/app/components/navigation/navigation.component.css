@@ -196,7 +196,7 @@
   }
 
   .nav-link {
-    color: var(--color-grey-999) !important;
+    color: var(--color-dark-nav-button-text-default) !important;
     margin-left: 0px;
     padding: 12px !important;
   }

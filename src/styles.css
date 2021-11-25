@@ -136,6 +136,8 @@ p {
   color: var(--color-grey-666);
   text-align: center;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .common-section-header-h3 {
@@ -284,32 +286,39 @@ li > .common-body-text-16-bold {
   .common-page-container {
     padding: 90px 20px !important;
   }
+
   .common-page-header-h1 {
     font-size: 34px;
     line-height: 42px;
-    margin: 50px auto;
+    margin: 40px auto;
   }
+
   .with-subheader {
     margin-bottom: 12px;
   }
+
   .common-page-sub-header {
     font-size: 14px;
     font-weight: 400;
-    color: var(--color-grey-333);
+    color: var(--color-grey-666);
     line-height: 20px;
     margin-bottom: 42px;
   }
+
   .common-section-header-h3 {
     font-size: 22px;
     line-height: 30px;
   }
+
   .common-img-container-parent {
     margin: 40px auto;
   }
+
   .common-img-container-child {
     height: auto;
     padding: 0px 0px !important;
   }
+
   .common-img-container-img {
     width: 100%;
     height: auto;

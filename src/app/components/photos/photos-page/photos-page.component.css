@@ -2,21 +2,27 @@
   background-color: var(--color-dark-background);
 }
 
-.photos-container-child {
+.photos-container .content-container {
   max-width: 1000px;
 }
 
-.photos-container-header {
+.photos-container .common-page-header-h1 {
   color: var(--color-white-100);
 }
+
 /*////////////////////////*/
 /*//// Media queries /////*/
 /*////////////////////////*/
 
 /* All devices more than 1441px devices */
 @media (min-width: 1441px) {
-  .photos-container-child {
+  .photos-container .content-container {
     max-width: 1180px;
+  }
+
+  .photos-container .common-page-header-h1,
+  .photos-container .common-page-sub-header {
+    max-width: 1000px;
   }
 }
 
