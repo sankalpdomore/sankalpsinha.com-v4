@@ -60,8 +60,8 @@ export class PhotosComponent implements OnInit {
         "PhotoName": "Sun is yellow",
         "PhotoDescription": "Have always found sunlight an amazing source of light that changes pictures dramatically. How your pictures look when it's 7 AM vs. how they look when the sun is right on top of us are completely different and can sometimes make a world of a difference in your photos. Use sunlight to your benefit.",
         "PhotoImage": "../assets/photos/2021-02-13-1.jpeg",
-        "PhotoLocation": "Lisbon, Portugal",
-        "PhotoDateTaken": "May 9, 2019",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "February 13, 2021",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
