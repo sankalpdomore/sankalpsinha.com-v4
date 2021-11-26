@@ -52,6 +52,7 @@
   --color-grey-777: #777777;
   --color-grey-666: #666666;
   --color-grey-555: #555555;
+  --color-grey-444: #444444;
   --color-grey-333: #333333;
   --color-grey-222: #222222;
   --color-black-100: #000000;
@@ -244,6 +245,7 @@ li > .common-body-text-16-bold {
   border-radius: var(--border-radius-8px);
   margin-top: 12px;
   padding: 8px 16px;
+  cursor: pointer;
 }
 
 .see-more-link:hover {
