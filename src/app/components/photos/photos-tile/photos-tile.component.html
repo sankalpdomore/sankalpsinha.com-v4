@@ -1,5 +1,5 @@
 <div class="photos-container-tile">
-    <img class="photos-container-tile-image" src="{{PhotoImage}}" />
+    <div class="photos-container-tile-image" [ngStyle]="{'background-image': 'url(\''+ PhotoImage + '\')'}"></div>
     <div class="row">
         <div class="col-auto photos-container-tile-name">
             {{PhotoName}}
