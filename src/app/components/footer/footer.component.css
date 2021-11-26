@@ -41,6 +41,7 @@
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
   .footer-container-content {
-    line-height: 20px;
+    line-height: 18px;
+    padding: 0px;
   }
 }
