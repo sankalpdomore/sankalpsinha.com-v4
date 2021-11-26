@@ -300,8 +300,8 @@ li > .common-body-text-16-bold {
   .common-page-sub-header {
     font-size: 14px;
     font-weight: 400;
+    line-height: 20px;
     color: var(--color-grey-666);
-    line-height: 18px;
     margin-bottom: 42px;
   }
 
@@ -341,4 +341,7 @@ li > .common-body-text-16-bold {
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 576px) {
+  .common-page-sub-header {
+    line-height: 18px;
+  }
 }
