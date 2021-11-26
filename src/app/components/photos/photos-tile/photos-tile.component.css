@@ -99,7 +99,7 @@
 }
 
 /* Only Medium devices (tablets) */
-@media (min-width: 767px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .photos-container-tile-image {
     height: 280px;
   }
@@ -110,7 +110,7 @@
 }
 
 /* Only Small devices (landscape phones) */
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 575px) and (max-width: 768px) {
   .photos-container-tile-image {
     height: 340px;
   }
@@ -118,16 +118,20 @@
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
-  .photos-container-tile-image {
-    height: 200px;
-  }
   .photos-container-tile {
     margin-bottom: 36px;
   }
 }
 
 /* Only X-Small devices (portrait phones) but below 375px */
-@media (min-width: 0px) and (max-width: 375px) {
+@media (min-width: 440px) and (max-width: 575px) {
+  .photos-container-tile-image {
+    height: 228px;
+  }
+}
+
+/* Only X-Small devices (portrait phones) but below 375px */
+@media (min-width: 0px) and (max-width: 440px) {
   .photos-container-tile-image {
     height: 172px;
   }
