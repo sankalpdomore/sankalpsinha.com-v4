@@ -6,7 +6,7 @@
   padding: 12px;
   margin-top: 16px;
   width: 90%;
-  background: var(--color-nav-dark-background);
+  background: var(--color-dark-nav-background);
   backdrop-filter: blur(16px);
   border-radius: 12px;
   line-height: 24px;
@@ -27,13 +27,13 @@
 .navbar-brand-logo {
   font-size: 24px;
   padding: 8px 16px;
-  color: var(--color-nav-dark-button-text-default);
+  color: var(--color-dark-nav-button-text-default);
   border-radius: 8px;
 }
 
 .navbar-brand-logo:hover {
-  color: var(--color-nav-dark-button-text-hover);
-  background: var(--color-nav-dark-button-back-hover);
+  color: var(--color-dark-nav-button-text-hover);
+  background: var(--color-dark-nav-button-back-hover);
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -41,8 +41,8 @@
 }
 
 .navbar-brand-logo:active {
-  color: var(--color-nav-dark-button-text-active);
-  background: var(--color-nav-dark-button-back-active);
+  color: var(--color-dark-nav-button-text-active);
+  background: var(--color-dark-nav-button-back-active);
 }
 
 .navbar-brand-logo-label {
@@ -64,7 +64,7 @@
 }
 
 .nav-link {
-  color: var(--color-nav-dark-button-text-default);
+  color: var(--color-dark-nav-button-text-default);
   margin-left: 16px;
   border-radius: 8px;
   padding: 8px 16px !important;
@@ -74,8 +74,8 @@
 }
 
 .nav-link:hover {
-  color: var(--color-nav-dark-button-text-hover) !important;
-  background: var(--color-nav-dark-button-back-hover);
+  color: var(--color-dark-nav-button-text-hover) !important;
+  background: var(--color-dark-nav-button-back-hover);
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -83,8 +83,8 @@
 }
 
 .nav-link:active {
-  color: var(--color-nav-dark-button-text-active);
-  background: var(--color-nav-dark-button-back-active);
+  color: var(--color-dark-nav-button-text-active);
+  background: var(--color-dark-nav-button-back-active);
 }
 
 .bi-twitter,
@@ -100,6 +100,11 @@
   margin-right: 4px;
   top: 1px;
   position: relative;
+}
+
+.bi-camera-fill {
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 /*////////////////////////*/
@@ -135,8 +140,8 @@
   }
 
   .navbar-toggler:hover {
-    color: var(--color-nav-dark-button-text-hover);
-    background: var(--color-nav-dark-button-back-hover);
+    color: var(--color-dark-nav-button-text-hover);
+    background: var(--color-dark-nav-button-back-hover);
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -167,7 +172,7 @@
   }
 
   .navbar-toggler:hover .navbar-toggler-label {
-    color: var(--color-nav-dark-button-text-hover);
+    color: var(--color-dark-nav-button-text-hover);
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -175,7 +180,7 @@
   }
 
   .navbar-toggler:hover .bi-list-nested:before {
-    color: var(--color-nav-dark-button-text-hover);
+    color: var(--color-dark-nav-button-text-hover);
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -191,7 +196,7 @@
   }
 
   .nav-link {
-    color: var(--color-grey-999) !important;
+    color: var(--color-dark-nav-button-text-default) !important;
     margin-left: 0px;
     padding: 12px !important;
   }

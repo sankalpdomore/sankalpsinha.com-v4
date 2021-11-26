@@ -6,13 +6,14 @@
   padding: 12px;
   margin-top: 16px;
   width: 90%;
-  background: var(--color-nav-light-background);
+  background: var(--color-light-nav-background);
   backdrop-filter: blur(16px);
-  box-shadow: var(--box-shadow-nav-light);
+  box-shadow: var(--box-shadow-light-nav);
   border-radius: 12px;
   line-height: 24px;
   z-index: 1000;
   max-width: 1200px;
+  border: 1px solid var(--color-light-paper);
 }
 
 .navbar > .container,
@@ -28,13 +29,13 @@
 .navbar-brand-logo {
   font-size: 24px;
   padding: 8px 16px;
-  color: var(--color-nav-light-button-text-default);
+  color: var(--color-light-nav-button-text-default);
   border-radius: 8px;
 }
 
 .navbar-brand-logo:hover {
-  color: var(--color-nav-dark-button-text-hover);
-  background: var(--color-nav-dark-button-back-hover);
+  color: var(--color-light-nav-button-text-hover);
+  background: var(--color-light-nav-button-back-hover);
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -42,8 +43,8 @@
 }
 
 .navbar-brand-logo:active {
-  color: var(--color-nav-dark-button-text-active);
-  background: var(--color-nav-dark-button-back-active);
+  color: var(--color-light-nav-button-text-active);
+  background: var(--color-light-nav-button-back-active);
 }
 
 .navbar-brand-logo-label {
@@ -65,7 +66,7 @@
 }
 
 .nav-link {
-  color: var(--color-nav-light-button-text-default);
+  color: var(--color-light-nav-button-text-default);
   margin-left: 16px;
   border-radius: 8px;
   padding: 8px 16px !important;
@@ -75,8 +76,8 @@
 }
 
 .nav-link:hover {
-  color: var(--color-nav-dark-button-text-hover) !important;
-  background: var(--color-nav-dark-button-back-hover);
+  color: var(--color-light-nav-button-text-hover) !important;
+  background: var(--color-light-nav-button-back-hover);
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -84,8 +85,8 @@
 }
 
 .nav-link:active {
-  color: var(--color-nav-dark-button-text-active);
-  background: var(--color-nav-dark-button-back-active);
+  color: var(--color-light-nav-button-text-active);
+  background: var(--color-light-nav-button-back-active);
 }
 
 .bi-twitter,
@@ -101,6 +102,11 @@
   margin-right: 4px;
   top: 1px;
   position: relative;
+}
+
+.bi-camera-fill {
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 /*////////////////////////*/
@@ -136,8 +142,8 @@
   }
 
   .navbar-toggler:hover {
-    color: var(--color-nav-dark-button-text-hover);
-    background: var(--color-nav-dark-button-back-hover);
+    color: var(--color-light-nav-button-text-hover);
+    background: var(--color-light-nav-button-back-hover);
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -151,7 +157,7 @@
 
   .bi-list-nested:before {
     font-size: 24px;
-    color: var(--color-grey-999);
+    color: var(--color-light-nav-button-text-default);
     margin-right: 8px;
     position: relative;
     top: 0px;
@@ -162,13 +168,13 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: var(--color-grey-999);
+    color: var(--color-light-nav-button-text-default);
     position: relative;
     top: -3px;
   }
 
   .navbar-toggler:hover .navbar-toggler-label {
-    color: var(--color-nav-dark-button-text-hover);
+    color: var(--color-light-nav-button-text-hover);
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -176,7 +182,7 @@
   }
 
   .navbar-toggler:hover .bi-list-nested:before {
-    color: var(--color-nav-dark-button-text-hover);
+    color: var(--color-light-nav-button-text-hover);
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -192,7 +198,7 @@
   }
 
   .nav-link {
-    color: var(--color-grey-999) !important;
+    color: var(--color-light-nav-button-text-default) !important;
     margin-left: 0px;
     padding: 12px !important;
   }

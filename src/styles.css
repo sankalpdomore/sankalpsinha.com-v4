@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap");
 
@@ -8,35 +8,35 @@
 
 @font-face {
   /* Thin */
-  font-family: SS;
+  font-family: "SS";
   src: url(./assets/fonts/3SlateForOnePlus-Book-300.ttf) format("truetype");
   font-weight: 300;
 }
 
 @font-face {
   /* Regular */
-  font-family: SS;
+  font-family: "SS";
   src: url(./assets/fonts/4SlateForOnePlus-Regular-400.ttf) format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   /* Medium */
-  font-family: SS;
+  font-family: "SS";
   src: url(./assets/fonts/5SlateForOnePlus-Medium-500.ttf) format("truetype");
   font-weight: 500;
 }
 
 @font-face {
   /* Bold */
-  font-family: SS;
+  font-family: "SS";
   src: url(./assets/fonts/6SlateForOnePlus-Bold-600.ttf) format("truetype");
   font-weight: 600;
 }
 
 @font-face {
   /* Extra-Bold */
-  font-family: SS;
+  font-family: "SS";
   src: url(./assets/fonts/7SlateForOnePlus-ExtraBold-700.ttf) format("truetype");
   font-weight: 700;
 }
@@ -47,27 +47,35 @@
   --color-figma-back: #e5e5e5;
   --color-grey-ddd: #dddddd;
   --color-grey-ccc: #cccccc;
+  --color-grey-aaa: #aaaaaa;
   --color-grey-999: #999999;
   --color-grey-777: #777777;
   --color-grey-666: #666666;
   --color-grey-555: #555555;
   --color-grey-333: #333333;
   --color-grey-222: #222222;
-  --color-black-04: rgba(0, 0, 0, 0.04);
-  --color-black-30: rgba(0, 0, 0, 0.3);
-  --color-link-blue: hsla(214, 84%, 56%, 1);
-  --color-nav-dark-button-text-default: #777777;
-  --color-nav-light-button-text-default: #555555;
-  --color-nav-dark-button-text-hover: #ffffff;
-  --color-nav-dark-button-back-hover: rgba(0, 0, 0, 0.4);
-  --color-nav-dark-button-text-active: #ffffff;
-  --color-nav-dark-button-back-active: rgba(0, 0, 0, 1);
-  --color-nav-dark-background: #222222cc;
-  --color-nav-light-background: #ffffffcc;
   --color-black-100: #000000;
-  --box-shadow-card-light: 0px 4px 10px rgba(0, 0, 0, 0.04);
-  --box-shadow-card-medium: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  --box-shadow-nav-light: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  --color-black-30: rgba(0, 0, 0, 0.3);
+  --color-black-04: rgba(0, 0, 0, 0.04);
+  --color-link-blue-default: hsla(214, 84%, 56%, 100%);
+  --color-success-green-default: hsla(89, 100%, 30%, 100%);
+  --color-dark-background: #000000;
+  --color-dark-nav-background: #222222cc;
+  --color-dark-nav-button-text-default: #777777;
+  --color-dark-nav-button-text-hover: #ffffff;
+  --color-dark-nav-button-back-hover: rgba(0, 0, 0, 0.4);
+  --color-dark-nav-button-text-active: #ffffff;
+  --color-dark-nav-button-back-active: rgba(0, 0, 0, 1);
+  --color-light-background: #f7f6f3;
+  --color-light-nav-background: #ffffffcc;
+  --color-light-nav-button-text-default: #555555;
+  --color-light-nav-button-text-hover: #000000;
+  --color-light-nav-button-back-hover: rgba(0, 0, 0, 0.08);
+  --color-light-nav-button-text-active: #000000;
+  --color-light-nav-button-back-active: rgba(0, 0, 0, 0.12);
+  --box-shadow-light-card-small: 0px 4px 10px rgba(0, 0, 0, 0.04);
+  --box-shadow-light-card-medium: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  --box-shadow-light-nav: 0px 4px 4px rgba(0, 0, 0, 0.05);
   --border-radius-8px: 8px;
   --border-radius-12px: 12px;
   --border-radius-20px: 20px;
@@ -75,10 +83,10 @@
 
 body,
 div {
-  font-family: SS;
+  font-family: "SS";
   font-size: 16px;
   font-weight: 300;
-  color: var(--color-black-100);
+  line-height: 24px;
 }
 p {
   margin-bottom: 26px !important;
@@ -116,6 +124,22 @@ p {
   margin: 80px auto;
 }
 
+.with-subheader {
+  margin-bottom: 16px;
+}
+
+.common-page-sub-header {
+  font-family: "SS";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-grey-666);
+  text-align: center;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .common-section-header-h3 {
   font-family: "Exo 2", sans-serif;
   font-weight: 800;
@@ -127,7 +151,7 @@ p {
 }
 
 .common-body-text-18-bold {
-  font-family: SS;
+  font-family: "SS";
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
@@ -137,7 +161,7 @@ p {
 }
 
 .common-body-text-16-bold {
-  font-family: SS;
+  font-family: "SS";
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -146,7 +170,7 @@ p {
 }
 
 .common-body-text-16-regular {
-  font-family: SS;
+  font-family: "SS";
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -170,7 +194,7 @@ p {
 }
 
 .common-img-container-img-label {
-  font-family: SS;
+  font-family: "SS";
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -200,7 +224,7 @@ li > .common-body-text-16-bold {
 }
 
 .qouting {
-  font-family: SS;
+  font-family: "SS";
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
@@ -215,8 +239,8 @@ li > .common-body-text-16-bold {
   font-size: 16px;
   font-weight: 500;
   text-align: center;
-  color: var(--color-link-blue);
-  border: 2px solid var(--color-link-blue);
+  color: var(--color-link-blue-default);
+  border: 2px solid var(--color-link-blue-default);
   border-radius: var(--border-radius-8px);
   margin-top: 12px;
   padding: 8px 16px;
@@ -224,8 +248,8 @@ li > .common-body-text-16-bold {
 
 .see-more-link:hover {
   color: var(--color-white-100);
-  background-color: var(--color-link-blue);
-  border: 2px solid var(--color-link-blue);
+  background-color: var(--color-link-blue-default);
+  border: 2px solid var(--color-link-blue-default);
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -242,6 +266,13 @@ li > .common-body-text-16-bold {
 /*//// Media queries /////*/
 /*////////////////////////*/
 
+/* All devices more than 1441px devices */
+@media (min-width: 1441px) {
+  .content-container {
+    max-width: 1000px;
+  }
+}
+
 /* Between Extra-Large and large devices (large desktops, large tablets) */
 @media (min-width: 1199px) and (max-width: 1400px) {
 }
@@ -255,25 +286,46 @@ li > .common-body-text-16-bold {
   .common-page-container {
     padding: 90px 20px !important;
   }
+
   .common-page-header-h1 {
     font-size: 34px;
     line-height: 42px;
-    margin: 50px auto;
+    margin: 40px auto;
   }
+
+  .with-subheader {
+    margin-bottom: 12px;
+  }
+
+  .common-page-sub-header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--color-grey-666);
+    margin-bottom: 42px;
+  }
+
   .common-section-header-h3 {
     font-size: 22px;
     line-height: 30px;
   }
+
   .common-img-container-parent {
     margin: 40px auto;
   }
+
   .common-img-container-child {
     height: auto;
     padding: 0px 0px !important;
   }
+
   .common-img-container-img {
     width: 100%;
     height: auto;
+  }
+
+  .qouting {
+    line-height: 26px;
   }
 }
 
@@ -289,4 +341,7 @@ li > .common-body-text-16-bold {
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 576px) {
+  .common-page-sub-header {
+    line-height: 18px;
+  }
 }

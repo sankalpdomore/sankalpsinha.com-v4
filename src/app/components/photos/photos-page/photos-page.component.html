@@ -1,0 +1,21 @@
+<component-navigation></component-navigation>
+<!-- <component-photos-modal></component-photos-modal> -->
+<div class="container-fluid common-page-container photos-container">
+    <div class="container-fluid content-container">
+        <h1 class="common-page-header-h1 with-subheader">
+            Photos
+        </h1>
+        <div class="common-page-sub-header d-none d-lg-block">
+            Since the day I got a camera phone, I was hooked on to clicking pictures. With better camera phones and photo sharing apps like Instagram, I shared more pictures. But, lately, Instagram doesn't feel like a place to share photos anymore. It feels more like an app to create dance and entertainment videos and reach more dopamine addicted users. This page is my reaction to the disappointment Instagram has become. I love clicking pictures and sharing them, and finally, I have a place for them here. 🙌
+        </div>
+        <div class="common-page-sub-header d-block d-lg-none">
+            Since the day I got a camera phone, I was hooked on to clicking pictures. With better camera phones and photo sharing apps like Instagram, I shared more pictures. But, lately, Instagram doesn't feel like a place to share photos anymore. This page is my reaction to the disappointment Instagram has become. I love clicking pictures and sharing them, and finally, I have a place for them here. 🙌
+        </div>
+        <div class="row">
+            <div *ngFor="let item of data" class="photos-container-tile-row col-lg-4 col-md-4 col-sm-6 col-6">
+                <component-photos-tile PhotoImage={{item.PhotoImage}} PhotoName={{item.PhotoName}} PhotoDescription={{item.PhotoDescription}} PhotoLocation={{item.PhotoLocation}} PhotoDateTaken={{item.PhotoDateTaken}} albums={{item.albums}}></component-photos-tile>
+            </div>
+        </div>
+    </div>
+</div>
+<component-footer></component-footer>

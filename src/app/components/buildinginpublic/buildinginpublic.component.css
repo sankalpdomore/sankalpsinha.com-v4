@@ -74,7 +74,7 @@
   background-color: var(--color-white-100);
   padding: 20px 32px 32px 32px;
   border: 1px solid var(--color-grey-ddd);
-  box-shadow: var(--box-shadow-card-light);
+  box-shadow: var(--box-shadow-light-card-small);
   border-radius: var(--border-radius-20px);
   margin-top: 56px;
 }
@@ -98,7 +98,7 @@
 }
 
 .embed-container-notion-link:hover .building-in-public-notion-image {
-  border: 1px solid var(--color-link-blue);
+  border: 1px solid var(--color-link-blue-default);
 }
 
 .building-in-public-notion-image {
@@ -154,7 +154,7 @@
 }
 
 .embed-container-figma-folder-file-tile:hover {
-  border: 1px solid var(--color-link-blue);
+  border: 1px solid var(--color-link-blue-default);
 }
 
 .embed-container-figma-folder-file-tile-brandlogo {
@@ -181,7 +181,7 @@
 }
 
 .embed-container-figma-folder-file-tile-link:hover {
-  color: var(--color-link-blue);
+  color: var(--color-link-blue-default);
 }
 
 .embed-container-figma-folder-file-tile-image {
@@ -196,6 +196,7 @@
 .embed-container-figma-folder-file-tile-footer {
   font-size: 12px;
   font-weight: 400;
+  line-height: 20px;
   padding: 16px;
   margin-top: 12px;
   border-radius: 0px 0px 8px 8px;
@@ -234,6 +235,16 @@
 /*//// Media queries /////*/
 /*////////////////////////*/
 
+/* All devices more than 1441px devices */
+@media (min-width: 1441px) {
+  .embed-container-figma-folder-file-tile-image {
+    height: 160px;
+  }
+  .embed-container-figma-folder-file-tile-footer {
+    margin-top: 24px;
+  }
+}
+
 /* Between Extra-Large and large devices (large desktops, large tablets) */
 @media (min-width: 1199px) and (max-width: 1400px) {
 }
@@ -258,6 +269,10 @@
 
   .embed-container-figma .embed-containers-subheader {
     padding-bottom: 16px;
+  }
+
+  .embed-container-figma-folder-file-tile-footer {
+    line-height: 17px;
   }
 
   .embed-container-analytics {
