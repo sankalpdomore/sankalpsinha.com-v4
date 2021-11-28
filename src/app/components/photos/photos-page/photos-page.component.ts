@@ -21,33 +21,6 @@ export class PhotosComponent implements OnInit {
         "PhotoAlbums": "Minimal"
       },
       {
-        "PhotoName": "Traingles & curves",
-        "PhotoDescription": "I've always found the airplane's fin shot a classic. No matter when and where you take it, it always looks great.",
-        "PhotoImage": "../assets/photos/2021-11-15-1.jpeg",
-        "PhotoLocation": "IGI Airport, New Delhi",
-        "PhotoDateTaken": "November 15, 2021",
-        "PhotoDateUploaded": "November 25, 2021",
-        "PhotoAlbums": "Minimal"
-      },
-      {
-        "PhotoName": "Rob the builder",
-        "PhotoDescription": "On my way to breakfast, spotted this castle getting repaired - resembled the scene from Mission Impossible 3.",
-        "PhotoImage": "../assets/photos/2018-10-30-1.jpeg",
-        "PhotoLocation": "Lisbon, Portugal",
-        "PhotoDateTaken": "October 30, 2018",
-        "PhotoDateUploaded": "November 25, 2021",
-        "PhotoAlbums": "Minimal"
-      },
-      {
-        "PhotoName": "Praise thy lord",
-        "PhotoDescription": "Petrvs statue, near Almudena Cathedral.",
-        "PhotoImage": "../assets/photos/2018-01-27-1.jpeg",
-        "PhotoLocation": "Madrid, Spain",
-        "PhotoDateTaken": "January 27, 2018",
-        "PhotoDateUploaded": "November 25, 2021",
-        "PhotoAlbums": "Minimal"
-      },
-      {
         "PhotoName": "Cornerstone",
         "PhotoDescription": "Took on a narrow corridor that led to a kitchen in the palace. One theme about old architecture that I always love is that the narrow & dark paths lead to a brighter place.",
         "PhotoImage": "../assets/photos/2018-10-25-1.jpeg",
@@ -62,6 +35,33 @@ export class PhotosComponent implements OnInit {
         "PhotoImage": "../assets/photos/2021-02-13-1.jpeg",
         "PhotoLocation": "Bengaluru, India",
         "PhotoDateTaken": "February 13, 2021",
+        "PhotoDateUploaded": "November 25, 2021",
+        "PhotoAlbums": "Minimal"
+      },
+      {
+        "PhotoName": "Praise thy lord",
+        "PhotoDescription": "Petrvs statue, near Almudena Cathedral.",
+        "PhotoImage": "../assets/photos/2018-01-27-1.jpeg",
+        "PhotoLocation": "Madrid, Spain",
+        "PhotoDateTaken": "January 27, 2018",
+        "PhotoDateUploaded": "November 25, 2021",
+        "PhotoAlbums": "Minimal"
+      },
+      {
+        "PhotoName": "Traingles & curves",
+        "PhotoDescription": "I've always found the airplane's fin shot a classic. No matter when and where you take it, it always looks great.",
+        "PhotoImage": "../assets/photos/2021-11-15-1.jpeg",
+        "PhotoLocation": "IGI Airport, New Delhi",
+        "PhotoDateTaken": "November 15, 2021",
+        "PhotoDateUploaded": "November 25, 2021",
+        "PhotoAlbums": "Minimal"
+      },
+      {
+        "PhotoName": "Rob the builder",
+        "PhotoDescription": "On my way to breakfast, spotted this castle getting repaired - resembled the scene from Mission Impossible 3.",
+        "PhotoImage": "../assets/photos/2018-10-30-1.jpeg",
+        "PhotoLocation": "Lisbon, Portugal",
+        "PhotoDateTaken": "October 30, 2018",
         "PhotoDateUploaded": "November 25, 2021",
         "PhotoAlbums": "Minimal"
       },
