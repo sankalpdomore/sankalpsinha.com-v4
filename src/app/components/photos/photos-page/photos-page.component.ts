@@ -12,8 +12,17 @@ export class PhotosComponent implements OnInit {
 
     [
       {
+        "PhotoName": "Dark side",
+        "PhotoDescription": "Click pictures from different perspectives. Sometimes the image looks great from certain angles that we're not used to.",
+        "PhotoImage": "../assets/photos/2020-10-24-1.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "October 24, 2021",
+        "PhotoDateUploaded": "December 17, 2021",
+        "PhotoAlbums": "Minimal"
+      },
+      {
         "PhotoName": "Grass is greener on the other side",
-        "PhotoDescription": "Taken during an evening stroll at my friend's place",
+        "PhotoDescription": "Taken during an evening stroll at my friend's place.",
         "PhotoImage": "../assets/photos/2021-12-14-1.jpeg",
         "PhotoLocation": "Bengaluru, India",
         "PhotoDateTaken": "December 14, 2021",
