@@ -34,7 +34,7 @@ export class PhotosComponent implements OnInit {
         "PhotoDescription": "Click pictures from different perspectives. Sometimes the image looks great from certain angles that we're not used to.",
         "PhotoImage": "../assets/photos/2020-10-24-1.jpeg",
         "PhotoLocation": "Bengaluru, India",
-        "PhotoDateTaken": "October 24, 2021",
+        "PhotoDateTaken": "October 24, 2020",
         "PhotoDateUploaded": "December 17, 2021",
         "PhotoAlbums": "Minimal"
       },
