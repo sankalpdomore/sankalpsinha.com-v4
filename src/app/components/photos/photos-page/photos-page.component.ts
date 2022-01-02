@@ -11,15 +11,15 @@ export class PhotosComponent implements OnInit {
   data: any =
 
     [
-      // {
-      //   "PhotoName": "Dark side",
-      //   "PhotoDescription": "Click pictures from different perspectives. Sometimes the image looks great from certain angles that we're not used to.",
-      //   "PhotoImage": "../assets/photos/2020-10-15-1.jpeg",
-      //   "PhotoLocation": "Bengaluru, India",
-      //   "PhotoDateTaken": "October 15, 2020",
-      //   "PhotoDateUploaded": "December 30, 2021",
-      //   "PhotoAlbums": "Minimal"
-      // },
+      {
+        "PhotoName": "Macro web",
+        "PhotoDescription": "Zoomed in photo of the emoji shortcut key on iPad's keyboard",
+        "PhotoImage": "../assets/photos/2020-10-26-1.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "October 26, 2020",
+        "PhotoDateUploaded": "January 3, 2022",
+        "PhotoAlbums": "Minimal"
+      },
       {
         "PhotoName": "Celebrating 1 year with this!",
         "PhotoDescription": "I've always been interested in cars. I started drawing cars when I was in school. It was the sole reason I took automotive engineering as a major in college. But the way it was taught in college, I lost interest in theories, but my love for automotive design remained. We got this car last year and celebrating a year with it. This Jeep Compass has been and always will be a constant reminder of my love for automotive design.",
@@ -27,7 +27,7 @@ export class PhotosComponent implements OnInit {
         "PhotoLocation": "Bengaluru, India",
         "PhotoDateTaken": "October 23, 2020",
         "PhotoDateUploaded": "December 30, 2021",
-        "PhotoAlbums": "Minimal"
+        "PhotoAlbums": "Personal"
       },
       {
         "PhotoName": "Dark side",
