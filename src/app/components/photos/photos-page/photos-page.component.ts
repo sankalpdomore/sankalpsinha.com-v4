@@ -12,6 +12,15 @@ export class PhotosComponent implements OnInit {
 
     [
       {
+        "PhotoName": "Letters on grass",
+        "PhotoDescription": "I love taking my kindle downstairs of my apartment, into the lawn. It gets very soothing sunlight during winters. Nothing beats the feeling of bathing in sun and reading a book or doing just what you like.",
+        "PhotoImage": "../assets/photos/2020-10-15-1.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "October 15, 2020",
+        "PhotoDateUploaded": "January 14, 2022",
+        "PhotoAlbums": "Minimal"
+      },
+      {
         "PhotoName": "Macro web",
         "PhotoDescription": "Zoomed in photo of the emoji shortcut key on iPad's keyboard",
         "PhotoImage": "../assets/photos/2020-10-26-1.jpeg",
