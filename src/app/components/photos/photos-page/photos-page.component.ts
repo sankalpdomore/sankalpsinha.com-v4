@@ -12,6 +12,15 @@ export class PhotosComponent implements OnInit {
 
     [
       {
+        "PhotoName": "Letters on grass",
+        "PhotoDescription": "I love taking my kindle downstairs of my apartment, into the lawn. It gets very soothing sunlight during winters. Nothing beats the feeling of bathing in sun and reading a book or doing just what you like.",
+        "PhotoImage": "../assets/photos/2020-10-15-1.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "October 15, 2020",
+        "PhotoDateUploaded": "January 14, 2022",
+        "PhotoAlbums": "Minimal"
+      },
+      {
         "PhotoName": "Macro web",
         "PhotoDescription": "Zoomed in photo of the emoji shortcut key on iPad's keyboard",
         "PhotoImage": "../assets/photos/2020-10-26-1.jpeg",
@@ -34,7 +43,7 @@ export class PhotosComponent implements OnInit {
         "PhotoDescription": "Click pictures from different perspectives. Sometimes the image looks great from certain angles that we're not used to.",
         "PhotoImage": "../assets/photos/2020-10-24-1.jpeg",
         "PhotoLocation": "Bengaluru, India",
-        "PhotoDateTaken": "October 24, 2021",
+        "PhotoDateTaken": "October 24, 2020",
         "PhotoDateUploaded": "December 17, 2021",
         "PhotoAlbums": "Minimal"
       },
