@@ -1,0 +1,18 @@
+<div class="container-fluid common-page-container landing-projects-container">
+    <div class="container-fluid content-container">
+        <h1 class="common-page-header-h1 with-subheader">
+            Fortune favours the bold <span>(font)</span>
+        </h1>
+        <div class="common-page-sub-header">
+            Over my 8+ years of designing, I have been lucky enough to work with some amazing people & teams. Together, we’ve <br>
+            discussed and figured user problems, debated the best UX to solve them, and delivered decent products to test the water.<br>
+            Below is a selected list of projects that I’ve helped companies design & build over the years.<br>
+            Some are a success, some are a failure - but all learning in disguise ✨
+        </div>
+        <div class="row">
+            <div *ngFor="let item of data" class="projects-card-container col-12">
+                <component-projects-card ProjectTitle={{item.ProjectTitle}} ProjectDescription={{item.ProjectDescription}} ProjectImage={{item.ProjectImage}} ProjectDate={{item.ProjectDate}} ProjectWorkTitle={{item.ProjectWorkTitle}}></component-projects-card>
+            </div>
+        </div>
+    </div>
+</div>

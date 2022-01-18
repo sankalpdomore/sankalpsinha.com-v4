@@ -88,7 +88,8 @@
 }
 
 .bi-twitter,
-.bi-chat-square-quote-fill {
+.bi-chat-square-quote-fill,
+.bi-camera-fill {
   font-size: 20px;
 }
 
@@ -103,8 +104,12 @@
 }
 
 .bi-camera-fill {
-  font-size: 20px;
   margin-right: 5px;
+}
+
+.fa-pencil-ruler {
+  font-size: 18px;
+  margin-right: 6px;
 }
 
 /*////////////////////////*/

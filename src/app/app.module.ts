@@ -9,7 +9,9 @@ import { NavComponent } from './components/navigation/navigation.component';
 import { NavLightComponent } from './components/navigation-light/navigation-light.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingpageComponent } from './components/landing/landing-page/landing-page.component';
-import { LandingIntroComponent } from './components/landing/intro/landing-intro.component';
+import { LandingIntroComponent } from './components/landing/landing-page-intro/landing-intro.component';
+import { LandingProjectsComponent } from './components/landing/projects-section/landing-projects.component';
+import { ProjectsCardComponent } from './components/landing/projects-card/projects-card.component';
 import { MobiletempmessageComponent } from './components/mobiletempmessage/mobiletempmessage.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 import { PhotosComponent } from './components/photos/photos-page/photos-page.component';
@@ -25,6 +27,8 @@ import { PhotosModalComponent } from './components/photos/photos-modal/photos-mo
     FooterComponent,
     LandingpageComponent,
     LandingIntroComponent,
+    LandingProjectsComponent,
+    ProjectsCardComponent,
     MobiletempmessageComponent,
     BuildinginpublicComponent,
     PhotosComponent,

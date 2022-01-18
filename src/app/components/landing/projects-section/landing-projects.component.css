@@ -1,0 +1,26 @@
+.landing-projects-container {
+  background-color: var(--color-white-100);
+}
+
+.landing-projects-container .common-page-header-h1 {
+  font-family: "SS";
+  font-size: 46px;
+  line-height: 58px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  margin: 20px auto 8px auto;
+}
+
+.common-page-header-h1 span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  position: relative;
+  top: -30px;
+  left: -2px;
+}
+
+.common-page-sub-header {
+  color: var(--color-grey-555);
+}
