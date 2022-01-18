@@ -12,8 +12,17 @@ export class PhotosComponent implements OnInit {
 
     [
       {
+        "PhotoName": "Paper car",
+        "PhotoDescription": "A photo frame of this beautiful car in one of the WeWork offices in Bangalore.",
+        "PhotoImage": "../assets/photos/2022-01-10-1.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "January 10, 2022",
+        "PhotoDateUploaded": "January 18, 2022",
+        "PhotoAlbums": "Minimal"
+      },
+      {
         "PhotoName": "Letters on grass",
-        "PhotoDescription": "I love taking my kindle downstairs of my apartment, into the lawn. It gets very soothing sunlight during winters. Nothing beats the feeling of bathing in sun and reading a book or doing just what you like.",
+        "PhotoDescription": "I love taking my kindle downstairs of my apartment, into the lawn. It gets very soothing sunlight during winters. Nothing beats the feeling of bathing in the sun and reading a book or doing just what you like.",
         "PhotoImage": "../assets/photos/2020-10-15-1.jpeg",
         "PhotoLocation": "Bengaluru, India",
         "PhotoDateTaken": "October 15, 2020",
