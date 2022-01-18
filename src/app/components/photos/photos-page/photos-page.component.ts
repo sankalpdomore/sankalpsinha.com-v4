@@ -12,8 +12,17 @@ export class PhotosComponent implements OnInit {
 
     [
       {
+        "PhotoName": "Bipolar",
+        "PhotoDescription": "Airport architecture has always fascinated me. Every international airport is different than the other and has its own personality. This one's a cropped photo of Bengaluru's international airport roof.",
+        "PhotoImage": "../assets/photos/2020-10-31-1.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "October 31, 2020",
+        "PhotoDateUploaded": "January 18, 2022",
+        "PhotoAlbums": "Minimal"
+      },
+      {
         "PhotoName": "Paper car",
-        "PhotoDescription": "A photo frame of this beautiful car in one of the WeWork offices in Bangalore.",
+        "PhotoDescription": "Saw this photo frame of this beautiful car in one of the WeWork offices in Bangalore.",
         "PhotoImage": "../assets/photos/2022-01-10-1.jpeg",
         "PhotoLocation": "Bengaluru, India",
         "PhotoDateTaken": "January 10, 2022",
