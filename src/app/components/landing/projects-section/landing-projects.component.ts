@@ -13,8 +13,8 @@ export class LandingProjectsComponent implements OnInit {
       {
         "ProjectTitle": "SellerCrowd",
         "ProjectDescription": "Designing a social platform to help salespeople exchange insights anonymously & hit sales goals faster.",
-        "ProjectImage": "../assets/photos/2020-10-31-1.jpeg",
-        "ProjectDate": "Jan ’18 - Oct  ‘21",
+        "ProjectImage": "../assets/projects/project-tiles/sellercrowd.png",
+        "ProjectDate": "Jan ’18 - Oct ‘21",
         "ProjectWorkTitle": "Senior Product Designer",
         "ProjectRoles": "I was hired by SellerCrowd during a time when the code + design wasn’t scalable. The company was looking to redesign the product from scratch.",
         "ProjectRandomFact": "SellerCrowd was my first remote job and my  first day with the company was at a company-wide yearly meetup in Madrid, Spain 🇪🇸",
@@ -26,6 +26,7 @@ export class LandingProjectsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

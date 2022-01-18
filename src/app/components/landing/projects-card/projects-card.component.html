@@ -1,11 +1,32 @@
 <div class="row projects-card-container">
-    <div class="col-4">
+    <div class="col-5 projects-card-container-left">
         <div class="projects-card-container-image" [ngStyle]="{'background-image': 'url(\''+ ProjectImage + '\')'}">
         </div>
     </div>
-    <div class="col-8">
-        <div class="col-12 projects-card-container">
-            {{ProjectTitle}}
+    <div class="col-7 projects-card-container-right">
+        <div class="col-12">
+            <div class="projects-card-container-right-title-description">
+                <span class="projects-card-title">{{ProjectTitle}}</span>
+                <span class="projects-card-title-right-line">------</span>
+                <span class="projects-card-description">{{ProjectDescription}}</span>
+            </div>
+            <div class="">
+                <div class="projects-card-container-right-meta-data">
+                    <img src="../assets/projects/icon-time.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-date">
+                    <!-- <i class="bi bi-clock-history"></i> -->
+                    {{ProjectDate}}
+                </div>
+                <div class="projects-card-container-right-meta-data">
+                    <img src="../assets/projects/icon-role.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
+                    <!-- <i class="bi bi-flag"></i> -->
+                    {{ProjectWorkTitle}}
+                </div>
+                <div class="projects-card-container-right-meta-data">
+                    <img src="../assets/projects/icon-role.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
+                    <!-- <i class="bi bi-stars"></i> -->
+                    {{ProjectRoles}}
+                </div>
+            </div>
         </div>
     </div>
 </div>

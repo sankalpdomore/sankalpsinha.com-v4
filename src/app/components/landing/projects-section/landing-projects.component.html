@@ -1,5 +1,5 @@
 <div class="container-fluid common-page-container landing-projects-container">
-    <div class="container-fluid content-container">
+    <div #target class="container-fluid content-container">
         <h1 class="common-page-header-h1 with-subheader">
             Fortune favours the bold <span>(font)</span>
         </h1>
@@ -10,8 +10,9 @@
             Some are a success, some are a failure - but all learning in disguise ✨
         </div>
         <div class="row">
-            <div *ngFor="let item of data" class="projects-card-container col-12">
-                <component-projects-card ProjectTitle={{item.ProjectTitle}} ProjectDescription={{item.ProjectDescription}} ProjectImage={{item.ProjectImage}} ProjectDate={{item.ProjectDate}} ProjectWorkTitle={{item.ProjectWorkTitle}}></component-projects-card>
+            <div *ngFor="let item of data" class="landing-projects-section-container col-12">
+                <component-projects-card ProjectTitle={{item.ProjectTitle}} ProjectDescription={{item.ProjectDescription}} ProjectImage={{item.ProjectImage}} ProjectDate={{item.ProjectDate}} ProjectWorkTitle={{item.ProjectWorkTitle}} ProjectRoles={{item.ProjectRoles}}>
+                </component-projects-card>
             </div>
         </div>
     </div>
