@@ -38,7 +38,16 @@ export class ProjectsCardComponent implements OnInit {
   ProjectRandomFact: String
 
   @Input()
-  ProjectTeamSize: String
+  ProjectTeamSizePMs: String
+
+  @Input()
+  ProjectTeamSizeQAs: String
+
+  @Input()
+  ProjectTeamSizeDevs: String
+
+  @Input()
+  ProjectTeamSizeDesigners: String
 
   @Input()
   ProjectURL: String

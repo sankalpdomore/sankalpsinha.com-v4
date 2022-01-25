@@ -21,7 +21,10 @@ export class LandingProjectsComponent implements OnInit {
         "ProjectRoles3": "Working cross-functionally to define product strategy & roadmaps in collaboration with the Product & Engg. team - while keeping in mind the user and business goals and trying to strike a balance between the two.",
         "ProjectRoles4": "Designing + prototyping solutions and ensuring pixel-perfect implementation of the interface & experience in collaboration with the QA & Engg. team.",
         "ProjectRandomFact": "SellerCrowd was my first remote job and my  first day with the company was at a company-wide yearly meetup in Madrid, Spain 🇪🇸",
-        "ProjectTeamSize": "2 PMs, 9 Devs, 3 QAs, 1 Designer (me)",
+        "ProjectTeamSizePMs": "2 PMs",
+        "ProjectTeamSizeDevs": "9 Devs",
+        "ProjectTeamSizeQAs": "3 QAs",
+        "ProjectTeamSizeDesigners": "1 Designer (me)",
         "ProjectURL": "www.sellercrowd.com",
       },
     ]

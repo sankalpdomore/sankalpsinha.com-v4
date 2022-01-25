@@ -48,9 +48,14 @@
 
 .projects-card-container-right-meta-data-icons {
   width: 14px;
-  top: -2px;
+  top: -3px;
   position: relative;
   margin-right: 8px;
+}
+
+.icon-project-role {
+  top: -4px;
+  position: relative;
 }
 
 .projects-card-container-right-meta-data-text {
@@ -58,4 +63,49 @@
   font-weight: 200;
   line-height: 20px;
   color: var(--color-grey-777);
+}
+
+.projects-card-container-right-meta-data-random-fact-text {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  color: var(--color-grey-777);
+}
+
+.projects-card-container-right-meta-data-random-fact-pusher {
+  margin: 16px 0px 16px 22px;
+}
+
+.projects-card-container-right-meta-data-random-fact-container {
+  background-color: var(--color-light-paper);
+  padding: 12px 16px 12px 16px;
+  border-radius: 12px;
+}
+
+.projects-card-container-right-meta-data-emoji {
+  width: 16px;
+  top: -4px;
+  position: relative;
+  margin-right: 12px;
+}
+
+.projects-card-container-right-meta-data-random-fact-label {
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--color-black-100);
+  margin-right: 8px;
+}
+
+.projects-card-container-right-meta-data-random-fact-text {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--color-grey-666);
+}
+
+.team-size-label {
+  padding-right: 4px;
 }
