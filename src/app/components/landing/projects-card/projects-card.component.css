@@ -15,10 +15,10 @@
 }
 
 .projects-card-title {
-  font-family: "Exo 2";
-  font-weight: 800;
+  font-family: "SS";
+  font-weight: 600;
   font-size: 32px;
-  line-height: 44px;
+  line-height: normal;
 }
 
 .projects-card-title-right-line {
@@ -43,16 +43,19 @@
 }
 
 .projects-card-container-right-meta-data {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
-  color: var(--color-grey-777);
   margin-bottom: 8px;
 }
 
 .projects-card-container-right-meta-data-icons {
   width: 14px;
-  position: relative;
   top: -2px;
+  position: relative;
   margin-right: 8px;
+}
+
+.projects-card-container-right-meta-data-text {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  color: var(--color-grey-777);
 }

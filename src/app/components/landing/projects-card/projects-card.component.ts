@@ -23,7 +23,16 @@ export class ProjectsCardComponent implements OnInit {
   ProjectWorkTitle: String
 
   @Input()
-  ProjectRoles: String
+  ProjectRoles1: String
+
+  @Input()
+  ProjectRoles2: String
+
+  @Input()
+  ProjectRoles3: String
+
+  @Input()
+  ProjectRoles4: String
 
   @Input()
   ProjectRandomFact: String
