@@ -55,13 +55,4 @@ export class ProjectsCardComponent implements OnInit {
   constructor() { }
   ngOnInit(): void { }
 
-  // formPhotoUrl(photoName, dateTaken) {
-  //   console.log(photoName, dateTaken)
-  //   var photoName = photoName.replace(/\s+/g, '-').toLowerCase()
-  //   var dateTaken = dateTaken.replace(',', '')
-  //   dateTaken = dateTaken.replace(/\s+/g, '-').toLowerCase()
-  //   var url = '/photos/' + photoName + '-' + dateTaken
-  //   return url
-  // }
-
 }
