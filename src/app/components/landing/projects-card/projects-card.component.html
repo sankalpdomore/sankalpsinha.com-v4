@@ -27,7 +27,15 @@
                         {{ProjectWorkTitle}}
                     </div>
                 </div>
-                <div class="d-flex projects-card-container-right-meta-data">
+                <div *ngFor="let item of ProjectRoles" class="d-flex projects-card-container-right-meta-data">
+                    <div class="">
+                        <img src="../assets/projects/icon-roles.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
+                    </div>
+                    <div class="projects-card-container-right-meta-data-text">
+                        {{ProjectRoles}}
+                    </div>
+                </div>
+                <!-- <div class="d-flex projects-card-container-right-meta-data">
                     <div class="">
                         <img src="../assets/projects/icon-roles.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
                     </div>
@@ -58,7 +66,7 @@
                     <div class="projects-card-container-right-meta-data-text">
                         {{ProjectRoles4}}
                     </div>
-                </div>
+                </div> -->
                 <div class="projects-card-container-right-meta-data-random-fact-pusher">
                     <div class="d-flex projects-card-container-right-meta-data-random-fact-container">
                         <div class="">
@@ -74,7 +82,10 @@
                         <img src="../assets/projects/icon-team.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
                     </div>
                     <div class="projects-card-container-right-meta-data-text">
-                        <span class="team-size-label">{{ProjectTeamSizePMs}}</span><span class="team-size-label">{{ProjectTeamSizeDevs}}</span><span class="team-size-label">{{ProjectTeamSizeQAs}}</span><span class="team-size-label">{{ProjectTeamSizeDesigners}}</span>
+                        <span class="team-size-label">{{ProjectTeamSizePMs}}</span>
+                        <span class="team-size-label">{{ProjectTeamSizeDevs}}</span>
+                        <span class="team-size-label">{{ProjectTeamSizeQAs}}</span>
+                        <span class="team-size-label">{{ProjectTeamSizeDesigners}}</span>
                     </div>
                 </div>
             </div>
