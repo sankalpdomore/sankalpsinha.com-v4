@@ -1,7 +1,7 @@
 import { Component, OnInit, AfterViewInit, Input, Type } from '@angular/core';
 
 interface Roles {
-  name: string
+  description: string
 }
 
 interface Project {
