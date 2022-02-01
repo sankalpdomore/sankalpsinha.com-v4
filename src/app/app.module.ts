@@ -17,6 +17,7 @@ import { BuildinginpublicComponent } from './components/buildinginpublic/buildin
 import { PhotosComponent } from './components/photos/photos-page/photos-page.component';
 import { PhotosTileComponent } from './components/photos/photos-tile/photos-tile.component';
 import { PhotosModalComponent } from './components/photos/photos-modal/photos-modal.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   //Declare all the components that you create in the app here//
@@ -38,6 +39,7 @@ import { PhotosModalComponent } from './components/photos/photos-modal/photos-mo
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   //tells angular to search for index.html file to look for this AppComponent//

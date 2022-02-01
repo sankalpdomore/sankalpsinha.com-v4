@@ -1,14 +1,14 @@
 <div class="row projects-card-container">
     <div class="col-5 projects-card-container-left">
-        <div class="projects-card-container-image" [ngStyle]="{'background-image': 'url(\''+ ProjectImage + '\')'}">
+        <div class="projects-card-container-image" [ngStyle]="{'background-image': 'url(\''+ data.image + '\')'}">
         </div>
     </div>
     <div class="col-7 projects-card-container-right">
         <div class="col-12">
             <div class="projects-card-container-right-title-description">
-                <span class="projects-card-title">{{ProjectTitle}}</span>
+                <span class="projects-card-title">{{data.title}}</span>
                 <span class="projects-card-title-right-line">------</span>
-                <span class="projects-card-description">{{ProjectDescription}}</span>
+                <span class="projects-card-description">{{data.description}}</span>
             </div>
             <div class="">
                 <div class="d-flex projects-card-container-right-meta-data">
@@ -16,7 +16,7 @@
                         <img src="../assets/projects/icon-time.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-date">
                     </div>
                     <div class="projects-card-container-right-meta-data-text">
-                        {{ProjectDate}}
+                        {{data.date}}
                     </div>
                 </div>
                 <div class="d-flex projects-card-container-right-meta-data">
@@ -24,56 +24,24 @@
                         <img src="../assets/projects/icon-title.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-title">
                     </div>
                     <div class="projects-card-container-right-meta-data-text">
-                        {{ProjectWorkTitle}}
+                        {{data.workTitle}}
                     </div>
                 </div>
-                <div *ngFor="let role of ProjectRoles" class="d-flex projects-card-container-right-meta-data">
+                <div *ngFor="let role of data.roles" class="d-flex projects-card-container-right-meta-data">
                     <div class="">
                         <img src="../assets/projects/icon-roles.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
                     </div>
                     <div class="projects-card-container-right-meta-data-text">
-                        {{role}}
+                        {{role.description}}
                     </div>
                 </div>
-                <!-- <div class="d-flex projects-card-container-right-meta-data">
-                    <div class="">
-                        <img src="../assets/projects/icon-roles.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
-                    </div>
-                    <div class="projects-card-container-right-meta-data-text">
-                        {{ProjectRoles1}}
-                    </div>
-                </div>
-                <div class="d-flex projects-card-container-right-meta-data">
-                    <div class="">
-                        <img src="../assets/projects/icon-roles.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
-                    </div>
-                    <div class="projects-card-container-right-meta-data-text">
-                        {{ProjectRoles2}}
-                    </div>
-                </div>
-                <div class="d-flex projects-card-container-right-meta-data">
-                    <div class="">
-                        <img src="../assets/projects/icon-roles.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
-                    </div>
-                    <div class="projects-card-container-right-meta-data-text">
-                        {{ProjectRoles3}}
-                    </div>
-                </div>
-                <div class="d-flex projects-card-container-right-meta-data">
-                    <div class="">
-                        <img src="../assets/projects/icon-roles.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
-                    </div>
-                    <div class="projects-card-container-right-meta-data-text">
-                        {{ProjectRoles4}}
-                    </div>
-                </div> -->
                 <div class="projects-card-container-right-meta-data-random-fact-pusher">
                     <div class="d-flex projects-card-container-right-meta-data-random-fact-container">
                         <div class="">
                             <img src="../assets/projects/emoji-plane.png" alt="" class="projects-card-container-right-meta-data-emoji emoji-random-fact">
                         </div>
                         <div class="projects-card-container-right-meta-data-random-fact-text">
-                            <span class="projects-card-container-right-meta-data-random-fact-label">Random Fact:</span>{{ProjectRandomFact}}
+                            <span class="projects-card-container-right-meta-data-random-fact-label">Random Fact:</span>{{data.randomFact}}
                         </div>
                     </div>
                 </div>
@@ -82,10 +50,10 @@
                         <img src="../assets/projects/icon-team.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
                     </div>
                     <div class="projects-card-container-right-meta-data-text">
-                        <span class="team-size-label">{{ProjectTeamSizePMs}}</span>
-                        <span class="team-size-label">{{ProjectTeamSizeDevs}}</span>
-                        <span class="team-size-label">{{ProjectTeamSizeQAs}}</span>
-                        <span class="team-size-label">{{ProjectTeamSizeDesigners}}</span>
+                        <span class="team-size-label">{{data.teamSizePMs}}</span>
+                        <span class="team-size-label">{{data.teamSizeDevs}}</span>
+                        <span class="team-size-label">{{data.teamSizeQAs}}</span>
+                        <span class="team-size-label">{{data.teamSizeDesigners}}</span>
                     </div>
                 </div>
             </div>
