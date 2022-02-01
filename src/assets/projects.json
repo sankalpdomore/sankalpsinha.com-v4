@@ -1,0 +1,43 @@
+[{
+    "title": "SellerCrowd",
+    "description": "Designing a social platform to help salespeople exchange insights anonymously & hit sales goals faster.",
+    "image": "../assets/projects/project-tiles/sellercrowd.png",
+    "date": "Jan 18 - Oct 21",
+    "workTitle": "Senior Product",
+    "roles": [{
+      "description": "I was hired by SellerCrowd during a time when the code + design wasn’t scalable. The company was looking to redesign the product from scratch."
+    }, {
+      "description": "Understood user problems by looking at user feedback, talking to users, & analyzing user behavior with tools like Smartlook."
+    }, {
+      "description": "Working cross-functionally to define product strategy & roadmaps in collaboration with the Product & Engg. team - while keeping in mind the user and business goals and trying to strike a balance between the two."
+    }, {
+      "description": "Designing + prototyping solutions and ensuring pixel-perfect implementation of the interface & experience in collaboration with the QA & Engg. team."
+    }],
+    "randomFact": "SellerCrowd was my first remote job and my  first day with the company was at a company-wide yearly meetup in Madrid, Spain 🇪🇸",
+    "teamSize": "4 PMs,",
+    "teamSizeDevs": "25 Devs,",
+    "teamSizeQAs": "8 QAs",
+    "teamSizeDesigners": "6 Designers",
+    "url": "www.vwo.com"
+  },
+  {
+    "title": "Exponential",
+    "description": "Designing a social platform to help salespeople exchange insights anonymously & hit sales goals faster.",
+    "image": "../assets/projects/project-tiles/sellercrowd.png",
+    "date": "Jan 18 - Oct 21",
+    "workTitle": "Senior Product",
+    "roles": [{
+      "description": "I was hired"
+    }, {
+      "description": "I worked"
+    }, {
+      "description": "I was fired"
+    }],
+    "randomFact": "SellerCrowd was my first remote job and my  first day with the company was at a company-wide yearly meetup in Madrid, Spain 🇪🇸",
+    "teamSize": "4 PMs,",
+    "teamSizeDevs": "25 Devs,",
+    "teamSizeQAs": "8 QAs",
+    "teamSizeDesigners": "6 Designers",
+    "url": "www.vwo.com"
+  }
+]
