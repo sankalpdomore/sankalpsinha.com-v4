@@ -31,5 +31,7 @@ interface Project {
   projectTeamSizePMs: string,
   projectTeamSizeDevs: string,
   projectTeamSizeQAs: string,
-  projectTeamSizeDesigners: string
+  projectTeamSizeDesigners: string,
+  projectUrl: string,
+  projectUrlLabel: string,
 }

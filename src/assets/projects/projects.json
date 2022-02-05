@@ -1,0 +1,44 @@
+[
+  {
+    "projectTitle": "SellerCrowd",
+    "projectDescription": "Designing a social platform to help salespeople exchange insights anonymously & hit sales goals faster.",
+    "projectImage": "../assets/projects/project-tiles/sellercrowd.png",
+    "projectDate": "Jan '18 - Oct '21",
+    "projectWorkTitle": "Lead Product Designer",
+    "projectRoles": 
+    [
+      {"description": "I was hired by SellerCrowd during a time when the code + design wasn’t scalable. The company was looking to redesign the product from scratch."}, 
+      {"description": "Understood user problems by looking at user feedback, talking to users, & analyzing user behavior with tools like Smartlook."}, 
+      {"description": "Working cross-functionally to define product strategy & roadmaps in collaboration with the Product & Engg. team - while keeping in mind the user and business goals and trying to strike a balance between the two."},
+      {"description": "Designing + prototyping solutions and ensuring pixel-perfect implementation of the interface & experience in collaboration with the QA & Engg. team."}
+    ],
+    "projectRandomFact": "SellerCrowd was my first remote job and my first day with the company was at a company-wide yearly meetup in Madrid, Spain 🇪🇸",
+    "projectTeamSizePMs": "2 PMs,",
+    "projectTeamSizeDevs": "9 Devs,",
+    "projectTeamSizeQAs": "3 QAs,",
+    "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrl": "www.sellercrowd.com",
+    "projectUrlLabel": "Visit website"
+  },
+  {
+    "projectTitle": "VWO",
+    "projectDescription": "Designing a social platform to help salespeople exchange insights anonymously & hit sales goals faster.",
+    "projectImage": "../assets/projects/project-tiles/vwo.png",
+    "projectDate": "Jan '18 - Oct '21",
+    "projectWorkTitle": "Lead Product Designer",
+    "projectRoles": 
+    [
+      {"description": "I was hired by SellerCrowd during a time when the code + design wasn’t scalable. The company was looking to redesign the product from scratch."}, 
+      {"description": "Understood user problems by looking at user feedback, talking to users, & analyzing user behavior with tools like Smartlook."}, 
+      {"description": "Working cross-functionally to define product strategy & roadmaps in collaboration with the Product & Engg. team - while keeping in mind the user and business goals and trying to strike a balance between the two."},
+      {"description": "Designing + prototyping solutions and ensuring pixel-perfect implementation of the interface & experience in collaboration with the QA & Engg. team."}
+    ],
+    "projectRandomFact": "SellerCrowd was my first remote job and my first day with the company was at a company-wide yearly meetup in Madrid, Spain 🇪🇸",
+    "projectTeamSizePMs": "2 PMs,",
+    "projectTeamSizeDevs": "9 Devs,",
+    "projectTeamSizeQAs": "3 QAs,",
+    "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrl": "www.vwo.com",
+    "projectUrlLabel": "Visit website"
+  }
+]

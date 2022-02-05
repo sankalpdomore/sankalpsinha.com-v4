@@ -13,7 +13,7 @@ export class LandingProjectsComponent implements OnInit {
 
   constructor(private httpClient: HttpClient) { }
   ngOnInit() {
-    this.httpClient.get("assets/projects.json").subscribe(data => {
+    this.httpClient.get("assets/projects/projects.json").subscribe(data => {
       console.log(data);
       this.projectData = data;
     })
