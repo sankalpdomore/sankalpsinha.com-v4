@@ -1,7 +1,4 @@
-import {
-  Component,
-  OnInit
-} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 
 
@@ -14,9 +11,9 @@ import { HttpClient } from "@angular/common/http";
 export class LandingProjectsComponent implements OnInit {
   projectData: any = [];
 
-  constructor(private httpClient: HttpClient){}
-  ngOnInit(){
-    this.httpClient.get("assets/projects.json").subscribe(data =>{
+  constructor(private httpClient: HttpClient) { }
+  ngOnInit() {
+    this.httpClient.get("assets/projects.json").subscribe(data => {
       console.log(data);
       this.projectData = data;
     })

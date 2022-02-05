@@ -1,23 +1,5 @@
 import { Component, OnInit, AfterViewInit, Input, Type } from '@angular/core';
 
-interface Roles {
-  description: string
-}
-
-interface Project {
-  title: string;
-  description: string
-  image: string,
-  date: string,
-  workTitle: string,
-  roles: Roles,
-  randomFact: string,
-  teamSizePMs: string,
-  teamSizeDevs: string,
-  teamSizeQAs: string,
-  teamSizeDesigners: string
-}
-
 @Component({
   selector: 'component-projects-card',
   templateUrl: './projects-card.component.html',
@@ -32,4 +14,22 @@ export class ProjectsCardComponent implements OnInit {
   constructor() { }
   ngOnInit(): void { }
 
+}
+
+interface Roles {
+  description: string
+}
+
+interface Project {
+  projectTitle: string;
+  projectDescription: string
+  projectImage: string,
+  projectDate: string,
+  projectWorkTitle: string,
+  projectRoles: Roles,
+  projectRandomFact: string,
+  projectTeamSizePMs: string,
+  projectTeamSizeDevs: string,
+  projectTeamSizeQAs: string,
+  projectTeamSizeDesigners: string
 }
