@@ -8,10 +8,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  border: 1px solid var(--color-grey-ddd);
 }
 
 .projects-card-container-right-title-description {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .projects-card-title {
@@ -82,14 +83,16 @@
   border-radius: 12px;
 }
 
-.projects-card-container-right-meta-data-emoji {
+.projects-card-container-right-meta-data-random-fact-container-emoji {
   width: 16px;
-  top: -4px;
+  top: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
   position: relative;
   margin-right: 12px;
 }
 
-.projects-card-container-right-meta-data-random-fact-label {
+.projects-card-container-right-meta-data-random-fact-container-label {
   font-family: "IBM Plex Mono";
   font-weight: 600;
   font-size: 13px;
@@ -98,7 +101,7 @@
   margin-right: 8px;
 }
 
-.projects-card-container-right-meta-data-random-fact-text {
+.projects-card-container-right-meta-data-random-fact-container-text {
   font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 13px;
@@ -107,7 +110,7 @@
 }
 
 .team-size-label {
-  padding-right: 8px;
+  padding-right: 4px;
 }
 
 .projects-card-container-right-meta-data-url {
