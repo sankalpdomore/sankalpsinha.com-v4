@@ -1,17 +1,20 @@
 .navbar-container-parent {
   width: 100%;
+  background: var(--color-black-100);
 }
 
 .navbar {
-  padding: 12px;
-  margin-top: 16px;
   width: 90%;
   background: var(--color-dark-nav-background);
   backdrop-filter: blur(16px);
-  border-radius: 12px;
+  border-radius: var(--border-radius-infinite);
   line-height: 24px;
   z-index: 1000;
   max-width: 1200px;
+  padding: 12px;
+  /* margin-top: 16px; */
+  top: 20px;
+  position: relative;
 }
 
 .navbar > .container,
@@ -26,9 +29,9 @@
 
 .navbar-brand-logo {
   font-size: 24px;
-  padding: 8px 16px;
+  padding: 8px 24px;
   color: var(--color-dark-nav-button-text-default);
-  border-radius: 8px;
+  border-radius: var(--border-radius-20px);
 }
 
 .navbar-brand-logo:hover {
@@ -65,9 +68,9 @@
 
 .nav-link {
   color: var(--color-dark-nav-button-text-default);
-  margin-left: 16px;
-  border-radius: 8px;
-  padding: 8px 16px !important;
+  margin-left: 4px;
+  border-radius: var(--border-radius-20px);
+  padding: 8px 24px !important;
   background: none;
   font-size: 18px;
   font-weight: 500;
@@ -140,8 +143,8 @@
   }
 
   .navbar-toggler {
-    padding: 8px 16px;
-    border-radius: 8px;
+    padding: 8px 24px;
+    border-radius: var(--border-radius-20px);
   }
 
   .navbar-toggler:hover {

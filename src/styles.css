@@ -81,6 +81,7 @@
   --border-radius-8px: 8px;
   --border-radius-12px: 12px;
   --border-radius-20px: 20px;
+  --border-radius-infinite: 100px;
   --font-style-thin: 300;
   --font-style-regular: 400;
   --font-style-medium: 500;
@@ -112,6 +113,7 @@ p {
 }
 
 .common-page-container {
+  /* margin-top: -84px; */
   padding: 80px 0px 120px 0px;
   background: var(--color-light-paper);
 }

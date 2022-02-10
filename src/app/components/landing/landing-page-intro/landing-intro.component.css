@@ -5,11 +5,12 @@
   top: 0px;
   padding: 0px;
   background-color: var(--color-dark-background);
+  /* margin-top: -84px; */
 }
 
 .landing-intro-container-content {
   width: 100%;
-  padding: 164px 80px 80px 80px;
+  padding: 100px 80px 80px 80px;
   height: auto;
   max-width: 1360px;
 }

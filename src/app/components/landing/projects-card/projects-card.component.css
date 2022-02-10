@@ -109,3 +109,32 @@
 .team-size-label {
   padding-right: 8px;
 }
+
+.projects-card-container-right-meta-data-url {
+  font-family: "SS";
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-black-100);
+  width: 100%;
+  padding: 16px 20px;
+  margin-top: 24px;
+  background-color: var(--color-white-100);
+  border: 2px solid var(--color-grey-ccc);
+  text-align: center;
+  border-radius: 80px;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.projects-card-container-right-meta-data-url:hover {
+  color: var(--color-white-100);
+  background-color: var(--color-black-100);
+  border: 2px solid var(--color-black-100);
+}
+
+.fa-external-link-alt {
+  font-size: 13px;
+  padding-left: 8px;
+}
