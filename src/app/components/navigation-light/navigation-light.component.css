@@ -1,6 +1,7 @@
 .navbar-container-parent {
   width: 100%;
   background: var(--color-light-paper);
+  padding-top: 20px !important;
 }
 
 .navbar {
@@ -14,9 +15,6 @@
   max-width: 1200px;
   border: 1px solid var(--color-light-paper);
   padding: 12px;
-  /* margin-top: 16px; */
-  top: 20px;
-  position: relative;
 }
 
 .navbar > .container,
@@ -70,7 +68,6 @@
 
 .nav-link {
   color: var(--color-light-nav-button-text-default);
-  margin-left: 4px;
   border-radius: var(--border-radius-20px);
   padding: 8px 24px !important;
   background: none;

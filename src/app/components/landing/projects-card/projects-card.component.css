@@ -4,10 +4,10 @@
 }
 
 .projects-card-container-image {
-  height: 440px;
-  background-size: cover;
+  width: 100%;
+  background-size: contain;
   background-repeat: no-repeat;
-  border-radius: 20px;
+  border-radius: var(--border-radius-20px);
   border: 1px solid var(--color-grey-ddd);
 }
 
@@ -80,7 +80,7 @@
 .projects-card-container-right-meta-data-random-fact-container {
   background-color: var(--color-light-paper);
   padding: 12px 16px 12px 16px;
-  border-radius: 12px;
+  border-radius: var(--border-radius-12px);
 }
 
 .projects-card-container-right-meta-data-random-fact-container-emoji {
@@ -113,7 +113,7 @@
   padding-right: 4px;
 }
 
-.projects-card-container-right-meta-data-url {
+.projects-card-container-right-meta-data-url-active {
   font-family: "SS";
   font-size: 15px;
   font-weight: 500;
@@ -124,14 +124,14 @@
   background-color: var(--color-white-100);
   border: 2px solid var(--color-grey-ccc);
   text-align: center;
-  border-radius: 80px;
+  border-radius: var(--border-radius-infinite);
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-.projects-card-container-right-meta-data-url:hover {
+.projects-card-container-right-meta-data-url-active:hover {
   color: var(--color-white-100);
   background-color: var(--color-black-100);
   border: 2px solid var(--color-black-100);
@@ -140,4 +140,27 @@
 .fa-external-link-alt {
   font-size: 13px;
   padding-left: 8px;
+}
+
+.projects-card-container-right-meta-data-url-pending {
+  font-family: "SS";
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--color-grey-aaa);
+  width: 100%;
+  padding: 16px 20px;
+  margin-top: 28px;
+  background-color: var(--color-white-100);
+  border: 2px dashed var(--color-grey-ccc);
+  text-align: center;
+  border-radius: var(--border-radius-infinite);
+  cursor: not-allowed;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.fa-clock {
+  margin-right: 4px;
 }

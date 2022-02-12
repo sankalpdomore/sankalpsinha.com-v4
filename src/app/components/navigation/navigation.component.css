@@ -1,20 +1,18 @@
 .navbar-container-parent {
   width: 100%;
   background: var(--color-black-100);
+  padding-top: 20px !important;
 }
 
 .navbar {
   width: 90%;
   background: var(--color-dark-nav-background);
   backdrop-filter: blur(16px);
-  border-radius: var(--border-radius-infinite);
+  border-radius: var(--border-radius-28px);
   line-height: 24px;
   z-index: 1000;
   max-width: 1200px;
   padding: 12px;
-  /* margin-top: 16px; */
-  top: 20px;
-  position: relative;
 }
 
 .navbar > .container,
@@ -68,7 +66,6 @@
 
 .nav-link {
   color: var(--color-dark-nav-button-text-default);
-  margin-left: 4px;
   border-radius: var(--border-radius-20px);
   padding: 8px 24px !important;
   background: none;
@@ -196,7 +193,7 @@
   }
 
   .navbar-collapse {
-    padding: 12px 8px 8px 8px;
+    padding: 12px 4px 4px 4px;
   }
 
   .navbar-nav {

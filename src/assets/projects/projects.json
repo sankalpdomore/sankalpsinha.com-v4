@@ -18,7 +18,8 @@
     "projectTeamSizeDevs": "9 Devs,",
     "projectTeamSizeQAs": "3 QAs,",
     "projectTeamSizeDesigners": "1 Designer (me)",
-    "projectUrlDisplay": "hidden",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
     "projectUrl": "www.sellercrowd.com",
     "projectUrlLabel": "sellercrowd.com"
   },
@@ -39,6 +40,8 @@
     "projectTeamSizeDevs": "25 Devs,",
     "projectTeamSizeQAs": "8 QAs,",
     "projectTeamSizeDesigners": "6 Designers",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
     "projectUrl": "www.vwo.com",
     "projectUrlLabel": "vwo.com"
   },
@@ -59,6 +62,8 @@
     "projectRandomFactText": "The name Rooster came from the crowing of roosters every morning which wakes people up - annoying but have been directional & impactful over the ages, hence the name.",
     "projectTeamSizeDevs": "1 Developer,",
     "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
     "projectUrl": "chrome.google.com/webstore/detail/rooster-for-chrome/pimolnhbniceppehbgmibnbgcnhpkhfh",
     "projectUrlLabel": "Chrome webstore"
   },
@@ -78,6 +83,8 @@
     "projectRandomFactText": "Built this project with two of my developer friends, who’re also one of my best friends college.",
     "projectTeamSizeDevs": "2 Devs,",
     "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
     "projectUrl": "www.yesscss.com",
     "projectUrlLabel": "Yesscss.com"
   },
@@ -99,6 +106,8 @@
     "projectTeamSizeDevs": "2 Devs,",
     "projectTeamSizeQAs": "1 QA,",
     "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "none",
+    "projectUrlPending": "block",
     "projectUrl": "",
     "projectUrlLabel": "Adding prototype soon"
   },
@@ -119,6 +128,8 @@
     "projectTeamSizeDevs": "Development was outsourced,",
     "projectTeamSizeQAs": "2 QAs,",
     "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "none",
+    "projectUrlPending": "block",
     "projectUrl": "",
     "projectUrlLabel": "Adding prototype soon"
   }

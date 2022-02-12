@@ -72,7 +72,7 @@
   --color-light-nav-background: #ffffffcc;
   --color-light-nav-button-text-default: #555555;
   --color-light-nav-button-text-hover: #000000;
-  --color-light-nav-button-back-hover: rgba(0, 0, 0, 0.08);
+  --color-light-nav-button-back-hover: rgba(0, 0, 0, 0.04);
   --color-light-nav-button-text-active: #000000;
   --color-light-nav-button-back-active: rgba(0, 0, 0, 0.12);
   --box-shadow-light-card-small: 0px 4px 10px rgba(0, 0, 0, 0.04);
@@ -81,6 +81,7 @@
   --border-radius-8px: 8px;
   --border-radius-12px: 12px;
   --border-radius-20px: 20px;
+  --border-radius-28px: 28px;
   --border-radius-infinite: 100px;
   --font-style-thin: 300;
   --font-style-regular: 400;
@@ -113,8 +114,7 @@ p {
 }
 
 .common-page-container {
-  /* margin-top: -84px; */
-  padding: 80px 0px 120px 0px;
+  padding: 0px 0px 120px 0px;
   background: var(--color-light-paper);
 }
 
@@ -130,11 +130,12 @@ p {
   line-height: 50px;
   color: var(--color-black-100);
   text-align: center;
-  margin: 80px auto;
+  padding: 80px 0px;
+  margin-bottom: 0px;
 }
 
 .with-subheader {
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .common-page-sub-header {
@@ -294,17 +295,17 @@ li > .common-body-text-16-bold {
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
   .common-page-container {
-    padding: 90px 20px !important;
+    padding: 0px 20px !important;
   }
 
   .common-page-header-h1 {
     font-size: 34px;
     line-height: 42px;
-    margin: 40px auto;
+    padding: 48px 0px 40px 0px;
   }
 
   .with-subheader {
-    margin-bottom: 12px;
+    padding-bottom: 12px;
   }
 
   .common-page-sub-header {

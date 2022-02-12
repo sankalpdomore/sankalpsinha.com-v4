@@ -1,7 +1,6 @@
 <div class="row projects-card-container">
     <div class="col-5 projects-card-container-left">
-        <div class="projects-card-container-image" [ngStyle]="{'background-image': 'url(\''+ data.projectImage + '\')'}">
-        </div>
+        <img class="projects-card-container-image" src="{{data.projectImage}}">
     </div>
     <div class="col-7 projects-card-container-right">
         <div class="col-12">
@@ -65,11 +64,17 @@
                 </div>
                 <div [ngStyle]="{'display': data.projectUrlDisplay}">
                     <a href='http://{{data.projectUrl}}' target="_blank" style="text-decoration: none;">
-                        <div class="projects-card-container-right-meta-data-url">
+                        <div class="projects-card-container-right-meta-data-url-active">
                             {{data.projectUrlLabel}}
                             <i class="fas fa-external-link-alt"></i>
                         </div>
                     </a>
+                </div>
+                <div [ngStyle]="{'display': data.projectUrlPending}">
+                    <div class="projects-card-container-right-meta-data-url-pending">
+                        <i class="far fa-clock"></i>
+                        Adding prototype link soon
+                    </div>
                 </div>
             </div>
         </div>

@@ -34,6 +34,7 @@ interface Project {
   projectTeamSizeQAs: string,
   projectTeamSizeDesigners: string,
   projectUrlDisplay: string,
+  projectUrlPending: string,
   projectUrl: string,
   projectUrlLabel: string,
 }

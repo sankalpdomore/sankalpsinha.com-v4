@@ -16,7 +16,7 @@
 }
 
 .landing-intro-container-content-pusher {
-  padding-left: 60px;
+  padding-left: 40px;
 }
 
 .landing-intro-left-sankalp-face {
@@ -28,7 +28,7 @@
 .landing-intro-right {
   padding-left: 80px;
   padding-top: 8px;
-  padding-right: 40px;
+  padding-right: 30px;
 }
 
 .landing-intro-right-sankalp-name {
@@ -83,13 +83,19 @@
 .landing-intro-right-currently-container-items-icon-job {
   width: 18px;
   margin-right: 12px;
-  margin-top: -3px;
+  margin-top: -2px;
 }
 
 .landing-intro-right-currently-container-items-icons-location {
   width: 18px;
   margin-right: 12px;
   margin-top: -6px;
+}
+
+.landing-intro-right-currently-container-items-icons-email {
+  width: 18px;
+  margin-right: 12px;
+  margin-top: -4px;
 }
 
 .landing-intro-right-currently-container-items-text {
@@ -233,7 +239,7 @@
 /* Between Large and Medium devices (desktops, tablets) */
 @media (min-width: 991px) and (max-width: 1200px) {
   .landing-intro-container-content {
-    padding: 148px 60px 80px 60px;
+    padding: 104px 60px 80px 60px;
   }
 
   .landing-intro-container-content-pusher {
@@ -256,7 +262,7 @@
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
   .landing-intro-container-content {
-    padding: 148px 60px 80px 60px;
+    padding: 100px 60px 80px 60px;
   }
 
   .landing-intro-container-content-pusher {
@@ -300,7 +306,7 @@
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 767px) {
   .landing-intro-container-content {
-    padding: 112px 20px 40px 20px;
+    padding: 80px 20px 40px 20px;
   }
 
   .landing-intro-left-sankalp-face {
