@@ -7,9 +7,8 @@
   font-size: 46px;
   font-weight: 600;
   line-height: 58px;
-  /* word-spacing: 2px; */
   letter-spacing: -0.01em;
-  margin: 20px auto 8px auto;
+  margin: 20px auto 0px auto;
 }
 
 .common-page-header-h1 span {
@@ -29,6 +28,10 @@
 
 .landing-projects-section-container {
   padding-bottom: 140px;
+}
+
+.landing-projects-section-container:last-child {
+  padding-bottom: 0px;
 }
 
 /*////////////////////////*/

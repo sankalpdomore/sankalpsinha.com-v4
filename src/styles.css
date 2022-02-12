@@ -295,7 +295,7 @@ li > .common-body-text-16-bold {
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
   .common-page-container {
-    padding: 0px 20px !important;
+    padding: 0px 20px 40px 20px !important;
   }
 
   .common-page-header-h1 {

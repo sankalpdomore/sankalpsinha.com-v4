@@ -8,13 +8,13 @@
   width: 90%;
   background: var(--color-light-nav-background);
   backdrop-filter: blur(16px);
-  box-shadow: var(--box-shadow-light-nav);
   border-radius: var(--border-radius-infinite);
   line-height: 24px;
   z-index: 1000;
   max-width: 1200px;
-  border: 1px solid var(--color-light-paper);
   padding: 12px;
+  box-shadow: var(--box-shadow-light-nav);
+  border: 1px solid var(--color-light-paper);
 }
 
 .navbar > .container,
@@ -31,7 +31,7 @@
   font-size: 24px;
   padding: 8px 24px;
   color: var(--color-light-nav-button-text-default);
-  border-radius: var(--border-radius-20px);
+  border-radius: var(--border-radius-infinite);
 }
 
 .navbar-brand-logo:hover {
@@ -68,7 +68,7 @@
 
 .nav-link {
   color: var(--color-light-nav-button-text-default);
-  border-radius: var(--border-radius-20px);
+  border-radius: var(--border-radius-infinite);
   padding: 8px 24px !important;
   background: none;
   font-size: 18px;
@@ -90,7 +90,8 @@
 }
 
 .bi-twitter,
-.bi-chat-square-quote-fill {
+.bi-chat-square-quote-fill,
+.bi-camera-fill {
   font-size: 20px;
 }
 
@@ -105,8 +106,12 @@
 }
 
 .bi-camera-fill {
-  font-size: 20px;
   margin-right: 5px;
+}
+
+.fa-pencil-ruler {
+  font-size: 18px;
+  margin-right: 6px;
 }
 
 /*////////////////////////*/
@@ -130,6 +135,11 @@
   .navbar {
     width: 100%;
     padding: 8px 8px;
+    border-radius: var(--border-radius-28px);
+  }
+
+  .navbar-brand-logo {
+    padding: 8px 20px;
   }
 
   .navbar-brand-logo-label {
@@ -137,8 +147,8 @@
   }
 
   .navbar-toggler {
-    padding: 8px 24px;
-    border-radius: var(--border-radius-20px);
+    padding: 8px 20px;
+    border-radius: var(--border-radius-28px);
   }
 
   .navbar-toggler:hover {
@@ -190,7 +200,7 @@
   }
 
   .navbar-collapse {
-    padding: 12px 8px 8px 8px;
+    padding: 12px 4px 4px 4px;
   }
 
   .navbar-nav {
