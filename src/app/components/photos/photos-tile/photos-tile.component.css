@@ -14,7 +14,7 @@
 }
 
 .photos-container-tile-name {
-  font-family: "Exo 2", sans-serif;
+  font-family: var(--font-family-header);
   font-size: 16px;
   font-weight: 700;
   color: var(--color-grey-ddd);
@@ -31,7 +31,7 @@
 .photos-container-tile-description,
 .photos-container-tile-location,
 .photos-container-tile-date-taken {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 14px;
   font-weight: 300;
   color: var(--color-grey-666);

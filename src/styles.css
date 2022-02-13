@@ -1,10 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
 @import url("~font-awesome/css/font-awesome.css");
+@import url("./assets/font-awesome/css/all.css");
 
 @font-face {
   /* Thin */
@@ -49,6 +47,7 @@
   --color-grey-ccc: #cccccc;
   --color-grey-aaa: #aaaaaa;
   --color-grey-999: #999999;
+  --color-grey-888: #888888;
   --color-grey-777: #777777;
   --color-grey-666: #666666;
   --color-grey-555: #555555;
@@ -71,7 +70,7 @@
   --color-light-nav-background: #ffffffcc;
   --color-light-nav-button-text-default: #555555;
   --color-light-nav-button-text-hover: #000000;
-  --color-light-nav-button-back-hover: rgba(0, 0, 0, 0.08);
+  --color-light-nav-button-back-hover: rgba(0, 0, 0, 0.04);
   --color-light-nav-button-text-active: #000000;
   --color-light-nav-button-back-active: rgba(0, 0, 0, 0.12);
   --box-shadow-light-card-small: 0px 4px 10px rgba(0, 0, 0, 0.04);
@@ -80,16 +79,17 @@
   --border-radius-8px: 8px;
   --border-radius-12px: 12px;
   --border-radius-20px: 20px;
-  --font-style-thin: 300;
-  --font-style-regular: 400;
-  --font-style-medium: 500;
-  --font-style-bold: 600;
-  --font-style-extrabold: 700;
+  --border-radius-28px: 28px;
+  --border-radius-infinite: 100px;
+  --font-family-body: "SS";
+  --font-family-header: "Work Sans", sans-serif;
+  --font-family-nav: "Work Sans", sans-serif;
+  --font-family-header-letter-spacing: -0.4px;
 }
 
 body,
 div {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
@@ -111,33 +111,35 @@ p {
 }
 
 .common-page-container {
-  padding: 80px 0px 120px 0px;
+  padding: 0px 0px 120px 0px;
   background: var(--color-light-paper);
 }
 
 .content-container {
-  max-width: 800px;
+  max-width: 1000px;
   padding: 0px !important;
 }
 
 .common-page-header-h1 {
-  font-family: "Exo 2", sans-serif;
-  font-weight: 800;
+  font-family: var(--font-family-header);
   font-size: 42px;
+  font-weight: 800;
+  letter-spacing: var(--font-family-header-letter-spacing);
   line-height: 50px;
   color: var(--color-black-100);
   text-align: center;
-  margin: 80px auto;
+  padding: 80px 0px;
+  margin-bottom: 0px;
 }
 
 .with-subheader {
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .common-page-sub-header {
-  font-family: "SS";
-  font-weight: 300;
+  font-family: var(--font-family-body);
   font-size: 16px;
+  font-weight: 300;
   line-height: 24px;
   color: var(--color-grey-666);
   text-align: center;
@@ -147,9 +149,10 @@ p {
 }
 
 .common-section-header-h3 {
-  font-family: "Exo 2", sans-serif;
-  font-weight: 800;
+  font-family: var(--font-family-header);
   font-size: 24px;
+  font-weight: 700;
+  letter-spacing: var(--font-family-header-letter-spacing);
   line-height: 36px;
   color: var(--color-black-100);
   text-align: left;
@@ -157,7 +160,7 @@ p {
 }
 
 .common-body-text-18-bold {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
@@ -167,7 +170,7 @@ p {
 }
 
 .common-body-text-16-bold {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -176,7 +179,7 @@ p {
 }
 
 .common-body-text-16-regular {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -200,7 +203,7 @@ p {
 }
 
 .common-img-container-img-label {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -230,7 +233,7 @@ li > .common-body-text-16-bold {
 }
 
 .qouting {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;
@@ -291,17 +294,17 @@ li > .common-body-text-16-bold {
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
   .common-page-container {
-    padding: 90px 20px !important;
+    padding: 0px 20px 40px 20px !important;
   }
 
   .common-page-header-h1 {
     font-size: 34px;
     line-height: 42px;
-    margin: 40px auto;
+    padding: 48px 0px 40px 0px;
   }
 
   .with-subheader {
-    margin-bottom: 12px;
+    padding-bottom: 12px;
   }
 
   .common-page-sub-header {

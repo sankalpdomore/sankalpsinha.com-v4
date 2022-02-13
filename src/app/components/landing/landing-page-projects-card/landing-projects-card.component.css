@@ -1,0 +1,184 @@
+.projects-card-container-right {
+  padding-left: 64px;
+  padding-top: 4px;
+}
+
+.projects-card-container-image {
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: var(--border-radius-20px);
+  border: 1px solid var(--color-grey-ddd);
+}
+
+.projects-card-container-right-title-description {
+  margin-bottom: 12px;
+}
+
+.projects-card-title {
+  font-family: var(--font-family-header);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: var(--font-family-header-letter-spacing);
+}
+
+.projects-card-title-right-line {
+  font-family: var(--font-family-body);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0px;
+  color: var(--color-grey-aaa);
+  letter-spacing: -2px;
+  padding-left: 8px;
+  padding-right: 12px;
+  position: relative;
+  top: -4px;
+}
+
+.projects-card-description {
+  font-family: var(--font-family-body);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--color-grey-aaa);
+}
+
+.projects-card-container-right-meta-data {
+  margin-bottom: 8px;
+}
+
+.projects-card-container-right-meta-data-icons {
+  width: 14px;
+  top: -3px;
+  position: relative;
+  margin-right: 8px;
+}
+
+.icon-project-date {
+  font-size: 14px;
+  top: -2px;
+  position: relative;
+  color: var(--color-grey-888);
+  margin-right: 9px;
+}
+
+.icon-project-title {
+  width: 14px;
+  top: -3px;
+}
+
+.icon-project-role {
+  width: 14px;
+  top: -4px;
+}
+
+.icon-project-team {
+  font-size: 13px;
+  top: -3px;
+  left: 2px;
+  position: relative;
+  color: var(--color-grey-777);
+  margin-right: 11px;
+}
+
+.projects-card-container-right-meta-data-text {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  color: var(--color-grey-777);
+}
+
+.projects-card-container-right-meta-data-random-fact-text {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  color: var(--color-grey-777);
+}
+
+.projects-card-container-right-meta-data-random-fact-pusher {
+  margin: 16px 0px 16px 22px;
+}
+
+.projects-card-container-right-meta-data-random-fact-container {
+  background-color: var(--color-light-paper);
+  padding: 12px 16px 12px 16px;
+  border-radius: var(--border-radius-12px);
+}
+
+.projects-card-container-right-meta-data-random-fact-container-emoji {
+  width: 16px;
+  top: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin-right: 12px;
+}
+
+.projects-card-container-right-meta-data-random-fact-container-label {
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--color-black-100);
+  margin-right: 8px;
+}
+
+.projects-card-container-right-meta-data-random-fact-container-text {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--color-grey-666);
+}
+
+.team-size-label {
+  padding-right: 4px;
+}
+
+.projects-card-container-right-meta-data-url-active {
+  font-family: var(--font-family-body);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-black-100);
+  width: 100%;
+  padding: 16px 20px;
+  margin-top: 24px;
+  background-color: var(--color-white-100);
+  border: 2px solid var(--color-grey-ccc);
+  text-align: center;
+  border-radius: var(--border-radius-infinite);
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.projects-card-container-right-meta-data-url-active:hover {
+  color: var(--color-white-100);
+  background-color: var(--color-black-100);
+  border: 2px solid var(--color-black-100);
+}
+
+.fa-external-link-alt {
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+.projects-card-container-right-meta-data-url-pending {
+  font-family: var(--font-family-body);
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--color-grey-aaa);
+  width: 100%;
+  padding: 16px 20px;
+  margin-top: 28px;
+  background-color: var(--color-white-100);
+  border: 2px dashed var(--color-grey-ccc);
+  text-align: center;
+  border-radius: var(--border-radius-infinite);
+  cursor: not-allowed;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}

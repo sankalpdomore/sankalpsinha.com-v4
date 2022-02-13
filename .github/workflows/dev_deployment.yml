@@ -6,37 +6,37 @@ name: Deployment to DEV
 on:
   # Triggers the workflow on push or pull request events but only for the develop branch
   push:
-    branches: [ develop ]
+    branches: [develop]
 jobs:
   build:
     # using Ubuntu
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1 #this installs node and npm for us
-      with:
-        node-version: '14.x'
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1 #this installs node and npm for us
+        with:
+          node-version: "14.x"
 
-    - uses: actions/cache@v1 # this allows for re-using node_modules caching, making builds a bit faster.
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
+      - uses: actions/cache@v1 # this allows for re-using node_modules caching, making builds a bit faster.
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
-    - run: npm install
-    - run: npm install -g @angular/cli > /dev/null
-    - run: ng build --prod
+      - run: npm install
+      - run: npm install -g @angular/cli > /dev/null
+      - run: ng build --prod
 
-    - name: Copy build file via SSH
-      uses: appleboy/scp-action@master
-      env:
-        HOST: 143.198.226.142
-        USERNAME: root
-        PORT: 22
-        PASSWORD: ${{ secrets.DROPLET_SERVER_PASSWORD }}
-      with:
-        source: "./dist/sankalpsinhaportfolio/"
-        target: "/home/sankalpdigitalocean/personalwebsitev4/develop"
-        strip_components: 3 # this is important
+      - name: Copy build file via SSH
+        uses: appleboy/scp-action@master
+        env:
+          HOST: 143.198.226.142
+          USERNAME: root
+          PORT: 22
+          PASSWORD: ${{ secrets.DROPLET_SERVER_PASSWORD }}
+        with:
+          source: "./dist/sankalpsinhaportfolio/"
+          target: "/home/sankalpdigitalocean/personalwebsitev4/develop"
+          strip_components: 3 # this is important

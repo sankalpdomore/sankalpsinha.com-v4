@@ -1,0 +1,136 @@
+[
+  {
+    "projectTitle": "SellerCrowd",
+    "projectDescription": "Designing a social platform to help salespeople exchange insights anonymously & hit sales goals faster.",
+    "projectImage": "../assets/projects/project-tiles/sellercrowd.png",
+    "projectDate": "Jan '18 - Oct '21",
+    "projectWorkTitle": "Lead Product Designer",
+    "projectRoles": 
+    [
+      {"description": "I was hired by SellerCrowd during a time when the code + design wasn’t scalable. The company was looking to redesign the product from scratch."},
+      {"description": "Understood user problems by looking at user feedback, talking to users, & analyzing user behavior with tools like Smartlook."},
+      {"description": "Working cross-functionally to define product strategy & roadmaps in collaboration with the Product & Engg. team - while keeping in mind the user and business goals and trying to strike a balance between the two."},
+      {"description": "Designing + prototyping solutions and ensuring pixel-perfect implementation of the interface & experience in collaboration with the QA & Engg. team."}
+    ],
+    "projectRandomFactEmoji": "../assets/projects/emoji-plane.png",
+    "projectRandomFactText": "SellerCrowd was my first remote job and my first day with the company was at a company-wide yearly meetup in Madrid, Spain 🇪🇸",
+    "projectTeamSizePMs": "2 PMs,",
+    "projectTeamSizeDevs": "9 Devs,",
+    "projectTeamSizeQAs": "3 QAs,",
+    "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
+    "projectUrl": "www.sellercrowd.com",
+    "projectUrlLabel": "sellercrowd.com"
+  },
+  {
+    "projectTitle": "VWO",
+    "projectDescription": "Designing a better A/B testing product to help companies conduct successful A/B tests across a customer’s lifecycle.",
+    "projectImage": "../assets/projects/project-tiles/vwo.png",
+    "projectDate": "Jun ’15 - Sep ‘16",
+    "projectWorkTitle": "Product Designer",
+    "projectRoles": 
+    [
+      {"description": "Collaborated with the Product team to define UX of a few core features like Mobile A/B testing, SmartStats, & Knowledgebase of the product. "},
+      {"description": "Designed and prototyped interface solutions. Dogfooding VWO’s robust testing system to A/B test multiple product experiments."}
+    ],
+    "projectRandomFactEmoji": "../assets/projects/emoji-write.png",
+    "projectRandomFactText": "During my time at Wingify, I started initiatives like weekly design critique sessions, Dribbble posts, and a monthly blog writeup of our learnings - to help myself and the design team grow professionally.",
+    "projectTeamSizePMs": "4 PMs,",
+    "projectTeamSizeDevs": "25 Devs,",
+    "projectTeamSizeQAs": "8 QAs,",
+    "projectTeamSizeDesigners": "6 Designers",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
+    "projectUrl": "www.vwo.com",
+    "projectUrlLabel": "vwo.com"
+  },
+  {
+    "projectTitle": "Rooster",
+    "projectDescription": "A fun take on helping people  stay productive by nudging them when they lose focus; using Chrome’s in-app push-notifications.",
+    "projectImage": "../assets/projects/project-tiles/rooster.png",
+    "projectDate": "June ’17 - Feb ‘19",
+    "projectWorkTitle": "Co-maker / Product Designer",
+    "projectRoles": 
+    [
+      {"description": "Collaborated with a developer friend & acted as a Product Manager to define UX of the product, road mapping, planning the initial launch, and marketing plan to gain 1st wave of users."},
+      {"description": "Designed 100% UI of the product + Hand-coded the landing page."},
+      {"description": "Wrote copy for the product & marketing pages."},
+      {"description": "Launched and took it to active 2,000+ users."}
+    ],
+    "projectRandomFactEmoji": "../assets/projects/emoji-rooster.png",
+    "projectRandomFactText": "The name Rooster came from the crowing of roosters every morning which wakes people up - annoying but have been directional & impactful over the ages, hence the name.",
+    "projectTeamSizeDevs": "1 Developer,",
+    "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
+    "projectUrl": "chrome.google.com/webstore/detail/rooster-for-chrome/pimolnhbniceppehbgmibnbgcnhpkhfh",
+    "projectUrlLabel": "Chrome webstore"
+  },
+  {
+    "projectTitle": "YessCSS",
+    "projectDescription": "Rethinking how anyone can build basic UI components easily & intuitively for the web; by introducing visual controls for CSS.",
+    "projectImage": "../assets/projects/project-tiles/yesscss.png",
+    "projectDate": "Jan ’17 - Dec ‘17",
+    "projectWorkTitle": "Co-maker / Product Designer",
+    "projectRoles": 
+    [
+      {"description": "Primarily devised the functionality and the UX of the tool & collaborated with two developer friends to build it."},
+      {"description": "Leveraged the network of my dev friends to do initial user testing."},
+      {"description": "Contributed to front-end code to match designs."}
+    ],
+    "projectRandomFactEmoji": "../assets/projects/emoji-joystick.png",
+    "projectRandomFactText": "Built this project with two of my developer friends, who’re also one of my best friends college.",
+    "projectTeamSizeDevs": "2 Devs,",
+    "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
+    "projectUrl": "www.yesscss.com",
+    "projectUrlLabel": "Yesscss.com"
+  },
+  {
+    "projectTitle": "ShelfJoy",
+    "projectDescription": "Designing a new way of discovering books in different genres with the concept of  “bookshelves”.",
+    "projectImage": "../assets/projects/project-tiles/shelfjoy.png",
+    "projectDate": "Oct ’16 - Sept’17",
+    "projectWorkTitle": "Product Designer",
+    "projectRoles": 
+    [
+      {"description": "Worked with the Product Manager to define the MVP’s user experience."},
+      {"description": "Conducted frequent user interviews based on JTBD’s framework."},
+      {"description": "Designed + launched a polished version of the product with features like shelf pages (collection of books), shelf editor (to edit added books), user profile page, settings page, discovery & search page, login & signup flow, landing pages, and email templates."}
+    ],
+    "projectRandomFactEmoji": "../assets/projects/emoji-books.png",
+    "projectRandomFactText": "Our product manager did a great job marketing the product with a book-shelf photo aggregator account on Instagram, which reached around 50k followers.",
+    "projectTeamSizePMs": "1 PM,",
+    "projectTeamSizeDevs": "2 Devs,",
+    "projectTeamSizeQAs": "1 QA,",
+    "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "none",
+    "projectUrlPending": "block",
+    "projectUrl": "",
+    "projectUrlLabel": "Adding prototype soon"
+  },
+  {
+    "projectTitle": "Upquire",
+    "projectDescription": "Designing an intelligent marketing automation platform to help app developers interact with their users in a fun & engaging way.",
+    "projectImage": "../assets/projects/project-tiles/upquire.png",
+    "projectDate": "Aug ’15 - Nov ‘15",
+    "projectWorkTitle": "Product Designer",
+    "projectRoles": 
+    [
+      {"description": "Designed & prototyped the UI for the MVP (a web-based app) with features like campaign dashboard, campaign creation flow, campaign results page, conversations dashboard, segmenting dashboard, creating segments flow."},
+      {"description": "Collaborated with an external development agency to get this app developed. I was involved in every step of the development cycle to ensure well-executed & intended UX and pixel-perfect front-end."}
+    ],
+    "projectRandomFactEmoji": "../assets/projects/emoji-cry.png",
+    "projectRandomFactText": "We suffered heavily in developing the MVP because our outsourced agency was from Chennai, India; whose whole business was devasted as the south of India saw  heavy flooding during 2015.",
+    "projectTeamSizePMs": "2 PMs,",
+    "projectTeamSizeDevs": "Development was outsourced,",
+    "projectTeamSizeQAs": "2 QAs,",
+    "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "none",
+    "projectUrlPending": "block",
+    "projectUrl": "",
+    "projectUrlLabel": "Adding prototype soon"
+  }
+]

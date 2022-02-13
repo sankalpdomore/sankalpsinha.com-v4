@@ -9,13 +9,13 @@
 
 .landing-intro-container-content {
   width: 100%;
-  padding: 164px 80px 80px 80px;
+  padding: 72px 80px 80px 80px;
   height: auto;
   max-width: 1360px;
 }
 
 .landing-intro-container-content-pusher {
-  padding-left: 60px;
+  padding-left: 40px;
 }
 
 .landing-intro-left-sankalp-face {
@@ -25,22 +25,22 @@
 }
 
 .landing-intro-right {
-  padding-left: 80px;
+  padding-left: 60px;
   padding-top: 8px;
   padding-right: 40px;
 }
 
 .landing-intro-right-sankalp-name {
-  font-family: "SS";
+  font-family: var(--font-family-header);
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--color-white-100);
-  letter-spacing: -1px;
+  letter-spacing: var(--font-family-header-letter-spacing);
   margin-bottom: 0px;
 }
 
 .landing-intro-right-line {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 20px;
   line-height: 0px;
   font-weight: 400;
@@ -60,7 +60,7 @@
 }
 
 .landing-intro-right-currently-label {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
@@ -82,13 +82,19 @@
 .landing-intro-right-currently-container-items-icon-job {
   width: 18px;
   margin-right: 12px;
-  margin-top: -3px;
+  margin-top: -2px;
 }
 
 .landing-intro-right-currently-container-items-icons-location {
   width: 18px;
   margin-right: 12px;
   margin-top: -6px;
+}
+
+.landing-intro-right-currently-container-items-icons-email {
+  width: 18px;
+  margin-right: 12px;
+  margin-top: -4px;
 }
 
 .landing-intro-right-currently-container-items-text {
@@ -232,7 +238,7 @@
 /* Between Large and Medium devices (desktops, tablets) */
 @media (min-width: 991px) and (max-width: 1200px) {
   .landing-intro-container-content {
-    padding: 148px 60px 80px 60px;
+    padding: 104px 60px 80px 60px;
   }
 
   .landing-intro-container-content-pusher {
@@ -255,10 +261,14 @@
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
   .landing-intro-container-content {
-    padding: 148px 60px 80px 60px;
+    padding: 100px 60px 80px 60px;
   }
 
   .landing-intro-container-content-pusher {
+    padding-left: 0px;
+  }
+
+  .landing-intro-left {
     padding-left: 0px;
   }
 
@@ -277,7 +287,31 @@
   }
 
   .landing-intro-right-description {
+    font-size: 16px;
+    line-height: 24px;
     padding-top: 12px;
+  }
+
+  .landing-intro-right-currently-label {
+    margin-top: 52px;
+  }
+
+  .landing-intro-right-currently-container-items {
+    margin-bottom: 12px;
+  }
+
+  .landing-intro-right-currently-container-items-icons-email {
+    margin-top: -6px;
+  }
+
+  .landing-intro-right-currently-container-items-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .landing-intro-right-currently-new-role {
+    font-size: 16px;
+    width: auto;
   }
 
   .landing-intro-works-featured-label {
@@ -299,7 +333,7 @@
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 767px) {
   .landing-intro-container-content {
-    padding: 112px 20px 40px 20px;
+    padding: 48px 20px 40px 20px;
   }
 
   .landing-intro-left-sankalp-face {

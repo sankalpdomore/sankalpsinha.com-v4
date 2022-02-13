@@ -1,18 +1,19 @@
 .navbar-container-parent {
   width: 100%;
+  background: var(--color-light-paper);
+  padding-top: 20px !important;
 }
 
 .navbar {
-  padding: 12px;
-  margin-top: 16px;
-  width: 90%;
+  width: 100%;
   background: var(--color-light-nav-background);
   backdrop-filter: blur(16px);
-  box-shadow: var(--box-shadow-light-nav);
-  border-radius: 12px;
+  border-radius: var(--border-radius-infinite);
   line-height: 24px;
   z-index: 1000;
   max-width: 1200px;
+  padding: 12px;
+  box-shadow: var(--box-shadow-light-nav);
   border: 1px solid var(--color-light-paper);
 }
 
@@ -28,9 +29,9 @@
 
 .navbar-brand-logo {
   font-size: 24px;
-  padding: 8px 16px;
+  padding: 8px 24px;
   color: var(--color-light-nav-button-text-default);
-  border-radius: 8px;
+  border-radius: var(--border-radius-infinite);
 }
 
 .navbar-brand-logo:hover {
@@ -48,14 +49,14 @@
 }
 
 .navbar-brand-logo-label {
+  font-family: var(--font-family-nav);
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
   visibility: hidden;
   top: -1px;
   position: relative;
   opacity: 0;
-  font-family: SS;
-  font-weight: 500;
-  font-size: 18px;
-  font-style: normal;
   margin-left: 8px;
 }
 
@@ -66,13 +67,13 @@
 }
 
 .nav-link {
-  color: var(--color-light-nav-button-text-default);
-  margin-left: 16px;
-  border-radius: 8px;
-  padding: 8px 16px !important;
-  background: none;
+  font-family: var(--font-family-nav);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
+  color: var(--color-light-nav-button-text-default);
+  border-radius: var(--border-radius-infinite);
+  padding: 8px 24px !important;
+  background: none;
 }
 
 .nav-link:hover {
@@ -90,7 +91,8 @@
 }
 
 .bi-twitter,
-.bi-chat-square-quote-fill {
+.bi-chat-square-quote-fill,
+.bi-camera-fill {
   font-size: 20px;
 }
 
@@ -105,8 +107,12 @@
 }
 
 .bi-camera-fill {
-  font-size: 20px;
   margin-right: 5px;
+}
+
+.fa-pencil-ruler {
+  font-size: 18px;
+  margin-right: 6px;
 }
 
 /*////////////////////////*/
@@ -128,8 +134,12 @@
   }
 
   .navbar {
-    width: 100%;
     padding: 8px 8px;
+    border-radius: var(--border-radius-28px);
+  }
+
+  .navbar-brand-logo {
+    padding: 8px 20px;
   }
 
   .navbar-brand-logo-label {
@@ -137,8 +147,8 @@
   }
 
   .navbar-toggler {
-    padding: 8px 16px;
-    border-radius: 8px;
+    padding: 8px 20px;
+    border-radius: var(--border-radius-28px);
   }
 
   .navbar-toggler:hover {
@@ -164,8 +174,8 @@
   }
 
   .navbar-toggler-label {
-    font-family: SS;
-    font-weight: 500;
+    font-family: var(--font-family-nav);
+    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: var(--color-light-nav-button-text-default);
@@ -190,7 +200,7 @@
   }
 
   .navbar-collapse {
-    padding: 12px 8px 8px 8px;
+    padding: 12px 4px 4px 4px;
   }
 
   .navbar-nav {
