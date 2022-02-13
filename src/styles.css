@@ -81,15 +81,10 @@
   --border-radius-20px: 20px;
   --border-radius-28px: 28px;
   --border-radius-infinite: 100px;
-  --font-style-thin: 300;
-  --font-style-regular: 400;
-  --font-style-medium: 500;
-  --font-style-bold: 600;
-  --font-style-extrabold: 700;
   --font-family-body: "SS";
-  /* --font-family-header: "Exo 2", sans-serif; */
   --font-family-header: "Work Sans", sans-serif;
   --font-family-nav: "Work Sans", sans-serif;
+  --font-family-header-letter-spacing: -0.4px;
 }
 
 body,
@@ -127,8 +122,9 @@ p {
 
 .common-page-header-h1 {
   font-family: var(--font-family-header);
-  font-weight: 800;
   font-size: 42px;
+  font-weight: 800;
+  letter-spacing: var(--font-family-header-letter-spacing);
   line-height: 50px;
   color: var(--color-black-100);
   text-align: center;
@@ -142,8 +138,8 @@ p {
 
 .common-page-sub-header {
   font-family: var(--font-family-body);
-  font-weight: 300;
   font-size: 16px;
+  font-weight: 300;
   line-height: 24px;
   color: var(--color-grey-666);
   text-align: center;
@@ -154,8 +150,9 @@ p {
 
 .common-section-header-h3 {
   font-family: var(--font-family-header);
-  font-weight: 700;
   font-size: 24px;
+  font-weight: 700;
+  letter-spacing: var(--font-family-header-letter-spacing);
   line-height: 36px;
   color: var(--color-black-100);
   text-align: left;

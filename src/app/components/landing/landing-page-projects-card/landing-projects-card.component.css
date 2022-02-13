@@ -54,14 +54,31 @@
   margin-right: 8px;
 }
 
+.icon-project-date {
+  font-size: 14px;
+  top: -2px;
+  position: relative;
+  color: var(--color-grey-888);
+  margin-right: 9px;
+}
+
 .icon-project-title {
-  width: 16px;
+  width: 14px;
   top: -3px;
 }
 
 .icon-project-role {
-  width: 16px;
+  width: 14px;
   top: -4px;
+}
+
+.icon-project-team {
+  font-size: 13px;
+  top: -3px;
+  left: 2px;
+  position: relative;
+  color: var(--color-grey-777);
+  margin-right: 11px;
 }
 
 .projects-card-container-right-meta-data-text {
@@ -164,8 +181,4 @@
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-}
-
-.fa-clock {
-  margin-right: 4px;
 }
