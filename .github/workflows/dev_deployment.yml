@@ -6,7 +6,7 @@ name: Deployment to DEV
 on:
   # Triggers the workflow on push or pull request events but only for the develop branch
   push:
-    branches: [feature-project-section-2]
+    branches: [develop]
 jobs:
   build:
     # using Ubuntu
