@@ -18,6 +18,7 @@ import { PhotosComponent } from './components/photos/photos-page/photos-page.com
 import { PhotosTileComponent } from './components/photos/photos-tile/photos-tile.component';
 import { PhotosModalComponent } from './components/photos/photos-modal/photos-modal.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   //Declare all the components that you create in the app here//
@@ -39,7 +40,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [],
   //tells angular to search for index.html file to look for this AppComponent//
