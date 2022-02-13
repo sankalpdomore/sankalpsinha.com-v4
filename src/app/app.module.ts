@@ -1,7 +1,6 @@
 //This file defines the features of the angular app//
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-//Importing the app component we created in the app.component.ts file//
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 //Import anything new that you've used somewhere else so the typescript knows where to look//
@@ -10,8 +9,8 @@ import { NavLightComponent } from './components/navigation-light/navigation-ligh
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingpageComponent } from './components/landing/landing-page/landing-page.component';
 import { LandingIntroComponent } from './components/landing/landing-page-intro/landing-intro.component';
-import { LandingProjectsComponent } from './components/landing/projects-section/landing-projects.component';
-import { ProjectsCardComponent } from './components/landing/projects-card/projects-card.component';
+import { LandingProjectsComponent } from './components/landing/landing-page-projects/landing-projects.component';
+import { ProjectsCardComponent } from './components/landing/landing-page-projects-card/landing-projects-card.component';
 import { MobiletempmessageComponent } from './components/mobiletempmessage/mobiletempmessage.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 import { PhotosComponent } from './components/photos/photos-page/photos-page.component';
