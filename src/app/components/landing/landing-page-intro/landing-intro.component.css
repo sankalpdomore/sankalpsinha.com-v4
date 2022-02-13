@@ -35,7 +35,7 @@
   font-size: 56px;
   font-weight: 900;
   color: var(--color-white-100);
-  letter-spacing: -1px;
+  letter-spacing: var(--font-family-header-letter-spacing);
   margin-bottom: 0px;
 }
 
@@ -287,7 +287,13 @@
   }
 
   .landing-intro-right-description {
+    font-size: 16px;
+    line-height: 24px;
     padding-top: 12px;
+  }
+
+  .landing-intro-right-currently-label {
+    margin-top: 52px;
   }
 
   .landing-intro-right-currently-container-items {
@@ -299,6 +305,7 @@
   }
 
   .landing-intro-right-currently-container-items-text {
+    font-size: 16px;
     line-height: 22px;
   }
 
@@ -326,7 +333,7 @@
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 767px) {
   .landing-intro-container-content {
-    padding: 60px 20px 40px 20px;
+    padding: 48px 20px 40px 20px;
   }
 
   .landing-intro-left-sankalp-face {
