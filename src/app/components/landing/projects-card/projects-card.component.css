@@ -16,14 +16,14 @@
 }
 
 .projects-card-title {
-  font-family: "SS";
-  font-weight: 600;
+  font-family: var(--font-family-header);
   font-size: 32px;
-  line-height: normal;
+  font-weight: 700;
+  letter-spacing: -0.4px;
 }
 
 .projects-card-title-right-line {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 20px;
   font-weight: 400;
   line-height: 0px;
@@ -36,7 +36,7 @@
 }
 
 .projects-card-description {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 300;
   font-size: 24px;
   line-height: 32px;
@@ -114,7 +114,7 @@
 }
 
 .projects-card-container-right-meta-data-url-active {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 15px;
   font-weight: 500;
   color: var(--color-black-100);
@@ -143,7 +143,7 @@
 }
 
 .projects-card-container-right-meta-data-url-pending {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 15px;
   font-weight: 400;
   color: var(--color-grey-aaa);

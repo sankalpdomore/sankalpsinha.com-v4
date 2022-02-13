@@ -22,7 +22,7 @@
 }
 
 .accordion-button {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -51,7 +51,7 @@
 }
 
 .buildinginpublic-what-next-bullets {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
@@ -131,6 +131,7 @@
 }
 
 .embed-container-figma-folder-labels {
+  font-family: var(--font-family-body);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -194,6 +195,7 @@
 }
 
 .embed-container-figma-folder-file-tile-footer {
+  font-family: var(--font-family-body);
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;

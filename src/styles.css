@@ -1,9 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
-
 @import url("~font-awesome/css/font-awesome.css");
 
 @font-face {
@@ -88,11 +86,15 @@
   --font-style-medium: 500;
   --font-style-bold: 600;
   --font-style-extrabold: 700;
+  --font-family-body: "SS";
+  /* --font-family-header: "Exo 2", sans-serif; */
+  --font-family-header: "Work Sans", sans-serif;
+  --font-family-nav: "Work Sans", sans-serif;
 }
 
 body,
 div {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
@@ -124,7 +126,7 @@ p {
 }
 
 .common-page-header-h1 {
-  font-family: "Exo 2", sans-serif;
+  font-family: var(--font-family-header);
   font-weight: 800;
   font-size: 42px;
   line-height: 50px;
@@ -139,7 +141,7 @@ p {
 }
 
 .common-page-sub-header {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -151,8 +153,8 @@ p {
 }
 
 .common-section-header-h3 {
-  font-family: "Exo 2", sans-serif;
-  font-weight: 800;
+  font-family: var(--font-family-header);
+  font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   color: var(--color-black-100);
@@ -161,7 +163,7 @@ p {
 }
 
 .common-body-text-18-bold {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
@@ -171,7 +173,7 @@ p {
 }
 
 .common-body-text-16-bold {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -180,7 +182,7 @@ p {
 }
 
 .common-body-text-16-regular {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -204,7 +206,7 @@ p {
 }
 
 .common-img-container-img-label {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -234,7 +236,7 @@ li > .common-body-text-16-bold {
 }
 
 .qouting {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;

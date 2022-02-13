@@ -51,8 +51,8 @@
   top: -1px;
   position: relative;
   opacity: 0;
-  font-family: SS;
-  font-weight: 500;
+  font-family: var(--font-family-nav);
+  font-weight: 600;
   font-size: 18px;
   font-style: normal;
   margin-left: 8px;
@@ -65,12 +65,13 @@
 }
 
 .nav-link {
+  font-family: var(--font-family-nav);
+  font-size: 18px;
+  font-weight: 600;
   color: var(--color-dark-nav-button-text-default);
   border-radius: var(--border-radius-infinite);
   padding: 8px 24px !important;
   background: none;
-  font-size: 18px;
-  font-weight: 500;
 }
 
 .nav-link:hover {
@@ -172,8 +173,8 @@
   }
 
   .navbar-toggler-label {
-    font-family: SS;
-    font-weight: 500;
+    font-family: var(--font-family-nav);
+    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: var(--color-grey-999);

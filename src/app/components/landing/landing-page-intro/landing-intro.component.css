@@ -9,7 +9,7 @@
 
 .landing-intro-container-content {
   width: 100%;
-  padding: 80px 80px 80px 80px;
+  padding: 72px 80px 80px 80px;
   height: auto;
   max-width: 1360px;
 }
@@ -31,16 +31,16 @@
 }
 
 .landing-intro-right-sankalp-name {
-  font-family: "SS";
+  font-family: var(--font-family-header);
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--color-white-100);
   letter-spacing: -1px;
   margin-bottom: 0px;
 }
 
 .landing-intro-right-line {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-size: 20px;
   line-height: 0px;
   font-weight: 400;
@@ -60,7 +60,7 @@
 }
 
 .landing-intro-right-currently-label {
-  font-family: "SS";
+  font-family: var(--font-family-body);
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;

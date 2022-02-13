@@ -3,22 +3,23 @@
 }
 
 .landing-projects-container .common-page-header-h1 {
-  font-family: "SS";
+  font-family: var(--font-family-header);
   font-size: 46px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 58px;
   letter-spacing: -0.01em;
-  margin: 20px auto 0px auto;
+  margin: 20px auto -4px auto;
 }
 
 .common-page-header-h1 span {
+  font-family: var(--font-family-header);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0.02em;
   position: relative;
-  top: -30px;
-  left: -2px;
+  top: -28px;
+  left: -4px;
 }
 
 .common-page-sub-header {
@@ -43,11 +44,6 @@
   .landing-projects-container .content-container {
     max-width: 1100px;
   }
-
-  /* .photos-container .common-page-header-h1,
-  .photos-container .common-page-sub-header {
-    max-width: 1000px;
-  } */
 }
 
 /* Between Extra-Large and large devices (large desktops, large tablets) */
