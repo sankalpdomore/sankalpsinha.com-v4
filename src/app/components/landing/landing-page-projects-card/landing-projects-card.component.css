@@ -19,7 +19,7 @@
   font-family: var(--font-family-header);
   font-size: 32px;
   font-weight: 700;
-  letter-spacing: -0.4px;
+  letter-spacing: var(--font-family-header-letter-spacing);
 }
 
 .projects-card-title-right-line {
@@ -54,9 +54,14 @@
   margin-right: 8px;
 }
 
+.icon-project-title {
+  width: 16px;
+  top: -3px;
+}
+
 .icon-project-role {
+  width: 16px;
   top: -4px;
-  position: relative;
 }
 
 .projects-card-container-right-meta-data-text {

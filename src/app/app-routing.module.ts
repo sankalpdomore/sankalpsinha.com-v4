@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LandingpageComponent } from './components/landing/landing-page/landing-page.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 import { PhotosComponent } from './components/photos/photos-page/photos-page.component';
-import { LandingProjectsComponent } from './components/landing/projects-section/landing-projects.component';
+import { LandingProjectsComponent } from './components/landing/landing-page-projects/landing-projects.component';
 
 const routes: Routes = [
   { path: '', component: LandingpageComponent },
