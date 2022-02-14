@@ -293,7 +293,7 @@
   }
 
   .projects-card-container-right-meta-data-random-fact-container {
-    padding: 12px 12px;
+    padding: 10px 12px 12px 12px;
   }
 
   .projects-card-container-right-meta-data-random-fact-container-text {
@@ -304,6 +304,10 @@
   .projects-card-container-right-meta-data-url-pending {
     padding: 12px 20px;
     margin-top: 12px;
+  }
+
+  .projects-card-container-right-meta-data-url-pending {
+    width: 88%;
   }
 }
 
