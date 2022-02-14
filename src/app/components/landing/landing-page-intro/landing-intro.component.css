@@ -261,7 +261,7 @@
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
   .landing-intro-container-content {
-    padding: 100px 60px 80px 60px;
+    padding: 80px 52px 60px 52px;
   }
 
   .landing-intro-container-content-pusher {

@@ -1,6 +1,6 @@
 .projects-card-container-right {
-  padding-left: 64px;
   padding-top: 4px;
+  padding-left: 64px;
 }
 
 .projects-card-container-image {
@@ -83,14 +83,14 @@
 
 .projects-card-container-right-meta-data-text {
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 20px;
   color: var(--color-grey-777);
 }
 
 .projects-card-container-right-meta-data-random-fact-text {
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 20px;
   color: var(--color-grey-777);
 }
@@ -181,4 +181,77 @@
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+/*////////////////////////*/
+/*//// Media queries /////*/
+/*////////////////////////*/
+
+/* All devices more than 1441px devices */
+@media (min-width: 1441px) {
+}
+
+/* Between Extra-Large and large devices (large desktops, large tablets) */
+@media (min-width: 1199px) and (max-width: 1400px) {
+}
+
+/* Between Large and Medium devices (desktops, tablets) */
+@media (min-width: 991px) and (max-width: 1200px) {
+  .projects-card-container-right {
+    padding-left: 40px;
+  }
+}
+
+/* All devices less than Medium devices */
+@media (min-width: 0px) and (max-width: 991px) {
+  .projects-card-container-left {
+    padding-right: 0px;
+  }
+
+  .projects-card-container-right {
+    padding-left: 40px;
+  }
+  .projects-card-title {
+    font-size: 28px;
+  }
+  .projects-card-description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+/* Only Medium devices (tablets) */
+@media (min-width: 767px) and (max-width: 992px) {
+}
+
+/* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
+@media (min-width: 0px) and (max-width: 768px) {
+}
+
+/* Only Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* Only X-Small devices (portrait phones) */
+@media (min-width: 0px) and (max-width: 575px) {
+  .projects-card-container-left {
+    padding-right: calc(var(--bs-gutter-x) / 2);
+  }
+
+  .projects-card-container-image {
+    width: 90%;
+  }
+
+  .projects-card-container-right {
+    padding-top: 28px;
+    padding-left: calc(var(--bs-gutter-x) / 2);
+  }
+
+  .projects-card-container-right-meta-data-random-fact-pusher {
+    margin-left: 0px;
+  }
+}
+
+/* Only X-Small devices (portrait phones) but below 375px */
+@media (min-width: 0px) and (max-width: 375px) {
 }

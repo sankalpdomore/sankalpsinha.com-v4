@@ -1,4 +1,5 @@
 .landing-projects-container {
+  /* padding: 0px 40px; */
   background-color: var(--color-white-100);
 }
 
@@ -56,6 +57,9 @@
 
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
+  .landing-projects-section-container {
+    padding-bottom: 100px;
+  }
 }
 
 /* Only Medium devices (tablets) */
@@ -72,6 +76,9 @@
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
+  .font-sup {
+    display: none;
+  }
 }
 
 /* Only X-Small devices (portrait phones) but below 375px */

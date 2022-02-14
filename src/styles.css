@@ -289,6 +289,9 @@ li > .common-body-text-16-bold {
 
 /* Between Large and Medium devices (desktops, tablets) */
 @media (min-width: 991px) and (max-width: 1200px) {
+  .landing-page-section-containers {
+    padding: 0px 40px !important;
+  }
 }
 
 /* All devices less than Medium devices */
@@ -298,8 +301,8 @@ li > .common-body-text-16-bold {
   }
 
   .common-page-header-h1 {
-    font-size: 34px;
-    line-height: 42px;
+    font-size: 34px !important;
+    line-height: 38px !important;
     padding: 48px 0px 40px 0px;
   }
 
@@ -337,6 +340,15 @@ li > .common-body-text-16-bold {
   .qouting {
     line-height: 26px;
   }
+
+  .landing-page-section-containers {
+    padding: 0px 52px 52px 52px !important;
+  }
+
+  .landing-page-sections-common-page-sub-header {
+    font-weight: 300;
+    margin-bottom: 60px !important;
+  }
 }
 
 /* Only Medium devices (tablets) */
@@ -344,6 +356,9 @@ li > .common-body-text-16-bold {
 }
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 768px) {
+  .landing-page-section-containers {
+    padding: 0px 20px 52px 20px !important;
+  }
 }
 /* Only Small devices (landscape phones) */
 @media (min-width: 577px) and (max-width: 768px) {

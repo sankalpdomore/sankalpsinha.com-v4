@@ -1,8 +1,9 @@
-<div class="container-fluid common-page-container landing-projects-container">
-  <div #target class="container-fluid content-container">
-    <h1 class="common-page-header-h1 with-subheader"> Fortune favours the bold <span>(font)</span>
+<div class="container-fluid common-page-container landing-page-section-containers landing-projects-container">
+  <div class="container-fluid content-container">
+    <h1 class="common-page-header-h1 with-subheader"> Fortune favours the bold <span class="font-sup">(font)</span>
     </h1>
-    <div class="common-page-sub-header"> Over my 8+ years of designing, I have been lucky enough to work with some amazing people & teams. Together, we’ve <br> discussed and figured user problems, debated the best UX to solve them, and delivered decent products to test the water.<br> Below is a selected list of projects that I’ve helped companies design & build over the years.<br> Some are a success, some are a failure - but all learning in disguise ✨ </div>
+    <div class="common-page-sub-header landing-page-sections-common-page-sub-header d-none d-lg-block"> Over my 8+ years of designing, I have been lucky enough to work with some amazing people & teams. Together, we’ve <br> discussed and figured user problems, debated the best UX to solve them, and delivered decent products to test the water.<br> Below is a selected list of projects that I’ve helped companies design & build over the years.<br> Some are a success, some are a failure - but all learning in disguise ✨ </div>
+    <div class="common-page-sub-header landing-page-sections-common-page-sub-header d-block d-lg-none"> Over my 8+ years of designing, I have been lucky enough to work with some amazing people & teams. Together, we’ve discussed and figured user problems, debated the best UX to solve them, and delivered decent products to test the water. Below is a selected list of projects that I’ve helped companies design & build over the years. Some are a success, some are a failure - but all learning in disguise ✨ </div>
     <div class="row">
       <div *ngFor="let item of projectData" class="landing-projects-section-container col-12">
         <component-projects-card [data]="item">

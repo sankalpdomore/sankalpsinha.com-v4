@@ -1,8 +1,8 @@
 <div class="row projects-card-container">
-    <div class="col-5 projects-card-container-left">
+    <div class="col-lg-5 col-md-5 col-sm-5 col-12 projects-card-container-left">
         <img class="projects-card-container-image" src="{{data.projectImage}}">
     </div>
-    <div class="col-7 projects-card-container-right">
+    <div class="col-lg-7 col-md-7 col-sm-7 col-12 projects-card-container-right">
         <div class="col-12">
             <div class="projects-card-container-right-title-description">
                 <span class="projects-card-title">{{data.projectTitle}}</span>
@@ -26,12 +26,14 @@
                         {{data.projectWorkTitle}}
                     </div>
                 </div>
-                <div *ngFor="let role of data.projectRoles" class="d-flex projects-card-container-right-meta-data">
-                    <div class="">
-                        <img src="../assets/projects/icon-roles.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
-                    </div>
-                    <div class="projects-card-container-right-meta-data-text">
-                        {{role.description}}
+                <div class="d-none d-sm-block">
+                    <div *ngFor="let role of data.projectRoles" class="d-flex projects-card-container-right-meta-data">
+                        <div class="">
+                            <img src="../assets/projects/icon-roles.svg" alt="" class="projects-card-container-right-meta-data-icons icon-project-role">
+                        </div>
+                        <div class="projects-card-container-right-meta-data-text">
+                            {{role.description}}
+                        </div>
                     </div>
                 </div>
                 <div class="projects-card-container-right-meta-data-random-fact-pusher">
