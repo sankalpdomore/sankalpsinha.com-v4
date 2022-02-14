@@ -35,7 +35,7 @@
       {"description": "Designed and prototyped interface solutions. Dogfooding VWO’s robust testing system to A/B test multiple product experiments."}
     ],
     "projectRandomFactEmoji": "../assets/projects/emoji-write.png",
-    "projectRandomFactText": "During my time at Wingify, I started initiatives like weekly design critique sessions, Dribbble posts, and a monthly blog writeup of our learnings - to help myself and the design team grow professionally.",
+    "projectRandomFactText": "During my time at Wingify, I started initiatives like weekly design critique sessions, Dribbble posts, and a monthly blog write-up of our learnings - to help myself and the design team grow professionally.",
     "projectTeamSizePMs": "4 PMs,",
     "projectTeamSizeDevs": "25 Devs,",
     "projectTeamSizeQAs": "8 QAs,",
@@ -80,7 +80,7 @@
       {"description": "Contributed to front-end code to match designs."}
     ],
     "projectRandomFactEmoji": "../assets/projects/emoji-joystick.png",
-    "projectRandomFactText": "Built this project with two of my developer friends, who’re also one of my best friends college.",
+    "projectRandomFactText": "Built this project with two of my developer friends, who’re also one of my best friends from college.",
     "projectTeamSizeDevs": "2 Devs,",
     "projectTeamSizeDesigners": "1 Designer (me)",
     "projectUrlDisplay": "block",
