@@ -12,7 +12,7 @@
 }
 
 .projects-card-container-right-title-description {
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
 .projects-card-title {
@@ -20,6 +20,7 @@
   font-size: 32px;
   font-weight: 700;
   letter-spacing: var(--font-family-header-letter-spacing);
+  color: var(--color-black-100);
 }
 
 .projects-card-title-right-line {
@@ -40,15 +41,7 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 32px;
-  color: var(--color-grey-aaa);
-}
-
-.projects-card-description-desktop {
-  display: contents;
-}
-
-.projects-card-description-mobile {
-  display: none;
+  color: var(--color-grey-999);
 }
 
 .projects-card-container-right-meta-data {
@@ -104,7 +97,7 @@
 }
 
 .projects-card-container-right-meta-data-random-fact-pusher {
-  margin: 16px 0px 16px 22px;
+  padding: 16px 0px 16px 32px;
 }
 
 .projects-card-container-right-meta-data-random-fact-container {
@@ -224,26 +217,19 @@
   .projects-card-container-right {
     padding-left: 40px;
   }
+
   .projects-card-title {
     font-size: 28px;
   }
 
   .projects-card-title-right-line {
-    display: none;
+    top: -2px;
+    padding-left: 12px;
   }
 
   .projects-card-description {
-    font-size: 16px;
-    line-height: 22px;
-    /* color: var(--color-grey-777); */
-  }
-
-  .projects-card-description-desktop {
-    display: none;
-  }
-
-  .projects-card-description-mobile {
-    display: block;
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 
@@ -274,13 +260,20 @@
     padding-left: calc(var(--bs-gutter-x) / 2);
   }
 
-  /* .projects-card-title-right-line {
-    top: -2px;
-    padding-left: 12px;
-  } */
+  .projects-card-container-right-title-description {
+    padding-bottom: 16px;
+  }
+
+  .projects-card-container-right-meta-data {
+    width: -webkit-max-content;
+    padding-bottom: 12px;
+  }
 
   .projects-card-container-right-meta-data-random-fact-pusher {
-    margin: 0px 0px 12px 0px;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    padding-top: 0px;
+    padding-bottom: 12px;
   }
 
   .projects-card-container-right-meta-data-random-fact-container {
