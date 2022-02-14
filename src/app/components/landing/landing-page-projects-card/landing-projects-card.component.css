@@ -261,6 +261,11 @@
 
   .projects-card-container-image {
     width: 90%;
+    transform: rotate(-1deg);
+  }
+
+  .projects-card-container-image:hover {
+    transform: rotate(-1deg);
   }
 
   .projects-card-container-right {
