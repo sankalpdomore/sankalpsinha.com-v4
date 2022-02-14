@@ -1,6 +1,6 @@
 .projects-card-container-right {
-  padding-left: 64px;
   padding-top: 4px;
+  padding-left: 64px;
 }
 
 .projects-card-container-image {
@@ -9,10 +9,18 @@
   background-repeat: no-repeat;
   border-radius: var(--border-radius-20px);
   border: 1px solid var(--color-grey-ddd);
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.projects-card-container-image:hover {
+  transform: rotate(-1deg);
 }
 
 .projects-card-container-right-title-description {
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
 .projects-card-title {
@@ -20,6 +28,7 @@
   font-size: 32px;
   font-weight: 700;
   letter-spacing: var(--font-family-header-letter-spacing);
+  color: var(--color-black-100);
 }
 
 .projects-card-title-right-line {
@@ -44,7 +53,7 @@
 }
 
 .projects-card-container-right-meta-data {
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .projects-card-container-right-meta-data-icons {
@@ -83,20 +92,20 @@
 
 .projects-card-container-right-meta-data-text {
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 20px;
   color: var(--color-grey-777);
 }
 
 .projects-card-container-right-meta-data-random-fact-text {
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 20px;
   color: var(--color-grey-777);
 }
 
 .projects-card-container-right-meta-data-random-fact-pusher {
-  margin: 16px 0px 16px 22px;
+  padding: 16px calc(var(--bs-gutter-x) / 2) 16px 32px;
 }
 
 .projects-card-container-right-meta-data-random-fact-container {
@@ -181,4 +190,127 @@
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.icon-prototype-link-soon {
+  font-size: 14px;
+  padding-right: 4px;
+}
+
+/*////////////////////////*/
+/*//// Media queries /////*/
+/*////////////////////////*/
+
+/* All devices more than 1441px devices */
+@media (min-width: 1441px) {
+}
+
+/* Between Extra-Large and large devices (large desktops, large tablets) */
+@media (min-width: 1199px) and (max-width: 1400px) {
+}
+
+/* Between Large and Medium devices (desktops, tablets) */
+@media (min-width: 991px) and (max-width: 1200px) {
+  .projects-card-container-right {
+    padding-left: 40px;
+  }
+}
+
+/* All devices less than Medium devices */
+@media (min-width: 0px) and (max-width: 991px) {
+  .projects-card-container-left {
+    padding-right: 0px;
+  }
+
+  .projects-card-container-right {
+    padding-left: 40px;
+  }
+
+  .projects-card-title {
+    font-size: 28px;
+  }
+
+  .projects-card-title-right-line {
+    top: -2px;
+    padding-left: 12px;
+  }
+
+  .projects-card-description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/* Only Medium devices (tablets) */
+@media (min-width: 767px) and (max-width: 992px) {
+}
+
+/* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
+@media (min-width: 0px) and (max-width: 768px) {
+}
+
+/* Only Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* Only X-Small devices (portrait phones) */
+@media (min-width: 0px) and (max-width: 575px) {
+  .projects-card-container-left {
+    padding-right: calc(var(--bs-gutter-x) / 2);
+  }
+
+  .projects-card-container-image {
+    width: 90%;
+    transform: rotate(-1deg);
+  }
+
+  .projects-card-container-image:hover {
+    transform: rotate(-1deg);
+  }
+
+  .projects-card-container-right {
+    padding-top: 28px;
+    padding-left: calc(var(--bs-gutter-x) / 2);
+  }
+
+  .projects-card-description {
+    color: var(--color-grey-999);
+  }
+
+  .projects-card-container-right-title-description {
+    padding-bottom: 16px;
+  }
+
+  .projects-card-container-right-meta-data {
+    padding-bottom: 8px;
+  }
+
+  .projects-card-container-right-meta-data-random-fact-pusher {
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    padding-top: 4px;
+    padding-bottom: 12px;
+  }
+
+  .projects-card-container-right-meta-data-random-fact-container {
+    padding: 10px 12px 12px 12px;
+  }
+
+  .projects-card-container-right-meta-data-random-fact-container-text {
+    line-height: 16px;
+  }
+
+  .projects-card-container-right-meta-data-url-active,
+  .projects-card-container-right-meta-data-url-pending {
+    padding: 12px 20px;
+    margin-top: 12px;
+  }
+
+  .projects-card-container-right-meta-data-url-pending {
+    width: 88%;
+  }
+}
+
+/* Only X-Small devices (portrait phones) but below 375px */
+@media (min-width: 0px) and (max-width: 375px) {
 }
