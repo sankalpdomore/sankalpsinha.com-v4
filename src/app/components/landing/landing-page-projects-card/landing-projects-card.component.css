@@ -44,7 +44,7 @@
 }
 
 .projects-card-container-right-meta-data {
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .projects-card-container-right-meta-data-icons {
@@ -183,6 +183,11 @@
   transition: all 0.2s ease-in-out;
 }
 
+.icon-prototype-link-soon {
+  font-size: 14px;
+  padding-right: 4px;
+}
+
 /*////////////////////////*/
 /*//// Media queries /////*/
 /*////////////////////////*/
@@ -248,7 +253,7 @@
   }
 
   .projects-card-container-right-meta-data-random-fact-pusher {
-    margin-left: 0px;
+    margin: 0px 0px 12px 0px;
   }
 }
 
