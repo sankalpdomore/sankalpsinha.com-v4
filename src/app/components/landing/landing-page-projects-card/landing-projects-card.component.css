@@ -221,7 +221,7 @@
   }
   .projects-card-description {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 24px;
   }
 }
 
@@ -252,8 +252,23 @@
     padding-left: calc(var(--bs-gutter-x) / 2);
   }
 
+  .projects-card-title-right-line {
+    top: -2px;
+    padding-left: 12px;
+  }
+
   .projects-card-container-right-meta-data-random-fact-pusher {
     margin: 0px 0px 12px 0px;
+  }
+
+  .projects-card-container-right-meta-data-random-fact-container {
+    padding: 12px 12px;
+  }
+
+  .projects-card-container-right-meta-data-url-active,
+  .projects-card-container-right-meta-data-url-pending {
+    padding: 12px 20px;
+    margin-top: 12px;
   }
 }
 
