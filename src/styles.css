@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800;900&display=swap");
+/* Medium 500, Semi-bold 600, Bold 700, Extra-bold 800, Black 900 */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
 @import url("~font-awesome/css/font-awesome.css");
 @import url("./assets/font-awesome/css/all.css");
@@ -130,6 +131,8 @@ p {
   text-align: center;
   padding: 80px 0px;
   margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .with-subheader {
