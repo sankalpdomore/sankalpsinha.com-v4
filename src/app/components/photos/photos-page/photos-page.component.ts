@@ -12,6 +12,15 @@ export class PhotosComponent implements OnInit {
 
     [
       {
+        "PhotoName": "Shining bright like an orange",
+        "PhotoDescription": "Based on my usage, my footwear gets dirty every 3-4 months and I make sure to spend a weekend washing them. Why I do this? I believe, if you take care of your belongings, they'll take care of you longer + there are other benefits of cleaning your footwear too.",
+        "PhotoImage": "../assets/photos/IMG_1616.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "October 31, 2020",
+        "PhotoDateUploaded": "January 18, 2022",
+        "PhotoAlbums": "Minimal"
+      },
+      {
         "PhotoName": "Bipolar",
         "PhotoDescription": "Airport architecture has always fascinated me. Every international airport is different than the other and has its own personality. This one's a cropped photo of Bengaluru's international airport roof.",
         "PhotoImage": "../assets/photos/2020-10-31-1.jpeg",
