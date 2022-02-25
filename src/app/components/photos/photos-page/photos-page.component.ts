@@ -14,7 +14,7 @@ export class PhotosComponent implements OnInit {
       {
         "PhotoName": "Shining bright like an orange",
         "PhotoDescription": "Based on my usage, my footwear gets dirty every 3-4 months and I make sure to spend a weekend washing them. Why I do this? I believe, if you take care of your belongings, they'll take care of you longer + there are other benefits of cleaning your footwear too.",
-        "PhotoImage": "../assets/photos/IMG_1616.jpeg",
+        "PhotoImage": "../assets/photos/2021-02-02-1.jpeg",
         "PhotoLocation": "Bengaluru, India",
         "PhotoDateTaken": "October 31, 2020",
         "PhotoDateUploaded": "January 18, 2022",
