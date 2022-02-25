@@ -79,6 +79,18 @@
   margin-bottom: 8px;
 }
 
+.landing-intro-right-currently-container-items-icons {
+  color: var(--color-grey-999);
+  padding-right: 16px;
+  position: relative;
+}
+
+.landing-intro-right-currently-container-items-icons-beach {
+  width: 19px;
+  margin-right: 12px;
+  margin-top: -3px;
+}
+
 .landing-intro-right-currently-container-items-icon-job {
   width: 18px;
   margin-right: 12px;
@@ -111,9 +123,9 @@
   padding: 0px !important;
 }
 
-.landing-intro-SC-link {
+.landing-intro-link {
   color: var(--color-grey-999);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .landing-intro-SC-link:hover {
