@@ -11,13 +11,31 @@ export class PhotosComponent implements OnInit {
   data: any =
 
     [
+      // {
+      //   "PhotoName": "Bread & butter",
+      //   "PhotoDescription": "I've always been a tech nerd. I buy the new gadgets all the time. But I've always made sure to take care of my things that earn me money. In my case, being a digital product designer, all my life's work depends on computers & smart-devices, which adds a lot of value to my personal or professional life.",
+      //   "PhotoImage": "../assets/photos/2020-11-09-3.jpeg",
+      //   "PhotoLocation": "Bengaluru, India",
+      //   "PhotoDateTaken": "November 9, 2020",
+      //   "PhotoDateUploaded": "March 1, 2022",
+      //   "PhotoAlbums": "Minimal"
+      // },
+      {
+        "PhotoName": "The famous 7-grills",
+        "PhotoDescription": "Random front body shot of my Jeep Compass",
+        "PhotoImage": "../assets/photos/2020-11-13-1.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "November 13, 2020",
+        "PhotoDateUploaded": "March 1, 2022",
+        "PhotoAlbums": "Minimal"
+      },
       {
         "PhotoName": "Shining bright like an orange",
         "PhotoDescription": "Based on my usage, my footwear gets dirty every 3-4 months and I make sure to spend a weekend washing them. Why I do this? I believe, if you take care of your belongings, they'll take care of you longer + there are other benefits of cleaning your footwear too.",
         "PhotoImage": "../assets/photos/2021-02-02-1.jpeg",
         "PhotoLocation": "Bengaluru, India",
-        "PhotoDateTaken": "October 31, 2020",
-        "PhotoDateUploaded": "January 18, 2022",
+        "PhotoDateTaken": "February 2, 2021",
+        "PhotoDateUploaded": "February 20, 2022",
         "PhotoAlbums": "Minimal"
       },
       {
