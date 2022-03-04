@@ -138,7 +138,7 @@ export class PhotosComponent implements OnInit {
         "PhotoAlbums": "Minimal"
       },
       {
-        "PhotoName": "Traingles & curves",
+        "PhotoName": "Triangles & curves",
         "PhotoDescription": "I've always found the airplane's fin shot a classic. No matter when and where you take it, it always looks great.",
         "PhotoImage": "../assets/photos/2021-11-15-1.jpeg",
         "PhotoLocation": "IGI Airport, New Delhi",
