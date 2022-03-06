@@ -21,6 +21,15 @@ export class PhotosComponent implements OnInit {
       //   "PhotoAlbums": "Minimal"
       // },
       {
+        "PhotoName": "Mini-nature & massive-tech",
+        "PhotoDescription": "Random potrait shot of my iPad Pro. Got this iPad in 2019 from Singapore and have loved the iPad experience since then. Will always recommend anyone thinking of buying an iPad to write or sketch.",
+        "PhotoImage": "../assets/photos/2020-11-13-2.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "November 13, 2020",
+        "PhotoDateUploaded": "March 6, 2022",
+        "PhotoAlbums": "Minimal"
+      },
+      {
         "PhotoName": "The famous 7-grills",
         "PhotoDescription": "Random front body shot of my Jeep Compass",
         "PhotoImage": "../assets/photos/2020-11-13-1.jpeg",
