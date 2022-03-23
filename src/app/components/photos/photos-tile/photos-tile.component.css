@@ -37,6 +37,7 @@
   color: var(--color-grey-666);
   line-height: 20px;
   padding-top: 4px;
+  word-wrap: break-word;
 }
 
 .photos-container-tile-location {
