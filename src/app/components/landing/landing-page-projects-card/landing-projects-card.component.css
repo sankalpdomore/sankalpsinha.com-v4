@@ -75,6 +75,11 @@
   background: var(--color-success-green-light-default);
 }
 
+.fa-rotate-right {
+  font-size: 13px;
+  color: var(--color-grey-888);
+}
+
 .projects-card-container-right-meta-data {
   padding-bottom: 8px;
 }
