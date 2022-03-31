@@ -20,7 +20,7 @@
 }
 
 .projects-card-container-right-title-description {
-  padding-bottom: 12px;
+  padding-bottom: 10px;
 }
 
 .projects-card-title {
@@ -75,9 +75,11 @@
   background: var(--color-success-green-light-default);
 }
 
-.fa-rotate-right {
-  font-size: 13px;
-  color: var(--color-grey-888);
+.fa-rotate-left {
+  font-size: 12px;
+  color: var(--color-grey-999);
+  left: 1px;
+  position: relative;
 }
 
 .projects-card-container-right-meta-data {
@@ -303,10 +305,6 @@
 
   .projects-card-description {
     color: var(--color-grey-999);
-  }
-
-  .projects-card-container-right-title-description {
-    padding-bottom: 16px;
   }
 
   .projects-card-container-right-meta-data {
