@@ -24,6 +24,48 @@
     "projectUrlLabel": "sellercrowd.com"
   },
   {
+    "projectTitle": "Visit.Page",
+    "projectDescription": "Building a mobile-first link-in-bio tool to help creators send their audience to the right product, services, and links.",
+    "projectImage": "../assets/projects/project-tiles/visitpage.png",
+    "projectDate": "Mar '22 - Present",
+    "projectWorkTitle": "Maker / Product Designer",
+    "projectRoles": 
+    [
+      {"description": "After building side projects for 10 yrs. for fun, I’m jumping to build again - but with a focus of monetizing my project this time and creating a sustainable business out of it."},
+      {"description": "Shipped an early access landing page of the tool to gague market’s interest. Built the landing page using Framer Sites."},
+      {"description": "Focusing on marketing to get the word out and get early subscribers."},
+      {"description": "Collaborating with a developer friend of mine to build the product."}
+    ],
+    "projectRandomFactEmoji": "../assets/projects/emoji-money.png",
+    "projectRandomFactText": "The .page domains are surprisingly costly. So yes, this project has heavy funding from my end to succeed 😅",
+    "projectTeamSizeDevs": "1 Developer,",
+    "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
+    "projectUrl": "www.visit.page",
+    "projectUrlLabel": "visit.page"
+  },
+  {
+    "projectTitle": "BuildwithFramer",
+    "projectDescription": "Helping designers marketers, & creators publish their next website within hours using pre-designed fully-responsive templates on Framer Sites.",
+    "projectImage": "../assets/projects/project-tiles/buildwithframer.png",
+    "projectDate": "Jan '22 - Present",
+    "projectWorkTitle": "Maker / Product Designer",
+    "projectRoles": 
+    [
+      {"description": "Validated the idea with a tweet which got 100+ response. Sold a designer portfolio template to a few designers as a pre-order ($200 total) - validating the idea further."},
+      {"description": "Shipped an early access landing page to start collecting interest. Built the landing page using Framer Sites - dogfooding here."},
+      {"description": "Other roles involve marketing the project through Twitter, Reddit, Slack/Discord channels, and a few other online communities."}
+    ],
+    "projectRandomFactEmoji": "../assets/projects/emoji-crayon.png",
+    "projectRandomFactText": "I immediately bought the domain for the project when I first saw the beta announcement for Framer Sites. I knew that Framer people are on to something and it can soon replace a workflow of Figma + Webflow for web design & development.",
+    "projectTeamSizeDesigners": "1 Designer / Developer (me)",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
+    "projectUrl": "www.buildwithframer.com",
+    "projectUrlLabel": "buildwithframer.com"
+  },
+  {
     "projectTitle": "VWO",
     "projectDescription": "Designing a better A/B testing product to help companies conduct successful A/B tests across a customer’s lifecycle.",
     "projectImage": "../assets/projects/project-tiles/vwo.png",
@@ -122,7 +164,7 @@
       {"description": "Designed & prototyped the UI for the MVP (a web-based app) with features like campaign dashboard, campaign creation flow, campaign results page, conversations dashboard, segmenting dashboard, creating segments flow."},
       {"description": "Collaborated with an external development agency to get this app developed. I was involved in every step of the development cycle to ensure well-executed & intended UX and pixel-perfect front-end."}
     ],
-    "projectRandomFactEmoji": "../assets/projects/emoji-cry.png",
+    "projectRandomFactEmoji": "../assets/projects/emoji-crying.png",
     "projectRandomFactText": "We suffered heavily in developing the MVP because our outsourced agency was from Chennai, India; whose whole business was devasted as the south of India saw  heavy flooding during 2015.",
     "projectTeamSizePMs": "2 PMs,",
     "projectTeamSizeDevs": "Development was outsourced,",
