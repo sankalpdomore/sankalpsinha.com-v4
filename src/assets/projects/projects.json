@@ -3,6 +3,8 @@
     "projectTitle": "SellerCrowd",
     "projectDescription": "Designing a social platform to help salespeople exchange insights anonymously & hit sales goals faster.",
     "projectImage": "../assets/projects/project-tiles/sellercrowd.png",
+    "projectTypeFT": "block",
+    "projectTypeSP": "none",
     "projectDate": "Jan '18 - Oct '21",
     "projectWorkTitle": "Lead Product Designer",
     "projectRoles": 
@@ -27,12 +29,14 @@
     "projectTitle": "Visit.Page",
     "projectDescription": "Building a mobile-first link-in-bio tool to help creators send their audience to the right product, services, and links.",
     "projectImage": "../assets/projects/project-tiles/visitpage.png",
+    "projectTypeFT": "none",
+    "projectTypeSP": "block",
     "projectDate": "Mar '22 - Present",
     "projectWorkTitle": "Maker / Product Designer",
     "projectRoles": 
     [
-      {"description": "After building side projects for 10 yrs. for fun, I’m jumping to build again - but with a focus of monetizing my project this time and creating a sustainable business out of it."},
-      {"description": "Shipped an early access landing page of the tool to gague market’s interest. Built the landing page using Framer Sites."},
+      {"description": "After building side projects for 10+ yrs. for fun, I'm starting to build again - but with a focus on monetizing my project this time and creating a sustainable business out of it."},
+      {"description": "Shipped an early access landing page of the tool to gauge the market’s interest. Built the landing page using Framer Sites."},
       {"description": "Focusing on marketing to get the word out and get early subscribers."},
       {"description": "Collaborating with a developer friend of mine to build the product."}
     ],
@@ -47,18 +51,20 @@
   },
   {
     "projectTitle": "BuildwithFramer",
-    "projectDescription": "Helping designers marketers, & creators publish their next website within hours using pre-designed fully-responsive templates on Framer Sites.",
+    "projectDescription": "Helping designers, marketers, & creators, publish their next website within hours using pre-designed fully-responsive templates on Framer Sites.",
     "projectImage": "../assets/projects/project-tiles/buildwithframer.png",
+    "projectTypeFT": "none",
+    "projectTypeSP": "block",
     "projectDate": "Jan '22 - Present",
     "projectWorkTitle": "Maker / Product Designer",
     "projectRoles": 
     [
-      {"description": "Validated the idea with a tweet which got 100+ response. Sold a designer portfolio template to a few designers as a pre-order ($200 total) - validating the idea further."},
+      {"description": "Validated the idea with a tweet which got 100+ responses. Sold a designer portfolio template to a few designers as a pre-order ($200 total) - validating the idea further."},
       {"description": "Shipped an early access landing page to start collecting interest. Built the landing page using Framer Sites - dogfooding here."},
       {"description": "Other roles involve marketing the project through Twitter, Reddit, Slack/Discord channels, and a few other online communities."}
     ],
     "projectRandomFactEmoji": "../assets/projects/emoji-crayon.png",
-    "projectRandomFactText": "I immediately bought the domain for the project when I first saw the beta announcement for Framer Sites. I knew that Framer people are on to something and it can soon replace a workflow of Figma + Webflow for web design & development.",
+    "projectRandomFactText": "I immediately bought the domain for the project when I first saw the beta announcement for Framer Sites. I had a sense that folks at Framer are building something amazing and it can soon replace the workflow of Figma + Webflow for web design & development.",
     "projectTeamSizeDesigners": "1 Designer / Developer (me)",
     "projectUrlDisplay": "block",
     "projectUrlPending": "none",
@@ -69,7 +75,9 @@
     "projectTitle": "VWO",
     "projectDescription": "Designing a better A/B testing product to help companies conduct successful A/B tests across a customer’s lifecycle.",
     "projectImage": "../assets/projects/project-tiles/vwo.png",
-    "projectDate": "Jun ’15 - Sep ‘16",
+    "projectTypeFT": "block",
+    "projectTypeSP": "none",
+    "projectDate": "Jun ’15 - Jan ‘18",
     "projectWorkTitle": "Product Designer",
     "projectRoles": 
     [
@@ -91,6 +99,8 @@
     "projectTitle": "Rooster",
     "projectDescription": "A fun take on helping people  stay productive by nudging them when they lose focus; using Chrome’s in-app push-notifications.",
     "projectImage": "../assets/projects/project-tiles/rooster.png",
+    "projectTypeFT": "none",
+    "projectTypeSP": "block",
     "projectDate": "June ’17 - Feb ‘19",
     "projectWorkTitle": "Co-maker / Product Designer",
     "projectRoles": 
@@ -113,6 +123,8 @@
     "projectTitle": "YessCSS",
     "projectDescription": "Rethinking how anyone can build basic UI components easily & intuitively for the web; by introducing visual controls for CSS.",
     "projectImage": "../assets/projects/project-tiles/yesscss.png",
+    "projectTypeFT": "none",
+    "projectTypeSP": "block",
     "projectDate": "Jan ’17 - Dec ‘17",
     "projectWorkTitle": "Co-maker / Product Designer",
     "projectRoles": 
@@ -134,6 +146,8 @@
     "projectTitle": "ShelfJoy",
     "projectDescription": "Designing a new way of discovering books in different genres with the concept of  “bookshelves”.",
     "projectImage": "../assets/projects/project-tiles/shelfjoy.png",
+    "projectTypeFT": "block",
+    "projectTypeSP": "none",
     "projectDate": "Oct ’16 - Sept’17",
     "projectWorkTitle": "Product Designer",
     "projectRoles": 
@@ -157,6 +171,8 @@
     "projectTitle": "Upquire",
     "projectDescription": "Designing an intelligent marketing automation platform to help app developers interact with their users in a fun & engaging way.",
     "projectImage": "../assets/projects/project-tiles/upquire.png",
+    "projectTypeFT": "block",
+    "projectTypeSP": "none",
     "projectDate": "Aug ’15 - Nov ‘15",
     "projectWorkTitle": "Product Designer",
     "projectRoles": 

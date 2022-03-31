@@ -52,6 +52,29 @@
   color: var(--color-grey-aaa);
 }
 
+.projects-card-container-right-meta-data-project-type-FT,
+.projects-card-container-right-meta-data-project-type-SP {
+  font-family: var(--font-family-body);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  width: fit-content;
+  padding: 4px 12px;
+  margin-bottom: 12px;
+  border-radius: var(--border-radius-infinite);
+}
+
+.projects-card-container-right-meta-data-project-type-FT {
+  color: var(--color-purple-default);
+  background: var(--color-purple-light-default);
+}
+
+.projects-card-container-right-meta-data-project-type-SP {
+  color: var(--color-success-green-default);
+  background: var(--color-success-green-light-default);
+}
+
 .projects-card-container-right-meta-data {
   padding-bottom: 8px;
 }

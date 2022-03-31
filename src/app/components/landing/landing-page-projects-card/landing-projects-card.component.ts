@@ -24,6 +24,8 @@ interface Project {
   projectTitle: string;
   projectDescription: string
   projectImage: string,
+  projectTypeFT: string,
+  projectTypeSP: string,
   projectDate: string,
   projectWorkTitle: string,
   projectRoles: Roles,
