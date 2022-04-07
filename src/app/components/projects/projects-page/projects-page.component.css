@@ -10,7 +10,7 @@
   letter-spacing: var(--font-family-header-letter-spacing);
 }
 
-.common-page-header-h1 span {
+.landing-page-sections-common-page-header-h1 span {
   font-family: var(--font-family-header);
   font-size: 16px;
   font-weight: 600;
@@ -19,11 +19,6 @@
   position: relative;
   top: -28px;
   left: -4px;
-}
-
-.common-page-sub-header {
-  color: var(--color-grey-555);
-  margin-bottom: 100px;
 }
 
 .projects-page-section-container {
