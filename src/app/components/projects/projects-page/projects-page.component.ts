@@ -3,17 +3,17 @@ import { HttpClient } from "@angular/common/http";
 
 
 @Component({
-  selector: 'component-landing-projects',
-  templateUrl: './landing-projects.component.html',
-  styleUrls: ['./landing-projects.component.css']
+  selector: 'component-projects-page',
+  templateUrl: './projects-page.component.html',
+  styleUrls: ['./projects-page.component.css']
 })
 
-export class LandingProjectsComponent implements OnInit {
+export class ProjectsPageComponent implements OnInit {
   projectData: any = [];
 
   constructor(private httpClient: HttpClient) { }
   ngOnInit() {
-    this.httpClient.get("assets/projects/projects.json").subscribe(data => {
+    this.httpClient.get("../assets/projects/projects.json").subscribe(data => {
       console.log(data);
       this.projectData = data;
     })

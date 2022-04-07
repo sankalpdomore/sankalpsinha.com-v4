@@ -5,13 +5,13 @@ import { Component } from '@angular/core';
 //Create a new component by creating a type-script class by typing export class {class_name}//
 @Component({
   //Selector name is a custom name to identify the component which allows Angular to look for the component by this selector name//
-  selector: 'component-landing-intro',
+  selector: 'component-landing-page-intro',
   //templateURL is the html file from which this component will fetch the page layout and contents, if any//
-  templateUrl: './landing-intro.component.html',
+  templateUrl: './landing-page-intro.component.html',
   //styleUrls is the css file where we write all the css related to the html file//
-  styleUrls: ['./landing-intro.component.css']
+  styleUrls: ['./landing-page-intro.component.css']
 })
 //exporting the component as a class identifier which Angular can use to fetch data from//
-export class LandingIntroComponent {
+export class LandingPageIntroComponent {
 
 }

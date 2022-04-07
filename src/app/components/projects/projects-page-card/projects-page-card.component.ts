@@ -1,12 +1,12 @@
 import { Component, OnInit, AfterViewInit, Input, Type } from '@angular/core';
 
 @Component({
-  selector: 'component-projects-card',
-  templateUrl: './landing-projects-card.component.html',
-  styleUrls: ['./landing-projects-card.component.css']
+  selector: 'component-projects-page-card',
+  templateUrl: './projects-page-card.component.html',
+  styleUrls: ['./projects-page-card.component.css']
 })
 
-export class ProjectsCardComponent implements OnInit {
+export class ProjectsPageCardComponent implements OnInit {
 
   @Input()
   data: Project
