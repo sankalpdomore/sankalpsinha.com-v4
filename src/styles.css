@@ -84,6 +84,7 @@
   --border-radius-12px: 12px;
   --border-radius-20px: 20px;
   --border-radius-28px: 28px;
+  --border-radius-40px: 40px;
   --border-radius-infinite: 100px;
   --font-family-body: "SS";
   --font-family-header: "Work Sans", sans-serif;
@@ -142,16 +143,24 @@ p {
   padding-bottom: 16px;
 }
 
+.landing-page-sections-common-page-header-h1 {
+  padding: 100px 0px 8px 0px;
+}
+
 .common-page-sub-header {
   font-family: var(--font-family-body);
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
-  color: var(--color-grey-666);
+  color: var(--color-grey-555);
   text-align: center;
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.landing-page-sections-common-page-sub-header {
+  margin-bottom: 100px;
 }
 
 .common-section-header-h3 {
@@ -288,10 +297,6 @@ li > .common-body-text-16-bold {
 /* Spacers */
 .section-break {
   margin: 60px auto;
-}
-
-.landing-page-sections-common-page-header-h1 {
-  padding: 100px 0px 8px 0px;
 }
 
 /*////////////////////////*/
