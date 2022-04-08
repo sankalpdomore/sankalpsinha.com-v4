@@ -38,7 +38,7 @@
   font-family: var(--font-family-header);
   font-size: 32px;
   font-weight: 800;
-  line-height: 42px;
+  line-height: 40px;
   letter-spacing: var(--font-family-header-letter-spacing);
   color: var(--color-white-100);
   margin-bottom: 12px;
@@ -90,42 +90,85 @@
 /* Between Large and Medium devices (desktops, tablets) */
 @media (min-width: 991px) and (max-width: 1200px) {
   .first {
-    width: 50%;
+    width: 54%;
   }
 
   .second {
-    width: 50%;
+    width: 46%;
   }
 }
 
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
+  .first {
+    width: 54%;
+  }
+
+  .second {
+    width: 46%;
+  }
+
+  .padding-right {
+    padding-right: 24px;
+  }
+
+  .padding-left {
+    padding-left: 24px;
+  }
+
+  .paddin-left-0 {
+    padding-left: 0px;
+  }
+
+  .testimonials-page-card-container-parent
+    .testimonials-page-card-container-cards {
+    padding: 32px 36px;
+  }
+
+  .testimonials-page-card-container-cards-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .testimonials-page-card-container-cards-content p {
+    margin-bottom: 20px !important;
+  }
+
+  .testimonials-page-card-container-cards-author-info-image {
+    width: 80px;
+  }
+
+  .testimonials-page-card-container-cards-author-info-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+
+  .testimonials-page-card-container-cards-content,
+  .testimonials-page-card-container-cards-author-info-role,
+  .testimonials-page-card-container-cards-author-info-company {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
 }
 
 /* Only Medium devices (tablets) */
 @media (min-width: 767px) and (max-width: 992px) {
-  .first {
-    width: 50%;
-  }
-
-  .second {
-    width: 50%;
-  }
 }
 
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 768px) {
+  .testimonials-page-card-container-cards-title {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 16px;
+  }
 }
 
 /* Only Small devices (landscape phones) */
 @media (min-width: 576px) and (max-width: 768px) {
-  .first {
-    width: 50%;
-  }
-
-  .second {
-    width: 50%;
-  }
 }
 
 /* Only X-Small devices (portrait phones) */
