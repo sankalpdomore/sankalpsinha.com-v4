@@ -1,5 +1,9 @@
-.testimonials-page-card-container-padding {
-  padding-bottom: 44px;
+.first {
+  width: 552px;
+}
+
+.second {
+  width: 472px;
 }
 
 .padding-right {
@@ -10,12 +14,8 @@
   padding-left: 32px;
 }
 
-.first {
-  width: 552px;
-}
-
-.second {
-  width: 472px;
+.testimonials-page-card-container-padding {
+  padding-bottom: 44px;
 }
 
 .testimonials-page-card-container-parent {
@@ -122,7 +122,7 @@
 
   .testimonials-page-card-container-parent
     .testimonials-page-card-container-cards {
-    padding: 32px 36px;
+    padding: 32px 32px;
   }
 
   .testimonials-page-card-container-cards-title {
@@ -148,7 +148,7 @@
   .testimonials-page-card-container-cards-content,
   .testimonials-page-card-container-cards-author-info-role,
   .testimonials-page-card-container-cards-author-info-company {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 20px;
   }
@@ -160,11 +160,11 @@
 
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 768px) {
-  .testimonials-page-card-container-cards-title {
+  /* .testimonials-page-card-container-cards-title {
     font-size: 26px;
     line-height: 30px;
     margin-bottom: 16px;
-  }
+  } */
 }
 
 /* Only Small devices (landscape phones) */
