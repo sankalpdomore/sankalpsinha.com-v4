@@ -144,6 +144,11 @@ p {
 }
 
 .landing-page-sections-common-page-header-h1 {
+  font-family: var(--font-family-header);
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: var(--font-family-header-letter-spacing);
   padding: 100px 0px 8px 0px;
 }
 
