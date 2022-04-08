@@ -6,7 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 //Import anything new that you've used somewhere else so the typescript knows where to look//
 import { NavComponent } from './components/navigation/navigation.component';
 import { NavLightComponent } from './components/navigation-light/navigation-light.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { FooterLightComponent } from './components/footer-light/footer-light.component';
+import { FooterDarkComponent } from './components/footer-dark/footer-dark.component';
 import { LandingPageComponent } from './components/landing/landing-page/landing-page.component';
 import { LandingPageIntroComponent } from './components/landing/landing-page-intro/landing-page-intro.component';
 import { ProjectsPageComponent } from './components/projects/projects-page/projects-page.component';
@@ -26,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     NavComponent,
     NavLightComponent,
-    FooterComponent,
+    FooterLightComponent,
+    FooterDarkComponent,
     LandingPageComponent,
     LandingPageIntroComponent,
     ProjectsPageComponent,

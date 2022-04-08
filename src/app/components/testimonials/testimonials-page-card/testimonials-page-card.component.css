@@ -1,3 +1,23 @@
+.testimonials-page-card-container-padding {
+  padding-bottom: 44px;
+}
+
+.padding-right {
+  padding-right: 32px;
+}
+
+.padding-left {
+  padding-left: 32px;
+}
+
+.first {
+  width: 552px;
+}
+
+.second {
+  width: 472px;
+}
+
 .testimonials-page-card-container-parent {
   background: linear-gradient(to bottom, #ffffff60, #ffffff00);
   display: inline-block;
@@ -11,35 +31,48 @@
   display: block;
   padding: 36px 48px;
   border-radius: var(--border-radius-40px);
-}
-
-.parent {
-  background: linear-gradient(to right, #05fbff, #1e00ff);
-  border-radius: 8px;
-  color: #122dff;
-  display: inline-block;
-  font-size: 20px;
-  padding: 1px;
-  text-decoration: none;
-}
-
-.testimonials-page-card-container-cards {
-  background: #fff;
-  display: block;
-  padding: 1em 3em;
-  border-radius: 6px;
-  /* padding: 36px 48px;
-  border-radius: var(--border-radius-40px); */
+  text-align: left;
 }
 
 .testimonials-page-card-container-cards-title {
   font-family: var(--font-family-header);
   font-size: 32px;
   font-weight: 800;
-  letter-spacing: var(--font-family-header-letter-spacing);
   line-height: 42px;
+  letter-spacing: var(--font-family-header-letter-spacing);
   color: var(--color-white-100);
-  text-align: left;
+  margin-bottom: 12px;
+}
+
+.testimonials-page-card-container-cards-content {
+  font-family: var(--font-family-body);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--color-grey-777);
+}
+
+.testimonials-page-card-container-cards-author-info-image {
+  width: 92px;
+  margin-right: 12px;
+}
+
+.testimonials-page-card-container-cards-author-info-name {
+  font-family: var(--font-family-body);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--color-white-100);
+  margin-bottom: 4px;
+}
+
+.testimonials-page-card-container-cards-author-info-role,
+.testimonials-page-card-container-cards-author-info-company {
+  font-family: var(--font-family-body);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--color-grey-777);
 }
 
 /*////////////////////////*/
@@ -56,6 +89,13 @@
 
 /* Between Large and Medium devices (desktops, tablets) */
 @media (min-width: 991px) and (max-width: 1200px) {
+  .first {
+    width: 50%;
+  }
+
+  .second {
+    width: 50%;
+  }
 }
 
 /* All devices less than Medium devices */
@@ -64,6 +104,13 @@
 
 /* Only Medium devices (tablets) */
 @media (min-width: 767px) and (max-width: 992px) {
+  .first {
+    width: 50%;
+  }
+
+  .second {
+    width: 50%;
+  }
 }
 
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
@@ -72,10 +119,32 @@
 
 /* Only Small devices (landscape phones) */
 @media (min-width: 576px) and (max-width: 768px) {
+  .first {
+    width: 50%;
+  }
+
+  .second {
+    width: 50%;
+  }
 }
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
+  .first {
+    width: 100%;
+  }
+
+  .second {
+    width: 100%;
+  }
+
+  .padding-right {
+    padding-right: calc(var(--bs-gutter-x) / 2);
+  }
+
+  .padding-left {
+    padding-left: calc(var(--bs-gutter-x) / 2);
+  }
 }
 
 /* Only X-Small devices (portrait phones) but below 375px */
