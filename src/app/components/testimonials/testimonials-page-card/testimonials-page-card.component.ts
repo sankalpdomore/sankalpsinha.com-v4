@@ -16,7 +16,7 @@ export class TestimonialsPageCardComponent implements OnInit {
 
 }
 
-interface Roles {
+interface TestimonialData {
   description: string
 }
 
@@ -24,19 +24,5 @@ interface Project {
   testimonialTitle: string;
   testimonialContent: string
   testimonialAuthorImage: string,
-  projectTypeFT: string,
-  projectTypeSP: string,
-  projectDate: string,
-  projectWorkTitle: string,
-  projectRoles: Roles,
-  projectRandomFactEmoji: string,
-  projectRandomFactText: string,
-  projectTeamSizePMs: string,
-  projectTeamSizeDevs: string,
-  projectTeamSizeQAs: string,
-  projectTeamSizeDesigners: string,
-  projectUrlDisplay: string,
-  projectUrlPending: string,
-  projectUrl: string,
-  projectUrlLabel: string,
+  testimonialContentData: TestimonialData,
 }
