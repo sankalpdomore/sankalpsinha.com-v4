@@ -19,7 +19,7 @@
 }
 
 .testimonials-page-card-container-parent {
-  background: linear-gradient(to bottom, #ffffff60, #ffffff00);
+  background: linear-gradient(to bottom, #ffffff90, #ffffff00);
   display: inline-block;
   padding: 2px;
   border-radius: var(--border-radius-40px);
@@ -160,11 +160,6 @@
 
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 768px) {
-  /* .testimonials-page-card-container-cards-title {
-    font-size: 26px;
-    line-height: 30px;
-    margin-bottom: 16px;
-  } */
 }
 
 /* Only Small devices (landscape phones) */
