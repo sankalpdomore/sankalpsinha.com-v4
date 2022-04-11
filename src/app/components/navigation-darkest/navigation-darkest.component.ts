@@ -4,13 +4,13 @@ import { Component } from '@angular/core';
 //Create a new component by creating a type-script class by typing export class {class_name}//
 @Component({
   //Selector name is a custom name to identify the component which allows Angular to look for the component by this selector name//
-  selector: 'component-navigation',
+  selector: 'component-navigation-darkest',
   //templateURL is the html file from which this component will fetch the page layout and contents, if any//
-  templateUrl: './navigation.component.html',
+  templateUrl: './navigation-darkest.component.html',
   //styleUrls is the css file where we write all the css related to the html file//
-  styleUrls: ['./navigation.component.css']
+  styleUrls: ['./navigation-darkest.component.css']
 })
 //exporting the component as a class identifier which Angular can use to fetch data from//
-export class NavComponent {
+export class NavDarkestComponent {
 
 }

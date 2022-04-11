@@ -1,0 +1,21 @@
+<div class="container-fluid common-page-container landing-page-section-containers projects-page-container">
+  <div class="container-fluid content-container">
+    <h1 class="common-page-header-h1 landing-page-sections-common-page-header-h1 with-subheader d-none d-sm-block">
+      Fortune favours the bold <span class="font-sup">(font)</span>
+    </h1>
+    <h1 class="common-page-header-h1 landing-page-sections-common-page-header-h1 with-subheader d-block d-sm-none">
+      Fortune favours the bold
+    </h1>
+    <div class="common-page-sub-header landing-page-sections-common-page-sub-header d-none d-lg-block">
+      Over my 10 years of designing, I have been lucky enough to work with some amazing people & teams. Together, we’ve <br> discussed and figured user problems, debated the best UX to solve them, and delivered decent products to test the water.<br> Below is a selected list of projects that I’ve helped companies design & build over the years.<br> Some are a success, some are a failure - but all learning in disguise ✨
+    </div>
+    <div class="common-page-sub-header landing-page-sections-common-page-sub-header d-block d-lg-none">
+      Over my 10 years of designing, I have been lucky enough to work with some amazing people & teams. Below is a selected list of projects that I’ve helped companies design & build over the years. Some are a success, some are a failure - but all learning in disguise ✨
+    </div>
+    <div class="row">
+      <div *ngFor="let item of projectData" class="projects-page-section-container col-12">
+        <component-projects-page-section-card [data]="item"></component-projects-page-section-card>
+      </div>
+    </div>
+  </div>
+</div>

@@ -63,8 +63,9 @@
   --color-success-green-light-default: hsla(89, 100%, 30%, 16%);
   --color-purple-default: hsla(250, 100%, 69%, 100%);
   --color-purple-light-default: hsla(250, 100%, 69%, 16%);
-  --color-dark-background: #000000;
-  --color-dark-nav-background: #222222cc;
+  --color-dark-background: hsla(0, 0%, 0%, 100%);
+  --color-dark-nav-background: hsla(0, 0%, 13%, 80%);
+  --color-darkest-nav-background: hsla(0, 0%, 13%, 100%);
   --color-dark-nav-button-text-default: #777777;
   --color-dark-nav-button-text-hover: #ffffff;
   --color-dark-nav-button-back-hover: rgba(0, 0, 0, 0.4);

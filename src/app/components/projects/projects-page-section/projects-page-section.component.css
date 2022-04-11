@@ -1,9 +1,35 @@
+.projects-page-container {
+  background-color: var(--color-white-100);
+}
+
+.landing-page-sections-common-page-header-h1 span {
+  font-family: var(--font-family-header);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  position: relative;
+  top: -28px;
+  left: -4px;
+}
+
+.projects-page-section-container {
+  padding-bottom: 140px;
+}
+
+.projects-page-section-container:last-child {
+  padding-bottom: 40px;
+}
+
 /*////////////////////////*/
 /*//// Media queries /////*/
 /*////////////////////////*/
 
 /* All devices more than 1441px devices */
 @media (min-width: 1441px) {
+  .projects-page-container .content-container {
+    max-width: 1100px;
+  }
 }
 
 /* Between Extra-Large and large devices (large desktops, large tablets) */
@@ -16,6 +42,9 @@
 
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
+  .projects-page-section-container {
+    padding-bottom: 100px;
+  }
 }
 
 /* Only Medium devices (tablets) */
@@ -32,6 +61,9 @@
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
+  .font-sup {
+    display: none;
+  }
 }
 
 /* Only X-Small devices (portrait phones) but below 375px */
