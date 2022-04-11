@@ -1,5 +1,6 @@
 [
   {
+    "projectID": "1",
     "projectTitle": "SellerCrowd",
     "projectDescription": "Designing a social platform to help salespeople exchange insights anonymously & hit sales goals faster.",
     "projectImage": "../assets/projects/project-tiles/sellercrowd.png",
@@ -26,6 +27,7 @@
     "projectUrlLabel": "sellercrowd.com"
   },
   {
+    "projectID": "2",
     "projectTitle": "Visit.Page",
     "projectDescription": "Building a mobile-first link-in-bio tool to help creators send their audience to the right product, services, and links.",
     "projectImage": "../assets/projects/project-tiles/visitpage.png",
