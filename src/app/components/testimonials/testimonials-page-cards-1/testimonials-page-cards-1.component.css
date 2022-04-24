@@ -1,17 +1,22 @@
-.first {
-  width: 56%;
+.card-columns {
+  column-count: 2;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: masonry; */
+  column-gap: 40px;
 }
 
-.second {
-  width: 44%;
+.card {
+  display: contents;
+  flex-direction: column-reverse;
 }
 
 .padding-right {
-  padding-right: 32px;
+  padding-right: 20px;
 }
 
 .padding-left {
-  padding-left: 32px;
+  padding-left: 20px;
 }
 
 .testimonials-page-card-container-padding {
@@ -168,12 +173,9 @@
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
-  .first {
-    width: 100%;
-  }
-
-  .second {
-    width: 100%;
+  .card-columns {
+    column-count: 1;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .padding-right {

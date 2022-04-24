@@ -14,8 +14,8 @@ import { LandingPageIntroComponent } from './components/landing/landing-page-int
 import { ProjectsPageComponent } from './components/projects/projects-page/projects-page.component';
 import { ProjectsPageSectionComponent } from './components/projects/projects-page-section/projects-page-section.component';
 import { ProjectsPageSectionCardComponent } from './components/projects/projects-page-section-card/projects-page-section-card.component';
-import { LandingPageTestimonialsSectionComponent } from './components/landing/landing-page-testimonials/landing-page-testimonials-section/landing-page-testimonials-section.component';
-import { LandingPageTestimonialsSectionCardComponent } from './components/landing/landing-page-testimonials/landing-page-testimonials-section-cards/landing-page-testimonials-section-card.component';
+import { LandingPageTestimonialsSectionComponent } from './components/landing/landing-page-testimonials-section/landing-page-testimonials-section.component';
+import { TestimonialsPageCards1Component } from './components/testimonials/testimonials-page-cards-1/testimonials-page-cards-1.component';
 import { TestimonialsPageComponent } from './components/testimonials/znot-required/testimonials-page.component';
 import { TestimonialsPageHeaderComponent } from './components/testimonials/testimonials-page-header/testimonials-page-header.component';
 import { MobiletempmessageComponent } from './components/mobiletempmessage/mobiletempmessage.component';
@@ -42,7 +42,7 @@ import { HttpClientModule } from '@angular/common/http';
     TestimonialsPageComponent,
     TestimonialsPageHeaderComponent,
     LandingPageTestimonialsSectionComponent,
-    LandingPageTestimonialsSectionCardComponent,
+    TestimonialsPageCards1Component,
     BuildinginpublicComponent,
     PhotosComponent,
     PhotosTileComponent,
