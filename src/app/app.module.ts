@@ -14,9 +14,10 @@ import { LandingPageIntroComponent } from './components/landing/landing-page-int
 import { ProjectsPageComponent } from './components/projects/projects-page/projects-page.component';
 import { ProjectsPageSectionComponent } from './components/projects/projects-page-section/projects-page-section.component';
 import { ProjectsPageSectionCardComponent } from './components/projects/projects-page-section-card/projects-page-section-card.component';
-import { TestimonialsPageComponent } from './components/testimonials/testimonials-page/testimonials-page.component';
-import { TestimonialsPageSectionComponent } from './components/testimonials/testimonials-page-section/testimonials-page-section.component';
-import { TestimonialsPageSectionCardComponent } from './components/testimonials/testimonials-page-section-card/testimonials-page-section-card.component';
+import { LandingPageTestimonialsSectionComponent } from './components/landing/landing-page-testimonials/landing-page-testimonials-section/landing-page-testimonials-section.component';
+import { LandingPageTestimonialsSectionCardComponent } from './components/landing/landing-page-testimonials/landing-page-testimonials-section-cards/landing-page-testimonials-section-card.component';
+import { TestimonialsPageComponent } from './components/testimonials/znot-required/testimonials-page.component';
+import { TestimonialsPageHeaderComponent } from './components/testimonials/testimonials-page-header/testimonials-page-header.component';
 import { MobiletempmessageComponent } from './components/mobiletempmessage/mobiletempmessage.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 import { PhotosComponent } from './components/photos/photos-page/photos-page.component';
@@ -39,8 +40,9 @@ import { HttpClientModule } from '@angular/common/http';
     ProjectsPageSectionComponent,
     ProjectsPageSectionCardComponent,
     TestimonialsPageComponent,
-    TestimonialsPageSectionComponent,
-    TestimonialsPageSectionCardComponent,
+    TestimonialsPageHeaderComponent,
+    LandingPageTestimonialsSectionComponent,
+    LandingPageTestimonialsSectionCardComponent,
     BuildinginpublicComponent,
     PhotosComponent,
     PhotosTileComponent,
