@@ -7,22 +7,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavLightComponent } from './components/navigation-light/navigation-light.component';
 import { NavDarkComponent } from './components/navigation-dark/navigation-dark.component';
 import { NavDarkestComponent } from './components/navigation-darkest/navigation-darkest.component';
-import { FooterLightComponent } from './components/footer-light/footer-light.component';
-import { FooterDarkComponent } from './components/footer-dark/footer-dark.component';
 import { LandingPageComponent } from './components/landing/landing-page/landing-page.component';
 import { LandingPageIntroComponent } from './components/landing/landing-page-intro/landing-page-intro.component';
+import { LandingPageTestimonialsSectionComponent } from './components/landing/landing-page-testimonials-section/landing-page-testimonials-section.component';
 import { ProjectsPageComponent } from './components/projects/projects-page/projects-page.component';
 import { ProjectsPageSectionComponent } from './components/projects/projects-page-section/projects-page-section.component';
 import { ProjectsPageSectionCardComponent } from './components/projects/projects-page-section-card/projects-page-section-card.component';
-import { LandingPageTestimonialsSectionComponent } from './components/landing/landing-page-testimonials-section/landing-page-testimonials-section.component';
-import { TestimonialsPageCards1Component } from './components/testimonials/testimonials-page-cards-1/testimonials-page-cards-1.component';
-import { TestimonialsPageComponent } from './components/testimonials/znot-required/testimonials-page.component';
+import { TestimonialsPageComponent } from './components/testimonials/testimonials-page/testimonials-page.component';
 import { TestimonialsPageHeaderComponent } from './components/testimonials/testimonials-page-header/testimonials-page-header.component';
-import { MobiletempmessageComponent } from './components/mobiletempmessage/mobiletempmessage.component';
+import { TestimonialsPageCardsHalfComponent } from './components/testimonials/testimonials-page-cards-half/testimonials-page-cards-half.component';
+import { TestimonialsPageCardsAllComponent } from './components/testimonials/testimonials-page-cards-all/testimonials-page-cards-all.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 import { PhotosComponent } from './components/photos/photos-page/photos-page.component';
 import { PhotosTileComponent } from './components/photos/photos-tile/photos-tile.component';
 import { PhotosModalComponent } from './components/photos/photos-modal/photos-modal.component';
+import { MobiletempmessageComponent } from './components/mobiletempmessage/mobiletempmessage.component';
+import { FooterLightComponent } from './components/footer-light/footer-light.component';
+import { FooterDarkComponent } from './components/footer-dark/footer-dark.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -32,22 +33,23 @@ import { HttpClientModule } from '@angular/common/http';
     NavLightComponent,
     NavDarkComponent,
     NavDarkestComponent,
-    FooterLightComponent,
-    FooterDarkComponent,
     LandingPageComponent,
     LandingPageIntroComponent,
+    LandingPageTestimonialsSectionComponent,
     ProjectsPageComponent,
     ProjectsPageSectionComponent,
     ProjectsPageSectionCardComponent,
     TestimonialsPageComponent,
     TestimonialsPageHeaderComponent,
-    LandingPageTestimonialsSectionComponent,
-    TestimonialsPageCards1Component,
+    TestimonialsPageCardsHalfComponent,
+    TestimonialsPageCardsAllComponent,
     BuildinginpublicComponent,
     PhotosComponent,
     PhotosTileComponent,
     PhotosModalComponent,
     MobiletempmessageComponent,
+    FooterLightComponent,
+    FooterDarkComponent,
   ],
   imports: [
     BrowserModule,

@@ -286,7 +286,7 @@ li > .common-body-text-16-bold {
   border: 2px solid var(--color-link-blue-default);
   border-radius: var(--border-radius-infinite);
   margin-top: 12px;
-  padding: 12px 16px;
+  padding: 16px 16px;
   cursor: pointer;
 }
 
@@ -294,6 +294,28 @@ li > .common-body-text-16-bold {
   color: var(--color-white-100);
   background-color: var(--color-link-blue-default);
   border: 2px solid var(--color-link-blue-default);
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.see-more-link-dark {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--color-white-100);
+  border: 2px solid var(--color-grey-555);
+  border-radius: var(--border-radius-infinite);
+  margin-top: 12px;
+  padding: 16px 16px;
+  cursor: pointer;
+}
+
+.see-more-link-dark:hover {
+  color: var(--color-black-100);
+  background-color: var(--color-white-100);
+  border: 2px solid var(--color-white-100);
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;

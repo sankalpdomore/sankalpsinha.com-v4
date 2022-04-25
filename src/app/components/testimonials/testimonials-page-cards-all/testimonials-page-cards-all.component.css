@@ -1,13 +1,13 @@
 .padding-right {
-  padding-right: 20px;
+  padding-right: 24px;
 }
 
 .padding-left {
-  padding-left: 20px;
+  padding-left: 24px;
 }
 
 .testimonials-page-card-container-padding {
-  padding-bottom: 44px;
+  padding-bottom: 32px;
 }
 
 .testimonials-page-card-container-parent {
@@ -128,10 +128,6 @@
 
   .padding-left {
     padding-left: 24px;
-  }
-
-  .paddin-left-0 {
-    padding-left: 0px;
   }
 
   .testimonials-page-card-container-parent
