@@ -313,9 +313,9 @@ li > .common-body-text-16-bold {
 }
 
 .see-more-link-dark:hover {
-  color: var(--color-black-100);
-  background-color: var(--color-white-100);
-  border: 2px solid var(--color-white-100);
+  color: var(--color-white-100);
+  background-color: var(--color-link-blue-default);
+  border: 2px solid var(--color-link-blue-default);
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -357,15 +357,15 @@ li > .common-body-text-16-bold {
 
 /* Between Large and Medium devices (desktops, tablets) */
 @media (min-width: 991px) and (max-width: 1200px) {
-  .landing-page-section-containers {
-    padding: 0px 40px !important;
+  .common-page-container {
+    padding: 0px 40px 80px 40px !important;
   }
 }
 
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
   .common-page-container {
-    padding: 0px 20px 40px 20px !important;
+    padding: 0px 20px 60px 20px !important;
   }
 
   .common-page-header-h1 {
@@ -408,15 +408,6 @@ li > .common-body-text-16-bold {
   .qouting {
     line-height: 26px;
   }
-
-  .landing-page-section-containers {
-    padding: 20px 52px 100px 52px !important;
-  }
-
-  .landing-page-sections-common-page-sub-header {
-    font-weight: 300;
-    margin-bottom: 60px !important;
-  }
 }
 
 /* Only Medium devices (tablets) */
@@ -424,7 +415,7 @@ li > .common-body-text-16-bold {
 }
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 768px) {
-  .landing-page-section-containers {
+  .common-page-container {
     padding: 0px 20px 80px 20px !important;
   }
 }
@@ -436,5 +427,7 @@ li > .common-body-text-16-bold {
 @media (min-width: 0px) and (max-width: 576px) {
   .common-page-sub-header {
     line-height: 18px;
+    font-weight: 300;
+    /* margin-bottom: 60px !important; */
   }
 }

@@ -125,6 +125,9 @@
 
 /* Between Large and Medium devices (desktops, tablets) */
 @media (min-width: 991px) and (max-width: 1200px) {
+  .nav-link-icons {
+    display: none;
+  }
 }
 
 /* All devices less than Medium devices */
