@@ -9,12 +9,12 @@
   background: var(--color-light-nav-background);
   backdrop-filter: blur(16px);
   border-radius: var(--border-radius-infinite);
-  line-height: 24px;
+  line-height: 22px;
   z-index: 1000;
   max-width: 1200px;
   padding: 12px;
   box-shadow: var(--box-shadow-light-nav);
-  border: 1px solid var(--color-light-paper);
+  /* border: 1px solid var(--color-light-paper); */
 }
 
 .navbar > .container,

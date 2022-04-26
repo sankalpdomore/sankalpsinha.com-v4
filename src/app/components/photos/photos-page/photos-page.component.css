@@ -1,15 +1,3 @@
-.photos-container {
-  background-color: var(--color-dark-background);
-}
-
-.photos-container .content-container {
-  max-width: 1000px;
-}
-
-.photos-container .common-page-header-h1 {
-  color: var(--color-white-100);
-}
-
 .stay-connected {
   font-size: 16px;
   font-weight: 400;
@@ -46,14 +34,6 @@
 
 /* All devices more than 1441px devices */
 @media (min-width: 1441px) {
-  .photos-container .content-container {
-    max-width: 1180px;
-  }
-
-  .photos-container .common-page-header-h1,
-  .photos-container .common-page-sub-header {
-    max-width: 1000px;
-  }
 }
 
 /* Between Extra-Large and large devices (large desktops, large tablets) */

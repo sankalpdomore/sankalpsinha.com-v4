@@ -121,6 +121,10 @@ p {
   background: var(--color-light-paper);
 }
 
+.common-page-container.dark {
+  background: var(--color-black-100);
+}
+
 .content-container {
   max-width: 1000px;
   padding: 0px !important;
@@ -140,17 +144,12 @@ p {
   margin-right: auto;
 }
 
-.with-subheader {
-  padding-bottom: 16px;
+.common-page-header-h1.dark {
+  color: var(--color-white-100);
 }
 
-.landing-page-sections-common-page-header-h1 {
-  font-family: var(--font-family-header);
-  font-size: 46px;
-  font-weight: 800;
-  line-height: 58px;
-  letter-spacing: var(--font-family-header-letter-spacing);
-  padding: 100px 0px 8px 0px;
+.with-subheader {
+  padding-bottom: 16px;
 }
 
 .common-page-sub-header {
@@ -165,8 +164,8 @@ p {
   margin-right: auto;
 }
 
-.landing-page-sections-common-page-sub-header {
-  margin-bottom: 100px;
+.common-page-sub-header.dark {
+  color: var(--color-grey-777);
 }
 
 .common-section-header-h3 {
@@ -322,6 +321,19 @@ li > .common-body-text-16-bold {
   transition: all 0.2s ease-in-out;
 }
 
+.landing-page-sections-common-page-header-h1 {
+  font-family: var(--font-family-header);
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: var(--font-family-header-letter-spacing);
+  padding: 100px 0px 8px 0px;
+}
+
+.landing-page-sections-common-page-sub-header {
+  margin-bottom: 100px;
+}
+
 /* Spacers */
 .section-break {
   margin: 60px auto;
@@ -334,7 +346,7 @@ li > .common-body-text-16-bold {
 /* All devices more than 1441px devices */
 @media (min-width: 1441px) {
   .content-container {
-    max-width: 1000px;
+    max-width: 1100px;
   }
 }
 
