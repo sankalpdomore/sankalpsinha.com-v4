@@ -123,7 +123,11 @@
 }
 
 /* Between Large and Medium devices (desktops, tablets) */
-@media (min-width: 991px) and (max-width: 1200px) {
+@media (min-width: 991px) and (max-width: 1140px) {
+  .nav-link {
+    padding: 8px 22px !important;
+  }
+
   .nav-link-icons {
     display: none;
   }
