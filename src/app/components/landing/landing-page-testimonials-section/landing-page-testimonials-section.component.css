@@ -1,19 +1,6 @@
-.testimonials-page-container {
-  background-color: var(--color-black-100);
-}
-
-.testimonials-projects-container {
+.landing-page-section-containers {
   background-repeat: repeat;
   background-size: initial;
-}
-
-.landing-page-sections-common-page-header-h1 {
-  color: var(--color-white-100);
-}
-
-.landing-page-sections-common-page-sub-header {
-  color: var(--color-grey-999);
-  margin-bottom: 80px;
 }
 
 .fa-arrow-right {
@@ -26,9 +13,6 @@
 
 /* All devices more than 1441px devices */
 @media (min-width: 1441px) {
-  .testimonials-page-container .content-container {
-    max-width: 1100px;
-  }
 }
 
 /* Between Extra-Large and large devices (large desktops, large tablets) */

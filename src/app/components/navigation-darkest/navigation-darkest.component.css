@@ -1,7 +1,6 @@
 .navbar-container-parent {
   width: 100%;
   padding-top: 20px !important;
-  /* background: var(--color-black-100); */
 }
 
 .navbar {
@@ -13,6 +12,8 @@
   z-index: 1000;
   max-width: 1200px;
   padding: 12px;
+  box-shadow: var(--box-shadow-light-nav);
+  border: 1px solid var(--color-dark-nav-background);
 }
 
 .navbar > .container,

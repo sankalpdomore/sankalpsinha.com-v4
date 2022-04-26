@@ -100,21 +100,6 @@ div {
   font-weight: 300;
   line-height: 24px;
 }
-p {
-  margin-bottom: 26px !important;
-}
-
-* {
-  scroll-behavior: smooth !important;
-}
-
-.links-muted {
-  color: var(--color-black-100);
-}
-
-.link-remove-underline {
-  text-decoration: none;
-}
 
 .common-page-container {
   padding: 0px 0px 120px 0px;
@@ -159,7 +144,7 @@ p {
   line-height: 24px;
   color: var(--color-grey-555);
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -248,6 +233,22 @@ p {
   margin-bottom: 5px;
 }
 
+p {
+  margin-bottom: 26px !important;
+}
+
+* {
+  scroll-behavior: smooth !important;
+}
+
+.links-muted {
+  color: var(--color-black-100);
+}
+
+.link-remove-underline {
+  text-decoration: none;
+}
+
 li > .common-body-text-16-bold {
   padding-right: 5px;
 }
@@ -331,7 +332,7 @@ li > .common-body-text-16-bold {
 }
 
 .landing-page-sections-common-page-sub-header {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 /* Spacers */
