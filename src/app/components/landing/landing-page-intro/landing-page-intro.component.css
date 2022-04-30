@@ -141,8 +141,8 @@
   text-align: center;
   cursor: pointer;
   padding: 12px 28px;
-  background: var(--color-success-green-default);
-  color: var(--color-white-100);
+  background: var(--color-success-green-hover);
+  color: var(--color-success-green-default);
   border-radius: 100px;
   border: 2px solid var(--color-success-green-default);
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
@@ -169,7 +169,7 @@
 }
 
 .blob.green {
-  background: var(--color-white-100);
+  background: var(--color-success-green-default);
   animation: pulse-green 2s infinite;
 }
 
@@ -189,24 +189,18 @@
 }
 
 .landing-intro-right-currently-new-role:hover {
-  background: rgba(103, 198, 0, 0.2);
-  color: hsla(89, 100%, 39%, 100%);
+  background: var(--color-success-green-default);
+  color: var(--color-white-100);
   border: 2px solid var(--color-success-green-default);
 }
 
 .landing-intro-right-currently-new-role:hover .blob.green {
-  background: hsla(89, 100%, 39%, 100%);
+  background: var(--color-white-100);
   box-shadow: 0 0 0 0 hsla(89, 100%, 39%, 100%);
   -moz-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-}
-
-.landing-intro-right-currently-new-role:active {
-  background: rgba(103, 198, 0, 0.1);
-  color: hsla(89, 100%, 39%, 100%);
-  border: 2px solid hsla(89, 100%, 39%, 100%);
 }
 
 .landing-intro-works-featured-label {
