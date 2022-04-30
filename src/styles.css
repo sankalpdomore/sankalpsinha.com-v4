@@ -1,7 +1,7 @@
 /* Work Sans Font Weight Guide: Medium 500, Semi-bold 600, Bold 700, Extra-bold 800, Black 900 */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800;900&display=swap");
-/* IBM Plex Mono Font Weight Guide: Regular 400, Medium 500, Semi-bold 600 */
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+/* IBM Plex Mono Font Weight Guide: Regular 400, Medium 500, Semi-bold 600, Bold 700 */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
 @import url("~font-awesome/css/font-awesome.css");
 @import url("./assets/font-awesome/css/all.css");
 
@@ -339,7 +339,12 @@ li > .common-body-text-16-bold {
 }
 
 .footer-container {
-  padding: 40px 20px 32px 20px !important;
+  padding: 48px 20px 40px 20px !important;
+  background-color: var(--color-light-paper);
+  border-top: 1px solid var(--color-grey-ddd);
+}
+
+.footer-container.dark {
   background-color: var(--color-black-100);
   border-top: 1px solid var(--color-grey-333);
 }
@@ -355,39 +360,58 @@ li > .common-body-text-16-bold {
 .footer-container-column-header,
 .footer-container-column-items {
   font-family: var(--font-family-footer);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   text-align: left;
 }
 
 .footer-container-column-header {
+  font-weight: 700;
+  padding-bottom: 8px;
+  color: var(--color-black-100);
+}
+
+.footer-container-column-header.dark {
   font-weight: 600;
   color: var(--color-grey-ccc);
-  padding-bottom: 8px;
 }
 
 .footer-container-column-items {
   font-weight: 400;
-  color: var(--color-grey-666);
   list-style-type: none;
   padding-bottom: 8px;
+  color: var(--color-grey-555);
+}
+
+.footer-container-column-items.dark {
+  font-weight: 500;
+  color: var(--color-grey-666);
 }
 
 .footer-container-column-items-links {
-  color: var(--color-grey-666);
-  text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
+  color: var(--color-grey-555);
+}
+
+.footer-container-column-items-links.dark {
+  color: var(--color-grey-666);
 }
 
 .footer-container-column-items-links-icons {
-  font-size: 12px;
   top: -1px;
   position: relative;
+  font-size: 14px;
 }
 
 .footer-container-column-items-links:hover {
-  color: var(--color-light-orange);
+  font-weight: 500;
   text-decoration: none;
+  color: var(--color-link-blue-default);
+}
+
+.footer-container-column-items-links.dark:hover {
+  color: var(--color-light-orange);
 }
 
 .footer-container-content-quote {
@@ -395,6 +419,11 @@ li > .common-body-text-16-bold {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
+  text-align: center;
+  color: var(--color-grey-555);
+}
+
+.footer-container-content-quote.dark {
   color: var(--color-grey-666);
 }
 
