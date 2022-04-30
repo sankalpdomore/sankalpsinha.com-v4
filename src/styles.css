@@ -1,6 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+/* Work Sans Font Weight Guide: Medium 500, Semi-bold 600, Bold 700, Extra-bold 800, Black 900 */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800;900&display=swap");
-/* Medium 500, Semi-bold 600, Bold 700, Extra-bold 800, Black 900 */
+/* IBM Plex Mono Font Weight Guide: Regular 400, Medium 500, Semi-bold 600 */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
 @import url("~font-awesome/css/font-awesome.css");
 @import url("./assets/font-awesome/css/all.css");
@@ -90,6 +90,7 @@
   --font-family-body: "SS";
   --font-family-header: "Work Sans", sans-serif;
   --font-family-nav: "Work Sans", sans-serif;
+  --font-family-footer: "IBM Plex Mono", sans-serif;
   --font-family-header-letter-spacing: -0.4px;
 }
 
@@ -335,9 +336,64 @@ li > .common-body-text-16-bold {
   margin-bottom: 80px;
 }
 
-/* Spacers */
-.section-break {
-  margin: 60px auto;
+.footer-container {
+  padding: 40px 0px 32px 0px;
+  background-color: var(--color-black-100);
+  border-top: 1px solid var(--color-grey-333);
+}
+
+.footer-container-column {
+  padding-left: 0px;
+}
+
+.footer-container-column-header,
+.footer-container-column-items {
+  font-family: var(--font-family-footer);
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.footer-container-column-header {
+  font-weight: 600;
+  color: var(--color-grey-ccc);
+  padding-bottom: 8px;
+}
+
+.footer-container-column-items {
+  font-weight: 400;
+  color: var(--color-grey-666);
+  list-style-type: none;
+  padding-bottom: 8px;
+}
+
+.footer-container-column-items-links {
+  color: var(--color-grey-666);
+  text-decoration: none;
+}
+
+.footer-container-column-items-links-icons {
+  font-size: 12px;
+  top: -1px;
+  position: relative;
+}
+
+.footer-container-column-items-links:hover {
+  color: var(--color-link-blue-default);
+  text-decoration: none;
+}
+
+.footer-container-content-quote {
+  font-family: var(--font-family-footer);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-grey-666);
+}
+
+.footer-container-content-separator {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 /*////////////////////////*/
@@ -428,6 +484,10 @@ li > .common-body-text-16-bold {
   .common-page-sub-header {
     line-height: 18px;
     font-weight: 300;
-    /* margin-bottom: 60px !important; */
+  }
+
+  .footer-container-content {
+    line-height: 18px;
+    padding: 0px;
   }
 }
