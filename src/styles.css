@@ -337,9 +337,13 @@ li > .common-body-text-16-bold {
 }
 
 .footer-container {
-  padding: 40px 0px 32px 0px;
+  padding: 40px 20px 32px 20px !important;
   background-color: var(--color-black-100);
   border-top: 1px solid var(--color-grey-333);
+}
+
+.footer-container-content {
+  max-width: 1000px;
 }
 
 .footer-container-column {
@@ -370,6 +374,7 @@ li > .common-body-text-16-bold {
 .footer-container-column-items-links {
   color: var(--color-grey-666);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .footer-container-column-items-links-icons {
@@ -484,10 +489,5 @@ li > .common-body-text-16-bold {
   .common-page-sub-header {
     line-height: 18px;
     font-weight: 300;
-  }
-
-  .footer-container-content {
-    line-height: 18px;
-    padding: 0px;
   }
 }

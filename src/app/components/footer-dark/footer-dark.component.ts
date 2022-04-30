@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterDarkComponent implements OnInit {
 
+  onClickGoToTop() {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  }
+
   constructor() { }
 
   ngOnInit(): void {

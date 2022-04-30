@@ -1,10 +1,7 @@
 <div class="container-fluid footer-container">
-    <div class="container-fluid content-container text-center">
+    <div class="container-fluid footer-container-content text-center">
         <div class="row">
-            <div class="col-3">
-                <!-- <div class="col-12 footer-container-column-header">
-                    Site links
-                </div> -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
                 <ul class="footer-container-column">
                     <li class="footer-container-column-items">
                         © Sankalpsinha.com
@@ -12,7 +9,7 @@
                 </ul>
             </div>
             <!-- Current projects -->
-            <div class="col-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
                 <div class="col-12 footer-container-column-header">
                     Current projects
                 </div>
@@ -35,16 +32,11 @@
                 </ul>
             </div>
             <!-- Site links -->
-            <div class="col-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
                 <div class="col-12 footer-container-column-header">
                     Site links
                 </div>
                 <ul class="footer-container-column">
-                    <li class="footer-container-column-items">
-                        <a class="footer-container-column-items-links" routerLink="/buildinginpublic">
-                            #BuildingInPublic
-                        </a>
-                    </li>
                     <li class="footer-container-column-items">
                         <a class="footer-container-column-items-links" routerLink="/projects">
                             <i class="footer-container-column-items-links-icons fas fa-pencil-ruler"></i>
@@ -69,15 +61,21 @@
                             Blog
                         </a>
                     </li>
+                    <li class="footer-container-column-items">
+                        <a class="footer-container-column-items-links" routerLink="/buildinginpublic">
+                            #BuildingInPublic
+                        </a>
+                    </li>
                 </ul>
             </div>
-            <div class="col-3">
+            <!-- Social links -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
                 <div class="col-12 footer-container-column-header">
                     Reach out
                 </div>
                 <ul class="footer-container-column">
                     <li class="footer-container-column-items">
-                        <a class="footer-container-column-items-links" href="http://twitter.com/sankalpdomore" target="_blank">
+                        <a class="footer-container-column-items-links" href="https://twitter.com/intent/user?screen_name=sankalpdomore" target="_blank">
                             <i class="footer-container-column-items-links-icons bi bi-twitter"></i>
                             Twitter
                         </a>
@@ -89,14 +87,14 @@
                         </a>
                     </li>
                     <li class="footer-container-column-items">
-                        <a href="mailto:hello@sankalpsinha.com?subject=Great website!&body=Hey Sankalp, wanted to reach out and say..." class="footer-container-column-items-links" target="_blank">
+                        <a href="mailto:hello@sankalpsinha.com?subject=Great website!&body=Hey Sankalp, reaching out to..." class="footer-container-column-items-links" target="_blank">
                             <i class="footer-container-column-items-links-icons fa-solid fa-envelope"></i>
                             Email
                         </a>
                     </li>
                     <li class="footer-container-column-items">
-                        <a class="footer-container-column-items-links" href="" target="_blank">
-                            <i class="footer-container-column-items-links-icons fa-solid fa-turn-up"></i>
+                        <a class="footer-container-column-items-links" (click)="onClickGoToTop()">
+                            <i class="footer-container-column-items-links-icons fa-solid fa-angle-up"></i>
                             To top
                         </a>
                     </li>
