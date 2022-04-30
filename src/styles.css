@@ -59,6 +59,7 @@
   --color-black-30: rgba(0, 0, 0, 0.3);
   --color-black-04: rgba(0, 0, 0, 0.04);
   --color-link-blue-default: hsla(214, 84%, 56%, 100%);
+  --color-light-orange: hsla(28, 100%, 50%, 100%);
   --color-success-green-default: hsla(89, 100%, 30%, 100%);
   --color-success-green-hover: hsla(89, 100%, 30%, 25%);
   --color-success-green-light-default: hsla(89, 100%, 30%, 16%);
@@ -385,7 +386,7 @@ li > .common-body-text-16-bold {
 }
 
 .footer-container-column-items-links:hover {
-  color: var(--color-link-blue-default);
+  color: var(--color-light-orange);
   text-decoration: none;
 }
 
