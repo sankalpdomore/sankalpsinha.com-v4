@@ -1,113 +1,103 @@
+<style>
+    @media (min-width: 0px) and (max-width: 991px) {
+        .footer-container-content-display {
+            display: block !important;
+        }
+    }
+</style>
 <div class="container-fluid footer-container">
-    <div class="container-fluid footer-container-content text-center">
+    <div class="container-fluid footer-container-content">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                <ul class="footer-container-column">
-                    <li class="footer-container-column-items">
+            <div class="footer-container-content-display d-flex justify-content-between">
+                <div class="footer-container-column">
+                    <div class="col-12 footer-container-column-items">
                         © Sankalpsinha.com
-                    </li>
-                </ul>
-            </div>
-            <!-- Current projects -->
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                <div class="col-12 footer-container-column-header">
-                    Current projects
+                    </div>
                 </div>
-                <ul class="footer-container-column">
-                    <li class="footer-container-column-items">
+                <div class="footer-container-column">
+                    <div class="col-12 col-12 footer-container-column-header">
+                        Current projects
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a href="https://visit.page" target="_blank" class="footer-container-column-items-links">
-                            visit.page
+                            Visit.Page
                         </a>
-                    </li>
-                    <li class="footer-container-column-items">
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a href="https://buildwithframer.com" target="_blank" class="footer-container-column-items-links">
                             BuildwithFramer
                         </a>
-                    </li>
-                    <li class="footer-container-column-items">
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a href="https://twitter.com/sankalpdomore/status/1356797576129908739" target="_blank" class="footer-container-column-items-links">
                             My personal site
                         </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Site links -->
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                <div class="col-12 footer-container-column-header">
-                    Site links
+                    </div>
                 </div>
-                <ul class="footer-container-column">
-                    <li class="footer-container-column-items">
+                <div class="footer-container-column">
+                    <div class="col-12 col-12 footer-container-column-header">
+                        Reach out
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a class="footer-container-column-items-links" routerLink="/projects">
                             <i class="footer-container-column-items-links-icons fas fa-pencil-ruler"></i>
                             Projects
                         </a>
-                    </li>
-                    <li class="footer-container-column-items">
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a class="footer-container-column-items-links" routerLink="/testimonials">
                             <i class="footer-container-column-items-links-icons fa-solid fa-thumbs-up"></i>
                             Testimonials
                         </a>
-                    </li>
-                    <li class="footer-container-column-items">
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a class="footer-container-column-items-links" routerLink="/photos">
                             <i class="footer-container-column-items-links-icons bi bi-camera-fill"></i>
                             Photos
                         </a>
-                    </li>
-                    <li class="footer-container-column-items">
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a class="footer-container-column-items-links" href="http://blog.sankalpsinha.com" target="_blank">
                             <i class="footer-container-column-items-links-icons bi bi-chat-square-quote-fill"></i>
                             Blog
                         </a>
-                    </li>
-                    <li class="footer-container-column-items">
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a class="footer-container-column-items-links" routerLink="/buildinginpublic">
                             #BuildingInPublic
                         </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Social links -->
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                <div class="col-12 footer-container-column-header">
-                    Reach out
+                    </div>
                 </div>
-                <ul class="footer-container-column">
-                    <li class="footer-container-column-items">
+                <div class="footer-container-column">
+                    <div class="col-12 col-12 footer-container-column-header">
+                        Header
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a class="footer-container-column-items-links" href="https://twitter.com/intent/user?screen_name=sankalpdomore" target="_blank">
                             <i class="footer-container-column-items-links-icons bi bi-twitter"></i>
                             Twitter
                         </a>
-                    </li>
-                    <li class="footer-container-column-items">
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a class="footer-container-column-items-links" href="http://linkedin.com/in/hellosankalpsinha/" target="_blank">
                             <i class="footer-container-column-items-links-icons bi bi-linkedin"></i>
                             LinkedIn
                         </a>
-                    </li>
-                    <li class="footer-container-column-items">
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a href="mailto:hello@sankalpsinha.com?subject=Great website!&body=Hey Sankalp, reaching out to..." class="footer-container-column-items-links" target="_blank">
                             <i class="footer-container-column-items-links-icons fa-solid fa-envelope"></i>
                             Email
                         </a>
-                    </li>
-                    <li class="footer-container-column-items">
+                    </div>
+                    <div class="col-12 footer-container-column-items">
                         <a class="footer-container-column-items-links" (click)="onClickGoToTop()">
                             <i class="footer-container-column-items-links-icons fa-solid fa-angle-up"></i>
-                            To top
+                            To top&nbsp;&nbsp;&nbsp;&nbsp;
                         </a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="footer-container-content-separator">
-            <img src="../assets/footer/separator.svg" alt="" class="">
-        </div>
-        <div class="footer-container-content-quote">
-            "Do it with all your heart, or don't do it at all." ✨
-            <br>
-            Wireframed, designed, prototyped, and hand-coded by Sankalp with extreme love, care, and passion for design.
         </div>
     </div>
 </div>
