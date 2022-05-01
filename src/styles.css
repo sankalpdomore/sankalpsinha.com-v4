@@ -357,21 +357,9 @@ li > .common-body-text-16-bold {
   width: -webkit-max-content !important;
 }
 
-/* 
-.footer-container-column.second {
-  padding-left: 4%;
-}
-
-.footer-container-column.third {
-  padding-left: 8%;
-}
-
-.footer-container-column.fourth {
-  padding-left: 12%;
-} */
-
 .footer-container-column-ul {
   padding-left: 0px;
+  margin-bottom: 0px;
 }
 
 .footer-container-column-header,
@@ -384,7 +372,7 @@ li > .common-body-text-16-bold {
 
 .footer-container-column-header {
   font-weight: 700;
-  padding-bottom: 8px;
+  padding-bottom: 12px;
   color: var(--color-black-100);
 }
 
@@ -402,7 +390,7 @@ li > .common-body-text-16-bold {
 
 .footer-container-column-items.dark {
   font-weight: 500;
-  color: var(--color-grey-666);
+  color: var(--color-grey-777);
 }
 
 .footer-container-column-items-links {
@@ -441,7 +429,7 @@ li > .common-body-text-16-bold {
 }
 
 .footer-container-content-quote.dark {
-  color: var(--color-grey-666);
+  color: var(--color-grey-777);
 }
 
 .footer-container-content-separator {
@@ -517,29 +505,10 @@ li > .common-body-text-16-bold {
   .qouting {
     line-height: 26px;
   }
-
-  /* .footer-container-column.second {
-    padding-left: calc(var(--bs-gutter-x) / 2);
-  }
-
-  .footer-container-column.third {
-    padding-left: calc(var(--bs-gutter-x) / 2);
-  }
-
-  .footer-container-column.fourth {
-    padding-left: calc(var(--bs-gutter-x) / 2);
-  } */
 }
 
 /* Only Medium devices (tablets) */
 @media (min-width: 768px) and (max-width: 992px) {
-  /* .footer-container-column.third {
-    padding-left: 4%;
-  }
-
-  .footer-container-column.fourth {
-    padding-left: 4%;
-  } */
 }
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 768px) {
@@ -547,8 +516,16 @@ li > .common-body-text-16-bold {
     padding: 0px 20px 80px 20px !important;
   }
 
-  .footer-container-column.first {
+  .footer-container-column:nth-of-type(1) {
     width: -webkit-fill-available !important;
+  }
+
+  .footer-container-column-ul {
+    margin-bottom: 40px;
+  }
+
+  .footer-container-column:nth-of-type(4) > ul {
+    margin-bottom: 0px !important;
   }
 }
 /* Only Small devices (landscape phones) */
@@ -560,5 +537,9 @@ li > .common-body-text-16-bold {
   .common-page-sub-header {
     line-height: 18px;
     font-weight: 300;
+  }
+
+  .footer-container-column {
+    width: -webkit-fill-available !important;
   }
 }
