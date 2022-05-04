@@ -421,6 +421,59 @@ li > .common-body-text-16-bold {
   color: var(--color-light-orange);
 }
 
+.footer-container-column-items.footer-new-role {
+  font-weight: 600;
+  color: var(--color-success-green-default);
+}
+
+.footer-container-column-items.footer-new-role > .blobs-container {
+  display: inline-flex;
+  position: relative;
+  top: -1px;
+}
+
+.footer-new-role.blob {
+  border-radius: 50%;
+  margin-left: 0px;
+  margin-right: 12px;
+  height: 8px;
+  width: 8px;
+  transform: scale(1);
+  animation: pulse-black 2s infinite;
+}
+
+.footer-new-role.blob.green {
+  background: var(--color-success-green-default);
+  animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(132, 255, 0, 0.5);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(132, 255, 0, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(132, 255, 0, 0);
+  }
+}
+
+.footer-container-column-items.footer-new-role:hover {
+  color: var(--color-white-100);
+}
+
+.footer-container-column-items.footer-new-role:hover .blob.green {
+  background: var(--color-white-100);
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
 .footer-container-content-quote {
   font-family: var(--font-family-footer);
   font-size: 14px;
@@ -508,6 +561,14 @@ li > .common-body-text-16-bold {
     line-height: 26px;
   }
 
+  .footer-container-column:nth-of-type(1) {
+    width: -webkit-fill-available !important;
+  }
+
+  .footer-container-column-ul {
+    margin-bottom: 32px;
+  }
+
   .footer-container-column-items,
   .footer-container-content-quote {
     line-height: 22px;
@@ -521,14 +582,6 @@ li > .common-body-text-16-bold {
 @media (min-width: 0px) and (max-width: 768px) {
   .common-page-container {
     padding: 0px 20px 80px 20px !important;
-  }
-
-  .footer-container-column:nth-of-type(1) {
-    width: -webkit-fill-available !important;
-  }
-
-  .footer-container-column-ul {
-    margin-bottom: 32px;
   }
 
   .footer-container-column:nth-of-type(4) > ul {
