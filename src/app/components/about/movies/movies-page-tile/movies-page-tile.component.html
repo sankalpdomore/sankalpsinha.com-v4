@@ -1,0 +1,15 @@
+<div class="photos-container-tile">
+    <div class="photos-container-tile-image" [ngStyle]="{'background-image': 'url(\''+ MoviesImage + '\')'}"></div>
+    <div class="row">
+        <div class="col-auto photos-container-tile-name">
+            {{MoviesName}}
+        </div>
+    </div>
+    <div class="photos-container-tile-description">
+        {{MoviesDescription}}
+    </div>
+    <div class="photos-container-tile-date-taken">
+        <i class="bi bi-camera-fill"></i>
+        {{MoviesReleasedDate}}
+    </div>
+</div>

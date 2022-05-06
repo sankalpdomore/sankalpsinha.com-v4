@@ -2,12 +2,12 @@ import { Component, OnInit, AfterViewInit, Input } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'component-photos',
+  selector: 'component-photos-page',
   templateUrl: './photos-page.component.html',
   styleUrls: ['./photos-page.component.css']
 })
 
-export class PhotosComponent implements OnInit {
+export class PhotosPageComponent implements OnInit {
 
   data: any =
 
