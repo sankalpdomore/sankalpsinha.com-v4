@@ -1,22 +1,22 @@
-<div class="photos-container-tile">
-    <div class="photos-container-tile-image" [ngStyle]="{'background-image': 'url(\''+ PhotoImage + '\')'}"></div>
+<div class="custom-grid-content-container-tile">
+    <div class="custom-grid-content-container-tile-image photos" [ngStyle]="{'background-image': 'url(\''+ PhotoImage + '\')'}"></div>
     <div class="row">
-        <div class="col-auto photos-container-tile-name">
+        <div class="col-auto custom-grid-content-container-tile-name">
             {{PhotoName}}
         </div>
-        <!-- <div class="col-auto photos-container-tile-name photos-tile-link-parent">
+        <!-- <div class="col-auto custom-grid-content-container-tile-name photos-tile-link-parent">
             <a class="photos-tile-link" href="{{formPhotoUrl(PhotoName,PhotoDateTaken )}}"><i class="bi bi-link-45deg"></i></a>
         </div> -->
     </div>
-    <div class="photos-container-tile-description">
+    <div class="custom-grid-content-container-tile-description">
         {{PhotoDescription}}
     </div>
-    <div class="photos-container-tile-location">
-        <i class="bi bi-geo-alt-fill"></i>
+    <div class="custom-grid-content-container-tile-meta-data first">
+        <i class="bi bi-geo-alt-fill custom-grid-content-container-tile-icons"></i>
         {{PhotoLocation}}
     </div>
-    <div class="photos-container-tile-date-taken">
-        <i class="bi bi-camera-fill"></i>
+    <div class="custom-grid-content-container-tile-meta-data">
+        <i class="bi bi-camera-fill custom-grid-content-container-tile-icons"></i>
         {{PhotoDateTaken}}
     </div>
 </div>

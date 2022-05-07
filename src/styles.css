@@ -104,6 +104,9 @@ div {
   line-height: 24px;
 }
 
+/* /////////////////////////// */
+/* //  Common components css //*/
+/* /////////////////////////// */
 .common-page-container {
   padding: 0px 0px 120px 0px;
   background: var(--color-light-paper);
@@ -325,6 +328,9 @@ li > .common-body-text-16-bold {
   transition: all 0.2s ease-in-out;
 }
 
+/* ////////////////////////// */
+/* //  Landing sections css //*/
+/* ////////////////////////// */
 .landing-page-sections-common-page-header-h1 {
   font-family: var(--font-family-header);
   font-size: 46px;
@@ -338,6 +344,9 @@ li > .common-body-text-16-bold {
   margin-bottom: 80px;
 }
 
+/* ////////////////////// */
+/* /////  Footer css /////*/
+/* ////////////////////// */
 .footer-container {
   padding: 48px 20px 40px 20px !important;
   background-color: var(--color-light-paper);
@@ -492,6 +501,80 @@ li > .common-body-text-16-bold {
   margin-bottom: 32px;
 }
 
+/* /////////////////////////////////////////////////////////////// */
+/* /////  Custom Grid Content css (Photos, Movies, Books, etc /////*/
+/* /////////////////////////////////////////////////////////////// */
+.custom-grid-content-container-tile {
+  padding-right: 24px;
+  padding-bottom: 40px;
+}
+
+.custom-grid-content-container-tile-image {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 8px;
+  border-radius: 8px;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-grid-content-container-tile-name {
+  font-family: var(--font-family-header);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-grey-ddd);
+  line-height: 20px;
+  padding-top: 16px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+}
+
+.custom-grid-content-container-tile-description {
+  font-family: var(--font-family-body);
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--color-grey-666);
+  line-height: 20px;
+  padding-top: 4px;
+  word-wrap: break-word;
+}
+
+.custom-grid-content-container-tile-meta-data.first {
+  padding-top: 0px;
+}
+
+.custom-grid-content-container-tile-meta-data {
+  font-family: var(--font-family-body);
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--color-grey-666);
+  line-height: 20px;
+  padding-top: 4px;
+  word-wrap: break-word;
+}
+
+.custom-grid-content-container-tile-description {
+  padding-bottom: 8px;
+}
+
+.custom-grid-content-container-tile-icons {
+  width: 14px;
+  font-size: 14px;
+  color: var(--color-grey-666);
+  margin-right: 4px;
+  position: relative;
+}
+
+.custom-grid-content-container-tile-icons-label {
+  padding-left: 4px;
+  padding-right: 8px;
+}
+
 /*////////////////////////*/
 /*//// Media queries /////*/
 /*////////////////////////*/
@@ -500,6 +583,10 @@ li > .common-body-text-16-bold {
 @media (min-width: 1441px) {
   .content-container {
     max-width: 1100px;
+  }
+
+  .custom-grid-content-container-tile {
+    padding-right: 12px;
   }
 }
 
@@ -573,6 +660,20 @@ li > .common-body-text-16-bold {
   .footer-container-content-quote {
     line-height: 22px;
   }
+
+  .custom-grid-content-container-tile {
+    padding-right: 0px;
+  }
+
+  .custom-grid-content-container-tile-name {
+    padding-top: 16px;
+    padding-bottom: 4px;
+  }
+
+  .custom-grid-content-container-tile-description {
+    padding-bottom: 8px;
+    line-height: 18px;
+  }
 }
 
 /* Only Medium devices (tablets) */
@@ -601,5 +702,9 @@ li > .common-body-text-16-bold {
 
   .footer-container-column {
     width: -webkit-fill-available !important;
+  }
+
+  .custom-grid-content-container-tile {
+    padding-bottom: 36px;
   }
 }

@@ -1,15 +1,21 @@
-<div class="photos-container-tile">
-    <div class="photos-container-tile-image" [ngStyle]="{'background-image': 'url(\''+ MoviesImage + '\')'}"></div>
+<div class="custom-grid-content-container-tile">
+    <div class="custom-grid-content-container-tile-image movies" [ngStyle]="{'background-image': 'url(\''+ MoviesImage + '\')'}"></div>
     <div class="row">
-        <div class="col-auto photos-container-tile-name">
+        <div class="col-auto custom-grid-content-container-tile-name">
             {{MoviesName}}
         </div>
     </div>
-    <div class="photos-container-tile-description">
+    <div class="custom-grid-content-container-tile-description">
         {{MoviesDescription}}
     </div>
-    <div class="photos-container-tile-date-taken">
-        <i class="bi bi-camera-fill"></i>
+    <div class="custom-grid-content-container-tile-meta-data first">
+        <i class="fa-solid fa-check custom-grid-content-container-tile-icons"></i>
+        <span class="custom-grid-content-container-tile-icons-label">Watched:</span>
+        {{MoviesWatchedDate}}
+    </div>
+    <div class="custom-grid-content-container-tile-meta-data">
+        <i class="fa-regular fa-clock custom-grid-content-container-tile-icons"></i>
+        <span class="custom-grid-content-container-tile-icons-label">Released:</span>
         {{MoviesReleasedDate}}
     </div>
 </div>
