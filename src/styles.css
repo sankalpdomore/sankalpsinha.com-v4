@@ -571,8 +571,8 @@ li > .common-body-text-16-bold {
 }
 
 .custom-grid-content-container-tile-icons-label {
-  padding-left: 4px;
-  padding-right: 8px;
+  padding-left: 2px;
+  padding-right: 4px;
 }
 
 /*////////////////////////*/
@@ -706,5 +706,9 @@ li > .common-body-text-16-bold {
 
   .custom-grid-content-container-tile {
     padding-bottom: 36px;
+  }
+
+  .custom-grid-content-container-tile-icons-label {
+    padding-right: 2px;
   }
 }

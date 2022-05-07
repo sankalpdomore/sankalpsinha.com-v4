@@ -37,3 +37,78 @@
 /* Only X-Small devices (portrait phones) but below 375px */
 @media (min-width: 0px) and (max-width: 375px) {
 }
+
+@media (min-width: 1450px) {
+  .col-vlg-1 {
+    width: 8.33333333%;
+  }
+  .col-vlg-2 {
+    width: 16.66666667%;
+  }
+  .col-vlg-3 {
+    width: 25%;
+  }
+  .col-vlg-4 {
+    width: 33.33333333%;
+  }
+  .col-vlg-5 {
+    width: 41.66666667%;
+  }
+  .col-vlg-6 {
+    width: 50%;
+  }
+  .col-vlg-7 {
+    width: 58.33333333%;
+  }
+  .col-vlg-8 {
+    width: 66.66666667%;
+  }
+  .col-vlg-9 {
+    width: 75%;
+  }
+  .col-vlg-10 {
+    width: 83.33333333%;
+  }
+  .col-vlg-11 {
+    width: 91.66666667%;
+  }
+  .col-vlg-12 {
+    width: 100%;
+  }
+  .col-vlg-1,
+  .col-vlg-2,
+  .col-vlg-3,
+  .col-vlg-4,
+  .col-vlg-5,
+  .col-vlg-6,
+  .col-vlg-7,
+  .col-vlg-8,
+  .col-vlg-9,
+  .col-vlg-10,
+  .col-vlg-11,
+  .col-vlg-12 {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .col-vlg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-vlg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-vlg-offset-3 {
+    margin-left: 25%;
+  }
+  .col-vlg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-vlg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-vlg-offset-6 {
+    margin-left: 50%;
+  }
+}

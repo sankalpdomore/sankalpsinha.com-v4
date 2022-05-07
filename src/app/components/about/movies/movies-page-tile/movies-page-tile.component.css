@@ -1,9 +1,14 @@
 .custom-grid-content-container-tile-image.movies {
-  height: 308px;
+  height: 432px;
+  border: 1px solid var(--color-black-100);
+  border-radius: 12px;
 }
 
 .custom-grid-content-container-tile-image.movies:hover {
   transform: rotate(-1deg);
+  border: 1px solid var(--color-grey-333);
+  /* border: 1px solid rgba(255, 120, 0, 1);
+  box-shadow: 0 0 32px rgba(255, 120, 0, 0.6); */
 }
 
 .custom-grid-content-container-tile-icons {

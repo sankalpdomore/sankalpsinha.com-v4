@@ -8,14 +8,22 @@
     <div class="custom-grid-content-container-tile-description">
         {{MoviesDescription}}
     </div>
-    <div class="custom-grid-content-container-tile-meta-data first">
-        <i class="fa-solid fa-check custom-grid-content-container-tile-icons"></i>
-        <span class="custom-grid-content-container-tile-icons-label">Watched:</span>
-        {{MoviesWatchedDate}}
+    <div class="d-flex custom-grid-content-container-tile-meta-data first">
+        <div class="custom-grid-content-container-tile-meta-data">
+            <i class="fa-solid fa-check custom-grid-content-container-tile-icons"></i>
+        </div>
+        <div class="custom-grid-content-container-tile-meta-data">
+            <span class="custom-grid-content-container-tile-icons-label">Watched:</span>
+            {{MoviesWatchedDate}}
+        </div>
     </div>
-    <div class="custom-grid-content-container-tile-meta-data">
-        <i class="fa-regular fa-clock custom-grid-content-container-tile-icons"></i>
-        <span class="custom-grid-content-container-tile-icons-label">Released:</span>
-        {{MoviesReleasedDate}}
+    <div class="d-flex custom-grid-content-container-tile-meta-data first">
+        <div class="custom-grid-content-container-tile-meta-data">
+            <i class="fa-regular fa-clock custom-grid-content-container-tile-icons"></i>
+        </div>
+        <div class="custom-grid-content-container-tile-meta-data">
+            <span class="custom-grid-content-container-tile-icons-label">Released:</span>
+            {{MoviesReleasedDate}}
+        </div>
     </div>
 </div>
