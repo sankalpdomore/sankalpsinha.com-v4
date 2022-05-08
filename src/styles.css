@@ -599,6 +599,10 @@ li > .common-body-text-16-bold {
   .common-page-container {
     padding: 0px 40px 80px 40px !important;
   }
+
+  .footer-container {
+    padding: 48px 40px 40px 40px !important;
+  }
 }
 
 /* All devices less than Medium devices */
