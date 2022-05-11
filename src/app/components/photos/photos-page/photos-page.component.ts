@@ -31,7 +31,7 @@ export class PhotosPageComponent implements OnInit {
         "PhotoAlbums": "Minimal"
       },
       {
-        "PhotoName": "Mini Bread & butter",
+        "PhotoName": "Mini bread & butter",
         "PhotoDescription": "I usually do all my designing, coding, and other daily tasks either on my iMac or the MacBook Pro. But I heavily use my iPad Pro & Mini to read articles, write my blog posts, & review/edit photos. The compact size of these devices combined with the power of Apple's ecosystem has been quite fun & delightful to use.",
         "PhotoImage": "../assets/photos/2022-05-04-1.jpeg",
         "PhotoLocation": "Bengaluru, India",
