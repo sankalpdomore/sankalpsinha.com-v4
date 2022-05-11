@@ -22,6 +22,24 @@ export class PhotosPageComponent implements OnInit {
       //   "PhotoAlbums": "Minimal"
       // },
       {
+        "PhotoName": "Reflections",
+        "PhotoDescription": "Loved this reflection of my table top on my LG UltraFine monitor the other night. Grabbed my phone quickly to capture it.",
+        "PhotoImage": "../assets/photos/2022-05-08-1.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "May 8, 2022",
+        "PhotoDateUploaded": "May 11, 2022",
+        "PhotoAlbums": "Minimal"
+      },
+      {
+        "PhotoName": "Mini Bread & butter",
+        "PhotoDescription": "I usually do all my designing, coding, and other daily tasks either on my iMac or the MacBook Pro. But I heavily use my iPad Pro & Mini to read articles, write my blog posts, & review/edit photos. The compact size of these devices combined with the power of Apple's ecosystem has been quite fun & delightful to use.",
+        "PhotoImage": "../assets/photos/2022-05-04-1.jpeg",
+        "PhotoLocation": "Bengaluru, India",
+        "PhotoDateTaken": "May 4, 2022",
+        "PhotoDateUploaded": "May 11, 2022",
+        "PhotoAlbums": "Minimal"
+      },
+      {
         "PhotoName": "Details worth capturing",
         "PhotoDescription": "Got this new webcam called Opal Camera this week. The details & auto-brightness/contrast/saturation on this thing is just mind-blowing. But it does get hot while using. If you're a tech nerd and want to upgrade your webcam situation, do check out this camera. It's pricy, mind you.",
         "PhotoImage": "../assets/photos/2022-03-22-2.jpeg",
