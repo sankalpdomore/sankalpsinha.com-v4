@@ -53,7 +53,28 @@ export class MoviesPageComponent implements OnInit {
         "MoviesDescription": "Loved the fact that it didn't have an all-star cast back then and still all the actors felt perfect for their roles. The action sequences were directed to feel real 100%.",
         "MoviesWatchedDate": "May 24, 2021",
         "MoviesReleasedDate": "January 15, 2016",
-      }
+      },
+      {
+        "MoviesName": "The Lord of the Rings: The Return of the King",
+        "MoviesImage": "../assets/about/movies/lordoftherings3.jpg",
+        "MoviesDescription": "Binge watched this amazing series during my college days. VFX in battles were just mindblowing for its time.",
+        "MoviesWatchedDate": "February 3, 2011",
+        "MoviesReleasedDate": "February 6, 2004",
+      },
+      {
+        "MoviesName": "The Lord of the Rings: The Two Towers",
+        "MoviesImage": "../assets/about/movies/lordoftherings2.jpg",
+        "MoviesDescription": "Binge watched this amazing series during my college days. Loved all Gandalf - The white scenes in this one.",
+        "MoviesWatchedDate": "February 3, 2011",
+        "MoviesReleasedDate": "March 28, 2003",
+      },
+      {
+        "MoviesName": "The Lord of the Rings: The Fellowship of the Ring",
+        "MoviesImage": "../assets/about/movies/lordoftherings1.jpg",
+        "MoviesDescription": "Binge watched this amazing series during my college days. The bond between Fordo and Sam was very well depicted.",
+        "MoviesWatchedDate": "February 3, 2011",
+        "MoviesReleasedDate": "March 15, 2002",
+      },
     ]
 
   constructor(
