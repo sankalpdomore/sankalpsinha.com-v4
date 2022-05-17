@@ -1,25 +1,25 @@
 <div class="custom-grid-content-container-tile">
-    <div class="custom-grid-content-container-tile-image movies" [ngStyle]="{'background-image': 'url(\''+ MoviesImage + '\')'}"></div>
+    <div class="custom-grid-content-container-tile-image movies" [ngStyle]="{'background-image': 'url(\''+ data.MoviesImage + '\')'}"></div>
     <div class="row">
         <div class="col-auto custom-grid-content-container-tile-name">
-            {{MoviesName}}
+            {{data.MoviesName}}
         </div>
     </div>
     <div class="custom-grid-content-container-tile-description">
-        {{MoviesDescription}}
+        {{data.MoviesDescription}}
     </div>
-    <div class="d-flex custom-grid-content-container-tile-meta-data first">
-        <div class="custom-grid-content-container-tile-meta-data">
-            <i class="fa-solid fa-check custom-grid-content-container-tile-icons"></i>
-            <span class="custom-grid-content-container-tile-icons-label">Watched:</span>
-            {{MoviesWatchedDate}}
-        </div>
+    <div [ngStyle]="{'display': data.MoviesCurrentlyWatching}" class="custom-grid-content-container-tile-meta-data">
+        <i class="fa-solid fa-check custom-grid-content-container-tile-icons"></i>
+        <span class="custom-grid-content-container-tile-icons-label">Currently watching</span>
     </div>
-    <div class="d-flex custom-grid-content-container-tile-meta-data first">
-        <div class="custom-grid-content-container-tile-meta-data">
-            <i class="fa-regular fa-clock custom-grid-content-container-tile-icons"></i>
-            <span class="custom-grid-content-container-tile-icons-label">Released:</span>
-            {{MoviesReleasedDate}}
-        </div>
+    <div [ngStyle]="{'display': data.MoviesWatched}" class="custom-grid-content-container-tile-meta-data">
+        <i class="fa-solid fa-check custom-grid-content-container-tile-icons"></i>
+        <span class="custom-grid-content-container-tile-icons-label">Watched:</span>
+        {{data.MoviesWatchedDate}}
+    </div>
+    <div class="custom-grid-content-container-tile-meta-data">
+        <i class="fa-regular fa-clock custom-grid-content-container-tile-icons"></i>
+        <span class="custom-grid-content-container-tile-icons-label">Released:</span>
+        {{data.MoviesReleasedDate}}
     </div>
 </div>

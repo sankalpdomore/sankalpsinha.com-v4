@@ -7,22 +7,20 @@ import { Component, OnInit, AfterViewInit, Input } from '@angular/core';
 })
 
 export class MoviesTileComponent implements OnInit {
-
   @Input()
-  MoviesImage: String
-
-  @Input()
-  MoviesName: String
-
-  @Input()
-  MoviesDescription: String
-
-  @Input()
-  MoviesReleasedDate: String
-
-  @Input()
-  MoviesWatchedDate: String
+  data: Movies
 
   constructor() { }
   ngOnInit(): void { }
+
+}
+
+interface Movies {
+  MoviesImage: string;
+  MoviesName: string
+  MoviesCurrentlyWatching: string;
+  MoviesWatched: string;
+  MoviesDescription: string,
+  MoviesReleasedDate: string,
+  MoviesWatchedDate: string,
 }

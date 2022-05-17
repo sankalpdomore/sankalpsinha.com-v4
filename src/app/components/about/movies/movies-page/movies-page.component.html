@@ -11,8 +11,8 @@
             Movies, TV shows, and documentories, have always been a doorway to creative thinking for me. Seeing how directors & artists around the world can percieve something so differently and creatively has always been inspiring for me as a creator. That's why I love watching movies, TV shows, or any other kind of media. This page is an attempt to capture everything I've watched so far.
         </div>
         <div class="row">
-            <div *ngFor="let item of data" class="content-grid-container-tile-row col-vlg-3 col-lg-4 col-md-4 col-sm-4 col-6">
-                <component-movies-page-tile MoviesImage={{item.MoviesImage}} MoviesName={{item.MoviesName}} MoviesDescription={{item.MoviesDescription}} MoviesReleasedDate={{item.MoviesReleasedDate}} MoviesWatchedDate={{item.MoviesWatchedDate}}></component-movies-page-tile>
+            <div *ngFor="let item of moviesData" class="content-grid-container-tile-row col-vlg-3 col-lg-4 col-md-4 col-sm-4 col-6">
+                <component-movies-page-tile [data]="item"></component-movies-page-tile>
             </div>
         </div>
     </div>
