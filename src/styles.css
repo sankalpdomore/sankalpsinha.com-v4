@@ -63,8 +63,12 @@
   --color-success-green-default: hsla(89, 100%, 30%, 100%);
   --color-success-green-hover: hsla(89, 100%, 30%, 25%);
   --color-success-green-light-default: hsla(89, 100%, 30%, 16%);
-  --color-purple-default: hsla(250, 100%, 69%, 100%);
-  --color-purple-light-default: hsla(250, 100%, 69%, 16%);
+  --color-purple-1-default: hsla(250, 100%, 69%, 100%);
+  --color-purple-1-light-default: hsla(250, 100%, 69%, 16%);
+  --color-purple-2-default: hsla(268, 100%, 69%, 100%);
+  --color-purple-2-light-default: hsla(268, 100%, 69%, 16%);
+  --color-peach-default: hsl(2, 100%, 69%, 100%);
+  --color-peach-light-default: hsl(2, 100%, 69%, 20%);
   --color-dark-background: hsla(0, 0%, 0%, 100%);
   --color-dark-nav-background: hsla(0, 0%, 13%, 80%);
   --color-darkest-nav-background: hsla(0, 0%, 13%, 100%);
@@ -237,6 +241,17 @@ div {
 
 .common-body-text-list-all-bold > li {
   margin-bottom: 5px;
+}
+
+.common-body-pill-tag {
+  font-family: var(--font-family-body);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  width: fit-content;
+  padding: 4px 12px;
+  border-radius: var(--border-radius-infinite);
 }
 
 p {

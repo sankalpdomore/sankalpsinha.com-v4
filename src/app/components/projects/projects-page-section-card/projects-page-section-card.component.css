@@ -54,20 +54,12 @@
 
 .projects-page-card-container-right-meta-data-project-type-FT,
 .projects-page-card-container-right-meta-data-project-type-SP {
-  font-family: var(--font-family-body);
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 20px;
-  letter-spacing: 0.3px;
-  width: fit-content;
-  padding: 4px 12px;
   margin-bottom: 12px;
-  border-radius: var(--border-radius-infinite);
 }
 
 .projects-page-card-container-right-meta-data-project-type-FT {
-  color: var(--color-purple-default);
-  background: var(--color-purple-light-default);
+  color: var(--color-purple-1-default);
+  background: var(--color-purple-1-light-default);
 }
 
 .projects-page-card-container-right-meta-data-project-type-SP {

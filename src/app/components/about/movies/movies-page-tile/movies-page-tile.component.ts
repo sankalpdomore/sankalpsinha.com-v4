@@ -18,6 +18,8 @@ export class MoviesTileComponent implements OnInit {
 interface Movies {
   MoviesImage: string;
   MoviesName: string
+  MoviesTypeMovie: string;
+  MoviesTypeTVShow: string;
   MoviesCurrentlyWatching: string;
   MoviesWatched: string;
   MoviesDescription: string,

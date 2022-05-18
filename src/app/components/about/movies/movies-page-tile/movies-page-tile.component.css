@@ -11,6 +11,32 @@
   box-shadow: 0 0 32px rgba(255, 120, 0, 0.6); */
 }
 
+.movies-page-card-container-meta-data-movie-type-movie,
+.movies-page-card-container-meta-data-movie-type-tv-show {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.movies-page-card-container-meta-data-movie-type-movie {
+  color: var(--color-purple-2-default);
+  background: var(--color-purple-2-light-default);
+}
+
+.movies-page-card-container-meta-data-movie-type-tv-show {
+  color: var(--color-peach-default);
+  background: var(--color-peach-light-default);
+}
+
+.movies-page-card-container-meta-data-movie-type-movie > .fa-solid,
+.movies-page-card-container-meta-data-movie-type-tv-show > .fa-solid {
+  padding-right: 4px;
+}
+
+.currently-watching {
+  color: var(--color-success-green-default);
+  font-weight: 400;
+}
+
 .custom-grid-content-container-tile-icons {
   top: -1px;
 }
@@ -18,6 +44,11 @@
 .fa-check {
   top: 0px;
   font-size: 15px;
+}
+
+.fa-play {
+  left: 1px;
+  font-size: 13px;
 }
 /*////////////////////////*/
 /*//// Media queries /////*/
