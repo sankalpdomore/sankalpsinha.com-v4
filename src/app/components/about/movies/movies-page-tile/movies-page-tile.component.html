@@ -13,10 +13,33 @@
     <div class="custom-grid-content-container-tile-description">
         {{data.MoviesDescription}}
     </div>
+    <div [ngStyle]="{'display': data.MoviesCurrentlyWatching}" class="common-body-pill-tag currently-watching">
+        <i class="custom-grid-content-container-tile-icons">
+            <!-- <div class="loader" style="top: 2px; left: -12px;"></div> -->
+            <div class="overlay">
+                <div class="spinner center">
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                </div>
+            </div>
+        </i>
+        <span>Currently watching</span>
+    </div>
+    <!-- 
     <div [ngStyle]="{'display': data.MoviesCurrentlyWatching}" class="custom-grid-content-container-tile-meta-data currently-watching">
         <i class="fa-solid fa-play custom-grid-content-container-tile-icons currently-watching"></i>
         <span class="custom-grid-content-container-tile-icons-label">Currently watching</span>
-    </div>
+    </div> -->
     <div [ngStyle]="{'display': data.MoviesWatched}" class="custom-grid-content-container-tile-meta-data">
         <i class="fa-solid fa-check custom-grid-content-container-tile-icons"></i>
         <span class="custom-grid-content-container-tile-icons-label">Watched:</span>

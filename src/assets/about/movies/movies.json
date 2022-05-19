@@ -11,14 +11,25 @@
     "MoviesReleasedDate": "October 4, 2017"
   },
   {
+    "MoviesName": "The World's Most Extraordinary Homes",
+    "MoviesTypeMovie": "none",
+    "MoviesTypeTVShow": "block",
+    "MoviesImage": "../assets/about/movies/worldsmostextraordinaryhomes.jpg",
+    "MoviesDescription": "If you're interested in design, architecture, or interior design, this series captures the best-designed homes around the world. The narration leaves you inspired.",
+    "MoviesCurrentlyWatching": "block",
+    "MoviesWatched": "none",
+    "MoviesWatchedDate": "May 6, 2022",
+    "MoviesReleasedDate": "March 5, 2018"
+  },
+  {
     "MoviesName": "Catch Me If You Can",
     "MoviesTypeMovie": "block",
     "MoviesTypeTVShow": "none",
     "MoviesImage": "../assets/about/movies/catchmeifyoucan.jpg",
     "MoviesDescription": "This movie was on my list for the longest time but got the push to watch it after watching the Netflix series on Luka Magnotta, a serial killer fascinated by stories of Catch me if you can and Basic Instinct.",
-    "MoviesCurrentlyWatching": "block",
-    "MoviesWatched": "none",
-    "MoviesWatchedDate": "May 6, 2022",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "May 18, 2022",
     "MoviesReleasedDate": "December 16, 2002"
   },
   {
