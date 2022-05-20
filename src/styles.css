@@ -41,6 +41,7 @@
 }
 
 :root {
+  --color-transparent: rgba(0, 0, 0, 0);
   --color-white-100: #ffffff;
   --color-light-paper: #f7f6f3;
   --color-figma-back: #e5e5e5;
@@ -541,6 +542,15 @@ li > .common-body-text-16-bold {
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.custom-grid-content-container-tile-image.border-dark {
+  border: 1px solid transparent !important;
+}
+
+.custom-grid-content-container-tile-image.border-dark:hover {
+  transform: rotate(-1deg);
+  border: 1px solid var(--color-grey-333) !important;
 }
 
 .custom-grid-content-container-tile-name {
