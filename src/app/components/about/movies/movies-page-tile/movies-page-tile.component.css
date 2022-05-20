@@ -56,7 +56,7 @@
 
 /* All devices more than 1441px devices */
 @media (min-width: 1441px) {
-  .custom-grid-content-container-tile-image.movies {
+  .custom-grid-content-container-tile-image {
     height: 360px;
   }
 }
@@ -75,7 +75,7 @@
 
 /* Only Medium devices (tablets) */
 @media (min-width: 768px) and (max-width: 992px) {
-  .custom-grid-content-container-tile-image.movies {
+  .custom-grid-content-container-tile-image {
     height: 420px;
   }
 }
@@ -86,7 +86,7 @@
 
 /* Only Small devices (landscape phones) */
 @media (min-width: 575px) and (max-width: 768px) {
-  .custom-grid-content-container-tile-image.movies {
+  .custom-grid-content-container-tile-image {
     height: 292px;
   }
 }
@@ -97,14 +97,14 @@
 
 /* Only X-Small devices (portrait phones) but below 375px */
 @media (min-width: 440px) and (max-width: 575px) {
-  .custom-grid-content-container-tile-image.movies {
+  .custom-grid-content-container-tile-image {
     height: 280px;
   }
 }
 
 /* Only X-Small devices (portrait phones) but below 375px */
 @media (min-width: 0px) and (max-width: 440px) {
-  .custom-grid-content-container-tile-image.movies {
+  .custom-grid-content-container-tile-image {
     height: 240px;
   }
 }
