@@ -6,6 +6,7 @@ import { TestimonialsPageComponent } from './components/testimonials/testimonial
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 import { PhotosPageComponent } from './components/photos/photos-page/photos-page.component';
 import { MoviesPageComponent } from './components/about/movies/movies-page/movies-page.component';
+import { BooksPageComponent } from './components/about/books/books-page/books-page.component';
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'buildinginpublic', component: BuildinginpublicComponent },
   { path: 'photos', component: PhotosPageComponent },
   { path: 'about/movies', component: MoviesPageComponent },
+  { path: 'about/books', component: BooksPageComponent },
 ];
 
 @NgModule({

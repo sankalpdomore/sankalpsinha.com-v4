@@ -1,7 +1,7 @@
 <div class="custom-grid-content-container-tile">
     <div class="custom-grid-content-container-tile-image border-dark" [ngStyle]="{'background-image': 'url(\''+ data.MoviesImage + '\')'}">
     </div>
-    <div class="custom-grid-content-container-tile-name">
+    <div class="custom-grid-content-container-tile-name dark">
         {{data.MoviesName}}
     </div>
     <div [ngStyle]="{'display': data.MoviesTypeMovie}" class="common-body-pill-tag movies-page-card-container-meta-data-movie-type-movie">
@@ -10,10 +10,10 @@
     <div [ngStyle]="{'display': data.MoviesTypeTVShow}" class="common-body-pill-tag movies-page-card-container-meta-data-movie-type-tv-show">
         <i class="fa-solid fa-desktop"></i> TV Show
     </div>
-    <div class="custom-grid-content-container-tile-description">
+    <div class="custom-grid-content-container-tile-description dark">
         {{data.MoviesDescription}}
     </div>
-    <div [ngStyle]="{'display': data.MoviesCurrentlyWatching}" class="common-body-pill-tag currently-watching">
+    <div [ngStyle]="{'display': data.MoviesCurrentlyWatching}" class="common-body-pill-tag custom-grid-content-container-tile-ongoing-activity">
         <i class="custom-grid-content-container-tile-icons">
             <div class="overlay">
                 <div class="spinner center">
@@ -34,13 +34,13 @@
         </i>
         <span>Currently watching</span>
     </div>
-    <div [ngStyle]="{'display': data.MoviesWatched}" class="custom-grid-content-container-tile-meta-data">
-        <i class="fa-solid fa-check custom-grid-content-container-tile-icons"></i>
+    <div [ngStyle]="{'display': data.MoviesWatched}" class="custom-grid-content-container-tile-meta-data dark">
+        <i class="fa-solid fa-check custom-grid-content-container-tile-icons dark"></i>
         <span class="custom-grid-content-container-tile-icons-label">Watched:</span>
         {{data.MoviesWatchedDate}}
     </div>
-    <div class="custom-grid-content-container-tile-meta-data">
-        <i class="fa-regular fa-clock custom-grid-content-container-tile-icons"></i>
+    <div class="custom-grid-content-container-tile-meta-data dark">
+        <i class="fa-regular fa-clock custom-grid-content-container-tile-icons dark"></i>
         <span class="custom-grid-content-container-tile-icons-label">Released:</span>
         {{data.MoviesReleasedDate}}
     </div>

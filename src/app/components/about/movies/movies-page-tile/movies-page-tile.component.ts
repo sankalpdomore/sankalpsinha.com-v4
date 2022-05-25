@@ -3,7 +3,7 @@ import { Component, OnInit, AfterViewInit, Input } from '@angular/core';
 @Component({
   selector: 'component-movies-page-tile',
   templateUrl: './movies-page-tile.component.html',
-  styleUrls: ['./movies-page-tile.component.css', './spinner.component.css']
+  styleUrls: ['./movies-page-tile.component.css']
 })
 
 export class MoviesTileComponent implements OnInit {

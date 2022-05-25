@@ -1,0 +1,22 @@
+[
+  {
+    "BooksName": "Getting Acquired",
+    "BooksTypePaper": "none",
+    "BooksTypeKindle": "block",
+    "BooksImage": "../assets/about/books/gettingaquired.jpg",
+    "BooksDescription": "One of the best-made prequel series of all time. The minimal and color accurate cinematography follows through this one as well. Don't miss it if you're a big Breaking Bad fan and love Saul's character.",
+    "BooksCurrentlyReading": "block",
+    "BooksRead": "none",
+    "BooksReadDate": "October 4, 2017"
+  },
+  {
+    "BooksName": "Make Time",
+    "BooksTypePaper": "block",
+    "BooksTypeKindle": "none",
+    "BooksImage": "../assets/about/books/maketime.jpg",
+    "BooksDescription": "Talks deeply about how we change little things in our daily lives to make time for things that matter to us. Narration was simple, fun, and engaging.",
+    "BooksCurrentlyReading": "none",
+    "BooksRead": "block",
+    "BooksReadDate": "March 3, 2020"
+  }
+]

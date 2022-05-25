@@ -1,0 +1,42 @@
+<div class="custom-grid-content-container-tile">
+    <div class="custom-grid-content-container-tile-image border-light" [ngStyle]="{'background-image': 'url(\''+ data.BooksImage + '\')'}">
+    </div>
+    <div class="custom-grid-content-container-tile-name">
+        {{data.BooksName}}
+    </div>
+    <div [ngStyle]="{'display': data.BooksTypePaper}" class="common-body-pill-tag movies-page-card-container-meta-data-movie-type-movie">
+        <i class="fa-solid fa-book"></i> Paperback
+    </div>
+    <div [ngStyle]="{'display': data.BooksTypeKindle}" class="common-body-pill-tag movies-page-card-container-meta-data-movie-type-tv-show">
+        <i class="fa-solid fa-tablet-screen-button"></i> Kindle
+    </div>
+    <div class="custom-grid-content-container-tile-description">
+        {{data.BooksDescription}}
+    </div>
+    <div [ngStyle]="{'display': data.BooksCurrentlyReading}" class="common-body-pill-tag custom-grid-content-container-tile-ongoing-activity">
+        <i class="custom-grid-content-container-tile-icons">
+            <div class="overlay">
+                <div class="spinner center">
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                </div>
+            </div>
+        </i>
+        <span>Currently reading</span>
+    </div>
+    <div [ngStyle]="{'display': data.BooksRead}" class="custom-grid-content-container-tile-meta-data">
+        <i class="fa-solid fa-check custom-grid-content-container-tile-icons"></i>
+        <span class="custom-grid-content-container-tile-icons-label">Read:</span>
+        {{data.BooksReadDate}}
+    </div>
+</div>
