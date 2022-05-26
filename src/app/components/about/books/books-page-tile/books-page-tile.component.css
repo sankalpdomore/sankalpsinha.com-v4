@@ -9,6 +9,10 @@
   margin-left: 12px;
 }
 
+.custom-grid-content-container-tile-ongoing-activity {
+  margin-left: 0px;
+}
+
 .books-page-card-container-meta-data-book-type-paperback {
   color: var(--color-purple-1-dark-default);
   background: var(--color-purple-1-light-default);
