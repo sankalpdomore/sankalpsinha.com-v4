@@ -4,11 +4,13 @@
     <div class="custom-grid-content-container-tile-name">
         {{data.BooksName}}
     </div>
-    <div [ngStyle]="{'display': data.BooksTypePaper}" class="common-body-pill-tag movies-page-card-container-meta-data-movie-type-movie">
-        <i class="fa-solid fa-book"></i> Paperback
-    </div>
-    <div [ngStyle]="{'display': data.BooksTypeKindle}" class="common-body-pill-tag movies-page-card-container-meta-data-movie-type-tv-show">
-        <i class="fa-solid fa-tablet-screen-button"></i> Kindle
+    <div class="row">
+        <div [ngStyle]="{'display': data.BooksTypePaper}" class="col-auto common-body-pill-tag books-page-card-container-meta-data-book-type-paperback">
+            <i class="fa-solid fa-book"></i> Paperback
+        </div>
+        <div [ngStyle]="{'display': data.BooksTypeKindle}" class="col-auto common-body-pill-tag books-page-card-container-meta-data-book-type-kindle">
+            <i class="fa-solid fa-tablet-screen-button"></i> Kindle
+        </div>
     </div>
     <div class="custom-grid-content-container-tile-description">
         {{data.BooksDescription}}

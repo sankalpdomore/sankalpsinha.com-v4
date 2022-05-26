@@ -5,21 +5,22 @@
 
 .common-body-pill-tag {
   margin-top: 4px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  margin-left: 12px;
 }
 
-.movies-page-card-container-meta-data-movie-type-movie {
-  color: var(--color-purple-2-default);
-  background: var(--color-purple-2-light-default);
+.books-page-card-container-meta-data-book-type-paperback {
+  color: var(--color-purple-1-dark-default);
+  background: var(--color-purple-1-light-default);
 }
 
-.movies-page-card-container-meta-data-movie-type-tv-show {
-  color: var(--color-peach-default);
-  background: var(--color-peach-light-default);
+.books-page-card-container-meta-data-book-type-kindle {
+  color: var(--color-orange-2-dark-default);
+  background: var(--color-orange-2-light-default);
 }
 
-.movies-page-card-container-meta-data-movie-type-movie > .fa-solid,
-.movies-page-card-container-meta-data-movie-type-tv-show > .fa-solid {
+.books-page-card-container-meta-data-book-type-paperback > .fa-solid,
+.books-page-card-container-meta-data-book-type-kindle > .fa-solid {
   padding-right: 4px;
 }
 

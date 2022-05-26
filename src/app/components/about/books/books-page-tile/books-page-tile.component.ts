@@ -20,8 +20,8 @@ interface Books {
   BooksName: string
   BooksTypePaper: string;
   BooksTypeKindle: string;
+  BooksDescription: string,
   BooksCurrentlyReading: string;
   BooksRead: string;
-  BooksDescription: string,
   BooksReadDate: string,
 }

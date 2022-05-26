@@ -9,12 +9,12 @@
 }
 
 .movies-page-card-container-meta-data-movie-type-movie {
-  color: var(--color-purple-2-default);
+  color: var(--color-purple-2-dark-default);
   background: var(--color-purple-2-light-default);
 }
 
 .movies-page-card-container-meta-data-movie-type-tv-show {
-  color: var(--color-peach-default);
+  color: var(--color-peach-dark-default);
   background: var(--color-peach-light-default);
 }
 
