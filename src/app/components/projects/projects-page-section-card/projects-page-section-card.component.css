@@ -131,7 +131,7 @@
 }
 
 .projects-page-card-container-right-meta-data-random-fact-container {
-  background-color: var(--color-light-paper);
+  background-color: var(--color-light-paper-light);
   padding: 12px 16px 12px 16px;
   border-radius: var(--border-radius-12px);
 }

@@ -43,7 +43,8 @@
 :root {
   --color-transparent: rgba(0, 0, 0, 0);
   --color-white-100: #ffffff;
-  --color-light-paper: #f7f6f3;
+  --color-light-paper-light: hsl(45, 20%, 96%);
+  --color-light-paper-dark: hsl(45, 60%, 96%);
   --color-figma-back: #e5e5e5;
   --color-grey-ddd: #dddddd;
   --color-grey-ccc: #cccccc;
@@ -59,23 +60,23 @@
   --color-black-100: #000000;
   --color-black-30: rgba(0, 0, 0, 0.3);
   --color-black-04: rgba(0, 0, 0, 0.04);
-  --color-link-blue-default: hsla(214, 84%, 56%, 100%);
-  --color-orange-1-light-default: hsla(28, 100%, 50%, 100%);
-  --color-orange-2-dark-default: hsl(11, 100%, 50%);
-  --color-orange-2-light-default: hsl(19, 100%, 92%);
-  --color-peach-dark-default: hsl(2, 100%, 69%, 100%);
-  --color-peach-light-default: hsl(2, 100%, 69%, 20%);
-  --color-success-green-default: hsla(89, 100%, 30%, 100%);
+  --color-link-blue-default: hsla(214, 84%, 56%);
+  --color-orange-1-light-default: hsla(28, 100%, 50%);
+  --color-orange-2-dark-default: hsl(16, 100%, 48%);
+  --color-orange-2-light-default: hsl(20, 100%, 90%);
+  --color-peach-dark-default: hsl(2, 100%, 68%);
+  --color-peach-light-default: hsl(2, 40%, 14%);
+  --color-success-green-default: hsla(89, 100%, 30%);
   --color-success-green-hover: hsla(89, 100%, 30%, 25%);
   --color-green-2-dark-default: hsl(124, 100%, 32%);
   --color-success-green-light-default: hsla(89, 100%, 30%, 16%);
-  --color-purple-1-dark-default: hsla(250, 100%, 69%, 100%);
-  --color-purple-1-light-default: hsla(250, 100%, 69%, 16%);
-  --color-purple-2-dark-default: hsla(268, 100%, 69%, 100%);
-  --color-purple-2-light-default: hsla(268, 100%, 69%, 16%);
-  --color-dark-background: hsla(0, 0%, 0%, 100%);
+  --color-purple-1-dark-default: hsla(250, 100%, 68%);
+  --color-purple-1-light-default: hsl(250, 80%, 94%);
+  --color-purple-2-dark-default: hsla(268, 100%, 68%);
+  --color-purple-2-light-default: hsl(268, 40%, 14%);
+  --color-dark-background: hsla(0, 0%, 0%);
   --color-dark-nav-background: hsla(0, 0%, 13%, 80%);
-  --color-darkest-nav-background: hsla(0, 0%, 13%, 100%);
+  --color-darkest-nav-background: hsla(0, 0%, 13%);
   --color-dark-nav-button-text-default: #777777;
   --color-dark-nav-button-text-hover: #ffffff;
   --color-dark-nav-button-back-hover: rgba(0, 0, 0, 0.4);
@@ -85,9 +86,9 @@
   --color-light-nav-background: #ffffffcc;
   --color-light-nav-button-text-default: #555555;
   --color-light-nav-button-text-hover: #000000;
-  --color-light-nav-button-back-hover: rgba(0, 0, 0, 0.04);
+  --color-light-nav-button-back-hover: hsl(45, 32%, 92%);
   --color-light-nav-button-text-active: #000000;
-  --color-light-nav-button-back-active: rgba(0, 0, 0, 0.12);
+  --color-light-nav-button-back-active: hsl(45, 26%, 86%);
   --box-shadow-light-card-small: 0px 4px 10px rgba(0, 0, 0, 0.04);
   --box-shadow-light-card-medium: 0px 4px 10px rgba(0, 0, 0, 0.1);
   --box-shadow-light-nav: 0px 4px 4px rgba(0, 0, 0, 0.05);
@@ -122,7 +123,7 @@ div {
 /* /////////////////////////// */
 .common-page-container {
   padding: 0px 0px 120px 0px;
-  background: var(--color-light-paper);
+  background: var(--color-light-paper-dark);
 }
 
 .common-page-container.dark {
@@ -373,7 +374,7 @@ li > .common-body-text-16-bold {
 /* ////////////////////// */
 .footer-container {
   padding: 48px 20px 40px 20px !important;
-  background-color: var(--color-light-paper);
+  background-color: var(--color-light-paper-light);
   border-top: 1px solid var(--color-grey-ddd);
 }
 
@@ -639,7 +640,8 @@ li > .common-body-text-16-bold {
   color: var(--color-green-2-dark-default);
   font-weight: 400;
   font-size: 14px;
-  margin-bottom: 2px;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
   padding-top: 0px;
   padding-right: 0px;
   cursor: progress;

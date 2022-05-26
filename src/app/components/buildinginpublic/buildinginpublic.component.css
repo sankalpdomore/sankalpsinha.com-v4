@@ -38,7 +38,7 @@
 
 .accordion-body {
   padding: 28px;
-  background-color: var(--color-light-paper);
+  background-color: var(--color-light-paper-light);
 }
 
 .accordion-button:not(.collapsed) {
@@ -113,7 +113,7 @@
   margin-right: auto;
   margin-bottom: 24px;
   padding: 0px 12px 24px 12px;
-  background-color: var(--color-light-paper);
+  background-color: var(--color-light-paper-light);
   border: 1px solid var(--color-grey-ddd);
   border-radius: var(--border-radius-12px);
   -moz-transition: all 0.2s ease-in-out;
