@@ -18,7 +18,7 @@ export class BooksPageComponent implements OnInit {
     private meta: Meta
   ) {
     this.titleService.setTitle('Sankalp Sinha • Books');
-    this.meta.addTag({ name: 'description', content: 'Movies, TV shows, and documentories, have always been a doorway to creative thinking for me. Seeing how directors & artists around the world can percieve something so differently and creatively has always been inspiring for me as a creator. That is why I love watching books, TV shows, or any other kind of media. This page is an attempt to capture everything I have watched so far.' });
+    this.meta.addTag({ name: 'description', content: 'I grew up around books and have always been reading them on topics that interest me. I started reading more self-help books on productivity, design, business, marketing, work-life balance, etc. when I went to college. This page is an attempt to log all my read books.' });
     this.meta.addTag({ name: 'keywords', content: '' });
   }
   ngOnInit(): void {

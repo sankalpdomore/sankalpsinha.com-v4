@@ -11,6 +11,17 @@
     "MoviesReleasedDate": "October 4, 2017"
   },
   {
+    "MoviesName": "Severance",
+    "MoviesTypeMovie": "none",
+    "MoviesTypeTVShow": "block",
+    "MoviesImage": "../assets/about/movies/severance.jpg",
+    "MoviesDescription": "Saw a lot of people applaud the series on Twitter. Plus it's directed by Ben Stiller, whose movies are usually underrated. Have you seen his movie The Secret Life Of Walter Mitty? You should.",
+    "MoviesCurrentlyWatching": "block",
+    "MoviesWatched": "none",
+    "MoviesWatchedDate": "May 6, 2022",
+    "MoviesReleasedDate": "February 18, 2022"
+  },
+  {
     "MoviesName": "The World's Most Extraordinary Homes",
     "MoviesTypeMovie": "none",
     "MoviesTypeTVShow": "block",
@@ -20,6 +31,17 @@
     "MoviesWatched": "none",
     "MoviesWatchedDate": "May 6, 2022",
     "MoviesReleasedDate": "March 5, 2018"
+  },
+  {
+    "MoviesName": "Bhool Bhulaiya 2",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/about/movies/bhoolbhulaiya2.jpg",
+    "MoviesDescription": "Banked on the 1st franchise of the movie that came in 2007. The plot was interesting and felt that a lot more could have been done to marry humor with horror. But 50% of the humor felt forced. Decent 1-time watch. The title track remains unchanged and will always be evergreen.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "May 18, 2022",
+    "MoviesReleasedDate": "December 16, 2002"
   },
   {
     "MoviesName": "Catch Me If You Can",
