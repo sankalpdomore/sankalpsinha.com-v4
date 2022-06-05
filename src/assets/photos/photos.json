@@ -1,23 +1,5 @@
   [
     {
-      "PhotoName": "Side car",
-      "PhotoDescription": "Random flower vase in a hotel I stayed. Could sense a minimalistic shot here. Edited the flower reflection on the mirror out.",
-      "PhotoImage": "../assets/photos/2020-11-13-3.jpeg",
-      "PhotoLocation": "Salem, India",
-      "PhotoDateTaken": "June 3, 2022",
-      "PhotoDateUploaded": "June 5, 2022",
-      "PhotoAlbums": "Minimal"
-    },
-    {
-      "PhotoName": "Dark mirror",
-      "PhotoDescription": "Random flower vase in a hotel I stayed. Could sense a minimalistic shot here. Edited the flower reflection on the mirror out.",
-      "PhotoImage": "../assets/photos/2022-06-03-2.jpeg",
-      "PhotoLocation": "Salem, India",
-      "PhotoDateTaken": "June 3, 2022",
-      "PhotoDateUploaded": "June 5, 2022",
-      "PhotoAlbums": "Minimal"
-    },
-    {
       "PhotoName": "Colorful minimalism?",
       "PhotoDescription": "Random flower vase in a hotel I stayed. Could sense a minimalistic shot here. Edited the flower reflection on the mirror out.",
       "PhotoImage": "../assets/photos/2022-06-03-1.jpeg",
