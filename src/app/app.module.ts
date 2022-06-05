@@ -19,7 +19,8 @@ import { TestimonialsPageCardsHalfComponent } from './components/testimonials/te
 import { TestimonialsPageCardsAllComponent } from './components/testimonials/testimonials-page-cards-all/testimonials-page-cards-all.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 import { PhotosPageComponent } from './components/photos/photos-page/photos-page.component';
-import { PhotosTileComponent } from './components/photos/photos-tile/photos-tile.component';
+import { PhotosTileGridComponent } from './components/photos/photos-tile-grid/photos-tile-grid.component';
+import { PhotosTileListComponent } from './components/photos/photos-tile-list/photos-tile-list.component';
 import { PhotosModalComponent } from './components/photos/photos-modal/photos-modal.component';
 import { MoviesPageComponent } from './components/about/movies/movies-page/movies-page.component';
 import { MoviesTileComponent } from './components/about/movies/movies-page-tile/movies-page-tile.component';
@@ -49,7 +50,8 @@ import { HttpClientModule } from '@angular/common/http';
     TestimonialsPageCardsAllComponent,
     BuildinginpublicComponent,
     PhotosPageComponent,
-    PhotosTileComponent,
+    PhotosTileGridComponent,
+    PhotosTileListComponent,
     PhotosModalComponent,
     MoviesPageComponent,
     MoviesTileComponent,

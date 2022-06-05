@@ -11,9 +11,25 @@
             Since the day I got a camera phone, I was hooked on to clicking pictures. With better camera phones and photo sharing apps like Instagram, I shared more pictures. But, lately, Instagram doesn't feel like a place to share photos anymore. This page is my reaction to the disappointment Instagram has become. I love clicking pictures and sharing them, and finally, I have a place for them here. 🙌
         </div>
         <div class="row">
-            <div *ngFor="let item of photosData" class="content-grid-container-tile-row col-lg-4 col-md-4 col-sm-6 col-6">
-                <component-photos-tile PhotoImage={{item.PhotoImage}} PhotoName={{item.PhotoName}} PhotoDescription={{item.PhotoDescription}} PhotoLocation={{item.PhotoLocation}} PhotoDateTaken={{item.PhotoDateTaken}} albums={{item.albums}}></component-photos-tile>
+            <div class="col-12">
+                <div class="content-grid-container-tabs" (click)="ToggleGrid()">
+                    <i class="bi bi-grid-fill"></i> Grid
+                </div>
+                <div class="content-grid-container-tabs" (click)="ToggleList()">
+                    <i class="fa-solid fa-list-ul"></i> List
+                </div>
             </div>
+
+            <ng-container *ngIf="showAsGrid">
+                <div *ngFor="let item of photosData" class="content-grid-container-tile-row col-lg-4 col-md-4 col-sm-6 col-6">
+                    <component-photos-tile-grid PhotoImage={{item.PhotoImage}} PhotoName={{item.PhotoName}} PhotoDescription={{item.PhotoDescription}} PhotoLocation={{item.PhotoLocation}} PhotoDateTaken={{item.PhotoDateTaken}} albums={{item.albums}}></component-photos-tile-grid>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="showAsList">
+                <div *ngFor="let item of photosData" class="content-grid-container-tile-row col-lg-12 col-6">
+                    <component-photos-tile-list PhotoImage={{item.PhotoImage}} PhotoName={{item.PhotoName}} PhotoDescription={{item.PhotoDescription}} PhotoLocation={{item.PhotoLocation}} PhotoDateTaken={{item.PhotoDateTaken}} albums={{item.albums}}></component-photos-tile-list>
+                </div>
+            </ng-container>
         </div>
         <a href="https://twitter.com/sankalpdomore" target="_blank" class="link-remove-underline">
             <div class="stay-connected d-none d-lg-block">

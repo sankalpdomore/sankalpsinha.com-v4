@@ -10,6 +10,19 @@ import { Meta, Title } from '@angular/platform-browser';
 
 export class PhotosPageComponent implements OnInit {
 
+  showAsGrid: boolean = true
+  showAsList: boolean = false
+
+  ToggleGrid() {
+    this.showAsList = false
+    this.showAsGrid = true
+  }
+
+  ToggleList() {
+    this.showAsList = true
+    this.showAsGrid = false
+  }
+
   photosData: any = [];
 
   constructor(
@@ -28,3 +41,4 @@ export class PhotosPageComponent implements OnInit {
     })
   }
 }
+

@@ -1,0 +1,64 @@
+/*////////////////////////*/
+/*//// Media queries /////*/
+/*////////////////////////*/
+.custom-grid-content-container-tile-image.photos.sort-as-list {
+  height: 640px;
+  border-radius: 20px;
+}
+
+.custom-grid-content-container-tile.sort-as-list {
+  padding-right: 0px;
+  padding-bottom: 80px;
+}
+
+/* All devices more than 1441px devices */
+@media (min-width: 1441px) {
+}
+
+/* Between Extra-Large and large devices (large desktops, large tablets) */
+@media (min-width: 1199px) and (max-width: 1400px) {
+}
+
+/* Between Large and Medium devices (desktops, tablets) */
+@media (min-width: 991px) and (max-width: 1200px) {
+}
+
+/* All devices less than Medium devices */
+@media (min-width: 0px) and (max-width: 991px) {
+}
+
+/* Only Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .custom-grid-content-container-tile-image.photos.sort-as-list {
+    height: 280px;
+  }
+}
+
+/* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
+@media (min-width: 0px) and (max-width: 768px) {
+}
+
+/* Only Small devices (landscape phones) */
+@media (min-width: 575px) and (max-width: 768px) {
+  .custom-grid-content-container-tile-image.photos.sort-as-list {
+    height: 340px;
+  }
+}
+
+/* Only X-Small devices (portrait phones) */
+@media (min-width: 0px) and (max-width: 575px) {
+}
+
+/* Only X-Small devices (portrait phones) but below 375px */
+@media (min-width: 440px) and (max-width: 575px) {
+  .custom-grid-content-container-tile-image.photos.sort-as-list {
+    height: 228px;
+  }
+}
+
+/* Only X-Small devices (portrait phones) but below 375px */
+@media (min-width: 0px) and (max-width: 440px) {
+  .custom-grid-content-container-tile-image.photos.sort-as-list {
+    height: 172px;
+  }
+}
