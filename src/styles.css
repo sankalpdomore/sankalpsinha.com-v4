@@ -173,6 +173,10 @@ div {
   color: var(--color-grey-777);
 }
 
+.common-page-sub-header.with-tabs {
+  margin-bottom: 48px;
+}
+
 .common-section-header-h3 {
   font-family: var(--font-family-header);
   font-size: 24px;
@@ -538,18 +542,34 @@ li > .common-body-text-16-bold {
 /* /////////////////////////////////////////////////////////////// */
 /* /////  Custom Grid Content css (Photos, Movies, Books, etc /////*/
 /* /////////////////////////////////////////////////////////////// */
-.content-grid-container-tabs {
+.content-grid-container-tabs-container {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.content-grid-container-tabs-pill {
   font-family: var(--font-family-body);
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  padding: 4px 12px;
+  padding: 8px 32px;
   border-radius: var(--border-radius-infinite);
   background-color: var(--color-white-100);
   color: var(--color-black-100);
   cursor: pointer;
   width: max-content;
   display: inline-block;
+  margin-right: 12px;
+}
+
+.content-grid-container-tabs-pill-icons {
+  padding-right: 4px;
+}
+
+.content-grid-container-tabs-pill-icons.bi-grid-fill {
+  font-size: 12px;
+  top: -1px;
+  position: relative;
 }
 
 .custom-grid-content-container-tile {
