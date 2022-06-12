@@ -41,6 +41,8 @@
 }
 
 :root {
+  --primary-color: #185ee0;
+  --secondary-color: #e6eef9;
   --color-transparent: rgba(0, 0, 0, 0);
   --color-white-100: #ffffff;
   --color-light-paper-light: hsl(45, 20%, 96%);
@@ -554,10 +556,9 @@ li > .common-body-text-16-bold {
   line-height: 20px;
   padding: 8px 32px;
   border-radius: var(--border-radius-infinite);
-  background-color: var(--color-white-100);
   color: var(--color-black-100);
   cursor: pointer;
-  width: max-content;
+  width: 140px;
   display: inline-block;
   margin-right: 12px;
 }
@@ -570,6 +571,85 @@ li > .common-body-text-16-bold {
   font-size: 12px;
   top: -1px;
   position: relative;
+}
+
+.content-grid-container-tabs-container {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-grid-container-tabs-container-tabs {
+  background-color: var(--color-white-100);
+  border-radius: var(--border-radius-infinite);
+  padding: 8px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.content-grid-container-tabs-container-tabs * {
+  z-index: 1;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+  color: var(--primary-color);
+}
+
+input[id="content-grid-container-tabs-container-tabs-radio-1"]:checked
+  ~ .content-grid-container-tabs-container-tabs-active {
+  transform: translateX(0);
+  z-index: 0;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input[id="content-grid-container-tabs-container-tabs-radio-2"]:checked
+  ~ .content-grid-container-tabs-container-tabs-active {
+  transform: translateX(100%);
+  z-index: 0;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input[id="radio-3"]:checked
+  ~ .content-grid-container-tabs-container-tabs-active {
+  transform: translateX(200%);
+  z-index: 0;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.content-grid-container-tabs-container-tabs-active {
+  position: absolute;
+  display: flex;
+  height: 36px;
+  width: 150px;
+  background-color: var(--secondary-color);
+  border-radius: 99px;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .custom-grid-content-container-tile {

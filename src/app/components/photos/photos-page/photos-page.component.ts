@@ -1,11 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { Meta, Title } from '@angular/platform-browser';
+import { animate, state, style, transition, trigger } from '@angular/animations';
 
 @Component({
   selector: 'component-photos-page',
   templateUrl: './photos-page.component.html',
-  styleUrls: ['./photos-page.component.css']
+  styleUrls: ['./photos-page.component.css'],
+  animations: [
+    trigger('fade', [
+      state('false', style({ scale: 1 })),
+      state('true', style({ scale: 0 })),
+      transition('* <=> *', [animate(500)])
+    ])
+  ]
 })
 
 export class PhotosPageComponent implements OnInit {
