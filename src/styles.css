@@ -41,8 +41,6 @@
 }
 
 :root {
-  --primary-color: #185ee0;
-  --secondary-color: #e6eef9;
   --color-transparent: rgba(0, 0, 0, 0);
   --color-white-100: #ffffff;
   --color-light-paper-light: hsl(45, 20%, 96%);
@@ -59,10 +57,12 @@
   --color-grey-444: #444444;
   --color-grey-333: #333333;
   --color-grey-222: #222222;
+  --color-grey-111: #111111;
   --color-black-100: #000000;
   --color-black-30: rgba(0, 0, 0, 0.3);
   --color-black-04: rgba(0, 0, 0, 0.04);
-  --color-link-blue-default: hsla(214, 84%, 56%);
+  --color-link-blue-default: hsl(214, 88%, 50%);
+  --color-link-blue-light-default: hsl(214, 88%, 50%, 16%);
   --color-orange-1-light-default: hsla(28, 100%, 50%);
   --color-orange-2-dark-default: hsl(16, 100%, 48%);
   --color-orange-2-light-default: hsl(20, 100%, 90%);
@@ -545,43 +545,16 @@ li > .common-body-text-16-bold {
 /* /////  Custom Grid Content css (Photos, Movies, Books, etc /////*/
 /* /////////////////////////////////////////////////////////////// */
 .content-grid-container-tabs-container {
-  text-align: center;
-  margin-bottom: 48px;
-}
-
-.content-grid-container-tabs-pill {
-  font-family: var(--font-family-body);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 8px 32px;
-  border-radius: var(--border-radius-infinite);
-  color: var(--color-black-100);
-  cursor: pointer;
-  width: 140px;
-  display: inline-block;
-  margin-right: 12px;
-}
-
-.content-grid-container-tabs-pill-icons {
-  padding-right: 4px;
-}
-
-.content-grid-container-tabs-pill-icons.bi-grid-fill {
-  font-size: 12px;
-  top: -1px;
   position: relative;
-}
-
-.content-grid-container-tabs-container {
-  position: relative;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .content-grid-container-tabs-container-tabs {
@@ -597,16 +570,68 @@ li > .common-body-text-16-bold {
   transition: all 0.2s ease-in-out;
 }
 
+.content-grid-container-tabs-container-tabs.dark {
+  background-color: var(--color-grey-222);
+}
+
 .content-grid-container-tabs-container-tabs * {
   z-index: 1;
 }
 
-input[type="radio"] {
-  display: none;
+.content-grid-container-tabs-pill {
+  font-family: var(--font-family-body);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 32px;
+  border-radius: var(--border-radius-infinite);
+  color: var(--color-grey-888);
+  cursor: pointer;
+  width: 140px;
+  display: inline-block;
 }
 
-input[type="radio"]:checked + label {
-  color: var(--primary-color);
+.content-grid-container-tabs-container-tabs
+  input[type="radio"]:checked
+  + label {
+  color: var(--color-link-blue-default);
+}
+
+.content-grid-container-tabs-container-tabs.dark
+  input[type="radio"]:checked
+  + label {
+  color: var(--color-white-100);
+}
+
+.content-grid-container-tabs-container-tabs-active {
+  position: absolute;
+  display: flex;
+  height: 36px;
+  width: 140px;
+  background-color: var(--color-link-blue-light-default);
+  border-radius: var(--border-radius-infinite);
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.content-grid-container-tabs-container-tabs-active.dark {
+  background-color: var(--color-grey-333);
+}
+
+.content-grid-container-tabs-pill-icons {
+  padding-right: 4px;
+}
+
+.content-grid-container-tabs-pill-icons.bi-grid-fill {
+  font-size: 12px;
+  top: -1px;
+  position: relative;
+}
+
+input[type="radio"] {
+  display: none;
 }
 
 input[id="content-grid-container-tabs-container-tabs-radio-1"]:checked
@@ -633,19 +658,6 @@ input[id="radio-3"]:checked
   ~ .content-grid-container-tabs-container-tabs-active {
   transform: translateX(200%);
   z-index: 0;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.content-grid-container-tabs-container-tabs-active {
-  position: absolute;
-  display: flex;
-  height: 36px;
-  width: 150px;
-  background-color: var(--secondary-color);
-  border-radius: 99px;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1047,5 +1059,14 @@ input[id="radio-3"]:checked
 
   .custom-grid-content-container-tile-icons-label {
     padding-right: 2px;
+  }
+
+  .content-grid-container-tabs-pill {
+    padding: 8px 20px;
+    width: 100px;
+  }
+
+  .content-grid-container-tabs-container-tabs-active {
+    width: 100px;
   }
 }
