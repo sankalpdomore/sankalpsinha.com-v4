@@ -22,7 +22,7 @@ export class MoviesPageComponent implements OnInit {
     this.meta.addTag({ name: 'keywords', content: '' });
   }
   ngOnInit(): void {
-    this.httpClient.get("../assets/about/movies/movies.json").subscribe(data => {
+    this.httpClient.get("../assets/movies/movies.json").subscribe(data => {
       console.log(data);
       this.moviesData = data;
     })

@@ -22,7 +22,7 @@ export class BooksPageComponent implements OnInit {
     this.meta.addTag({ name: 'keywords', content: '' });
   }
   ngOnInit(): void {
-    this.httpClient.get("../assets/about/books/books.json").subscribe(data => {
+    this.httpClient.get("../assets/books/books.json").subscribe(data => {
       console.log(data);
       this.booksData = data;
     })
