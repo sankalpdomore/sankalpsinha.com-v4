@@ -1,0 +1,178 @@
+[
+  {
+    "MoviesName": "Better Call Saul",
+    "MoviesTypeMovie": "none",
+    "MoviesTypeTVShow": "block",
+    "MoviesImage": "../assets/movies/bettercallsaul.jpg",
+    "MoviesDescription": "One of the best-made prequel series of all time. The minimal and color accurate cinematography follows through this one as well. Don't miss it if you're a big Breaking Bad fan and love Saul's character.",
+    "MoviesCurrentlyWatching": "block",
+    "MoviesWatched": "none",
+    "MoviesWatchedDate": "May 6, 2022",
+    "MoviesReleasedDate": "October 4, 2017"
+  },
+  {
+    "MoviesName": "The World's Most Extraordinary Homes",
+    "MoviesTypeMovie": "none",
+    "MoviesTypeTVShow": "block",
+    "MoviesImage": "../assets/movies/worldsmostextraordinaryhomes.jpg",
+    "MoviesDescription": "If you're interested in design, architecture, or interior design, this series captures the best-designed homes around the world. The narration leaves you inspired.",
+    "MoviesCurrentlyWatching": "block",
+    "MoviesWatched": "none",
+    "MoviesWatchedDate": "May 6, 2022",
+    "MoviesReleasedDate": "March 5, 2018"
+  },
+  {
+    "MoviesName": "Top Gun: Maverick",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/topgunmaverick.jpg",
+    "MoviesDescription": "It's one of the best-directed movies of 2022 and one of the best aviation movies of all time IMO. I rarely say this for movies, but this one deserves a 10/10.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "June 14, 2022",
+    "MoviesReleasedDate": "May 27, 2022"
+  },
+  {
+    "MoviesName": "Severance",
+    "MoviesTypeMovie": "none",
+    "MoviesTypeTVShow": "block",
+    "MoviesImage": "../assets/movies/severance.jpg",
+    "MoviesDescription": "Saw a lot of people applaud the series on Twitter. Plus it's directed by Ben Stiller, whose movies are usually underrated. Have you seen his movie The Secret Life Of Walter Mitty? You should.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "May 30, 2022",
+    "MoviesReleasedDate": "February 18, 2022"
+  },
+  {
+    "MoviesName": "Bhool Bhulaiya 2",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/bhoolbhulaiya2.jpg",
+    "MoviesDescription": "Banked on the 1st franchise of the movie that came in 2007. The plot was interesting and felt that a lot more could have been done to marry humor with horror. But 50% of the humor felt forced. Decent 1-time watch. The title track remains unchanged and will always be evergreen.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "May 18, 2022",
+    "MoviesReleasedDate": "December 16, 2002"
+  },
+  {
+    "MoviesName": "Catch Me If You Can",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/catchmeifyoucan.jpg",
+    "MoviesDescription": "This movie was on my list for the longest time but got the push to watch it after watching the Netflix series on Luka Magnotta, a serial killer fascinated by stories of Catch me if you can and Basic Instinct.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "May 18, 2022",
+    "MoviesReleasedDate": "December 16, 2002"
+  },
+  {
+    "MoviesName": "Doctor Strange in the Multiverse of Madness",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/doctorstrangeinthemultiverseofmadness.jpg",
+    "MoviesDescription": "Sam Raimi, the director of the movie overdid the horror part. The movie didn't feel like the typical light-hearted Marvel movie that I go to theaters for.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "May 6, 2022",
+    "MoviesReleasedDate": "May 6, 2022"
+  },
+  {
+    "MoviesName": "Constantine",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/constantine.jpg",
+    "MoviesDescription": "Okish direction. Watched it only for Keanu Reeves.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "May 3, 2022",
+    "MoviesReleasedDate": "February 25, 2005"
+  },
+  {
+    "MoviesName": "WeCrashed",
+    "MoviesTypeMovie": "none",
+    "MoviesTypeTVShow": "block",
+    "MoviesImage": "../assets/movies/wecrashed.jpg",
+    "MoviesDescription": "The story telling & acting by Jared Leto & Anne Hathaway is on point. A MUST WATCH if you're interested in either well documented stories & startups.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "April 28, 2022",
+    "MoviesReleasedDate": "March 18, 2022"
+  },
+  {
+    "MoviesName": "SpiderMan: No way home",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/spidermannowayhome.jpg",
+    "MoviesDescription": "Marvel's best multiverse movie so far as it was able to pull off the unimaginable task of brining all previous Spiderman & their counterparts in one movie. Very well executed storyline.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "December 18, 2021",
+    "MoviesReleasedDate": "December 16, 2021"
+  },
+  {
+    "MoviesName": "Finch",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/finch.jpg",
+    "MoviesDescription": "Upbeat and hopeful storytelling",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "December 13, 2021",
+    "MoviesReleasedDate": "November 5, 2021"
+  },
+  {
+    "MoviesName": "13 Hours",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/13hours.jpg",
+    "MoviesDescription": "Loved the fact that it didn't have an all-star cast back then and still all the actors felt perfect for their roles. The action sequences were directed to feel real 100%.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "May 24, 2021",
+    "MoviesReleasedDate": "January 15, 2016"
+  },
+  {
+    "MoviesName": "Top Gun",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/topgun.jpg",
+    "MoviesDescription": "Couldn't relate to the direction style as it was done for the generation of 1980s but liked the overall story about Maverick.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "August 20, 2012",
+    "MoviesReleasedDate": "May 12, 1986"
+  },
+  {
+    "MoviesName": "The Lord of the Rings: The Return of the King",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/lordoftherings3.jpg",
+    "MoviesDescription": "Binge watched this amazing series during my college days. VFX in battles were just mindblowing for its time.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "February 3, 2011",
+    "MoviesReleasedDate": "February 6, 2004"
+  },
+  {
+    "MoviesName": "The Lord of the Rings: The Two Towers",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/lordoftherings2.jpg",
+    "MoviesDescription": "Binge watched this amazing series during my college days. Loved all Gandalf - The white scenes in this one.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "February 3, 2011",
+    "MoviesReleasedDate": "March 28, 2003"
+  },
+  {
+    "MoviesName": "The Lord of the Rings: The Fellowship of the Ring",
+    "MoviesTypeMovie": "block",
+    "MoviesTypeTVShow": "none",
+    "MoviesImage": "../assets/movies/lordoftherings1.jpg",
+    "MoviesDescription": "Binge watched this amazing series during my college days. The bond between Fordo and Sam was very well depicted.",
+    "MoviesCurrentlyWatching": "none",
+    "MoviesWatched": "block",
+    "MoviesWatchedDate": "February 3, 2011",
+    "MoviesReleasedDate": "March 15, 2002"
+  }
+]

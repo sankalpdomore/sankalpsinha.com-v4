@@ -1,0 +1,17 @@
+<div class="custom-grid-content-container-tile">
+    <div class="custom-grid-content-container-tile-image photos" [ngStyle]="{'background-image': 'url(\''+ PhotoImage + '\')'}"></div>
+    <div class="col-auto custom-grid-content-container-tile-name dark">
+        {{PhotoName}}
+    </div>
+    <div class="custom-grid-content-container-tile-description dark">
+        {{PhotoDescription}}
+    </div>
+    <div class="custom-grid-content-container-tile-meta-data dark first">
+        <i class="bi bi-geo-alt-fill custom-grid-content-container-tile-icons dark"></i>
+        {{PhotoLocation}}
+    </div>
+    <div class="custom-grid-content-container-tile-meta-data dark">
+        <i class="bi bi-camera-fill custom-grid-content-container-tile-icons dark"></i>
+        {{PhotoDateTaken}}
+    </div>
+</div>

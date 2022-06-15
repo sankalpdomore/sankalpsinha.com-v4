@@ -1,0 +1,104 @@
+.custom-grid-content-container-tile-image {
+  height: 448px;
+  border-radius: 12px;
+}
+
+.common-body-pill-tag {
+  margin-top: 4px;
+  margin-bottom: 6px;
+  margin-left: 12px;
+}
+
+.custom-grid-content-container-tile-ongoing-activity {
+  margin-left: 0px;
+}
+
+.books-page-card-container-meta-data-book-type-paperback {
+  color: var(--color-purple-1-dark-default);
+  background: var(--color-purple-1-light-default);
+}
+
+.books-page-card-container-meta-data-book-type-kindle {
+  color: var(--color-orange-2-dark-default);
+  background: var(--color-orange-2-light-default);
+}
+
+.books-page-card-container-meta-data-book-type-paperback > .fa-solid,
+.books-page-card-container-meta-data-book-type-kindle > .fa-solid {
+  padding-right: 4px;
+}
+
+.custom-grid-content-container-tile-icons {
+  top: -1px;
+}
+
+.fa-check {
+  top: 0px;
+  font-size: 15px;
+}
+
+/*////////////////////////*/
+/*//// Media queries /////*/
+/*////////////////////////*/
+
+/* All devices more than 1441px devices */
+@media (min-width: 1441px) {
+  .custom-grid-content-container-tile-image {
+    height: 360px;
+  }
+}
+
+/* Between Extra-Large and large devices (large desktops, large tablets) */
+@media (min-width: 1199px) and (max-width: 1400px) {
+}
+
+/* Between Large and Medium devices (desktops, tablets) */
+@media (min-width: 991px) and (max-width: 1200px) {
+}
+
+/* All devices less than Medium devices */
+@media (min-width: 0px) and (max-width: 991px) {
+}
+
+/* Only Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .custom-grid-content-container-tile-image {
+    height: 432px;
+  }
+}
+
+/* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
+@media (min-width: 0px) and (max-width: 768px) {
+}
+
+/* Only Small devices (landscape phones) */
+@media (min-width: 575px) and (max-width: 768px) {
+  .custom-grid-content-container-tile-image {
+    height: 320px;
+  }
+}
+
+/* Only X-Small devices (portrait phones) */
+@media (min-width: 0px) and (max-width: 575px) {
+}
+
+/* Only X-Small devices (portrait phones) between 440px <=> 575px */
+@media (min-width: 440px) and (max-width: 575px) {
+  .custom-grid-content-container-tile-image {
+    height: 332px;
+  }
+}
+
+/* Only X-Small devices (portrait phones) but below 440px */
+@media (min-width: 0px) and (max-width: 440px) {
+  .custom-grid-content-container-tile-image {
+    height: 260px;
+  }
+}
+
+/* Only X-Small devices (portrait phones) but below 374px */
+@media (min-width: 0px) and (max-width: 374px) {
+  .custom-grid-content-container-tile-image {
+    height: 220px;
+  }
+}

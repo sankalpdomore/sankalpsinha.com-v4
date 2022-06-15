@@ -1,0 +1,44 @@
+<div class="custom-grid-content-container-tile">
+    <div class="custom-grid-content-container-tile-image border-light" [ngStyle]="{'background-image': 'url(\''+ data.BooksImage + '\')'}">
+    </div>
+    <div class="custom-grid-content-container-tile-name">
+        {{data.BooksName}}
+    </div>
+    <div class="row">
+        <div [ngStyle]="{'display': data.BooksTypePaper}" class="col-auto common-body-pill-tag books-page-card-container-meta-data-book-type-paperback">
+            <i class="fa-solid fa-book"></i> Paperback
+        </div>
+        <div [ngStyle]="{'display': data.BooksTypeKindle}" class="col-auto common-body-pill-tag books-page-card-container-meta-data-book-type-kindle">
+            <i class="fa-solid fa-tablet-screen-button"></i> Kindle
+        </div>
+    </div>
+    <div class="custom-grid-content-container-tile-description">
+        {{data.BooksDescription}}
+    </div>
+    <div [ngStyle]="{'display': data.BooksCurrentlyReading}" class="common-body-pill-tag custom-grid-content-container-tile-ongoing-activity">
+        <i class="custom-grid-content-container-tile-icons">
+            <div class="overlay">
+                <div class="spinner center">
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                    <div class="spinner-blade"></div>
+                </div>
+            </div>
+        </i>
+        <span>Currently reading</span>
+    </div>
+    <div [ngStyle]="{'display': data.BooksRead}" class="custom-grid-content-container-tile-meta-data">
+        <i class="fa-solid fa-check custom-grid-content-container-tile-icons"></i>
+        <span class="custom-grid-content-container-tile-icons-label">Read:</span>
+        {{data.BooksReadDate}}
+    </div>
+</div>
