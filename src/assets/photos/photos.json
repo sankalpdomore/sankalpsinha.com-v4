@@ -1,5 +1,23 @@
   [
     {
+      "PhotoName": "Side car",
+      "PhotoDescription": "The reason I bought the Jeep Compass over other SUV options was only the side profile i.e. a very bold & muscular stance.",
+      "PhotoImage": "../assets/photos/2020-11-13-3.jpeg",
+      "PhotoLocation": "Bengaluru, India",
+      "PhotoDateTaken": "November 13, 2020",
+      "PhotoDateUploaded": "June 15, 2022",
+      "PhotoAlbums": "Minimal"
+    },
+    {
+      "PhotoName": "Dark mirror",
+      "PhotoDescription": "Liked this simple sink / mirror setup in one of the hotels I stayed in. Have seen a lot of washrooms (ha!) but I could sense a minimalistic black and white shot here.",
+      "PhotoImage": "../assets/photos/2022-06-03-2.jpeg",
+      "PhotoLocation": "Salem, India",
+      "PhotoDateTaken": "June 3, 2022",
+      "PhotoDateUploaded": "June 15, 2022",
+      "PhotoAlbums": "Minimal"
+    },
+    {
       "PhotoName": "Colorful minimalism?",
       "PhotoDescription": "Random flower vase in a hotel I stayed. Could sense a minimalistic shot here. Edited the flower reflection on the mirror out.",
       "PhotoImage": "../assets/photos/2022-06-03-1.jpeg",
