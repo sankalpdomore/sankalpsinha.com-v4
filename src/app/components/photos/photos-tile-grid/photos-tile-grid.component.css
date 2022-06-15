@@ -43,16 +43,23 @@
 @media (min-width: 0px) and (max-width: 575px) {
 }
 
-/* Only X-Small devices (portrait phones) but below 375px */
+/* Only X-Small devices (portrait phones) but below 575px */
 @media (min-width: 440px) and (max-width: 575px) {
   .custom-grid-content-container-tile-image.photos {
     height: 228px;
   }
 }
 
-/* Only X-Small devices (portrait phones) but below 375px */
+/* Only X-Small devices (portrait phones) but below 440px */
 @media (min-width: 0px) and (max-width: 440px) {
   .custom-grid-content-container-tile-image.photos {
-    height: 172px;
+    height: 160px;
+  }
+}
+
+/* Only X-Small devices (portrait phones) but below 375px */
+@media (min-width: 0px) and (max-width: 374px) {
+  .custom-grid-content-container-tile-image.photos {
+    height: 120px;
   }
 }
