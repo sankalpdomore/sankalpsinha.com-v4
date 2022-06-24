@@ -625,7 +625,7 @@ li > .common-body-text-16-bold {
 }
 
 .content-grid-container-tabs-container-tabs-active.dark {
-  background-color: var(--color-black-100);
+  background-color: var(--color-grey-333);
 }
 
 .content-grid-container-tabs-pill-icons {
