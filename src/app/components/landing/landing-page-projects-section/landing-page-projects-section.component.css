@@ -2,17 +2,6 @@
   background-color: var(--color-white-100);
 }
 
-.landing-page-sections-common-page-header-h1 span {
-  font-family: var(--font-family-header);
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  position: relative;
-  top: -28px;
-  left: -4px;
-}
-
 .projects-page-section-container {
   padding-bottom: 140px;
 }

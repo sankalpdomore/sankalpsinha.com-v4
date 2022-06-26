@@ -9,19 +9,17 @@ import { NavDarkComponent } from './components/navigation-dark/navigation-dark.c
 import { NavDarkestComponent } from './components/navigation-darkest/navigation-darkest.component';
 import { LandingPageComponent } from './components/landing/landing-page/landing-page.component';
 import { LandingPageIntroComponent } from './components/landing/landing-page-intro/landing-page-intro.component';
+import { LandingPageProjectsSectionComponent } from './components/landing/landing-page-projects-section/landing-page-projects-section.component';
 import { LandingPageTestimonialsSectionComponent } from './components/landing/landing-page-testimonials-section/landing-page-testimonials-section.component';
 import { ProjectsPageComponent } from './components/projects/projects-page/projects-page.component';
-import { ProjectsPageSectionComponent } from './components/projects/projects-page-section/projects-page-section.component';
-import { ProjectsPageSectionCardComponent } from './components/projects/projects-page-section-card/projects-page-section-card.component';
+import { ProjectsPageCardComponent } from './components/projects/projects-page-card/projects-page-card.component';
 import { TestimonialsPageComponent } from './components/testimonials/testimonials-page/testimonials-page.component';
-import { TestimonialsPageHeaderComponent } from './components/testimonials/testimonials-page-header/testimonials-page-header.component';
 import { TestimonialsPageCardsHalfComponent } from './components/testimonials/testimonials-page-cards-half/testimonials-page-cards-half.component';
 import { TestimonialsPageCardsAllComponent } from './components/testimonials/testimonials-page-cards-all/testimonials-page-cards-all.component';
 import { BuildinginpublicComponent } from './components/buildinginpublic/buildinginpublic.component';
 import { PhotosPageComponent } from './components/photos/photos-page/photos-page.component';
 import { PhotosTileGridComponent } from './components/photos/photos-tile-grid/photos-tile-grid.component';
 import { PhotosTileListComponent } from './components/photos/photos-tile-list/photos-tile-list.component';
-import { PhotosModalComponent } from './components/photos/photos-modal/photos-modal.component';
 import { MoviesPageComponent } from './components/movies/movies-page/movies-page.component';
 import { MoviesTileComponent } from './components/movies/movies-page-tile/movies-page-tile.component';
 import { BooksPageComponent } from './components/books/books-page/books-page.component';
@@ -40,19 +38,17 @@ import { HttpClientModule } from '@angular/common/http';
     NavDarkestComponent,
     LandingPageComponent,
     LandingPageIntroComponent,
+    LandingPageProjectsSectionComponent,
     LandingPageTestimonialsSectionComponent,
     ProjectsPageComponent,
-    ProjectsPageSectionComponent,
-    ProjectsPageSectionCardComponent,
+    ProjectsPageCardComponent,
     TestimonialsPageComponent,
-    TestimonialsPageHeaderComponent,
     TestimonialsPageCardsHalfComponent,
     TestimonialsPageCardsAllComponent,
     BuildinginpublicComponent,
     PhotosPageComponent,
     PhotosTileGridComponent,
     PhotosTileListComponent,
-    PhotosModalComponent,
     MoviesPageComponent,
     MoviesTileComponent,
     BooksPageComponent,

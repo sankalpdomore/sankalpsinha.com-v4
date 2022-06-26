@@ -159,6 +159,17 @@ div {
   padding-bottom: 16px;
 }
 
+.common-page-header-h1 span {
+  font-family: var(--font-family-header);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  position: relative;
+  top: -28px;
+  left: -4px;
+}
+
 .common-page-sub-header {
   font-family: var(--font-family-body);
   font-size: 16px;
@@ -166,7 +177,7 @@ div {
   line-height: 24px;
   color: var(--color-grey-555);
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -371,9 +382,9 @@ li > .common-body-text-16-bold {
   padding: 100px 0px 8px 0px;
 }
 
-.landing-page-sections-common-page-sub-header {
-  margin-bottom: 80px;
-}
+/* .landing-page-sections-common-page-sub-header {
+  margin-bottom: 88px;
+} */
 
 /* ////////////////////// */
 /* /////  Footer css /////*/

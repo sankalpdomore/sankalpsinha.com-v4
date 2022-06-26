@@ -1,12 +1,12 @@
-import { Component, OnInit, AfterViewInit, Input, Type } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'component-projects-page-section-card',
-  templateUrl: './projects-page-section-card.component.html',
-  styleUrls: ['./projects-page-section-card.component.css']
+  selector: 'component-projects-page-card',
+  templateUrl: './projects-page-card.component.html',
+  styleUrls: ['./projects-page-card.component.css']
 })
 
-export class ProjectsPageSectionCardComponent implements OnInit {
+export class ProjectsPageCardComponent implements OnInit {
 
   @Input()
   data: Project
