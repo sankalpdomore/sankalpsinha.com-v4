@@ -54,6 +54,10 @@
 
 /* Only X-Small devices (portrait phones) but below 575px */
 @media (min-width: 440px) and (max-width: 575px) {
+  .custom-grid-content-container-tile {
+    padding-bottom: 52px;
+  }
+
   .custom-grid-content-container-tile-image.photos {
     height: 420px;
   }
