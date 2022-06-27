@@ -123,11 +123,11 @@
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
   .padding-right {
-    padding-right: 24px;
+    padding-right: 16px;
   }
 
   .padding-left {
-    padding-left: 24px;
+    padding-left: 16px;
   }
 
   .testimonials-page-card-container-parent
@@ -138,7 +138,7 @@
   .testimonials-page-card-container-cards-title {
     font-size: 28px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 32px;
   }
 
   .testimonials-page-card-container-cards-content p {

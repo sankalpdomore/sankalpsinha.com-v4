@@ -4,7 +4,7 @@ import { HttpClient } from "@angular/common/http";
 @Component({
   selector: 'component-landing-page-projects-section',
   templateUrl: './landing-page-projects-section.component.html',
-  styleUrls: ['./landing-page-projects-section.component.css']
+  styleUrls: ['../../projects/projects-page/projects-page.component.css']
 })
 
 export class LandingPageProjectsSectionComponent {

@@ -159,7 +159,7 @@ div {
   padding-bottom: 16px;
 }
 
-.common-page-header-h1 span {
+.common-page-header-h1-font-sup {
   font-family: var(--font-family-header);
   font-size: 16px;
   font-weight: 600;

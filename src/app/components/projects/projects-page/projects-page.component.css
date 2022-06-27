@@ -44,9 +44,6 @@
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
-  .font-sup {
-    display: none;
-  }
 }
 
 /* Only X-Small devices (portrait phones) but below 375px */
