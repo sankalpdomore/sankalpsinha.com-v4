@@ -1,3 +1,7 @@
+.content-container > .row {
+  --bs-gutter-x: 1.8rem;
+}
+
 .stay-connected {
   font-size: 16px;
   font-weight: 400;
