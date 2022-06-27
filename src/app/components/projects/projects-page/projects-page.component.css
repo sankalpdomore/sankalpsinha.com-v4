@@ -1,3 +1,15 @@
+.projects-page-container {
+  background-color: var(--color-white-100);
+}
+
+.projects-page-section-container {
+  padding-bottom: 140px;
+}
+
+.projects-page-section-container:last-child {
+  padding-bottom: 40px;
+}
+
 /*////////////////////////*/
 /*//// Media queries /////*/
 /*////////////////////////*/

@@ -1,6 +1,11 @@
 .testimonials-page-container {
+  background-image: url("/assets/testimonials/testimonial-back.png");
   background-repeat: repeat;
   background-size: initial;
+}
+
+.fa-arrow-right {
+  margin-left: 8px;
 }
 /*////////////////////////*/
 /*//// Media queries /////*/

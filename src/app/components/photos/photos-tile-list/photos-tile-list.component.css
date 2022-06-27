@@ -2,7 +2,6 @@
 /*//// Media queries /////*/
 /*////////////////////////*/
 .custom-grid-content-container-tile {
-  padding-right: 0px;
   padding-bottom: 80px;
 }
 
@@ -50,6 +49,9 @@
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
+  .custom-grid-content-container-tile {
+    padding-bottom: 52px;
+  }
 }
 
 /* Only X-Small devices (portrait phones) but below 575px */

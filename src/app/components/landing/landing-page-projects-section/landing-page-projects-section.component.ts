@@ -1,21 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 
-
 @Component({
-  selector: 'component-projects-page-section',
-  templateUrl: './projects-page-section.component.html',
-  styleUrls: ['./projects-page-section.component.css']
+  selector: 'component-landing-page-projects-section',
+  templateUrl: './landing-page-projects-section.component.html',
+  styleUrls: ['../../projects/projects-page/projects-page.component.css']
 })
 
-export class ProjectsPageSectionComponent implements OnInit {
+export class LandingPageProjectsSectionComponent {
+
   projectData: any = [];
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(
+    private httpClient: HttpClient
+  ) {
+
+  }
   ngOnInit() {
     this.httpClient.get("../assets/projects/projects.json").subscribe(data => {
       console.log(data);
       this.projectData = data;
     })
   }
+
 }

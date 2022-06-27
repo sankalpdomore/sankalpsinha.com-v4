@@ -1,32 +1,5 @@
 [
   {
-    "projectID": "1",
-    "projectTitle": "SellerCrowd",
-    "projectDescription": "Designing a social platform to help salespeople exchange insights anonymously & hit sales goals faster.",
-    "projectImage": "../assets/projects/project-tiles/sellercrowd.png",
-    "projectTypeFT": "block",
-    "projectTypeSP": "none",
-    "projectDate": "Jan '18 - Oct '21",
-    "projectWorkTitle": "Lead Product Designer",
-    "projectRoles": 
-    [
-      {"description": "I was hired by SellerCrowd during a time when the code + design wasn’t scalable. The company was looking to redesign the product from scratch."},
-      {"description": "Understood user problems by looking at user feedback, talking to users, & analyzing user behavior with tools like Smartlook."},
-      {"description": "Working cross-functionally to define product strategy & roadmaps in collaboration with the Product & Engg. team - while keeping in mind the user and business goals and trying to strike a balance between the two."},
-      {"description": "Designing + prototyping solutions and ensuring pixel-perfect implementation of the interface & experience in collaboration with the QA & Engg. team."}
-    ],
-    "projectRandomFactEmoji": "../assets/projects/emoji-plane.png",
-    "projectRandomFactText": "SellerCrowd was my first remote job and my first day with the company was at a company-wide yearly meetup in Madrid, Spain 🇪🇸",
-    "projectTeamSizePMs": "2 PMs,",
-    "projectTeamSizeDevs": "9 Devs,",
-    "projectTeamSizeQAs": "3 QAs,",
-    "projectTeamSizeDesigners": "1 Designer (me)",
-    "projectUrlDisplay": "block",
-    "projectUrlPending": "none",
-    "projectUrl": "www.sellercrowd.com",
-    "projectUrlLabel": "sellercrowd.com"
-  },
-  {
     "projectID": "2",
     "projectTitle": "Visit.Page",
     "projectDescription": "Building a mobile-first link-in-bio tool to help creators send their audience to the right product, services, and links.",
@@ -72,6 +45,33 @@
     "projectUrlPending": "none",
     "projectUrl": "www.buildwithframer.com",
     "projectUrlLabel": "buildwithframer.com"
+  },
+  {
+    "projectID": "1",
+    "projectTitle": "SellerCrowd",
+    "projectDescription": "Designing a social platform to help salespeople exchange insights anonymously & hit sales goals faster.",
+    "projectImage": "../assets/projects/project-tiles/sellercrowd.png",
+    "projectTypeFT": "block",
+    "projectTypeSP": "none",
+    "projectDate": "Jan '18 - Oct '21",
+    "projectWorkTitle": "Lead Product Designer",
+    "projectRoles": 
+    [
+      {"description": "I was hired by SellerCrowd during a time when the code + design wasn’t scalable. The company was looking to redesign the product from scratch."},
+      {"description": "Understood user problems by looking at user feedback, talking to users, & analyzing user behavior with tools like Smartlook."},
+      {"description": "Working cross-functionally to define product strategy & roadmaps in collaboration with the Product & Engg. team - while keeping in mind the user and business goals and trying to strike a balance between the two."},
+      {"description": "Designing + prototyping solutions and ensuring pixel-perfect implementation of the interface & experience in collaboration with the QA & Engg. team."}
+    ],
+    "projectRandomFactEmoji": "../assets/projects/emoji-plane.png",
+    "projectRandomFactText": "SellerCrowd was my first remote job and my first day with the company was at a company-wide yearly meetup in Madrid, Spain 🇪🇸",
+    "projectTeamSizePMs": "2 PMs,",
+    "projectTeamSizeDevs": "9 Devs,",
+    "projectTeamSizeQAs": "3 QAs,",
+    "projectTeamSizeDesigners": "1 Designer (me)",
+    "projectUrlDisplay": "block",
+    "projectUrlPending": "none",
+    "projectUrl": "www.sellercrowd.com",
+    "projectUrlLabel": "sellercrowd.com"
   },
   {
     "projectTitle": "VWO",

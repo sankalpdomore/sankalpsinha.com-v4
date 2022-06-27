@@ -1,3 +1,7 @@
+.content-container > .row {
+  --bs-gutter-x: 1.8rem;
+}
+
 .stay-connected {
   font-size: 16px;
   font-weight: 400;
@@ -62,6 +66,9 @@
 
 /* Only X-Small devices (portrait phones) */
 @media (min-width: 0px) and (max-width: 575px) {
+  .content-container > .row {
+    --bs-gutter-x: 1rem;
+  }
 }
 
 /* Only X-Small devices (portrait phones) but below 375px */
