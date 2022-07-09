@@ -86,28 +86,26 @@
   position: relative;
 }
 
-.landing-intro-right-currently-container-items-icons-beach {
-  width: 19px;
+.landing-intro-right-currently-container-items-icons-1 {
+  width: 18px;
   margin-right: 12px;
   margin-top: -3px;
 }
 
-.landing-intro-right-currently-container-items-icon-job {
-  width: 18px;
-  margin-right: 12px;
+.landing-intro-right-currently-container-items-icon-2 {
+  width: 17px;
+  margin-right: 13px;
   margin-top: -2px;
+  left: 1px;
+  position: relative;
 }
 
-.landing-intro-right-currently-container-items-icons-location {
-  width: 18px;
-  margin-right: 12px;
+.landing-intro-right-currently-container-items-icons-3 {
+  width: 20px;
+  margin-right: 10px;
   margin-top: -6px;
-}
-
-.landing-intro-right-currently-container-items-icons-email {
-  width: 18px;
-  margin-right: 12px;
-  margin-top: -4px;
+  left: -1px;
+  position: relative;
 }
 
 .landing-intro-right-currently-container-items-text {
@@ -129,8 +127,8 @@
   text-decoration: underline;
 }
 
-.landing-intro-SC-link:hover {
-  text-decoration: underline;
+.landing-intro-link:hover {
+  color: var(--color-orange-1-light-default);
 }
 
 .landing-intro-right-currently-new-role {
