@@ -1,5 +1,17 @@
 [
   {
+    "BooksName": "Super Human",
+    "BooksTypePaper": "none",
+    "BooksTypeKindle": "block",
+    "BooksImage": "../assets/books/superhuman.jpg",
+    "BooksDescription": "Saw a YouTube video of Dave Asprey on how gut-based bacteria can help you improve your health & live longer. Thought the premise of the book is interesting, so reading this right now.",
+    "BooksCurrentlyReading": "block",
+    "BooksRead": "none",
+    "BooksReadDate": "October 4, 2017",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "xxx"
+  },
+  {
     "BooksName": "Getting Acquired",
     "BooksTypePaper": "none",
     "BooksTypeKindle": "block",
@@ -7,7 +19,9 @@
     "BooksDescription": "Been following Andrew Gazdecki on Twitter for a while and love his consistency in promoting solo founders to keep pushing. Picked up this book to read about his founder's journey.",
     "BooksCurrentlyReading": "block",
     "BooksRead": "none",
-    "BooksReadDate": "October 4, 2017"
+    "BooksReadDate": "October 4, 2017",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "xxx"
   },
   {
     "BooksName": "Build",
@@ -17,7 +31,9 @@
     "BooksDescription": "Saw a lot of reviews on Twitter about this book and the fact that Tony Fadell led teams that created the iPod, iPhone, and Nest Thermostat, was enough of a reason to start reading.",
     "BooksCurrentlyReading": "block",
     "BooksRead": "none",
-    "BooksReadDate": "October 4, 2017"
+    "BooksReadDate": "October 4, 2017",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "xxx"
   },
   {
     "BooksName": "Make Time",
@@ -27,7 +43,9 @@
     "BooksDescription": "Talks deeply about how we change little things in our daily lives to make time for things that matter to us. The narration was simple, fun, and engaging.",
     "BooksCurrentlyReading": "none",
     "BooksRead": "block",
-    "BooksReadDate": "March 3, 2020"
+    "BooksReadDate": "March 3, 2020",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "xxx"
   },
   {
     "BooksName": "Remote",
@@ -37,7 +55,9 @@
     "BooksDescription": "Written by the founders of Basecamp, who're known for building a remote-first company. The narration is simple and well categorized in actionable chapters to move from an in-office setup to a remote-first work culture. A must read for a new age remote work.",
     "BooksCurrentlyReading": "none",
     "BooksRead": "block",
-    "BooksReadDate": "November 15, 2019"
+    "BooksReadDate": "November 15, 2019",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "xxx"
   },
   {
     "BooksName": "The 22 Immutable Laws Of Marketing",
@@ -47,7 +67,9 @@
     "BooksDescription": "Bit-sized marketing strategies that stood the test of time. But, and it's a big BUT, a few of the laws mentioned won't hold in today's age. The book needs revision for sure.",
     "BooksCurrentlyReading": "none",
     "BooksRead": "block",
-    "BooksReadDate": "July 4, 2018"
+    "BooksReadDate": "July 4, 2018",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "xxx"
   },
   {
     "BooksName": "The Lean Startup",
@@ -57,6 +79,20 @@
     "BooksDescription": "Eric takes you on his journey of building a startup with the philosophy of 'testing your ideas first before betting everything on them'.",
     "BooksCurrentlyReading": "none",
     "BooksRead": "block",
-    "BooksReadDate": "September 20, 2016"
+    "BooksReadDate": "September 20, 2016",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "xxx"
+  },
+  {
+    "BooksName": "The 7 Habits of Highly Effective People",
+    "BooksTypePaper": "block",
+    "BooksTypeKindle": "none",
+    "BooksImage": "../assets/books/7habitsofeffectivepeople.jpg",
+    "BooksDescription": "A timeless book that talks about 7 habits that has helped leaders around the world in conquering their problems. The book has lots of stories and frameworks embedded so might feel a bit slow, but worth reading through.",
+    "BooksCurrentlyReading": "none",
+    "BooksRead": "block",
+    "BooksReadDate": "June 12, 2006",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "xxx"
   }
 ]

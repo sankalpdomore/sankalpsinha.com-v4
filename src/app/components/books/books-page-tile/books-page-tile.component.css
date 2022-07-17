@@ -1,3 +1,7 @@
+.custom-grid-content-container-tile {
+  padding-bottom: 80px;
+}
+
 .custom-grid-content-container-tile-image {
   height: 448px;
   border-radius: 12px;
@@ -44,7 +48,7 @@
 /* All devices more than 1441px devices */
 @media (min-width: 1441px) {
   .custom-grid-content-container-tile-image {
-    height: 360px;
+    height: 380px;
   }
 }
 

@@ -16,7 +16,9 @@
 }
 
 .projects-page-card-container-image:hover {
-  transform: rotate(-1deg);
+  scale: 1.01;
+  transform: translate(0, -4px);
+  box-shadow: var(--box-shadow-light-card-large);
 }
 
 .projects-page-card-container-right-title-description {

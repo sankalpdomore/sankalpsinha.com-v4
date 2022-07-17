@@ -24,4 +24,6 @@ interface Books {
   BooksCurrentlyReading: string;
   BooksRead: string;
   BooksReadDate: string,
+  BooksLinkAmazonUS: string;
+  BooksLinkAmazonIndia: string,
 }
