@@ -9,7 +9,7 @@
     "BooksRead": "none",
     "BooksReadDate": "October 4, 2017",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "xxx"
+    "BooksLinkAmazonIndia": "https://amzn.to/3OgwGkZ"
   },
   {
     "BooksName": "Getting Acquired",
@@ -21,7 +21,7 @@
     "BooksRead": "none",
     "BooksReadDate": "October 4, 2017",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "xxx"
+    "BooksLinkAmazonIndia": "https://amzn.to/3aLoGL7"
   },
   {
     "BooksName": "Build",
@@ -33,7 +33,7 @@
     "BooksRead": "none",
     "BooksReadDate": "October 4, 2017",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "xxx"
+    "BooksLinkAmazonIndia": "https://amzn.to/3aOBW1p"
   },
   {
     "BooksName": "Make Time",
@@ -45,7 +45,7 @@
     "BooksRead": "block",
     "BooksReadDate": "March 3, 2020",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "xxx"
+    "BooksLinkAmazonIndia": "https://amzn.to/3zeVK7S"
   },
   {
     "BooksName": "Remote",
@@ -57,7 +57,7 @@
     "BooksRead": "block",
     "BooksReadDate": "November 15, 2019",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "xxx"
+    "BooksLinkAmazonIndia": "https://amzn.to/3uTWPPL"
   },
   {
     "BooksName": "The 22 Immutable Laws Of Marketing",
@@ -69,7 +69,7 @@
     "BooksRead": "block",
     "BooksReadDate": "July 4, 2018",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "xxx"
+    "BooksLinkAmazonIndia": "https://amzn.to/3Pw1ijx"
   },
   {
     "BooksName": "The Lean Startup",
@@ -81,7 +81,7 @@
     "BooksRead": "block",
     "BooksReadDate": "September 20, 2016",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "xxx"
+    "BooksLinkAmazonIndia": "https://amzn.to/3PEpbWh"
   },
   {
     "BooksName": "The 7 Habits of Highly Effective People",
@@ -93,6 +93,6 @@
     "BooksRead": "block",
     "BooksReadDate": "June 12, 2006",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "xxx"
+    "BooksLinkAmazonIndia": "https://amzn.to/3chr2lk"
   }
 ]

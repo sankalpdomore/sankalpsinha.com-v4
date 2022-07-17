@@ -616,7 +616,16 @@ li > .common-body-text-16-bold {
   transition: all 0.2s ease-in-out;
 }
 
-.custom-grid-content-container-tile-meta-data-cta > i {
+.custom-grid-content-container-tile-meta-data-cta > a {
+  color: var(--color-white-100);
+  text-decoration: none;
+}
+
+.custom-grid-content-container-tile-meta-data-cta > a:hover {
+  color: var(--color-white-100);
+}
+
+.custom-grid-content-container-tile-meta-data-cta > a > i {
   margin-left: 8px;
   top: -1px;
   position: relative;
