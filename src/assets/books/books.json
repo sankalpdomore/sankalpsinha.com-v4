@@ -45,7 +45,7 @@
     "BooksRead": "block",
     "BooksReadDate": "March 3, 2020",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "https://amzn.to/3zeVK7S"
+    "BooksLinkAmazonIndia": "https://amzn.to/38n84oW"
   },
   {
     "BooksName": "Remote",
@@ -55,9 +55,9 @@
     "BooksDescription": "Written by the founders of Basecamp, who're known for building a remote-first company. The narration is simple and well categorized in actionable chapters to move from an in-office setup to a remote-first work culture. A must read for a new age remote work.",
     "BooksCurrentlyReading": "none",
     "BooksRead": "block",
-    "BooksReadDate": "November 15, 2019",
+    "BooksReadDate": "September 10, 2019",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "https://amzn.to/3uTWPPL"
+    "BooksLinkAmazonIndia": "https://amzn.to/3966JSJ"
   },
   {
     "BooksName": "The 22 Immutable Laws Of Marketing",
@@ -67,9 +67,9 @@
     "BooksDescription": "Bit-sized marketing strategies that stood the test of time. But, and it's a big BUT, a few of the laws mentioned won't hold in today's age. The book needs revision for sure.",
     "BooksCurrentlyReading": "none",
     "BooksRead": "block",
-    "BooksReadDate": "July 4, 2018",
+    "BooksReadDate": "January 26, 2015",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "https://amzn.to/3Pw1ijx"
+    "BooksLinkAmazonIndia": "https://amzn.to/3f95NBJ"
   },
   {
     "BooksName": "The Lean Startup",
@@ -79,9 +79,21 @@
     "BooksDescription": "Eric takes you on his journey of building a startup with the philosophy of 'testing your ideas first before betting everything on them'.",
     "BooksCurrentlyReading": "none",
     "BooksRead": "block",
-    "BooksReadDate": "September 20, 2016",
+    "BooksReadDate": "August 20, 2017",
     "BooksLinkAmazonUS": "xxx",
-    "BooksLinkAmazonIndia": "https://amzn.to/3PEpbWh"
+    "BooksLinkAmazonIndia": "https://amzn.to/2P6V13O"
+  },
+  {
+    "BooksName": "The Alchemist",
+    "BooksTypePaper": "block",
+    "BooksTypeKindle": "none",
+    "BooksImage": "../assets/books/alchemist.jpg",
+    "BooksDescription": "Loved the writing style of Paulo in this book. Very simple storytelling - talking about a boy from Andalsuia and his adventures through African desert to find treasure in Pyramids of Egypt. Definitely in my re-read lists in fiction category.",
+    "BooksCurrentlyReading": "none",
+    "BooksRead": "block",
+    "BooksReadDate": "September 29, 2009",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "https://amzn.to/2NL8wFZ"
   },
   {
     "BooksName": "The 7 Habits of Highly Effective People",
