@@ -757,6 +757,11 @@ input[id="radio-3"]:checked
   color: var(--color-grey-666);
 }
 
+.custom-grid-content-container-tile-icons.fa-check {
+  top: 0px;
+  font-size: 15px;
+}
+
 .custom-grid-content-container-tile-icons-label {
   padding-left: 2px;
   padding-right: 4px;

@@ -84,6 +84,66 @@
     "BooksLinkAmazonIndia": "https://amzn.to/2P6V13O"
   },
   {
+    "BooksName": "Jony Ive",
+    "BooksTypePaper": "block",
+    "BooksTypeKindle": "none",
+    "BooksImage": "../assets/books/jonyive.jpg",
+    "BooksDescription": "Biography of the legendary designer behind Apple products - good account of the life and career of Jony.",
+    "BooksCurrentlyReading": "none",
+    "BooksRead": "block",
+    "BooksReadDate": "February 20, 2015",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "https://amzn.to/3lxhYJv"
+  },
+  {
+    "BooksName": "The Google Story",
+    "BooksTypePaper": "block",
+    "BooksTypeKindle": "none",
+    "BooksImage": "../assets/books/googlestory.jpg",
+    "BooksDescription": "Decent one-time read about the history of Google. Only read if you’re interested in the Why, How, & What of Google.",
+    "BooksCurrentlyReading": "none",
+    "BooksRead": "block",
+    "BooksReadDate": "August 15, 2014",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "https://amzn.to/3sgQDhf"
+  },
+  {
+    "BooksName": "The 4-Hour Work Week",
+    "BooksTypePaper": "block",
+    "BooksTypeKindle": "none",
+    "BooksImage": "../assets/books/4hourworkweek.jpg",
+    "BooksDescription": "The book that changed my life in how I see work & its relationship with my life. Read this book during my college days and it shaped me to care about work-life balance from day 1 of my career. A must-read if you care about taking back a few hours from your workday and giving it to something that you care about (cycling, resting, meeting family, etc.)",
+    "BooksCurrentlyReading": "none",
+    "BooksRead": "block",
+    "BooksReadDate": "July 2, 2013",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "https://amzn.to/3zu8Iyr"
+  },
+  {
+    "BooksName": "The Game",
+    "BooksTypePaper": "block",
+    "BooksTypeKindle": "none",
+    "BooksImage": "../assets/books/thegame.jpg",
+    "BooksDescription": "A worth read for everyone out there who thinks they’re incapable of talking and attracting love in love, temporary or permanent. The author talks about an underground community of pickup artists who rely on some psychological tactics to overcome their fear of talking & charming people.",
+    "BooksCurrentlyReading": "none",
+    "BooksRead": "block",
+    "BooksReadDate": "March 1, 2012",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "https://amzn.to/3vTJWUH"
+  },
+  {
+    "BooksName": "The Monk Who Sold His Ferrari",
+    "BooksTypePaper": "block",
+    "BooksTypeKindle": "none",
+    "BooksImage": "../assets/books/monkwhosoldhisferrari.jpg",
+    "BooksDescription": "Decent fiction with some meaningful tips for leading a contentful life. Might be too religious in getting people to seek spirituality.",
+    "BooksCurrentlyReading": "none",
+    "BooksRead": "block",
+    "BooksReadDate": "June 19, 2010",
+    "BooksLinkAmazonUS": "xxx",
+    "BooksLinkAmazonIndia": "https://amzn.to/31f19Ki"
+  },
+  {
     "BooksName": "The Alchemist",
     "BooksTypePaper": "block",
     "BooksTypeKindle": "none",

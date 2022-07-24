@@ -27,19 +27,15 @@
   background: var(--color-orange-2-light-default);
 }
 
-.books-page-card-container-meta-data-book-type-paperback > .fa-solid,
-.books-page-card-container-meta-data-book-type-kindle > .fa-solid {
+.books-page-card-container-meta-data-book-type-paperback > .fa-book,
+.books-page-card-container-meta-data-book-type-kindle
+  > .fa-tablet-screen-button {
   padding-right: 4px;
 }
 
-.custom-grid-content-container-tile-icons {
+/* .custom-grid-content-container-tile-icons {
   top: -1px;
-}
-
-.fa-check {
-  top: 0px;
-  font-size: 15px;
-}
+} */
 
 /*////////////////////////*/
 /*//// Media queries /////*/
