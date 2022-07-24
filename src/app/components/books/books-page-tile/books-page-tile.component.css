@@ -4,17 +4,6 @@
 
 .custom-grid-content-container-tile-image {
   height: 448px;
-  border-radius: 12px;
-}
-
-.common-body-pill-tag {
-  margin-top: 4px;
-  margin-bottom: 6px;
-  margin-left: 12px;
-}
-
-.custom-grid-content-container-tile-ongoing-activity {
-  margin-left: 0px;
 }
 
 .books-page-card-container-meta-data-book-type-paperback {
@@ -25,12 +14,6 @@
 .books-page-card-container-meta-data-book-type-kindle {
   color: var(--color-orange-2-dark-default);
   background: var(--color-orange-2-light-default);
-}
-
-.books-page-card-container-meta-data-book-type-paperback > .fa-book,
-.books-page-card-container-meta-data-book-type-kindle
-  > .fa-tablet-screen-button {
-  padding-right: 4px;
 }
 
 .custom-grid-content-container-tile-meta-data-cta-icons.fa-amazon {

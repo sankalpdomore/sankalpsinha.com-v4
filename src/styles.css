@@ -277,9 +277,16 @@ div {
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.3px;
-  width: fit-content;
   padding: 4px 12px;
+  margin-top: 4px !important;
+  margin-bottom: 6px;
+  margin-left: 12px;
+  width: fit-content;
   border-radius: var(--border-radius-infinite);
+}
+
+.common-body-pill-tag > .common-body-pill-tag-icons {
+  padding-right: 4px;
 }
 
 p {
@@ -677,7 +684,7 @@ input[id="radio-3"]:checked
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 8px;
-  border-radius: 8px;
+  border-radius: 12px;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -774,8 +781,9 @@ input[id="radio-3"]:checked
   color: var(--color-green-2-dark-default);
   font-weight: 400;
   font-size: 14px;
-  margin-bottom: 0px !important;
+  margin-bottom: 2px !important;
   margin-top: 0px !important;
+  margin-left: 0px;
   padding-top: 0px;
   padding-right: 0px;
   cursor: progress;

@@ -7,7 +7,6 @@
 
 .custom-grid-content-container-tile-image.photos {
   height: 640px;
-  border-radius: 20px;
 }
 
 /* All devices more than 1441px devices */
@@ -24,9 +23,6 @@
 
 /* All devices less than Medium devices */
 @media (min-width: 0px) and (max-width: 991px) {
-  .custom-grid-content-container-tile-image.photos {
-    border-radius: 8px;
-  }
 }
 
 /* Only Medium devices (tablets) */
