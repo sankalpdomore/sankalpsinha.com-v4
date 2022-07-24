@@ -33,9 +33,11 @@
   padding-right: 4px;
 }
 
-/* .custom-grid-content-container-tile-icons {
-  top: -1px;
-} */
+.custom-grid-content-container-tile-meta-data-cta-icons.fa-amazon {
+  margin-right: 4px;
+  font-size: 16px;
+  top: 2px;
+}
 
 /*////////////////////////*/
 /*//// Media queries /////*/
@@ -69,6 +71,14 @@
 
 /* All devices less than Small devices (tablets, landscape phones, potrait small phones) */
 @media (min-width: 0px) and (max-width: 768px) {
+  .custom-grid-content-container-tile-meta-data-cta-icons.fa-external-link-alt {
+    color: var(--color-grey-666);
+  }
+
+  .custom-grid-content-container-tile-meta-data-cta:hover
+    .custom-grid-content-container-tile-meta-data-cta-icons.fa-external-link-alt {
+    color: var(--color-white-100);
+  }
 }
 
 /* Only Small devices (landscape phones) */
